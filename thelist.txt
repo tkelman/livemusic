@@ -1,4 +1,4 @@
-      Web (and searchable) version at http://jon.luini.com/thelist.html
+      Web (and searchable) version at http://jon.luini.com/thelist/
 
   TTTTTTT                         L
      T     H    H  EEEEEE         L           I     SSSS    TTTTT
@@ -8,37 +8,8 @@
      T     H    H  E              L           I    S    S     T
      T     H    H  EEEEEE         LLLLLLL     I     SSSS      T
 
-funk-punk-thrash-ska       Upcoming shows of interest     January  26, 2000
+funk-punk-thrash-ska       Upcoming shows of interest     January  28, 2000
 
-jan 26 wed Killian MacGeraghty, Bart Davenport, Jimmy Leslie, Jim Greer,
-       Etienne de Rocher, Herman Jolly, Small Wonder, Sixkiller, Deadweight,
-       Children Of The Fog, John Vanderslice, Gun & Doll Show, Eric Mcfaden,
-       Ian Brennan, Amberslam, 20 Minute Loop at Bottom of the Hill, S.F.
-       21+ $5 8pm (Fortune Records Showcase - free chinese food/fortune cookies)
-jan 26 wed Venus Bleeding, Hotbox, Armagetiton at Coco Club, S.F. 21+ **
-jan 26 wed Royal Crown Revue, Hayride To Hell
-       at the Usual, 400 South First Street, San Jose 21+ $10 8pm
-jan 26 wed The Nits, Red Tape, Crawlspace, Psychosomatic
-       at the Roadhouse, Sacramento 21+ free
-jan 27 thr Mynock, Brian Ballentine, Sessurah at Stork Club, Oakland 21+
-jan 27 thr Oranger, Push Kings, Wussom*Pow
-       at Bottom of the Hill, S.F. a/a $7 9:30pm
-jan 27 thr Clone, The Little Deaths, The Lies at Coco Club, S.F. 21+ *
-jan 27 thr Royal Crown Revue, Velvet Hammer Burlesque, dj Toph One
-       at Bimbo's 365 Club, S.F. 21+ $12 8pm/9pm
-jan 27 thr Jesus Diaz, QBA at Elbo Room, S.F. 21+ $6 10pm (cuban funk)
-jan 27 thr The Dickies, The Idiots, Three Years Down
-       at C.W. Saloon, S.F. 21+ $5 9pm *** @
-       (Stinky's Peepshow 3 Year Anniversary Show)
-jan 27 thr Baby Carrot, The Doormats at Club Cocodrie, S.F. 21+ 9pm
-jan 27 thr Spitakiss, Ripstoke, Pen Fifteen, 3 Below, Beat Officers,
-       Skitzo, The Heat Creeps, Butter B-Down
-       at Rumors Nightclub, 120 Fith Street, Santa Rosa ?/? $8 5pm/6pm **
-jan 27 thr Moodfrye, Mr.Roper, 9 Circles, Diversion
-       at the Cactus Club, San Jose 16+ $5 8:30pm *
-jan 27 thr The Strange, Fiend Master Freak, Herbert, Seyance
-       at the Catalyst, Santa Cruz 16+ $3 9pm
-jan 27 thr Misfits at Crest Theatre, 1013 K St., Sacramento a/a $20 7:30pm ** @
 jan 28 fri The Groovie Ghoulies, Pansy Division, Subincision, The Jocks,
        Bob Weirdos at 924 Gilman a/a $5 8pm *** @
        (Joel's belated punk rock birthday bash)
@@ -52,7 +23,7 @@ jan 28 fri Sister Double Happiness, Lost Goat, Fabulous Disaster
        at the Bottom of the Hill, S.F. 21+ $8 10pm **
 jan 28 fri Pressure Point, Bovver Wonderland, The Burdens, Intrepid A.A.F.
        at Club Boomerang, S.F. 21+ $5 8pm/9pm ** @
-jan 28 fri JoJo, Romeo's Dead, Petrol at the C.W. Saloon, S.F. 21+ $6 9:30pm
+jan 28 fri JoJo, Petrol at the C.W. Saloon, S.F. 21+ $6 9:30pm
 jan 28 fri The Aquamen, Pineapple Princess at the Tempest, S.F. 21+ $3 8pm *
        (free with polynesian outfit - pig roast)
 jan 28 fri Locále A.M., Natt, Three Day Weekend
@@ -126,7 +97,8 @@ jan 30 sun Last In Line, El Centro (L.A.), H.B.A., Doz Caucazzian Playaz,
        Touch, Zygote at Club Cocodrie, S.F. a/a $5 3pm **
 jan 30 sun Funeral In Berlin, Slave Unit, Children With Knives, Toy Department
        at Club Cocodrie, S.F. a/a 8pm (goth)
-jan 30 sun Fairways, Lunchbox, Aisler Set at Coco Club, S.F. 21+ 6pm *
+jan 30 sun Aisler Set, Lunchbox, Fairways, Poundsign
+       at Coco Club, 139 8th Street, S.F. 21+ 6pm *
 jan 30 sun Fevered Pitch (cd release)
        at the Uptown Theatre, 1350 3rd st., Napa a/a $5 9pm
 jan 30 sun Flogging Molly, Clay Wheels
@@ -159,10 +131,10 @@ feb  3 thr Red Tape, Sindicate, Color Red
        at the Press Club, 2030 P Street, Sacramento 21+ $5 9pm
 feb  3 thr Mynock, U.V.R., Pumpkin Seeds at Old Ironsides, Sacramento 21+ $5 9pm
 feb  3 thr Step, No Regrets at Humpty's, 877 N. Lake Blvd., Tahoe City 21+ 9pm
-feb  3 thr PRIMUS at Rainbow Ballroom, Fresno a/a # *** @
+feb  3 thr PRIMUS at Rainbow Ballroom, 1725 Broadway St., Fresno a/a # *** @
 feb  3 thr No Use For A Name, Mad Caddies
        at Brickworks, Chico a/a $10 6:30pm ** @
-feb  4 fri Sangre Amado, Brain Bood Volume, Murder Takes No Holiday,
+feb  4 fri Sangre Amado, Brainboodvolume, Murder Takes No Holiday,
        Scurvy Dogs, Comatoast at 924 Gilman a/a $3 8pm *** @
        (pyrate punx discount night)
 feb  4 fri The Other at Lower Sproul Plaza, UC Berkeley a/a free noon
@@ -173,12 +145,18 @@ feb  4 fri Zero Bull Shit, Oppressed Logic, Doomsday Device, Lowlife
 feb  4 fri Drunk Horse, Salem Lights, St. Andre
        at Port Lite, Oakland 21+ $3 *
 feb  4 fri The Crosstops, Throttlefinger at the C.W. Saloon, S.F. 21+ $3 6pm *
+feb  4 fri 401K, Sourpuss at the C.W. Saloon, S.F. 21+ 9pm
 feb  4 fri Rugged Descent, The Landsharks at Club Boomerang, S.F. 21+
 feb  4 fri Locále A.M., Sexual Chocolate
        at Community Center, Lafayette a/a $5 8pm * @
 feb  4 fri Boy Kicks Girl, Godstomper, Guilt Trip, Moodfrye, Nerve Agents
        at YWCA, 4161 Alma Street, Palo Alto a/a $5 6pm ** @ info 650-598-7809
+feb  4 fri Dr. Fleshbone, Freak Bomb, 30 Second Fury, Red Ghetto Son
+       at Chemical Free Zone, Campbell a/a $5 8pm **
 feb  4 fri Crosby, Stills, Nash & Young at Arena, San Jose a/a $201-$41 8pm # $
+feb  4 fri The Stupid Jerks, The Smokejumpers, Yellow Sloth Chicken Broth,
+       The Secretions, The Knockoffs
+       at American Legion Hall, Stockton a/a 7:30pm ** @
 feb  4 fri Sorry About The Fire, The Wunder Years, Curbside Journal, Mercury,
        Giving Up The Ghost at 3 Oaks Center, Vacaville a/a $5 7pm ** @
 feb  4/5   Funky Meters at the Fillmore, S.F. a/a $25 8pm/9pm # *
@@ -206,8 +184,10 @@ feb  5 sat Inacage, Kao Tao, Naughty Barnyard, 5 Against 1, Prodigal Son,
        (H.A.R.D Battle of the Bands)
 feb  5 sat Push (cd release), Swarm, Blue, The Whoremoans
        at Hobie's Roadhouse, Concord 21+ *
-feb  5 sat Super Funk, Dr. Rocket And The Moon Patrol, Shortround, Quater Oi
-       at the Fishbowl, Sunnyvale teens only $3 7pm-11pm *
+feb  5 sat Super Funk, Shortround, Dr. Rocket + The Moon Patrol, Quater Oi
+       at the Fishbowl, Sunnyvale teens only free/$3 7pm-11pm *
+feb  5 sat Apeface, Unit Breed, Ragweed, Sonsomonos
+       at Channel One, 763 The Alameda, San Jose a/a ** @
 feb  5 sat Milhouse, Mynock, Secretions
        at Capitol Garage, 1427 L St. after 15th St., Sacramento a/a $4 9pm ** *
 feb  5 sat Diseptikons, Fallout, Sworn Vengeance, Militant Intervention,
@@ -226,11 +206,16 @@ feb  6 sun Floater, Papa Roach at Brickworks, Chico a/a $10 7pm
 feb  7 mon Crosby, Stills, Nash & Young at Arena, Oakland a/a $201-$41 7pm # $
 feb  7 mon Tin Man, Maxwell Horse, Thundersweet
        at the Bottom of the Hill, S.F. 21+ $5 9pm
+feb  7 mon Project: Pimento at Makeout Room, 3225 22nd Street, S.F. 21+ 9:30pm
 feb  8 tue Crow (Tokyo), Artimus Pyle, Dead And Gone
        at the C.W. Saloon, S.F. 21+ *** @
 feb  8 tue Dealership, Jolly, Secandora at the Bottom of the Hill, S.F. 21+ $5
+feb  8 tue Capital Capital, Replicator at Club Cocodrie, S.F. ?/? 9pm *
 feb  9 wed The Business, Beerzone, Intrepid A.A.F.
        at Slim's, S.F. a/a $10 8pm/9pm *** @
+feb  9 wed Labrats, F-Hole, Tuuli (Toronto)
+       at Coco Club, 139 8th Street, S.F. 21+
+feb  9 wed 401K, Om Attact at the Tip Top Inn, S.F. 21+ 9pm
 feb  9 wed Cracker at the Catalyst, Santa Cruz 16+ $12.60 7pm/8pm *
 feb 10 thr Romeo's Dead, Fabulous Disaster, Tuuli
        at the C.W. Saloon, S.F. 21+ $5 9pm *
@@ -260,6 +245,8 @@ feb 11 fri Loose Change, Tsunami Bomb, Boy Kicks Girl, Sut Up Donny
 feb 11 fri The Business, Beerzone, The Forgotten
        at the Cactus Club, San Jose 18+ $8 8:30pm ^# *** @
 feb 11 fri The Chrome Addicts at Old Ironsides, Sacramento 21+ $6 9pm
+feb 11 fri Luckie Strike, Mind Driver, PoorHouse
+       at Boreal Ski Resort, Boreal a/a free 9pm * (Volcom Demo Show)
 feb 12 sat All The Answers (Canada), Lacky (TX) at 924 Gilman a/a $5 8pm ** @
 feb 12 sat Godstomper, Molehill (Alabama), Lana Dagales, Slow Death (San Diego)
        at 379 40th Street, Oakland a/a 6pm-10pm ** @
@@ -282,20 +269,24 @@ feb 12 sat Sister Kissers, Holy Assassins, Hotbox, Ding Dang
 feb 12 sat Black Kali Ma (cd release), Acid King, Clinics
        at Bottom of the Hill, S.F. 21+ $7 10pm *
 feb 12 sat B-Side Players at the Elbo Room, S.F. 21+ $6 10pm (latin/funk)
-feb 12 sat Sangre Amado, Brain Blood Volume, Murder Takes No Holiday
+feb 12 sat Sangre Amado, Brainbloodvolume, Murder Takes No Holiday
        at Kimo's, S.F. 21+ $5 9pm *** @
 feb 12 sat Spike 1000, Simon Stinger, Barbie Killed Ken, Luxt
        at Hobie's Roadhouse, Concord 21+
 feb 12 sat Cracker at Mystic Theater, 21 Petaluma Blvd., Petaluma ?/? *
 feb 12 sat Monkey, The Peabodies
-       at the Fishbowl, Sunnyvale teens only $3 7pm-11pm *
+       at the Fishbowl, Sunnyvale teens only free/$3 7pm-11pm *
 feb 12 sat Vincent's Ear, Exploding Crustaceans, Britannia Arms
        at 8017 Soquel Drive, Aptos 21+ ** @
 feb 12 sat Reel Big Fish, Section H at Faye Spanos Hall, Stockton a/a $12 ** @
 feb 12 sat The Business, Pressure Point, Beer Zone
        at Bojangles, Sacramento a/a $12 3pm *** @ $ (early show)
 feb 12 sat 26 Mph, Subversion at Press Club, 2030 P Street, Sacramento 21+ *
+feb 12 sat Luckie Strike, Mind Driver, PoorHouse
+       at the Shop, 8th East St., Sonoma a/a $6 8pm *
 feb 12 sat Fenix TX at North Star-at-Tahoe, Truckee ?/? *
+feb 12 sat Johnny P & The Whitewall Slicks (record release), Union Of The Dead
+       at Mr. Lucky, 319 Main Street, Chico 21+ $5 9pm *
 feb 13 sun Yaphet Kotto, Mile Marker, All-Scars (D.C.), Volume 11
        at 924 Gilman Street a/a $5 5pm ** @
 feb 13 sun Laugh Track, Dynamite Boy (TX), Boy Kicks Girl
@@ -305,7 +296,7 @@ feb 13 sun Godstomper, Molehill (Alabama), Slowdeath (San Diego), Lana Dagalas
        at Mission Records, S.F. a/a 2pm ** @ (Pyrate Punx show)
 feb 13 sun KFJC record swap at Foothill College, Los Altos Hills a/a $2 9am-4pm
 feb 13 sun Goldfinger at Palookaville, Santa Cruz a/a $10/$12 9pm *
-feb 13 sun Fenix TX, Luckie Strike at Bojangles, Sacramento a/a $8 8pm *
+feb 13 sun Luckie Strike, Fenix TX at Bojangles, Sacramento a/a $8 7pm *
 feb 13 sun James Brown at Konocti Harbor, Kelsyville ?/? $99/$89/$59 **
 feb 13 sun The Pretenders at Fox Theatre, Bakersfield a/a # **
 feb 14 mon The Pretenders, Gay Dad at the Fillmore, S.F. a/a $30 8pm # **
@@ -339,8 +330,8 @@ feb 18 fri Flys, Tam at Slim's, S.F. a/a $7 8pm/9pm
 feb 18 fri Shotwell, The Eddie Haskels, Split Decision at Tempest, S.F. 21+ *
 feb 18 fri The Idiots, Our Lady Of Napalm at the C.W. Saloon, S.F. 21+ $3 6pm *
 feb 18 fri Corrosive 8 at Chemical Free Zone, 1 W. Campbell Ave., Campbell a/a
-feb 18 fri Forgotten, Curbside, Aggro, Sex Kittens, Waste Of Time
-       at YWCA, 4161 Alma Street, Palo Alto a/a $5 6:30pm-11:30pm ** @
+feb 18 fri Forgotten, Aggro, Curbside, Waste Of Time, Agent 51
+       at YWCA, 4161 Alma St., Palo Alto a/a $5 6:30pm info ** @ 650-494-0972
 feb 18 fri The Gears, Deathray at G Steet Pub, 228 G Street, Davis 21+ 10pm **
 feb 18 fri Mates Of State, Common Loss, Leisure, Micro Magnesia
        at 3 Oaks Center, Vacaville a/a $3 7:30pm *
@@ -348,8 +339,8 @@ feb 18 fri Electro Group, Legs on Earth, Karousel
        at Capitol Garage, 1427 L St. after 15th St., Sacramento a/a $5 8pm *
 feb 18/19  Gomez at the Fillmore, S.F. a/a #
 feb 19 sat Yogurt, 50 Million, Chiavagina, Warpspasm
-       at 924 Gilman Street a/a $5 8pm ** @ (Geekfest Benefit) 
-feb 19 sat Totimoshi, Exit Wound, Murder Takes No Holiday
+       at 924 Gilman Street a/a $5 8pm ** @ (Geekfest Benefit)
+feb 19 sat Totimoshi, Exit Wound, Murder Takes No Holiday, Unholy Cadaver
        at Connolley's, 4301 Telegragh, Oakland 21+ 3pm ** @
 feb 19 sat M.I.R.V. at Slim's, S.F. a/a $12 8pm/9pm ** @
 feb 19 sat Spike 1000, Swarm, Born Naked at Bottom of the Hill, S.F. a/a $8 10pm
@@ -364,11 +355,12 @@ feb 19 sat The Vex, 30 Second Fury, The Associates
        at Kyles House, 555 Washington, San Jose a/a 2pm * (no drugs/alcohol)
 feb 19 sat Under A Dying Sun, Eleventeen, JumboSizeYourCombo, Walken
        at the San Mateo YMCA, 1877 S. Grant Street, San Mateo a/a $3 8pm *
-feb 19 sat Outtaline, Agent 51 (San Diego), Kung Fu Chicken (L.A.)
-       at the Fishbowl, Sunnyvale teens only $3 7pm-11pm **
+feb 19 sat Outtaline, Agent 51 (San Diego), Time Outs, Kung Fu Chicken (L.A.)
+       at the Fishbowl, Sunnyvale teens only free/$3 7pm-11pm **
 feb 19 sat Built, Invicta, Mystic Rage at Quarter Note, San Jose 21+ $5 9pm
+feb 19 sat Deathray, The Gears at Coopers, Nevada City 21+ **
 feb 20 sun Wired Shut, Enslavior at Club Cocodrie, S.F. a/a 7pm *
-feb 20 sun Auqamen, Baby Snufkin, Bitesize, Meredith DiMenne, Enda, Gazillions,
+feb 20 sun Aquamen, Baby Snufkin, Bitesize, Meredith DiMenne, Enda, Gazillions,
        Ing, Kirby Grips, Robert Walker, Phoenix Thunderstone, Smarties,
        Texas Border Radio at Bottom of the Hill, S.F. 21+ $5 4pm (3pm BBQ) *
        (Heyday Records Showcase - 15 bands doing 15 minute sets)
@@ -387,9 +379,8 @@ feb 24 thr 2 Live Crew the Usual, 400 South First Street, San Jose 21+ *
 feb 24 thr Wesley Willis
        at Porter College, University of Santa Cruz, Santa Cruz a/a **
        note:  gates to campus close at 8pm to non students
-feb 24 thr DOA, The Jonbenet Stranglehold
-       at the Long Bar, Monterey 21+ $6 8pm ** @ info 831-372-2244
-       note:  DOA may be playing in S.F. instead
+feb 24 tue Thumbs Down, No One, Branch Out, Live Wire
+       at the Catalyst, Santa Cruz 16+ $3
 feb 25 fri Plan 9, Wesley Willis (Chicago), Jerme Spew,
        Bobby Joe Ebola And The Children MacNuggits,
        Today Is My Super Spaceout Day at 924 Gilman a/a $5 8pm ** @
@@ -416,8 +407,12 @@ feb 26 sat The Bobbyteens, The Excessories, The Jack Saints
        at Kimo's, S.F. 21+ 9:30pm
 feb 26 sat The Clinics, Rugged Descent, Zip Nada
        at the Tempest Bar, S.F. 21+ (free pizza by eXtreme pizza S.F.)
+feb 26 sat Three Day Stubble (20th Anniversary), Mono Pause (record release),
+       The Roofies at the Bottom of the Hill, S.F. +21 *
 feb 26 sat Excruciating Terror, Antagony, Benumb, Exit Wound
        at Grange Hall, 743 Diablo, Danville a/a $6 ** @ (Reekodo Fest #3)
+feb 26 sat, The Huxtables, Manic Notion
+       at the Fishbowl, Sunnyvale teens only free/$3 7pm-11pm *
 feb 26 sat Riff Raff, Skitzo, Plan 9, Mr Roper at Quarter Note, San Jose 21+ 9pm
 feb 26 sat The Knockoffs, Go National, Forever Goldrush, Her 6 Daughters,
        Grub Dog & The Amazing Sweethearts, Saucer, The Anton U.K., Gazupie,
@@ -425,8 +420,8 @@ feb 26 sat The Knockoffs, Go National, Forever Goldrush, Her 6 Daughters,
        (Sacramento City Fire Dept. Reserve Benefit)
 feb 26 sat Weird Al Yankovic at Municipal Auditorium, Eureka a/a *
 feb 26 sat 2 Live Crew at Brickworks, Chico 21+ $12 7pm **
-feb 26 sat Luckie Strike, Deseptikons
-       at Elks Lodge, Carson City, NV a/a $5 7pm *
+feb 26 thr Luckie Strike, Evenground, Simple, Face It, Happy Campers
+       at Center Stage Studio, 319 N. Carson, Carson City, NV a/a $7 5:30pm *
 feb 27 sat Powerhouse, Hoods, Zero Bullshit, Second Coming, Lowlife, Carbon
        at Club Cocodrie, S.F. a/a 2pm *** @
 feb 27 sat Wesley Willis, Phoenix Thunderstone,
@@ -450,11 +445,17 @@ mar  3 fri The Nerve Agents, Anti45, Lugosi, JumboSizeYourCombo, Guilt Trip
 mar  3 fri Bob Mould at Bimbo's 365 Club, S.F. 21+ $15 8pm/9pm *
 mar  3 fri Happy Campers (Las Vegas)
        at Campbell Center, Winchester at Campbell Ave., San Jose a/a $5 8pm *
+mar  3 fri Alkaline Trio (Chicago), Ten In The Swear Jar, The Huxtables,
+       Stunt Monkey, Grounds For Dismissal
+       at the Great Hall, 2650 Sand Hill Road, Menlo Park a/a $7 5:30pm ** @
+       (bring can of food for $2 off)
 mar  3 fri The Judds, Jo Dee Messina at Arena, San Jose a/a $65/$43/$29
 mar  4 sat The Judds, Jo Dee Messina at Arena, Oakland a/a $65/$43/$29
 mar  4 sat Filter, Oleander, Chevelle at Warfield, S.F. a/a $21.50 7pm/8pm # *
 mar  4 sat Squat, The Barfeeders, Hotbox
        at El Rio, 3158 Mission Street, S.F. 21+ **
+mar  4 sat Wunder Years, Grey Method
+       at the Fishbowl, Sunnyvale teens only free/$3 7pm-11pm *
 mar  4 sat Boy Kicks Girl, Happy Campers (Las Vegas)
        at the Shop, 8th East St., Sonoma a/a $5 7:30pm * @
 mar  4 sat Longshot, U.V.R., Rehab at Tracy Skate Park, Tracy a/a free noon *
@@ -472,6 +473,8 @@ mar 10 fri Hellbillys, Venus Bleeding, Model American, Mad At Sam
 mar 10 fri The Specials at the Fillmore, S.F. a/a # *** @
 mar 10 fri Moneky at Brittania Arms, Cupertino ?/? *
 mar 11 sat Mates Of State, AppleSeed Cast at Inn of the Beginning, Cotati a/a *
+mar 11 sat Left Out Lamont
+       at the Fishbowl, Sunnyvale teens only free/$3 7pm-11pm *
 mar 11 sat The Specials at Catalyst, Santa Cruz 16+ $15.75 8:30pm/9:30pm  *** @
 mar 12 sun Lowdown (Santa Cruz), Tracy & The Plastics,
        Casiotone For The Painfully Alone, Lezbot Rythmbox/Girls in Trouble
@@ -488,6 +491,8 @@ mar 18 sat The Jocks, Sloppy Meat Eaters (Georgia), Quest For Quintana Roo,
        The Scoundrels, New Earth Creeps
        at Chris's House, 118 Granville Way (near West Portal), S.F.
        a/a $3 2pm ** @ info/directions listless@hotmail.com (No alcohal/drugs)
+mar 18 sat Phatty Patty Fish Fest #3 at Fremont High School, Fremont a/a *
+       (battle of the high school bands)
 mar 18 sat The Skirts, Go national, Daycare
        at Old Ironsides, Sacramento 21+ 9pm
 mar 22 wed Other Star People at lower sproul plaza, UC-Berkeley a/a free noon
@@ -496,7 +501,10 @@ mar 24 fri Boy Kicks Girl, Tsunami Bomb, Visitor 42, Loadstar
        at Campbell Ctr., Winchester at Campbell Ave., San Jose a/a $5 8pm ** @
 mar 24 fri Locále A.M., Dredg, Downcast, Common Loss, Silence
        at 3 Oaks Center, Vacaville a/a $3 7pm ** @
-mar 25 sat From Ashes Rise at Mission Records, S.F. a/a *
+mar 25 sat From Ashes Rise, Ahisma (OR), Dairy Queens
+       at Mission Records, S.F. a/a *
+mar 25 sat Boy Kicks Girl, Tsunami Bomb, California Redeption, Guilt Trip
+       at the Fishbowl, Sunnyvale teens only free/$3 7pm-11pm *
 apr  1 sat Total Chaos, Oppressed Logic, The Assailants
        at Chain Reaction, somecity a/a *** @
 apr  8 sat Leftout Lamont, Simon Singer, Blue Period, Venus Bleeding,
@@ -546,6 +554,7 @@ thr  J on San Jose/Santa Clara Radio KSCU 103.3FM 9am-11am
 thr  Tofu on San Jose/Santa Clara Radio KSCU 103.3FM 11am-2pm
 thr  In The Afternoon With Jessie on UC Santa Cruz Radio KZSC 88.1FM 3pm-6pm
 thr  The Conductor on San Jose/Santa Clara KSCU 103.3 4pm-7pm
+thr  Animal Liberation Radio on Berkeley Liberation Radio 104.1FM 5:30pm-7pm
 thr  Tyler & Speardog on San Jose/Santa Clara Radio KSCU 103.3FM 7pm-10pm
 thr  Grandmaster B & Prairie Girl on San Jose Radio KSCU 103.3FM 10pm-midnight
 fri  Slappy Bobo Hour with the Pirate & The A.O.D. on KDVS 90.3FM midnight-3am
@@ -597,7 +606,7 @@ Elbo Room, Valencia near 17th St., S.F. 21+			415-552-7788
 Fatty Mocha, 1626 Martin Luther King Jr. Way, Merced a/a	209-383-9868
 Fillmore, 1805 Geary Blvd., S.F. a/a  www.thefillmore.com	415-346-6000
   leave soon after the last band for a free poster at the exit
-Fishbowl, 305 N. Mathilda Avenue, Sunnyvale teens only		408-730-2780
+Fishbowl, 305 N. Mathilda Avenue, Sunnyvale (teens only)	408-730-2780
 Gilman, 924 Gilman St. at 8th, Berkeley a/a book 510-524-8180	510-525-9926
   http://www.gilman.org / (maskmaking & puppet workshop thursdays noon-4pm)
 Great American Music Hall, 859 O'Farrell, S.F. 6+		415-885-0750

@@ -1,6 +1,6 @@
       Web (and searchable) version at http://jon.luini.com/thelist/
 
-  TTTTTTT                         L
+   TTTTTT                         L
      T     H    H  EEEEEE         L           I     SSSS    TTTTT
      T     H    H  E              L           I    S          T
      T     HHHHHH  EEEEE          L           I     SSSS      T
@@ -8,20 +8,8 @@
      T     H    H  E              L           I    S    S     T
      T     H    H  EEEEEE         LLLLLLL     I     SSSS      T
 
-funk-punk-thrash-ska       Upcoming shows of interest     March   9, 2000
+funk-punk-thrash-ska       Upcoming shows of interest     March   10, 2000
 
-mar  9 thr Flogging Molly in store at Amoeba, 1855 Haight St., S.F. a/a free
-mar  9 thr OutHud, Witchypoo, Sean Na Na
-       at the Depot, S.F. State, S.F. a/a free 5pm-9pm *
-mar  9 thr Goatsnake, Men Of Porn, JP5 at Club Cocodrie, S.F. ?/? $7 9pm *
-mar  9 thr Lost Goat, Fireballs Of Freedom, Gimmicks, Valentine Killers
-       at the C.W. Saloon, S.F. 21+ $5 9:30pm **
-mar  9 thr April Wine at the Edge, Palo Alto a/a $12 7pm/8pm @
-mar  9 thr Linear Accelerator, Dilemma, Squash The Fly, Wild For Kate
-       at the Cactus Club, San Jose 16+ ^# *
-mar  9 thr Electro Group at 3 Oaks Center, Vacaville a/a $3 7:30pm
-mar  9 thr Something Of Substance, Lowdown, Maybe Never
-       at Old Ironsides, Sacramento 21+ $5 9pm
 mar 10 fri Hellbilly's, Venus Bleeding, Model American, Mad At Sam
        at 924 Gilman Street a/a $5 8pm *** @
 mar 10 fri Slingshot 12th Birthday Bash, vegan cake, loud music, more
@@ -36,8 +24,10 @@ mar 10 fri Special Goodness (Pat and Mike from Weezer), Glitter Mini 9,
        Kirby Grips, Varsity Drag at Club Cocodrie, S.F. a/a $8 9pm **
 mar 10 fri The Butttronics, Bee Bop, Rocksteady
        at Alta Plaza Park, S.F.  a/a 3:30pm
-mar 10 fri Dead & Gone, Subpoena The Past, Lopez (OR)
-       at the C.W. Saloon, S.F. 21+ 6pm ** @
+mar 10 fri Dead & Gone, Subpoena The Past, Lopez (Portland)
+       at the C.W. Saloon, S.F. 21+ $3 6pm ** @
+mar 10 fri Los Mex Pistols Del Norte, The Crosstops, The Hellcaminos
+       at the C.W. Saloon, S.F. 21+ $5 9:30pm
 mar 10 fri Hammerlock, Fracas at Tempest, S.F. 21+ *
 mar 10 fri The Resineaters, The Subtractions, Mouthfull
        at Kimo's, S.F. 21+ $5 9pm *
@@ -55,6 +45,7 @@ mar 10 fri Benton Falls, Appleseed Cast (KS), Mates Of State, Curbside Journal,
        at Old Vic, 731 Fourth Street, Santa Rosa a/a ** @
 mar 10 fri The Sidekicks, Spishak, Corrosive 8, Waste Of Time
        at Mt. View High School, 1299 Bryant Ave., Mountain View a/a $3 7pm ** @
+       (battle of the bands)
 mar 10 fri No Use For A Name, Limp, HBA, Outtaline
        at the Cactus Club, San Jose a/a *** @
 mar 10 fri Monkey at Brittania Arms, Cupertino 21+ *
@@ -69,6 +60,7 @@ mar 10 fri Locale A.M., Dredg
 mar 10 fri Diseptikons, Bonita Downs, Koi, Angoramachinegun, Pipedown
        at Bojangles, Sacramento a/a $7 7pm ** @
 mar 10 fri incorrect listing:  The Specials at the Fillmore, S.F
+mar 11 sat no show at 924 Gilman Street
 mar 11 sat Fitsners, Vagabond Lovers, Suicide Doors
        at the Port Lite, Oakland 21+ $3
 mar 11 sat The Ass Baboons Of Venus, The Gazillions (cd release),
@@ -109,6 +101,11 @@ mar 11 sat Local ODdity, Dredg, Leisure, Ellis
        at Gaslighter, 7430 Monterey Street, Gilroy a/a $6 8pm *
 mar 11 sat Psypheria, Maladiction, Rise (L.A.), Carcinogen, Girth, Silvara
        at Bojangles, Sacramento a/a $6 7pm ** (Sacramento Metalfest #1)
+mar 11 sat Fallout, Roughnecks, Hell Crew
+       at Westcoast Records, 1908 16th St, Sacramento a/a $5 8:30pm ** @
+mar 11 sat Legs On Earth, Pipedown, Uncle Scam, The Roustabouts, Marrow,
+       Grounded, The Nits, The New Plague
+       at N. Calif. Center for Arts, 314 West Main, Grass Valley a/a $7 **
 mar 11 sat Union Of The Dead, Inverted 9s at Tahoe Tapps, Truckee 21+ 9pm *
 mar 11 sat The Sin Men, Camaro Hair, Crime Wave
        at the Pin Room, Arcata 21+ $3 9pm *
@@ -121,6 +118,9 @@ mar 12 sun Kinder Size (L.A.), Staring Back, Scrimmage Heroes, Mad Drama,
        Pollen (AZ), Moodfrye, Hometown Heroes, Stunt Monkey
        at Cocodrie, S.F. a/a 7pm ** @
 mar 12 sun Lords Of Acid, Praga Khan, Genasie II at Maritime, S.F. a/a $20 7pm
+mar 12 sun "Black Leather Kerouak" by Tamatoe De Plenty,
+       speakers Jello Biafra and Penelope Huston
+       at Vesuvio, 255 Columbus, S.F. 5pm-8pm
 mar 12 sun Mates Of State, The Appleseed Cast, Electro Group, Shackleton
        at Coco Club, S.F. 21+ *
 mar 12 sun Jackson Villains, Tiny at Make-Out Room, 3225 22nd St., S.F. 21+
@@ -259,6 +259,8 @@ mar 18 sat Willhaven, Shortie, Leisure, 7th Standard, Hurt, Crypt Orchid,
        The Knockoffs, Chupacabra, Man Made God, Diseptikons, Optimus, Product
        at Weber Point Events Center, Stockton a/a $10/$8 11am-8pm *** @
        Benefit Stockton Skateboard Park
+mar 18 sat The Brodys, Tommy Mills' Oil Kan
+       at G Steet Pub, 228 G Street, Davis 21+ $4 9:30pm *
 mar 18 sat The Skirts, Go National, Daycare
        at Old Ironsides, Sacramento 21+ $6 9pm *
 mar 18 sat Plan 9 at the Press Club, 2030 P Street, Sacramento 21+ **
@@ -299,11 +301,16 @@ mar 22 wed Other Star People at lower sproul plaza, UC-Berkeley a/a free noon
 mar 22 wed Fiona Apple, Jurassic 5 at Warfield, S.F. a/a $30/$27 7pm/8pm # *
 mar 22 wed Papa Roach, Glitter Mini 9, The Blue, Sick Out
        at the Bottom of the Hill, S.F. a/a $5 8:30pm ** @ (Live 105)
+mar 22 wed Boxleitner, District 17, Total Shutdown at Kimos, S.F. 21+ $3 8:30pm
 mar 22 wed Molotov Cocktail, The Jonbenet Stranglehold, Los Dry Heavers,
        The Infrareds at the Long Bar, Monterey 21+ $5 8pm ** @
 mar 22 wed Lolita #18 (Japan), The Spoozies (Japan), Number Girl (Japan),
        Mummy The Peep Show (Japan) at Old Ironsides, Sacramento 21+ $6 9pm **
 mar 23 thr Kiss, Ted Nugent, Skid Row at Oakland Arena a/a $79/$37 7pm # ***
+mar 23 thr The Marginal Prophets
+       at University of S.F., Fulton near Shrader, S.F. a/a free noon
+mar 25 sat Felonious, The Marginal Prophets
+       at Last Day Saloon, 406 Clement, S.F. 21+
 mar 23 thr Bracket, The Figgs, Geraldine at C.W. Saloon, S.F. 21+ $5 9:30pm **
 mar 23 thr Common Rider, The Tank, Playground
        at Old Ironsides, Sacramento 21+ $6 9pm ** @
@@ -321,6 +328,8 @@ mar 24 fri Clay Wheels, The Loudmouths,
        skateboard movie premiere of Fruit of the Vine at Tempest, S.F. 21+ 9pm *
 mar 24 fri Juggernaut at Oasis, 1115 3rd Street, San Rafael a/a $6 7:30pm
 mar 24 fri Sickmachine, Two O Nine, 26 Mph at Lindees, Concord a/a 9pm *
+mar 24 fri Anguish Unsaid, Emissary, Offering
+       at Message, 1650 Ashbury Dr., Concord a/a $4 7pm (christian bands only)
 mar 24 fri Boy Kicks Girl, Tsunami Bomb, Visitor 42, Loadstar, Luckie Strike
        at the Chemical Free Zone, Campbell a/a $5 7pm ** @
 mar 24 fri The Mr.T Experience, The Groovy Ghoulies, Not Hot, Moodfrye
@@ -336,15 +345,15 @@ mar 24 fri Broun Fellinis, The Extralarges
        at Old Ironsides, Sacramento 21+ $7 9pm *
 mar 24 fri The Centemeters, From Ashes Rise at Vista, Eureka a/a 9pm **
 mar 25 sat Iron Vegan, Harum Scarum, Hers Never Existed, The Rondelles,
-       Scratchabita at 924 Gilman Street a/a $5 8pm ** @
+       Scratchabit at 924 Gilman Street a/a $5 8pm ** @
 mar 25 sat Fed X (Seattle), Dive Kissers (Seattle), Erik Core
        at 379 40th Street Wharehouse, Oakland a/a *
-mar 25 sat The Cost, Human Beans, The Jocks, Berzerk (Portland),
+mar 25 sat Artimus Pyle, Human Beans, The Jocks, Berzerk (Portland),
        Quest For Quintana Roo, Megabrats
        at Burnt Ramen Studios, 104 21st Street, Richmond a/a $3 7pm *** @
 mar 25 sat The Phantomlimbs, The Junkyard Sluts, Fleshies
        at the Port Lite, Oakland 21+ ** @
-mar 25 sat From Ashes Rise (FL), Ahisma (OR), Dairy Queens
+mar 25 sat From Ashes Rise (FL), Artimus Pyle, Ahisma (OR), Dairy Queens
        at Mission Records, S.F. a/a $5 7pm **
 mar 25 sat One Man Army, Common Rider, The Loudmouths, The Distillers
        at the Great American Music Hall, S.F. 6+ $8 8pm/8:30pm *** @ $
@@ -385,11 +394,12 @@ mar 25 sat The Sin Men, Automatic Pink, Watership Down
 mar 25 sat The Mr. T Experience, Groovie Ghoulies
        at the Brickworks, 191 E 2nd Street, Chico a/a $7/$8 8pm
 mar 25 sat Pennywise at Canyon Lodge, #1 Minaret Rd., Mammoth Lakes ?/? *** @
-mar 25 sat The Sin Men, Automatic Pink, Watership Down
-       at Vista Restaurant, 91 Commercial, Eureka a/a 9pm *
 mar 26 sun Sarah Dougher, California Lightening, The Quails
        at Mills College Student Center, Oakland a/a 3pm *
        for info email claire_walsh@hotmail.com
+mar 26 sun The Jocks, MegaBrats (OR), Federation X (OR), Dive Kissers (OR)
+       at 16th and Mission BART Station, S.F. a/a free 2pm
+       note:  this show will happen unless it rains
 mar 26 sun Fingertight, Sardonic, Locale A.M. at Cocodrie, S.F. a/a 1:30pm *
 mar 26 sun Cogs (N.Y.) at Club Cocodrie, S.F. a/a 6pm *
 mar 26 sun Silver Scooter (TX), Tiara (OH), Pontacello (OR)
@@ -430,6 +440,7 @@ mar 30 thr Gluecifer, Gaza Strippers, Cellblock 5
 mar 30 thr Mark Curry, Sex 66, Kevin Seconds
        at Old Ironsides, Sacramento 21+ $6 9pm **
 mar 30 thr Bottom, Acid King at Vista, 91 Commercial, Eureka a/a 9pm *
+mar 30-apr 2 Nowhere X Nowhere 2000 festival at Chico, 150 bands, skatefest a/a
 mar 31 fri Noothgrush, Old Grandad, Exist Wound, Lana Dagales
        at 924 Gilman Street a/a $5 8pm *** @ (Libertatia 2000 Campout Benefit)
 mar 31 fri Fawn's Fables, Kap, Mega Moose at Port Lite, Oakland 21+
@@ -451,7 +462,8 @@ mar 31 fri Subset (formerly Presidents Of The United States), Sir Mix-A-Lot
        at Palookaville, Santa Cruz a/a $13/$15 *
 mar 31 fir H2O, Anti-Flag, Save The Day, Distillers
        at Big Shots, Roseville a/a *** @ (last show ever at Big Shots)
-mar 31 fri The Brodys, Munkafust at Old Ironsides, Sacramento 21+ $6 9pm *
+mar 31 fri The Brodys, 100 Acre Wood, Munkafust (L.A.)
+       at Old Ironsides, Sacramento 21+ $6 9:30pm *
 mar 31 fri Inspector 7 (N.J.), Longshot at the Fatty Mocha, Merced a/a $5 9pm *
 mar 31 fri The Ambulance, The D.T.'s at Vista, 91 Commercial, Eureka a/a 9pm *
 mar 31 fri cancelled:  S.E.E.D., Hoods, Sworn Vengeance at Inn of the Beginning
@@ -491,7 +503,7 @@ apr  1 sat Verbena, Wesley Willis, Today is My Super Spaceout Day
 apr  1 sat NoF-X, Limp at Squaw Valley, 1960 Squaw Valley Road, Olympic Valley
        a/a *** @ (was listed as March 12th)
 apr  1 sat Castles In Spain at Mr. Luckys, Chico ?/?
-apr  2 sun Abstain at Mission Records, S.F. a/a 4:20pm * @
+apr  2 sun Abstain, Moundshroud at Mission Records, S.F. a/a 4:20pm ** @
 apr  2 sun Impulse Items, Submachine (Pittsburgh), Inspector 7, Oozzies,
        Riot Gun at Club Cocodrie, S.F. a/a 2pm **
 apr  2 sun Genitorturers, Rorshack Test at Maritime Hall, S.F. a/a # *
@@ -545,12 +557,16 @@ apr  8 sat Shooting Blanks at Fishbowl, Sunnyvale (teens only) $3/free 7pm *
 apr  8 sat Angry Samoans at the Cactus Club, 18+ ^# ** @
 apr  8 sat Down2none, Local ODdity, Stitch, Swig, Pressure 4-5
        at Gaslighter, 7430 Monterey Street, Gilroy a/a *
+apr  8 sat The Brodys, The Willknots, Pocket Change, UVR
+       at Bojangles, Sacramento a/a $7 8pm *
 apr  8 sat Built at M.J.C. Auditorium, Modesto ?/?
 apr  8 sat Diseptikons, Evenground at the Basement, Reno, NV ?/? ** @
 apr  9 sun ASUC Superb/KALX Record Swap
        at MLK Student Union, U.C.B. Campus, Berkeley a/a $2 10am-4pm
 apr  9 sun Built at Club Cocodrie, S.F. a/a
-apr 11 tue Train at Crest Theatre, 1013 K St., Sacramento a/a
+apr  9 sun The Sin Men, Philistine Tent Revival
+       at the Sidelines, Arcata 21+ $4 9pm
+apr 11 tue Train, Wood (England) at Crest Theatre, 1013 K St., Sacramento a/a
 apr 12 wed Make-Up, Spores, Subpoena The Past
        at the Great American Music Hall, S.F. 6+ $8.50 9pm ** @
 apr 12 wed The Cuts, Subtonix, The Knives, Angel Dust
@@ -581,8 +597,13 @@ apr 14 fri The Sin Men, The What-Nots, The Philistine Tent Revival
 apr 14 fri Ten In The Swear Jar (ex-IBOPA)
        at Community Center, 19655 Allendale Ave., Saratoga a/a 7pm-11:30pm
        (Grand Fanali's 21st B-day Bash)
+apr 14 fri Jumbo Size Your Combo, Walken, Three Summers Gone,
+       Sorry About The Fire, Planes Mistaken For Satrs
+       at Sound Box, UCSC Porter College, Santa Cruz a/a 7:30pm ** @
+       note:  campus gates close at 8pm to non students
 apr 14 fri Tsunami Bomb, 3 Day Weekend, Boy Kicks Girl
        at the Seifert Community Center, Stocton a/a ** @
+apr 14 fri The Brodys at G Steet Pub, 228 G Street, Davis 21+ $4 9:30pm *
 apr 14 fri Luckie Strike (ep release)
        at the Center Stage Studio, Carson City NV a/a $7 *
 apr 14 fri Cheapskate, Hazardous Dukes at Pata Place, Incline Village, NV 21+ *
@@ -609,11 +630,14 @@ apr 15 sat Built, Two O Nine, Mystic Rage
        at Barbell, 2667 Old 1st Street, Livermore 21+ 8pm *
 apr 15 sat Stunt Monkey at Fishbowl, Sunnyvale (teens only) $3/free 7pm-11pm *
 apr 15 sat Ani DiFranco at Civic Auditorium, Santa Cruz a/a 8pm
+apr 15 sat The Brodys, others at UC Davis Manin Quad, Davis a/a free *
 apr 15 sat Lucky Strike (cd release), Diseptikons, Lesdystics, Knock Offs
        at Bojangles, Sacramento a/a $7 7pm ** @
 apr 16 sun KUSF Rock 'n Swap, McLaren Hall, USF Campus 10am-4pm
 apr 16 sun Satirycon, Angel Corpse, Krisiun, Infestation
        at Lower Ballroom, Maritime Hall, S.F. a/a $20 7pm ** @
+apr 16 sun Type O Negative, Cool Chamber, Full Devil Jacket, The Dead Lights
+       at the Warfield, S.F. a/a 7pm/8pm # ** @
 apr 16 sun The Reverend Horton Heat, Los Straightjackets
        at the Catalyst, Santa Cruz 21+ $15.75 8pm/9pm **
 apr 17 mon Guided By Voices, Matthew Sweet
@@ -673,6 +697,7 @@ may  5 fri Oppressed Logic, Eddie Haskells, The Trots (ex-Rickets), Problem
        at Tempest Bar, 431 Natoma St.(near 5th and Mission), S.F. 21+ 9pm ** @
 may  5 fri Anti45, Jumbo Size Your Combo, The Jocks, Sex Kittens,
        Waste Of Time, Stunt Monkey at YWCA, 4161 Alma St., Palo Alto a/a ** @
+may  5 fri The Sin Men, Audio Wreck at the Shanty, Eureka 21+ $2 9pm
 may  6 sat Hellbilly's, Strychnine, The Enemies, The Trots (WA),
        Fracus at 924 Gilman a/a $5 8pm *** @
 may  6 sat Tina Turner, Lionel Richie at San Jose Arena a/a 7:30pm * (sold out)

@@ -8,11 +8,8 @@
      T     H    H  E              L           I    S    S     T
      T     H    H  EEEEEE         LLLLLLL     I     SSSS      T
 
-funk-punk-thrash-ska       Upcoming shows of interest     December  26, 2000
+funk-punk-thrash-ska       Upcoming shows of interest     December  27, 2000
 
-dec 26 tue Noctuary, Antagony, Artificium Sanguis
-       at the C.W. Saloon, S.F. 21+ $5 7pm **
-dec 26 tue Born To Loose, Red Tape, Speeding In The Rain at Zephyr, Reno NV *
 dec 27 wed The Shimmer Kids, The Cubby Creaturs Film Loop,
        Music Extravaganza at Cafe Du Nord, S.F. 18+
 dec 27 wed Fourletterwords, Toast Machine, Gone Fishin'
@@ -21,9 +18,10 @@ dec 28 thr Portrait Of Poverty (WA), The Idiots, The Oozzies, Lowlife,
        Shut The Fuck Up at Burnt Ramen, Richmond a/a $5 6:30pm ** @
 dec 28 thr The Paula Murray Trio, Randy
        at the Starry Plough, 3101 Shattuck, Berkeley 21+
-dec 28 thr Damnation, Squat, Money Shot at C.W. Saloon, S.F. 21+ $5 9:30pm *
+dec 28 thr Damnation, Squat, Money Shot, Panty Claus
+       at C.W. Saloon, S.F. 21+ $5 9:30pm **
 dec 28 thr Lavish Green, Barbie Killed Ken, X Roads, Canyon Creep, Minus,
-       Zerotheory, Lica Sto at Paradise Lounge, S.F. 21+ 8:30pm *
+       Zero Theory, Lica Sto at Paradise Lounge ,S.F. 21+ 8:30pm **
 dec 28 thr Zeek Sheck, Folcaino, The Fabulous Bitches at Kimo's, S.F. 21+ 9:30pm
 dec 28 thr Tragedy Andy at Dirty Duck, 928 12th Street, Modesto 21+ 9pm
 dec 28 thr Zeke Fishhead, aka Ed Volker at Ding's Lounge, Fairfield 21+
@@ -34,6 +32,8 @@ dec 28 thr Union 13, Cactiwidders, The Fallouts
        at Art Planet, 1048 E Street, Fresno a/a $7 ** @
 dec 29 fri Nerve Agents, American Nightmare, Kill Me Kate (S.D.),
        P.B.R. Street Gang (San Diego), Frisk at 924 Gilman a/a $5 8pm *** @
+dec 29 fri !Tang, Funkrinamicon
+       at Blake's, 2367 Telegraph, Berkeley 21+ $5 10pm (funk)
 dec 29 fri Curbside Journal, Debris, Sir Millard Mulch
        at the Port Lite, Oakland 21+ *
 dec 29 fri Berlin, Electric Peach at Slim's, S.F. a/a $17 8pm/9pm **
@@ -68,12 +68,12 @@ dec 30 sat Electric Jesus, Hattattack, Tomb Shakers, Suicide Doors
        at the Port Lite, Oakland 21+ $3
 dec 30 sat Galactic, Robert Walter's 20th Congress
        at the Warfield, S.F. a/a $21.50 7pm/8pm #
-dec 30 sat The Aislers Set, The Mates Of State, The Fairways, dj's
+dec 30 sat The Aislers Set, The Mates Of State, The Fairways,
+       dj's Daisuke, Mayume, Kid Frostbite, Mommi
        at Cafe Du Nord, S.F. 18+ $7 9pm **
 dec 30 sat Stomach, Society Dog, Eddie Haskells at the Tempest, S.F. 21+ **
 dec 30 sat Agent Orange at the C.W. Saloon, S.F. 21+ *** @
-dec 30 sat Stymie, JoJo, PBR Streetgang
-       at the Paradise Lounge, S.F. 21+ free 8:30pm *
+dec 30 sat Stymie, JoJo, 78 Rpm at the Paradise Lounge, S.F. 21+ free 8:30pm *
 dec 30 sat Ring Children, Jill The Witch, Worker at Kimo's, S.F. 21+ 9:30pm
 dec 30 sat 26 Miles Per Hour, D.W.B., Mahalah, Unsanctified, Pcp
        at Grange Hall, 743 Diablo, Danville a/a $5 8pm ** @
@@ -103,8 +103,8 @@ dec 31 sun Cushion Theory, Merric, The Librarians, Ultra Kool
        at the Port Lite, Oakland 21+ $3
 dec 31 sun Punk Soccer, 9th & Lincoln, Golden Gate Park, S.F. a/a free 2pm
        info Email christupher@hotmail.com or 415-566-0696
-dec 31 sun The Reverend Horton Heat, The New Morty Show
-       at Maritime Hall, S.F. a/a $50 8pm/9pm # *
+dec 31 sun The Reverend Horton Heat, The New Morty Show, Ramblin' Jack Elliot,
+       Nick Gravenites & Friends at Maritime Hall, S.F. a/a $50 8pm/9pm # *
 dec 31 sun Galactic, Ozomatli at Warfield, S.F. a/a $75/$50 7pm/8pm #
 dec 31 sun Macy Grey, Basement Jaxx, Karl Denson's Tiny Universe, Cheeseballs,
        Vivendo de Pao, Tainted Love, Behrouz, David Coleman & Sen-Sei,
@@ -122,7 +122,7 @@ dec 31 sun Grey Boy All-Stars Sidecar Project
 dec 31 sun The English Beat (Dave Wakeling), dj's David Harness, M3,
        Psychofunkodiscodelic Crew at Phoenix Hotel, 601 Eddy St., S.F.
        21+ 8pm doors **  info 415-339-7444 www.2ndsunday.com
-dec 31 sun Blue Period, The Peak Show, Magnified
+dec 31 sun Blue Period, The Peak Show, Amazine Embarrasonic
        at the Paradise Lounge, S.F. 21+ 8:30pm
 dec 31 sun Waste Of Time, Youthful Outrage, Cadence, Bad Habit,
        To Be Announced, Burnt Toast, The Athletes (Jocks cover band)
@@ -137,7 +137,7 @@ dec 31 sun Groovie Ghoulies, Secretions, The Koi, Ent
 dec 31 sun Magnolia Thunderfinger, The Brodys, The Skirts
        at Old Ironsides, Sacramento 21+ $15 9pm *
 dec 31 sun Styx at Reno Hilton Amphitheatre, Reno NV ?/? **
-jan  2 tue Time In Malta, The National Aquabats, Blessing The Hogs
+jan  2 tue National Acrobat, Time In Malta, Harkonen, Blessing The Hogs
        at Burnt Ramen, Richmond a/a $5 8pm ** @
 jan  2 tue Capitalist Casualties, Crucial Section
        at the C.W. Saloon, S.F. 21+ 9pm *** @
@@ -151,8 +151,11 @@ jan  3 wed Van Morrison & His Band at Warfield, S.F. a/a $65/$45 7pm/8pm #
 jan  4 thr The Jack Saints, The Loudmouths, Mack Truck
        at the C.W. Saloon, S.F. 21+ $5 9pm **
 jan  4 thr Sound Chaser, Frank Moore, Fluff Grrl at Kimo's, S.F. 21+ 9:30pm
-jan  5 fri Eleventeen, Fast Times, The Clumsy Bears
-       at 924 Gilman a/a $3 8pm ** (new band night)
+jan  5 fri Remnants (Santa Rosa), The Clumsy Bears, Eleventeen, Whorange,
+       Tear It Up (N.J.), Fast Times (N.J.) at 924 Gilman a/a $3 8pm ** @
+       (new band night)
+jan  5 fri Sworn Vengeance, Above This World, S.E.E.D., TwoForty
+       at Burnt Ramen, Richmond a/a ** @
 jan  5 fri Bitesize, One Step Shift, October Allied
        at the Port Lite, Oakland 21+ $5 9pm
 jan  5 fri Corncorp, Lemon Lime Lights at the Stork Club, Oakland 21+ 9:30pm
@@ -181,6 +184,8 @@ jan  5 fri Someone Else's Problem, The Riot Kids, All Dead
 jan  5 fri cancelled:  The Unseen, F-Minus, Broken Society at Colonial Theater
 jan  6 sat The Locust (S.D.), Beautiful Skin (N.Y.), National Acrobat,
        The Pattern, Heart Of Snow at 924 Gilman a/a $5 8pm *** @ (5pm meeting)
+jan  6 sat The Sprague Brothers
+       at Starry Plough, 3101 Shattuck, Berkeley 21+ $6 9:45pm *
 jan  6 sat Totimoshi, Blessing The Hogs, Canyon Creep
        at the Stork Club, Oakland 21+ 9pm *
 jan  6 sat Breast, The Wunder Years, Aldophos Revenge
@@ -207,12 +212,11 @@ jan  6 sat Someone Else's Problem (N.M.), Vanishing Subs, System Fuck,
 jan  7 sun Somebody Else's Problem (AZ), Kansas City All Stars, Jesus 2000,
        Lab Rats, Miso Militia at Christupher's House, 118 Granville Way, S.F.
        a/a donation 2pm ** info  415-566-0696 christupher@hotmail.com
+jan  7 sun Planets West, The Stratford 4 at Cafe Du Nord, S.F. 18+ $5 9pm
 jan  7 sun Heart Of Snow, Shivers, Le Shok, Beautiful Skin, Pattern,
        Locust, Defacto, dj I Am Spoonbender
        at Bottom of the Hill, S.F. 21+ $7 5:30pm ** (4pm BBQ)
-jan  7 sun The Strap-Ons (VA), F-Hole, Fracas
-       at the Paradise Lounge, S.F. 21+ $4 7pm/8pm **
-jan  7 sun Planets West, The Stratford 4 at Cafe Du Nord, S.F. 18+ $5 9pm
+jan  7 sun F-Hole, Fracas, dj Sweaty Betty at Paradise Lounge, S.F. 21+ $4 7pm
 jan  7 sun Magic Alex, Fleerbox, Love Daria at the Wedge, Daily City 18+
 jan  8 mon Tirebelly, Wingnut, Dick at Bottom of the Hill, S.F. 21+ $5 9pm
 jan  8 mon The Nederbeats at above Paradise Lounge, S.F. 21+ $4 9:30pm (funk)
@@ -225,6 +229,9 @@ jan 10 wed The Beth Waters Band, Viv at Sweetwater Saloon, Mill Valley ?/?
 jan 11 thr Deadbolt, The Zodiac Killers at the C.W. Saloon, S.F. 21+ $5 *
 jan 11 thr Rocket Queens (GnR tribute), Paranoid (Black Sabbath tribute)
        at Kimo's, S.F. 21+ 9:30pm *
+jan 11 thr Luxt (Sacramento, Whorange at Paradise Lounge, S.F. 21+ 8:30pm
+jan 12 fri The Sick, Totimoshi, 7 Days Of Samsara (WI), The Juggler,
+       The Vida Blue, The sabians at 924 Gilman a/a $5 8pm *** @
 jan 12 fri Lemon Limelights, The Fetch Co., Snakes In Eden
        at the Port Lite, Oakland 21+ $5 9pm
 jan 12 fri The Cubby Creatures, Velvet Alex, Hattatak
@@ -236,8 +243,8 @@ jan 12 fri Blue Sky Roadster, Stellavision
        at the Cellar, Johnny Foley's, 243 O'Farrell, S.F. a/a 9pm
 jan 12 fri The Oozzies, Portrait Of Poverty (WA), Riot Gun (L.A.),
        Scaredy Cat (L.A.) at Kimo's, S.F. 21+ $5 9pm ** @
-jan 12 fri Crosstops, B-Movie Rats, Holy Assassins & Hell Bros.
-       at the Paradise Lounge, S.F. 21+
+jan 12 fri Holy Assassins, Hell Bros, B-Movie Rats, Crosstops
+       at the Paradise Lounge, S.F. 21+ 8:30pm
 jan 12 fri 26 Miles Per Hour, Luxt, Doomfinger
        at the Grange Hall, 743 Diablo, Danville a/a $5 8pm ** @
 jan 12 fri Deathray, Mates Of State, The Secret Band, The Nothing,
@@ -284,7 +291,8 @@ jan 18 thr Every Idle Word, 18 Frames Per Second at Kimo's, S.F. 21+ 9:30pm
 jan 19 fri Plus Ones, Anti-45, Strike-O-Matics (S.C.)
        at 924 Gilman Street a/a $5 8pm ** @
 jan 19 fri Venus Bleeding, Picnic at Kick's II, Oakland 18+ $7 9:30pm
-jan 19 fri The Causey Way at Starry Plough, 3101 Shattuck, Berkeley 21+ **
+jan 19 fri The Causey Way, Rube Waddell
+       at Starry Plough, 3101 Shattuck, Berkeley 21+ $7 9:45pm **
 jan 19 fri The Goods, The Flakes, The Stuck-Ups (Seattle, New Bethel (L.A.)
        at the Port Lite, Oakland 21+ $5 9pm *
 jan 19 fri The Holy Kiss, Subtonix, Tracy And The Plastics
@@ -311,8 +319,8 @@ jan 20 sat Etc., Wash, Sole at Port Lite, Oakland 21+ $% 9pm
 jan 20 sat Level (TX), Quest For Quintana Roo, Jesus 2000, Hello Tiger,
        Miso Militia at Daniel's House, 1231 5th Ave., S.F.
        a/a donation 2pm ** info 415-566-0696 christupher@hotmail.com
-jan 20 sat The Causey Way, The Pattern, Captured! By Robots
-       at Cafe Du Nord, S.F. 18+ $5 10pm ** @
+jan 20 sat The Causey Way, Captured By Robots, The Pattern
+       at Cafe Du Nord, S.F. 18+ $7 9:30pm ** @
 jan 20 sat Leaving Trains, Devil's Food, Shame Spiral, Kung Fu USA
        at Kimo's, S.F. 21+ 9:30pm *
 an 20 sat Deathray, Corrosive Eight (cd release), Manplanet (MN),
@@ -324,8 +332,9 @@ jan 20 sat Samiam, The Wunder Years, Touched By A Janitor
 jan 20 sat Love Dairia at Yosemite Cafe, 912 N. Yosemite St., Stockton a/a
 jan 21 sun Fear Factory, Kittie, The Union Underground, Slaves On Dope,
        Boy Hits Car at Maritime, S.F. a/a 7pm ** (SnoCore Rock)
-jan 21 sun The Stuck-Ups (Seattle), Violet Discord, Venus Bleeding,
-       dj Sweaty Betty at Paradise Lounge, S.F. 21+ $4 7pm **
+jan 21 sun The Stuck-Ups (Seattle), Violet Discord, Venus Bleeding
+       at the Paradise Lounge, S.F. 21+ 8:30pm **
+jan 21 sun Deathray, Manplanet at Cafe Du Nord, S.F. 18+ $5 9pm
 jan 22 mon The Causey Way at Blueroom, 139 West First Street, Chico a/a **
 jan 22 mon 12 Tribes, Blood Has Been Shed, David Lynch Predicament
        at the Barn, 7800 Ashlan St., Fresno a/a $6 6pm *
@@ -337,13 +346,19 @@ jan 24 wed Portrait Of Poverty (WA), Dr. Know, the D.T.s (Fortuna)
        at Vista Restaurant, 91 Commercial, Eureka a/a *** @
 jan 25 thr Texas Terri And The Stiff Ones, Bite (record release),
        The Holy Assasins at the C.W. Saloon, S.F. 21+ $5 9:30pm *
+jan 25 thr Marginal Prophets, Soul Cracker (San Diego), Ten Pound Brown
+       at the Paradise Lounge, S.F. 21+ 8:30pm
+jan 26 fri Tragedy, Esperanza, Under A Dying Sun at 924 Gilman a/a $5 8pm ** @
 jan 26 fri Subincision, Tabloids, Action Palace
-       at the Strok Club, Oakland 21+ $5 9pm ** @
+       at the Stork Club, Oakland 21+ $5 9pm ** @
 jan 26 fri Two O'Clock Nation (Salt Lake City), Miso Militia
        at 16th and Mission BART, S.F. a/a free 5pm *
 jan 26 fri Reducers S.F., Anglic Upstarts, The Generators
        at Justice League, 628 Divisadero, S.F. 21+ *
 jan 26 fri The Shit Kickers, Ding Dang at the Tempest, S.F. 21+
+jan 26 fri Hail Mary's, Amazon Women On The Moon, Romeo Void,
+       Fabulous Disaster at the Paradise Lounge, S.F. 21+ 8:30pm
+jan 26 fri The B-Side Players at the Elbo Room, S.F. 21+ $7 10pm (latin/funk)
 jan 26 fri Locale A.M., Natt, Fingertight, Domeshots, Drain 26
        at the Oasis, San Rafael a/a $5 8pm ** @
 jan 26 fri Monkey, The K.G.B., Sneaky Creekans, The Adjustments (cd release)
@@ -355,8 +370,11 @@ jan 26 fri 26 Miles Per Hour, Built, Circle Of 5ths
        at Strach 8, Sacramento 18+ $5 8pm *
 jan 26 fri Preston School Of Industry at Old Ironsides, Sacramento 21+ $7 9pm *
 jan 27 sat San Geronimo, Merrick, Anti-Domestik at 924 Gilman a/a $5 8pm ** @
+jan 27 sat Kirby Grips, Persephone's Bees
+       at Starry Plough, 3101 Shattuck, Berkeley 21+ $6 9:45pm *
 jan 27 sat The Donnas (cd release), Bratmobile, The Plus Ones
        at the Fillmore, S.F. a/a $12.50 8pm/9pm *** @
+jan 27 sat Man Of The Year, Petrol at Cafe Du Nord, S.F. 18+ $7 10pm
 jan 27 sat Lavish Green, Canyon Creep at Hobies, Concord 21+ 9pm
 jan 27 sat The Contradictions, The Creeps at the Pit, Santa Rosa a/a free 8pm *
 jan 27 sat Magic Alex, Fleerbox, Eminate, Love Dairia
@@ -409,8 +427,8 @@ feb  9 fri Stunt Monkey, Debris at the Oasis, San Rafael a/a **
 feb  9 fri Slow Gherkin, Short Round, Locale A.M., GDNA
        at Grange Hall, 743 Diablo, Danville a/a $6 6pm *** @
        ($1 off price with donation of canned food)
-feb 10 sat Rocket Queens, Life's Halt (L.A.), Adversives (ID)
-       at 924 Gilman a/a $5 8pm ** @
+feb 10 sat Life's Halt (L.A.), Rocket Queens, Barry Mandmiar,
+       Rosemary's Billygoat, Adversives (ID) at 924 Gilman a/a $5 8pm ** @
 feb 10 sat Keeping Ellis, Luckie Strike, Time Spent Driving, Fighting Jacks
        at the Fishbowl, 305 N. Mathilda Ave., Sunnyvale a/a $3 7pm ** @
 feb 10 sat Mr. T Experience at the Cactus Club, San Jose 18+ ^# ** @

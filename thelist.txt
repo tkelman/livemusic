@@ -1,18 +1,22 @@
-THE LIST	Upcomeing shows of interest		June 22, 1990
+#######				#
+   #     #    #  ######		#           #     ####    #####
+   #     #    #  #		#           #    #          #
+   #     ######  #####		#           #     ####      #
+   #     #    #  #		#           #         #     #
+   #     #    #  #		#           #    #    #     #
+   #     #    #  ######		#######     #     ####      #
+
+
+THE LIST	Upcomeing shows of interest		June 23, 1990
 		   funk-punk-thrash-ska
 
-jun 22 fri Cramps, Flat duo Jets at the Warfield
-	all ages # ** @ $
-jun 22 fri Econocrist, Blatz at Gilman Street
-	all ages * @
-jun 23 sat Victims Family, Tragic Mulatto, Sub Society, Milestone at Gilman
-	all ages * @
-jun 23 sat Meat Beat Manifesto, Sharkbait at I-Beam
-	21+ * 
-	Note: Sharkbait...  kind of industrial/thrash,
-	      great sound and a heck of a lot of fun.
+
+
 jun 25 mon Epidemic, Slambodians, Hate, Social Disorder at Stone
 	all ages 7 pm ^#  Curfew Show (over by 11:00) 
+jun 25 mon Smokin' Rhythim Prawns, Cactus Cowboys, Helen Keller Plaid
+	at Paradise Lounge on Folsom is S.F.
+	21+
 jun 27 wen Death Angle, Forbidden at the Warfield
 	all ages # * @ $
 jun 27 wen Movie Stars, Genuine Diamelles, Darius  at Kennel Club
@@ -42,6 +46,10 @@ jun 30 sat Primus, Fungo Mungo, Turd Boy, Acid Rain, Jerry Abram's Headlights
  	       Crush factor of 7-8 next to the stage.
 jun 30 sat Helios Creed, Happy World, Skitzoid at Gilman
 	all ages *
+jul  1 sun Reggae in the Sun, Santa Clara Fairgrounds, Tully Rd., San Jose
+	12 noon till 7pm $19.50 (ouch!)
+	Aswad, Inner Circle, Strictly Roots, Thaddeus, Della Grant, and
+	Inka Inka
 jul  3 tue Savatage, Heathen, Wanted, Vision at the Omni
 	all ages 8 pm ^#
 jul  5 thr Scatterbrain at the Stone
@@ -52,14 +60,14 @@ jul  8 fri Psychefunkapus, Private Culture, La Crea at AMP
 	Note:  Last time Psychefunkapus played the AMP it was a packed 
 	       house and a hell of a lot of fun.
 jul  7 sat Vain at the Stone
-	8 pm ^# * @ $
+	8 pm ^# * @ 
 jul 10 tue The Church, The Blue Airplanes at the Warfield
 	all ages #
 jul 14 sat FOOTHILL COLLEGE ELECTRONICS SWAP Los Altos Hills off of 280
 jul 14 sat D.R.I. at the Stone
-	all ages 7 pm ^# * @ $
+	all ages 7 pm ^# * @ 
 jul 17 tue Mudhoney, Thee Headcoats at Kennel club
-	21+
+	21+ *
 jul 19 thr 7 Seconds, Liquid Jesus at the Stone
 	all ages 7 pm ^# *
 jul 21 sat RED HOT CHILI PEPPERS, Exodus, Urban Dance Squad
@@ -98,4 +106,4 @@ All shows at Gilman Street and AMP are recommended
 Stone and Omni are pay to play (other than headlining bands are
 	forced to sell a minimum number of tickets to play, fucked!!)
 
-
+

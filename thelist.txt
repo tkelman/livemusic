@@ -1,3 +1,5 @@
+      Web (and searchable) version at http://jon.luini.com/thelist.html
+
   TTTTTTT                         L
      T     H    H  EEEEEE         L           I     SSSS    TTTTT
      T     H    H  E              L           I    S          T
@@ -6,25 +8,9 @@
      T     H    H  E              L           I    S    S     T
      T     H    H  EEEEEE         LLLLLLL     I     SSSS      T
 
-funk-punk-thrash-ska       Upcoming shows of interest     July  27, 1999
+funk-punk-thrash-ska       Upcoming shows of interest     July  28, 1999
 
-jul 27 tue Soda Pop Fuck You, Samantha's Favorite, Little Tin Frog
-       at the Paradise Lounge, S.F. 21+ **
-jul 27 tue High On Fire, The Rake, Operator Generator
-       at the C.W. Saloon, S.F. 21+ 9pm *
-jul 27 tue Smokejumpers, Joe Buck at CoCo Club, 138 8th St., S.F. 21+ $4 9pm *
-jul 27 tue Chapter 11 at Hotel Utah, 500 4th Street, S.F. 21+ 9pm *
-jul 27 tue Piper Down, Velvet Alex, The Mothballs at Tip Top Inn, S.F. 21+
-jul 27 tue Laurl Aitkens & The Allstonians (Boston), Monkey
-       at Palookaville, Santa Cruz a/a $10 ** (ska)
-jul 27 tue Lavish Green, SpiritFall, Speak No Evil
-       at the Long Bar, Monterey 21+ free 9pm
-jul 27 tue Simon Says, Second Coming, 7th Standard
-       at Modesto Center Plaza, Modesto a/a $10 7pm/8pm ** @
-jul 27 tue Skavoovie & The Epitones, Ducky Boys, Dingees
-       at Bojangles, Sacramento a/a $10 5pm/6pm ** @ (ska)
-jul 27 tue cancelled:  Speak No Evil, SpiritFall, Shortie at Pit Stop, NV
-jul 27/28 The Flaming Lips, Sebadoh, Robyn Hitchcock, Sonic Boom's E.A.R.
+jul 28 wed The Flaming Lips, Sebadoh, Robyn Hitchcock, Sonic Boom's E.A.R.
        at Fillmore, S.F. a/a $21.50 8pm # ** (Music Against Brain Degeneration)
 jul 28 wed Ducky Boys, Forgotten, Miscreants, Dingees, Bumble, Two Ton Boa,
        C Average at Cocodrie, S.F. a/a 7pm ** @
@@ -93,8 +79,8 @@ jul 30 fri The Cannanes (Australia), The Cubby Creatures, Timonium
        at the Tip Top Inn, S.F. 21+
 jul 30 fri Racetraitor, Sworn Vengeance, Up In Arms, T21
        at the Danville Grange Hall, Danville a/a $6 8pm ** @
-jul 30 fri Undercover Cops, Double Agent, Soilent Green, Angry Mimes, Dulcet
-       at the Phoenix Theater, Petaluma a/a ** @
+jul 30 fri Double Agent, Dullcet, Undercover Cops, Soilent Green, Angry Mimes
+       at the Phoenix Theater, Petaluma a/a $5 ** @
 jul 30 fri The Wunder Years (cd release), Lucas, Jenny's Boyfriend,
        Steamboat Colorado at the Inn of the Beginning, Cotati a/a $5 8pm ** @
 jul 30 fri The Plus Ones, The Basics, 5th Limb
@@ -106,6 +92,7 @@ jul 30 fri Synapse, Riff Raff, Skam-Impaired (KY), Evenground (NV),
        a/a $5 8pm *
 jul 30 fri Curbside at the Cactus Club, San Jose 18+ #
 jul 30 fri Vincents Ear, Herbert, Woodpecker at Catalyst, Santa Cruz 21+ $5 9pm
+jul 30 fri Adverse Side-FX, Soba at Viva, 414 Alvarado, Monterey ?/?
 jul 30 fri The Stupid Jerks, Dr. Rocket & The Moon Patrol, Anti-Domestix,
        Novacain, Secretions at Siefert Center, Stockton a/a $5 8PM **
 jul 30 fri Section H at Yosemite Street Cafe, Stockton a/a $2
@@ -161,6 +148,8 @@ jul 31 sat Pilgrims, Superplum
        at the Fox and Goose, 10th and R Streets, Sacramento 21+ *
 jul 31 sat Shortie, Speak No Evil, Spiritfall1 Lavish Green
        at Lodi Senior Club, 113 North School St., Lodi a/a $5 8pm
+jul 31 sat 3 Day Weekend, Caution
+       at the Noise Club, 2350 East St., Tracy a/a $2 8:30pm *
 jul 31 sat The Brodys at Cordova Lanes, 10631 Folsom, Rancho Cordova a/a $8 9pm
 aug  1 sun Tight Brouthers From Way Back When, The Bangs, Waxwing, The Cuts
        at 924 Gilman Street a/a $5 5pm ** @
@@ -254,12 +243,16 @@ aug  7 sat Slim's Staff-A-Palloza, Boomshanka, Intrepid A.A.F. Folk-Ups,
 aug  7 sat Acme Swing Company, Blue Beat Stompers, Smokejumpers
        at Club Cocodrie, S.F. ?/? 8pm
 aug  7 sat Jacob Fred Jazz Odyssey (OK) at Elbo Room, S.F. 21+ $5 10pm (funk)
+aug  7 sat The National Joy Band at the Paradise Lounge, S.F. 21+
+aug  7 sat Hammerlock, Bzerkers, Torpidos, Knine at Tempest, S.F. 21+ $2 8pm
 aug  7 sat The Lesdystics, Crowned King at Pheonix Theatre, Petaluma a/a *
 aug  7 sat Waxwing, Edaline, Benton Falls, Lucas
        at Inn of the Beginning, 8201 Old Redwood Hwy, Cotati a/a $5 8pm ** @
 aug  7 sat Monkey at the Cactus Club, San Jose 18+ #
 aug  7 sat B.B. King, Kenny Wayne Shepherd, Tower of Power, Indigenous
        at Shoreline Amphitheatre, Mountain View a/a # (B.B. King Blues Fest 99)
+aug  7 sat Sickmachine, Tommy And The Stompers, Parking Lot Prophet,
+       Astro Junkies at Quarternote, 1214 Apollo Way, Sunnyvale 21+ *
 aug  7 sat Dark Star Orchestra at Palookaville, Santa Cruz a/a $10.50 9pm
 aug  7 sat Solarface, Pil, D.H.
        at Cheerleaders, 7904 Auburn Blvd., Citrus Heights 21+ free 9pm
@@ -334,8 +327,8 @@ aug 13 fri Agent 51 (San Diego), Boy Kicks Girl, the Lonely Kings,
 aug 13 fri Spishak, The B-Sides at the Fatty Mocha, Merced a/a $5 8pm *
 aug 13 fri Wormwood (KS), Icarus, After The Fall, Embalmed Alive
        at the Vet's Hall, Nevada City a/a $5 7:30pm ** @
-aug 14 sat Chop Tops, Giblet Dribblers, Smokejumpers, Rat Bastards
-       at the Port Lite, Oakland 21+ * (East Bay Underground)
+aug 14 sat Smokejumpers, Giblet Dribblers, Betty Rage
+       at Port Lite, Oakland 21+ $3 9:30pm * (East Bay Underground)
 aug 14 sat Agent 51 (San Diego), the Lonely Kings, Towards An End, Stic Shift
        at the Stork Club, Oakland 21+ ** @
 aug 14 sat Stymie And The Pimp Jones Love Orgastra, Bamboozal, Native Element,
@@ -380,6 +373,7 @@ aug 19 thr Venus Bleeding, The Dagons, The Little Deaths, Agness
        at the Paradise Lounge, S.F. 21+
 aug 19 thr Bonecrusher, Oozies, Spitfires at the C.W. Saloon, S.F. 21+ *
 aug 19 thr Barenaked Ladies, Semisonic at Shoreline, Mountain View a/a 8pm # *
+aug 19 thr Sickmachine, Kilrush, EMB at Cheers, 321 Merchant, Vacaville 21+ *
 aug 19 thr Section H, Stunt Double at Old Ironsides, Sacramento 21+ $5
 aug 19/20/21 Monkey at Sierra Rockin' Blues House, Mammoth Lakes ?/?
 aug 20 fri Bobby Joe Ebola And The Children Mac Nuggits (record release),
@@ -485,6 +479,7 @@ aug 31 tue Petrol, Red Planet, Everybody's Angels at Slim's, S.F. a/a free *
 aug 31 tue Morbosidad, Infestation, Knife Thru Head
        at the C.W. Saloon, S.F. 21+ 9pm
 aug 31 tue Hovercraft, lowercase, Lies at Bottom of the Hill, S.F. 21+ $7 9pm
+aug 31 tue Sickmachine at Club Boomerang, S.F. 21+ *
 aug 31 tue Weird Al Yankovic at Konocti, Kelseyville a/a 800-660-LAKE
 sep  1 wed Melvins at Catalyst, 1011 Pacific, Santa Cruz 16+ $8.40 8pm/9pm ** @
 sep  2 thr Melvins at Slim's, S.F. a/a $11 8pm/9pm ** @

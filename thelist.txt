@@ -7,14 +7,8 @@
      T     H    H  E              L           I    S    S     T
      T     H    H  EEEEEE         LLLLLLL     I     SSSS      T
 
-funk-punk-thrash-ska      Upcoming shows of interest     Jan   2, 2008
+funk-punk-thrash-ska      Upcoming shows of interest     Jan   3, 2008
 
-jan  2 wed The Luxury Sweets, Million Dollar Itch
-       at the Stork Club, Oakland 21+ *
-jan  2 wed Defiance (OH), This Bike Is A Pipe Bomb, Vena Cava, Fischer,
-       Prohibition Hearthrob
-       at Balazo Gallery, 2183 Mission, S.F. a/a $5 7pm *** @
-       (Benefit Prisoner's Literature Project - bring a paperback/new-ish book)
 jan  3 thr P.A.W.N.S., Ill Gotten Gainz at the Stork Club, Oakland 21+ ** @
 jan  3 thr Shantytown, American Drag, The Second Cousins
        at the Rickshaw Stop, S.F. a/a $10 8pm **
@@ -422,7 +416,7 @@ jan 25 fri Rykarda Parasol And The Tower Ravens, Mellowdrone (L.A.),
        Excuses For Skipping at Cafe Du Nord, S.F. 21+ $12 10pm **
 jan 25 fri Sean Hayes, JT & The Clouds
        at the Independent, S.F. 21+ $17 8:30pm/9pm *
-jan 25 fri Bug Nasties, Hi Nobles at the Hemlock, S.F. 21+ **
+jan 25 fri Hi Nobles, The Blank Stares at the Hemlock, S.F. 21+ $7 9:30pm **
 jan 25 fri Orgone (L.A.), dj Vanka, dj Vinnie Esparza
        at the Elbo Room, S.F. 21+ $10 10pm ** (funk)
 jan 25 fri Keak The Sneak, The Federation
@@ -561,7 +555,8 @@ feb  2 sun Johnny And The Pachecos, Drastic Actions, Butterface, The Lemmies
 feb  2 sun The Meteors at Fat Cat, 930 11th Street, Modesto 21+ **
 feb  3 sun Jesse Evans (Germany), Swann Danger, Otto Nervous
        at 924 Gilman a/a 5pm **
-feb  3 sun Correatown (LA), Chris Robley at the Hemlock, S.F. 21+ **
+feb  3 sun The Speakers, Correatown (LA), Chris Robley
+       at the Hemlock, S.F. 21+ $7 9:30pm **
 feb  3 sun Lyfe Jennings at the Independent, S.F. 21+ $27 7:30pm/8pm **
 feb  4 mon Black Mountain, Howlin' Rain
        at the Independent, S.F. 21+ $14 7:30pm/8pm **
@@ -573,8 +568,9 @@ feb  5 tue Haste The Day, Scary Kids Scaring Kids, Drop Dead Gorgeous,
        Gwen Stacy at the Boardwalk, Orangevale a/a ** @
 feb  6 wed James Blunt, Sara Bareilles
        at the Warfield, S.F. a/a $39.50/$35 7pm/8pm # **
-feb  6 wed The Union Trade, Aim Low Kid at the Rickshaw Stop, S.F. a/a 8pm **
-       (Benefit Metropolitan High Drama)
+feb  6 wed The Union Trade, Aim Low Kid, Audiophase
+       at the Rickshaw Stop, S.F. a/a 8pm **
+       (Benefit for Metropolitan Arts and Technology High School)
 feb  6 wed The Everybodyfields, I See Hawks In LA
        at the Independent, S.F. 21+ $12 7:30pm/8pm **
 feb  6 wed Quitzow, Setting Sun at someplace, S.F. ?/? **
@@ -631,6 +627,7 @@ feb 10 sun electronics swap meet at 924 Gilman a/a free 10am
 feb 10 sun Pinback, MC Chris at the Fillmore, S.F. a/a $25 7pm/8pm # **
 feb 10 sun Bedouin Soundclash, Westbound Train (Boston), Beat Union (U.K.)
        at the Rickshaw Stop, S.F. a/a $12 7pm **
+feb 10 sun Blank Tapes, Paleo (N.Y.C.) at the Hemlock, S.F. 21+ **
 feb 10 sun Farewell To Freeway, Aiden, Madina Lake, Schoolyard Heroes
        at the Boardwalk, Orangevale a/a **
 feb 11 mon Sourvein at the Stork Club, Oakland 21+ **
@@ -663,6 +660,7 @@ feb 15 fri Cobretti, Dynamite 8, New Hope For The Dead
        at the Stork Club, Oakland 21+ **
 feb 15 fri Tab Benoit at Slim's, S.F. a/a *
 feb 15 fri Miggs, Smith Point at the Red Devil Lounge, S.F. 21+ $10/$12 **
+feb 15 fri The Family Curse, Amino Acids (Detroit) at the Hemlock, S.F. 21+ **
 feb 15 fri Barry Manilow at the Shark Tank, San Jose
        a/a $175/$129/$79/$39/$9.99 8pm # **
 feb 15 fri The Mumlers, Two Sheds at the Blank Club, San Jose 21+ $10 9pm **
@@ -693,6 +691,8 @@ feb 18 mon Sonata Arctica, Visions Of Atlantis
 feb 18 mon Sia at the Fillmore, S.F. a/a $25 7pm/8pm # *
 feb 19 tue Dr. Know, Inhaste, Cobretti, Dead Ringers
        at Annie's Social Club, S.F. 21+ $7 9pm ** @
+feb 19 tue The Reaction, People Eaters, Suicide Dragons
+       at the Hemlock, S.F. 21+ **
 feb 20 wed Badfish (tribute), Scotty Don't at Slim's, S.F. a/a $16/$18 8pm **
 feb 20 wed Sundowner, Mike Park, Kevin Seconds, Kepi Ghoulie
        at the Bottom of the Hill, S.F. a/a $10 8:30pm/9pm **
@@ -757,6 +757,9 @@ feb 29 fri Scissors For Lefty, The Action Design
 feb 29 fri Cursive, Darker My Love
        at the Great American Music Hall, S.F. a/a ** (Noise Pop)
 feb 29 fri Death Angel, Forbidden at Slim's, S.F. a/a $21 *** @
+feb 29 fri Impaled, Population Reduction (record release),
+       I Will Kill You Fucker, In Disgust, Thousands Will Die
+       at thee Parkside, S.F. a/a $7 9pm/9:30pm *** @
 feb 29 fri Rykarda Parasol And The Tower Ravens, Veil Veil Vanish,
        Astral, dj Mizmargo at the Red Devil Lounge, S.F. 21+ $15/$17 8pm **
 feb 29 fri The Helio Sequence
@@ -771,24 +774,32 @@ mar  1 sat Panther (Portland)
        at the Rickshaw Stop, S.F. a/a $10/$12 8:30pm ** (Noise Pop)
 mar  1 sat Mountain Goats
        at the Independent, S.F. 21+ $18 8:30pm/9pm ** (Noise Pop)
+mar  1 sat These Are Powers at the Hemlock, S.F. 21+ **
 mar  1 sat Scissors For Lefty at the Blank Club, San Jose 21+ $8 9pm **
 mar  2 sun Tilly & The Wall (Omaha), Capgun Coup
        at the Rickshaw Stop, S.F. a/a $15 5:30pm ** (Noise Pop)
 mar  3 mon Nicole Atkins & The Sea
        at the Independent, S.F. 21+ $12/$14 7:30pm/8pm **
 mar  5 wed The Raveonettes at the Independent, S.F. 21+ $17 7:30pm/8pm **
+mar  5 wed Genghis Khan, Orange Sunshine (Amsterdam)
+       at the Hemlock, S.F. 21+ **
 mar  6 thr Balkan Beat Box at the Fillmore, S.F. a/a # *
 mar  6 thr Sole, Telephone Jim Jesus
        at the Bottom of the Hill, S.F. 21+ $12 8:30pm/9pm **
 mar  6 thr Cult Of Sue Todd at the Hotel Utah, S.F. 21+ *
+mar  6 thr Old Time Relijjun at the Hemlock, S.F. 21+ *
 mar  7 fri Verbal Abuse, Fy Fan (Sweden), Nightstick Justice, Socialcide (VA),
        Warkrime, Crucial Cause at 924 Gilman a/a 8pm *** @
 mar  7 fri Living Legends, Luckyiam at the Fillmore, S.F. a/a $25 8pm/9pm **
 mar  7 fri Black 47 at the Red Devil Lounge, S.F. 21+ $17/$20 *
+mar  7 fri The Fallouts (Seattle), Unnatural Helpers, The Cops
+       at the Hemlock, S.F. 21+ **
 mar  8 sat Jim Randy at 924 Gilman a/a *
 mar  8 sat ArnoCorps, Stone Vengeance at Slim's, S.F. a/a 8pm ** @
+mar  8 sat xNoBBQxx (Siltbreeze, Australia) at the Hemlock, S.F. 21+ **
 mar  8 sat Drastic Actions, Johnny And The Pachecos
        at Smoke Tiki Lounge, 152 Post St., San Jose 21+ $5 *
+mar  9 sun Blue Skies For Black Hearts (Portland) at the Hemlock, S.F. 21+ **
 mar 10 mon Angels And Airwaves, Ace Enders, Meg & Dia, The Color Fred
        at the Warfield, S.F. a/a # ***
 mar 10 mon Linkin Park, Chiodos, Coheed And Cambria
@@ -797,9 +808,13 @@ mar 11 tue Keith Urban, Carrie Underwood
        at the Shark Tank, San Jose a/a $75/$55.50/$35.50 7:30pm # **
 mar 12 wed Matchbox Twenty, Alanis Morissette, Mute Math
        at the Shark Tank, San Jose a/a $75/$60/$40 7pm # **
+mar 13 thr Break!, Cervantes, Legs On Sale at the Hemlock, S.F. 21+ **
 mar 14 fri Second Opinion, Eskapo, Scheisse Minnelli (Germany), You Die
        at 924 Gilman a/a 8pm *** @
+mar 14 fri Magik Markers at the Hemlock, S.F. 21+ *
 mar 14 fri Matchbox Twenty at Events Center, 300 N. Center St., Reno, NV # **
+mar 15 sat Rabbles, Excuses For Skipping, Dazzling Strangers
+       at the Hemlock, S.F. 21+ **
 mar 16 sun KUSF Rock 'n' Swap, McLaren Hall, 2130 Fulton St., U.S.F. $3 10am
 mar 16 sun A Day To Remember, Four Letter Lie, Silverstein,
        The Devil Wears Prada at the Fillmore, S.F. a/a # ***
@@ -812,6 +827,8 @@ mar 20 thr Blue Oyster Cult at Slim's, S.F. a/a ***
 mar 21 fri Greckspike at 924 Gilman a/a 8pm *
 mar 21 fri Steve Earle, Allison Moorer
        at Palace of Fine Arts, 3301 Lyon Street, S.F. $35 7pm/8pm # **
+mar 21 fri School Of Language, Evangelicals, Headlights
+       at the Hemlock, S.F. 21+ **
 mar 21 fri Blue Oyster Cult, Hillside Fire
        at the Phoenix Theater, Petaluma a/a $30 8pm ***
 mar 21/22  Explosions in the Sky at the Great American Music Hall, S.F. a/a **
@@ -824,6 +841,7 @@ mar 22 sat Nile, Suicide Silence, The Faceless
 mar 22 sat this Charming Band (tribute) at the Blank Club, San Jose 21+ $8 9pm *
 mar 23 sun The Pretty Things, The Amazing World Of Arthur Brown, The Malchicks
        at the Great American Music Hall, S.F. a/a **
+mar 23 sun Nobunny at the Hemlock, S.F. 21+ *
 mar 25 tue Nada Surf at Harlow's, 2708 J Steet, Sacramento 21+ $16 8pm **
 mar 26 wed Bob Mould Band at the Great American Music Hall, S.F. a/a **
 mar 28 fri Disfear (Sweden), Agenda Of Swine at 924 Gilman a/a 8pm ** @

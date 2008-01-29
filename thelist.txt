@@ -7,15 +7,8 @@
      T     H    H  E              L           I    S    S     T
      T     H    H  EEEEEE         LLLLLLL     I     SSSS      T
 
-funk-punk-thrash-ska      Upcoming shows of interest     Jan  27, 2008
+funk-punk-thrash-ska      Upcoming shows of interest     Jan  28, 2008
 
-jan 27 sun Poison The Well, The Locust, Dance Gavin Dance, A Girl A Gun A Ghost
-       at Slim's, S.F. a/a *** @
-jan 27 sun Tim Finn, Miranda Lee Richards
-       at the Independent, S.F. 21+ $22 7:30pm/8pm *
-jan 27 sun Harpeth Trace, The Ian Fays, Sweetie
-       at the Hemlock, S.F. 21+ $6 9:30pm **
-jan 27 sun Pat Travers at Fat Cat, 930 11th Street, Modesto 21+ **
 jan 28 mon Ryan Adams & The Cardinals
        at Zellerbach Hall, U.C. Berkeley a/a $38.50 7pm/8pm # **
 jan 28 mon The Sweet Nothingss, The Switch, Shannon And The Clams
@@ -38,7 +31,8 @@ jan 29 tue The Crazies Will Destroy You, The Roman Numerals, Cult Of Sue Todd
        at Annie's Social Club, S.F. 21+ $7 8pm **
 jan 29 tue The Struts, Deal's Gone Bad, Soul Captives
        at the Bottom of the Hill, S.F. 21+ $8 8:30pm/9pm **
-jan 30 wed Jokes For Feelings, Delipub at the Stork Club, Oakland 21+ $5 8pm **
+jan 30 wed Jokes For Feelings, Delipub, The Violent High
+       at the Stork Club, Oakland 21+ $5 8pm **
 jan 30 wed Rocket (L.A.), Willie Wisely (L.A. - cd release), The Fits
        at the Rickshaw Stop, S.F. a/a $10 8pm **
 jan 30 wed Vast, Eastern Conference Champions, Starving For Gravity
@@ -54,6 +48,8 @@ jan 30 wed Touch Committee, Calling All Monsters, Sterling Says
        at Edinburgh Castle, S.F. 21+ $5 9pm **
 jan 30 wed Traditional Fools, Bongo Party, The Get-Offs, The Filth Mongers
        at the Hemlock, S.F. 21+ $5 9:30pm **
+jan 30 wed Make Me, The Fox Gloves (OR), The Super Cutes
+       at the El Rio, S.F. 21+ $5 8pm **
 jan 30 wed Deke Dickerson, Los Hightops, The Slow Poisoner
        at the Blank Club, San Jose 21+ $8 9pm **
 jan 30 wed Another Day Late, The Audition at the Boardwalk, Orangevale a/a **
@@ -206,6 +202,8 @@ feb  5 tue The May Fire, Excuses For Skipping, Gran Ronde
        at the Red Devil Lounge, S.F. 21+ $5/$8 **
 feb  5 tue Haste The Day, Scary Kids Scaring Kids, Drop Dead Gorgeous,
        Gwen Stacy at the Boardwalk, Orangevale a/a ** @
+feb  6 wed Expostwave, Dancing With Aspirin, The Violent High
+       at Mama Buzz Cafe, 2318 Telegraph Ave. at 23rd, Oakland a/a 7pm **
 feb  6 wed Sleep Boy Moe, Bear Hug, People Eaters, Steve McQueen For A Day
        at the Stork Club, Oakland 21+ $5 9pm **
 feb  6 wed James Blunt, Sara Bareilles
@@ -362,6 +360,8 @@ feb 12 tue The Nubs, dj's
        at Argus Lounge, 3187 Mission St., S.F. 21+ free 4pm/8pm **
 feb 12 tue Zoraster, Sourvein, Floating Goat, dj Rob Metal
        at Annie's Social Club, S.F. 21+ $8 8pm **
+feb 12 tue Suicide Dragons, The Dead Westerns, People Eaters
+       at the Knockout, S.F. 21+ $5 ** (was listed as feb 14th)
 feb 12 tue The Mumlers
        at Streetlight Records, 980 S. Bascom Ave., San Jose a/a free 7:30pm **
 feb 12 tue Robin Trower at Fat Cat, 930 11th Street, Modesto 21+ **
@@ -376,6 +376,8 @@ feb 13 wed Cobra Starship, Metro Station, We The Kings, The Cab
 feb 13 wed Drive-By Truckers at the Mezzanine, S.F. 21+ $25 7pm/8pm **
 feb 13 wed dj Shadow, Cut Chemist, Kid Koala
        at the Grand, Regency Center, 1290 Sutter St., S.F. ?/? $35 9pm # **
+feb 13 wed The Hi-Nobles, The Flakes, Bored & Ashamed
+       at the Bottom of the Hill, S.F. a/a $8 8pm **
 feb 13 wed Jackscrew, The Otherside, Low Sea Roar
        at the Red Devil Lounge, S.F. 21+ $6/$8 **
 feb 13 wed Chow Nasty, Hottub at the Independent, S.F. 21+ $12 7:30pm/8pm **
@@ -399,8 +401,6 @@ feb 14 thr La Plebe, Her Grace The Duchess, The Departed
 feb 14 thr Slightly Stoopid, The Expendables, Outlaw Nation
        at the Independent, S.F. 21+ $25 7:30pm/8pm **
 feb 14 thr Von Iva, Carletta Sue Kay at the Hemlock, S.F. 21+ $8 9:30pm **
-feb 14 thr The Dead Westerns, Suicide Dragons, People Eaters
-       at the Knockout, S.F. 21+ $5 **
 feb 14 thr Creature, The A.K.A.s, The Vincent Black Shadow, Wednesday 13
        at the Boardwalk, Orangevale a/a ** @
 feb 14/15  Buckethead, Kid Beyond at the Great American Music Hall, S.F. a/a **
@@ -606,7 +606,7 @@ feb 26 tue Every Time I Die, The Bled, August Burns Red, The Human Abstract
        at Slim's, S.F. a/a *** @
 feb 26 tue Golden Boys (Austin), The Black, Epic Sessions
        at the Hemlock, S.F. 21+ $6 9:30pm **
-feb 26 tue One Hundred Suns, One In The Chamber, Scarecrow
+feb 26 tue 100 Suns, One In The Chamber, Scarecrow
        at the Knockout, S.F. 21+ $6 9pm/10pm ** @
 feb 26 tue Billy Joel at Arco Arena, 1 Sports Pkwy, Sacramento a/a # **
 feb 26/27  Queensryche, Don Dokken at the Fillmore, S.F. a/a $40 7pm/8pm # ***
@@ -730,6 +730,8 @@ mar  5 wed Lifehouse, Matt Nathanson, Honey Honey
 mar  5 wed The Raveonettes at the Independent, S.F. 21+ $17 7:30pm/8pm **
 mar  5 wed Dzjenghis Khan, Orange Sunshine (Amsterdam), Annihilation Time
        at the Hemlock, S.F. 21+ *** @
+mar  5 wed Girls with Guns, Delipub, Thunder Thighs
+       at Cafe Du Nord, S.F. 21+ $8 9:30pm **
 mar  5 wed Sherman Baker
        at Redwood Room, S.S.U., 6000 J St., Sacramento a/a free noon *
 mar  5 wed Balkan Beat Box at Harlow's, 2708 J Steet, Sacramento 21+ $15 9pm *
@@ -744,6 +746,8 @@ mar  6 thr Old Time Relijjun, Wildildife, Tea Elles
        at the Hemlock, S.F. 21+ **
 mar  6 thr Chrisette Michele at the Independent, S.F. 21+ $20 7:30pm/8pm **
 mar  6 thr Jack Conte at Fat City, S.F. 21+
+mar  6 thr Kris Delmhorst, Winterpills
+       at Cafe Du Nord, S.F. 21+ $16/$18 8:30pm **
 mar  6 thr Black 47, The Bog Savages
        at Vet's Hall, 846 Front Street, Santa Cruz a/a *
 mar  6 thr Murderlicious, Dead Face, Sans Sobriety
@@ -810,6 +814,8 @@ mar 14 fri Zoo Station (tribute), The Hooks, Jerry Hannan
 mar 14 fri Say Anything, Manchester Orchestra, Biffy Clyro, Weatherbox
        at the Fillmore, S.F. a/a $16.50 6pm/7pm # **
 mar 14 fri Magik Markers, Paper Legs at the Hemlock, S.F. 21+ *
+mar 14 fri Pills And Jackets, Silver Griffin, Toy Soldiers, dj Roy O'Blivion
+       at Cafe Du Nord, S.F. 21+ $10/$12 9:30pm **
 mar 14 fri ReZonance, Blindfire, Push Push Pull
        at the Fire Escape Bar, Citrus Heights 21+ $6 9pm *
 mar 14 fri Matchbox Twenty at Events Center, 300 N. Center St., Reno, NV # **
@@ -829,6 +835,7 @@ mar 15 sat The Common Vice, Arrogant Hare
 mar 16 sun KUSF Rock 'n' Swap, McLaren Hall, 2130 Fulton St., U.S.F. $3 10am
 mar 16 sun Silverstein, The Devil Wears Prada, A Day To Remember,
        Protest The Hero at the Fillmore, S.F. a/a $19.50 6pm/7pm # *** @
+mar 16 sun Dan Le Sac Vs Scroobius Pip at Cafe Du Nord, S.F. 21+ $12/$14 8pm *
 mar 16 sun Dying Days, The Royal Tees, North (AZ), X-Ray Cat
        at Chops, 509 Adams St., Santa Rosa a/a 7pm *
 mar 17 mon Culann's Hounds, Eoin Harrington
@@ -860,6 +867,8 @@ mar 21 fri School Of Language, Evangelicals, Headlights
        at the Hemlock, S.F. 21+ **
 mar 21 fri The Beaches, Petty Booka, Detroit 7, Ketchup Mania, The Emeralds,
        Scandal at the Independent, S.F. 21+ $13/$15 7:30pm/8pm ** (Japan Nite)
+mar 21 fri Loquat, The Prids, Black Kites
+       at Cafe Du Nord, S.F. 21+ $10 9:30pm **
 mar 21 fri Blue Oyster Cult, Hillside Fire
        at the Phoenix Theater, Petaluma a/a $30 8pm ***
 mar 21 fri Automatic Static, One Dying Secret, The Lonely Kings
@@ -891,6 +900,7 @@ mar 25/26 K.D. Lang, Dustin O'Halloran
        at Palace of Fine Arts, 3301 Lyon Street, S.F. a/a $51 7pm/8pm # **
 mar 25/26/27 Citizen Cope at the Independent, S.F. 21+ $25 7:30pm/8pm **
 mar 26 wed Bob Mould Band at the Great American Music Hall, S.F. a/a **
+mar 26 wed Bell X1 at Cafe Du Nord, S.F. 21+ $12 8:30pm *
 mar 27 thr Jose Gonzalez, Mia Doi Todd
        at the Fillmore, S.F. a/a $25 7pm/8pm # **
 mar 27 thr Justice, Diplo, Fancy
@@ -915,6 +925,7 @@ mar 29 sat Toast Machine at the Phoenix Theater, Petaluma a/a **
 mar 29 sat Jackie Greene (cd release), Chris Webster
        at Empire Events Center, 1417 R Street, Sacramento a/a 6:30pm # **
 mar 30 sun Testament at the Independent, S.F. 21+ $25 7:30pm/8pm **
+mar 30 sun M.O.D. at Annie's Social Club, S.F. 21+ **
 apr  1 tue Stealing Love Jones, Kongos at the Red Devil Lounge, S.F. 21+ $5 *
 apr  1/2   Ministry, Meshuggah, Hemlock at the Fillmore, S.F. a/a # *** @
 apr  2 wed Bad Manners, La Plebe at Slim's, S.F. a/a $20 8pm *** @
@@ -979,6 +990,8 @@ apr 15 thr Sacha Sacket at Serna Plaza, S.S.U., 6000 J St., Sacramento
        a/a free 7:30pm *
 apr 16 wed Today Is The Day, At All Cost, Complete Failure
        at the Blank Club, San Jose 21+ $10 9pm **
+apr 17 thr Michelle Shocked
+       at the Swedish American Hall, 2170 Market Street, S.F. a/a $22 7:30pm **
 apr 18 fri Extreme Noise Terror (U.K.), Stormcrow, Strong Intention (MD),
        Trap Them (WA), Pillager at 924 Gilman a/a 7pm *** @
 apr 18 fri Jucifer at the Uptown, Oakland 21+ $8 9pm **

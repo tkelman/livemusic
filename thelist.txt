@@ -7,16 +7,8 @@
      T     H    H  E              L           I    S    S     T
      T     H    H  EEEEEE         LLLLLLL     I     SSSS      T
 
-funk-punk-thrash-ska      Upcoming shows of interest     May   2, 2011
+funk-punk-thrash-ska      Upcoming shows of interest     May   3, 2011
 
-may  2 mon Here We Go Magic, Aroara
-       at the Rickshaw Stop, S.F. a/a $12/$14 8pm **
-may  2 mon Chris Robinson Brotherhood
-       at Independent, S.F. 21+ 8pm ** (sold out)
-may  2 mon Heart Of Orion, Moth Nor Rust, Maria Quiles, Tamara Chance
-       at the Elbo Room, S.F. 21+ $5 9pm **
-may  2 mon The Psychedelic Furs (performing Talk Talk Talk)
-       at the Boardwalk, Orangevale a/a $30/$35 7pm/8pm ***
 may  3 tue Thao & Mirah, Sallie Ford, The Sound Outside
        at the New Parish, Oakland a/a $15 8pm/9pm **
 may  3 tue Johnny Clegg Band
@@ -369,7 +361,7 @@ may 13 fri Diesto (Portland), Prizehog, Attitude Problem
        at the Hemlock, S.F. 21+ $7 9:30pm **
 may 13 fri Femi Kuti & The Positive Force, dj Harry Duncan
        at Bimbo's 365 Club, S.F. 21+ $30 8pm/9pm **
-may 13 fri Aaron Glass & Friends, Honeymoon
+may 13 fri Aaron Glass & Friends, High Five Revival
        at the Elbo Room, S.F. 21+ $10 9:30pm **
 may 13 fri Pocket Change, Elliot's Evil Plan at George's, San Rafael 18+ **
 may 13 fri As Artifacts, Rosaline (Chicago), A Faylene Sky, Aviadors,
@@ -693,6 +685,8 @@ may 23 mon The Murder Junkies (20 year anniversary), S.B.S.,
        Beverly Beer Bellys, Jesse Morris & The Mancougars
        at Sub-Mission Gallery, S.F. a/a $10 8pm ***
 may 23 mon Sam Bradley, Holly Conlan at Cafe Du Nord, S.F. 21+ $10/$12 9pm **
+may 23 mon Crawler, The Tunner, Black Caucus
+       at the Elbo Room, S.F. 21+ $5 9pm **
 may 23 mon Rival Schools at the Blank Club, San Jose 21+ 9pm **
 may 24 tue Twilight Singers, Margot, The Nuclear So-So's
        at the Fillmore, S.F. a/a $22.50 7pm/8pm # **
@@ -701,6 +695,8 @@ may 24 tue S. Carey, Other Lives at Cafe Du Nord, S.F. 21+ $14 9pm **
 may 24 tue Gyptian, Etana, dj Funklor at the Independent, S.F. 21+ $25 9pm **
 may 24 tue Ettrick, Tiger Hatchery, Tastyville
        at the Hemlock, S.F. 21+ $6 9pm **
+may 24 tue Society Of Rockets, Conspiracy Of Beards, Cyclub
+       at the Elbo Room, S.F. 21+ $5 9pm **
 may 24 tue The Moody Blues
        at the Marin Center, 10 Avenue of the Flags, San Rafael a/a # **
 may 24 tue Fitz & The Tantrums at the Blank Club, San Jose 21+ 9pm **
@@ -849,6 +845,8 @@ may 31 tue Live 105's Battle of the Bands
 may 31 tue Steve Aoki at Ace of Spades, Sacramento a/a **
 may 31 tue Asobi Seksu
        at Blue Lamp Lounge, 1400 Alhambra Blvd., Sacramento 21+ **
+jun  1 wed David Berkeley (reading & performance)
+       at Books Inc., 1760 Forth Street, Berkeley /a free 7pm **
 jun  1 wed The Undertones (Ireland), The Pleasure Kills, Sharp Objects
        at the Uptown, Oakland 21+ $12 9pm *** @
 jun  1 wed Iron & Wine, The Head And The Heart
@@ -1493,10 +1491,12 @@ jul 30 sat dj Bob Mould, dj Rich Morel at Slim's, S.F. 6+ ** (Blowoff)
 jul 30 sat Bam Bam, Silent Pictures, Schande at the Hemlock, S.F. 21+ **
 jul 30 sat Creedence Clearwater Revisited, Three Dog Night
        at Mountain Winery, Saratoga a/a $95-$45 7:30pm # ***
+jul 30 sat RX Bandits, Maps & Atlases at the Catalyst, Santa Cruz 16+ **
 jul 31 sun Rasputina at the Great American Music Hall, S.F. 6+ **
 jul 31 sun Up Your Alley Street Fair, S.F. a/a
 jul 31 sun D.D. Lang And The Siss Boom Bang
        at Mountain Winery, Saratoga a/a $102-$41 7:30pm # **
+jul 31 sun RX Bandits, Maps & Atlases at the Ace of Spades, Sacramento a/a **
 aug  1 mon Brandi Carlile
        at the El Rey Theatre, Chico 18+ (a/a with adult) $23.50 7pm/8pm **
 aug  2 tue George Thorogood & The Destroyers, Kenny Wayne Shepherd
@@ -1518,6 +1518,7 @@ aug  6 sat The Phenomenauts, Plan 9, Sugar Daddy's, Shitkickers, Trashkannon,
        at the Avalon, 777 Lawrance Expressway, Santa Clara a/a $12/$15 *** @
 aug  6 sat Pat Benatar & Neil Giraldo, Dennis DeYoung
        at Mountain Winery, Saratoga a/a $100-$40 7:30pm # *** (music of Styx)
+aug  7 sun RX Bandits at the Regency Ballroom, S.F. a/a # **
 aug  7 sun Think And Die Thinking Fest
        at Streetlight Records, San Jose a/a free **
 aug  7 sun The Beach Boys at Mountain Winery, Saratoga a/a $90-$35 7:30pm # ***
@@ -1668,10 +1669,6 @@ oct 29 fri Rat Bastard (covers) at Club Fox, 2223 Broadway, Redwood City 21+ *
 	*    recommendable Shows		a/a  all ages
 	$    will probably sell out		@    pit warning
 	^    under 21 must pay more		#    no ins/outs
-
-			Miscellaneous
-			-------------
-apr 1-30 Larry Wolfley Photo Exhibit at Eli's Mile High Club, Oakland 21+
 
 			Live Radio Shows
 			----------------

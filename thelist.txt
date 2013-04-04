@@ -7,19 +7,8 @@
      T     H    H  E              L           I    S    S     T
      T     H    H  EEEEEE         LLLLLLL     I     SSSS      T
 
-funk-punk-thrash-ska      Upcoming shows of interest     April  2, 2013
+funk-punk-thrash-ska      Upcoming shows of interest     April  3, 2013
 
-apr  2 tue The Assasinators (WA), Fucktard, Hukaholix, Brain Rash
-       at Eli's Mile High Club, Oakland 21+ $5 6pm ** @
-apr  2 tue Ryan Leslie, Nima Fadavi (dj set), Anya & The Get Down
-       at Slim's, S.F. 6+ $26/$31 8pm/8:30pm **
-apr  2 tue Ponderosa, Pageants, Seatraffic, Ticketfly (dj set)
-       at the Brick & Mortar, S.F. 18+ free 8pm/9pm **
-apr  2 tue Unko Atama, The Rinds, Big Shadows, dj Kilgore Bass
-       at the Knockout, S.F. 21+ $6 8:30pm/9:30pm **
-apr  2 tue Tech N9ne, Brotha Lynch Hung, Krizz Kaliko, Kutt Calhoun,
-       Ces Cru, Rittz, Americaz Mozt Haunted
-       at the Ace of Spades, Sacramento a/a ***
 apr  3 wed J Boog, Hot Rain at the New Parish, Oakland 21+ $32/$35 8pm/9pm **
 apr  3 wed The Henchmen, Memphis Murder Men, Thirsty Three
        at Eli's Mile High Club, Oakland $5 7pm **
@@ -169,6 +158,8 @@ apr  6 sat The Nickel Slots (Sacramento)
 apr  6 sat Petty Theft (tribute), Pretending (tribute)
        at the Cafe Du Nord, S.F. 21+ $15 9pm **
 apr  6 sat Phosphorescent at the Independent, S.F. 21+ $15 9pm **
+apr  6 sat Cruella (tribute), The Rocket Queens (tribute)
+       at Bender's, S.F. 21+ $5 9pm/10pm **
 apr  6 sat Fog Of War, Premunition, Hemotoxin, Trecelence, Maldiciion
        at the Phoenix Theater, Petaluma a/a $8 8pm *** @
 apr  6 sat February Zero at Streetlight Records, San Jose a/a free 4pm **
@@ -263,6 +254,8 @@ apr 10 wed Vulture Smile at the Blank Club, San Jose 21+ free 9pm **
 apr 10 wed Polica, Night Moves at Rio Theater, 1205 Soquel, Santa Cruz a/a **
 apr 10/11  Gad Elmaleh at Bimbo's 365 Club, S.F. 21+ $35 7pm/8:30pm **
        (sold out - show entirely in French)
+apr 11 thr Exogorth (Seattle), Totes Brute (Seattle), Pancake Lizard
+       at Zombieland, 2831 Union Street, Oakland a/a $5 9pm ** @
 apr 11 thr Glitz (record release), Midnite Snaxxx, Elvis Christ
        at the Night Light, Oakland 21+ $6 9pm **
 apr 11 thr Jessie Ware at Amoeba Music, S.F. a/a free 6:30pm **
@@ -391,6 +384,7 @@ apr 13 sat The Expendables, Pacific Dub, Arden Park Roots
 apr 13/14  Leo Kottke at Yoshi's, S.F. 21+ $35 8pm (sat) 7pm (sun) ***
 apr 14 sun Replica (record release), Diehard, Lecherous Gaze, Rad, Meth Sores
        at 1-2-3-4 Go! Records, Oakland a/a 7pm **
+apr 14 sun Tera Melos (Sacramento) at Amoeba Music, S.F. a/a free 2pm **
 apr 14 sun Bat For Lashes
        at the Regency Ballroom, S.F. a/a $25/$27 7pm/8pm # **
 apr 14 sun Lou Reed at the Warfield, S.F. a/a # **
@@ -543,6 +537,9 @@ apr 19 fri Christy's Cool Cat Karaoke, Beercraft, Oboroten
        (Marlene & Peyote's Birthday)
 apr 19 fri Nihilist Cunt, Limbs, Augurs, Pancake Lizard, Beat Guts,
        Las Maulas Pulugas at the Swamp, Oakland a/a ** @
+apr 19 fri Prison Violence (Canada), No Fucks Given, Hate Crimes (L.A.),
+       Tom Hanx (Sacramento), T.F.R. (L.A.), Meteor Shower
+       at Zombieland, 2831 Union Street, Oakland a/a $5 9pm *** @
 apr 19 fri The Mother Hips, Jackpot, Girls & Boys
        at the New Parish, Oakland 18+ $22/$25 8pm/9pm ***
 apr 19 fri Cypress Hill, Berner
@@ -764,6 +761,9 @@ apr 26 fri Super Diamond, The Purple Ones
        at Bimbo's 365 Club, San Jose 21+ **
 apr 26 fri T.V. Mike And The Scarecrowes, Christian Lee Hutson,
        Electric Sheep, Daring Ear at thee Parkside, S.F. 21+ $8 9pm **
+apr 26 fri Abstracter, Augurs, Lust Hogs, Held Down
+       at Quincy's Pub, 6590 Commerce Blvd., Rohnert Park
+       21+ $5 7:30pm/8:30pm ** @
 apr 26 fri Lady Antebellum, Rodney Atkins, Jana Kramer
        at Shoreline Amphitheater, Mountain View a/a $76-$30 5:30pm/7pm # **
 apr 26 fri The Trims at the Blank Club, San Jose 21+ 9pm **
@@ -789,7 +789,7 @@ apr 27 sat Ensemble Mik Nawooj, Aima The Dreamer, CelloJoe
        at the Brick & Mortar, S.F. 18+ $10/$15 8pm/9pm **
 apr 27 sat Qui, Victory & Associates, Minot
        at the Hemlock, S.F. 21+ $8 9:30pm **
-apr 27 sat Drms, James Riotto (cd release), Bells Atlas
+apr 27 sat Drms, James Riotto (ep release), Bells Atlas
        at  the Bottom of the Hill, S.F. 21+ $10/$12 8:30pm/9:30pm **
 apr 27 sat Rupa & The April Fishes, Las Cafeteras
        at the Independent, S.F. 21+ $17/$20 9pm **
@@ -927,6 +927,7 @@ may  4 sat Some Fear None, Are We Human, Misamore, Vanishing Affair,
 may  4 sat The American Economy
        at Boonville Beer Festival, 14400 Highway 128, Boonville
        21+ $40/$55 ($5 non drinkers/designated drivers) 1pm till 5pm **
+may  5 sun The Rolling Stones at the Arena, Oakland a/a # *** $
 may  5 sun Javelin at the New Parish, Oakland 18+ $10/$12 8pm/9pm **
 may  5 sun Him, Eyes Set To Kill at the Fillmore, S.F. a/a $41.50 7pm/8pm # **
 may  5 sun Justin Vivian Bond
@@ -963,6 +964,7 @@ may  8 wed Laura Stevenson Band, Field Mouse, Haunted Summer
 may  8 wed Tom Odell at the Cafe Du Nord, S.F. 21+ $12/$15 9:30pm **
 may  8 wed Macklemore & Ryan Lewis at Napa Valley Expo, 575 3rd Street, Napa
        a/a ($139 1 day / $299 3 day / $399 4 day pass) # *** (Bottle Rock Fest)
+may  8 wed The Rolling Stones at the Shark Tank, San Jose a/a # *** $
 may  8 wed Paul Collins Beat, The Cry!, Hot Nun
        at the Blank Club, San Jose 21+ $8 9pm **
 may  8 wed Machine Gun Kelly at the Ace of Spades, Sacramento a/a **
@@ -1127,6 +1129,8 @@ may 18 sat G. Love And Special Sauce, Goodnight Texas,
        OSA's Vocal Rush, Billy Collins, Lauren Graham, Kelly Corrigan,
        Mary Roach at the Fox Theater, Oakland a/a # ***
        (Benefit Children's Hospital & Research Center of Oakalnd)
+may 18 sat Necrot, Usnea (Portland), Negative Standards, Apocryphon
+       at the Swamp, Oakland a/a $5 8pm *** @
 may 18 sat Juanes at the Warfield, S.F. a/a # **
 may 18 sat Y&T at the Fillmore, S.F. a/a $36.50 8pm/9pm # ***
 may 18 sat Brandon And Savannah, Taylor Mathews, Alex Aiono
@@ -1217,6 +1221,8 @@ may 25 sat Flying Lotus, Thundercat, Teebs
        at the Fox Theater, Oakland a/a # ***
 may 25 sat Bjork at the Craneway Pavilion, Richmond
        a/a $75 7pm/8:30pm # *** (also May 22nd and 28th)
+may 25 sat Badr Vogu, Usnea (Portland), Black Fucking Cancer, Lycus, Augers
+       at the Metro, Okaland a/a $5 8pm # *** @
 may 25 sat Eric McFadden at the Uptown, Oakland 21+ $18/$20 9pm **
 may 25 sat Tera Melos (Sacramento), T.T.N.G., Evkain=V<
        at the Bottom of the Hill, S.F. a/a $12/$14 8:30pm/9:30pm **
@@ -1226,7 +1232,7 @@ may 25 sat Mikal Crownin (cd release), Audacity
        at the Rickshaw Stop, S.F. a/a $10/$12 9pm **
 may 25 sat Boat, Gold Bears, Surf Club
        at the Hemlock, S.F. 21+ $8 9:30pm ** (S.F. Popfest)
-mayt 25 sat Dead Serious, The Feedback, We Used To Be Wolves
+may 25 sat Dead Serious, The Feedback, We Used To Be Wolves
        at Love at First Slice, 36601 Newark Boulevard, Newark a/a 8pm **
 may 25 sat Finish Ticket, Hawk Jones
        at San Pedro Square Market, San Jose a/a free 7pm **
@@ -1349,7 +1355,7 @@ jun  9 sun Parquet Courts, Pure Bliss
        at 1-2-3-4 Go! Records, Oakland a/a 5pm ** (early show)
 jun  9 sun Total Control, Neon Piss, The Mallard, Synthetic ID
        at the Uptown, Oakland 21+ $10 9pm *** (was at Night Light)
-jun  9 sun Alkaline Trio, Bayside
+jun  9 sun Alkaline Trio, Bayside, Off With Their Heads
        at the Regency Ballroom, S.F. a/a $22/$26 6:30pm/7:30pm # *** @
 jun  9 sun Anamanaguchi at the Rickshaw Stop, S.F. a/a $12/$15 7pm **
 jun  9 sun Before The Eyewall (Columbus, OH) at the Hemlock, S.F. 21+ $6 6pm **
@@ -1518,6 +1524,8 @@ aug 9/10/11 outside lands festival at Golden Gate Park, S.F. a/a
 aug 10 sat Train at the Amphitheatre, 2677 Forty Mile Rd., Marysville a/a # ***
 aug 11 sun Train, The Script, Gavin DeGraw
        at the America's Cup Pavilion, Piers 27/29, S.F. a/a $80-$40 # ***
+aug 13 tue Jonas Brothers at the America's Cup Pavilion, Piers 27/29, S.F.
+       a/a $80-$30 # ***
 aug 16 fri Dropdead (R.I.), Graves At Sea, Kill The Client (tx),
        Stoneburner (Portland), Endless Demise (L.A.), Turbokrieg (TX),
        Nibiru (TX), Agenda Of Swine, Worthless Eaters (Portland), Reivers,

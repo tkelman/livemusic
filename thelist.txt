@@ -7,16 +7,8 @@
      T     H    H  E              L           I    S    S     T
      T     H    H  EEEEEE         LLLLLLL     I     SSSS      T
 
-funk-punk-thrash-ska      Upcoming shows of interest    April  9, 2018
+funk-punk-thrash-ska      Upcoming shows of interest    April  10, 2018
 
-apr  9 mon Kate Nash, Miya Folick
-       at the Fillmore, S.F. a/a $27.50 7pm/8pm # ***
-apr  9 mon Scott H. Biram, Jesse Dayton, Rod Melancon
-       at Brick & Mortar, S.F. a/a $12/$15 (under 21 plus $5) 8pm/9pm ^ **
-apr  9 mon Lincoln Durham (Austin, TX), The Ghost Wolves (Austin, TX),
-       Sweetwater Black at the Bottom of the Hill, S.F. 21+ $15 8pm/8:30pm **
-apr  9 mon West Coast Songwriters Competition
-       at the Empress Theater, Vallejo a/a 7:30pm **
 apr 10 tue Moses Sumney at the New Parish, Oakland
        18+ $25 (under 21 plus $5) 8pm/9pm ^ ** (sold out)
 apr 10 tue Roselit Bone (Portland, OR), China
@@ -60,7 +52,7 @@ apr 11 wed Machinedrum, Chrome Sparks, Ela Minus
        at the Great American Music Hall, S.F. 6+ $26.50/$29.50 7pm/8pm **
 apr 11 wed Kelley Stoltz (record release), Bart & The Bedazzled, Rays
        at the Chapel, S.F. a/a $15/$18 7pm/8pm **
-apr 11 wed Deep Well, Here At Home, Sondags
+apr 11 wed Deep Well, Here At Home, Lender
        at Brick & Mortar, S.F. a/a $7/$10 (under 21 plus $5) 7pm/8pm ^ **
 apr 11 wed The Soft Moon, Boy Harsher, Cube
        at the Independent, S.F. 21+ $16/$18 7:30pm/8pm ***
@@ -97,6 +89,8 @@ apr 12 thr Black Sheep Brass Band, West Grand Brass Band, SOFA Jazz
 apr 12 thr American Killers, Broken Dead, Mesoteric
        at Jack London Elbo Room, Oakland 21+ 9pm ** @
 apr 12 thr Parkway, Room For Dream at the Uptown, Oakland 21+ $8 8pm/8:30pm  **
+apr 12 thr Yogurt Brain, Doctor Deaf (recored release), Manback (1st show),
+       dj Chris Grande at the Golden Bull, Oakland 21+ $5 8pm/9pm **
 apr 12 thr Tom Misch at the Warfield, S.F. a/a $25/$30 7pm/8pm # **
        (moved from the Regency Ballroom)
 apr 12 thr The Family Crest, Goodnight Texas
@@ -830,6 +824,8 @@ may  3 thr Prof, Mac Irv, Cashinova, dj Willie Wonka
 may  3 thr Bob Log III, Chaki at thee Parkside, S.F. 21+ $12 9pm **
 may  3 thr Carlie Mari, Rooftop Love Club (Toronto), Nu Normol
        at the Hemlock, S.F. 21+ $7 8:30pm **
+may  3 thr Here At Home, Matadore, Spider Garage
+       at the Neck of the Woods, S.F. 21+ $10/$15 8pm/8:30pm **
 may  3 thr Joyce Manor (Torrance), Awakebutstillinbed, Brown Bags
        at the Phoenix Theater, Petaluma a/a $18/$23 8pm *** @
 may  3 thr Skizzy Mars, Oliver Tree
@@ -1105,6 +1101,8 @@ may 12 sat Mestis, Hyvmine
        at the Cornerstone, Berkeley a/a $16/$18 7:30pm/8:30pm **
 may 12 sat Bush Tetras (N.Y.), Jackie-O Motherfucker, Street Eaters
        at the Jack London Elbo Room, Oakland 21+ 9pm ***
+may 12 sat The Pathogens, The Same, The Rinds, Hight And Tight
+       at the Ivy Room, S.F. 21+ $8/$10 8pm/9pm *** @
 may 12 sat Peter Hook & The Light
        at the Warfield, S.F. a/a $27.50/$30/$40 7pm/8:30pm # ***
 may 12 sat The Weepies, Bob Hillman
@@ -1246,6 +1244,8 @@ may 18 fri Yonatan Gat at the Chapel, S.F. a/a ***
 may 18 fri Redwood Sound, Stranger Than Fact, City Heat
        at the Hemlock, S.F. 21+ $8 8:30pm **
 may 18 fri Thomas Jack at 1015 Folsom, S.F. 21+ $15/$20 10pm **
+may 18 fri Deep Well, The Stereo Eclpse, Hear At Home, Sondags
+       at Hotel Utah, S.F. 21+ 9pm **
 may 18 fri Kitten Drunk, Moon Sick, Sabaxtaros, Fall Children, Laguna Screetch,
        Legal Disaster at the Phoenix Theater, Petaluma a/a $10 7pm *** @
 may 18 fri Juanes, Mon Laferte, Caloncho
@@ -2086,6 +2086,8 @@ jul 24/25  Phish at the Civic Auditorium, S.F. a/a $80 6pm/7:30pm # ***
 jul 25 wed The Psychedelic Furs, X
        at SOMO Village Event Center, 1100 Valley House Drive, Rohnert Park
        a/a $46 5pm/6pm ***
+jul 25 wed 311, The Offspring, Gym Class Heroes
+       at Shoreline Amphitheater, Mountain View a/a $29.50-$85 7pm # *** @
 jul 25 wed Maryann Cotton at On the Y, Sacramento 8pm **
 jul 26 thr Streetlight Manifesto (performing Everything Goes Numb)
        at the Regency Ballroom, S.F. a/a $35 7pm/8pm # ***
@@ -2240,7 +2242,9 @@ aug 30 thr The Exploited, Total Chaos
        at the Ace of Spades, Sacramento a/a 6:30pm # *** @
 aug 31 fri Rebelution, Stephen Marley, Common Kings, Zion I, dj Mackle
        at the Greek Theater, UC Berkeley Campus a/a $45 6:30pm # ***
-sep  1 sat The Exploited at the Metro, Oakland a/a *** @ $
+sep  1 sat The Exploited, Abrasive Wheel, Infa Riot, The Defects, BillyClub,
+       Fang, D.I., Anti Social, Bad Ass, Burnout, Total Chaos, Revolt
+       at the Metro, Oakland a/a **** @ $ (Crash Fest)
 sep  1 sat A Flock Of Seagulls, Wang Chung, The Romantics, Missing Persons,
        Animotion, Naked Eyes, Men Without Hats, Dramarama, Nu Shooz,
        Gene Loves Jezebel, Book Of Love, Boys Don't Cry, Farrington & Mann,
@@ -2348,7 +2352,20 @@ oct 12 fri Fickle Friends
 oct 13 sat Dick Dale at the Uptown, Oakland 21+ $35 8pm/9pm ***
 oct 13 sat Kalimba (tribute)
        at Club Fox, 2209 Broadway, Redwood City 21+ $20/$23 8pm/9pm **
-oct 13/14  Aftershock Festival at Discovery Park, Sacramento a/a
+oct 13 sat Deftones, Godsmack, Shinedown, 311, Jonathan Davis, Underoath,
+       Asking Alexandria, Hellyeah, Sevendust, Gwar, Emmure,
+       Stick To Your Guns, Monster Magnet, Red Sun Rising, Bad Wolves
+       Wage War, Hyro The Hero, The Dose
+       at Discovery Park, 1600 Garden Highway, Sacramento a/a # *** @
+       (Aftershock Festival day 1)
+oct 14 sun System Of A Down, Alice In Chains, Incubus,
+       Slash With Myles Kennedy And The Conspirators, At The Drive In, Seether,
+       Bullet For My Valentine, Black Veil Brides, Everlast, Dance Gavin Dance,
+       The Fever 333, Dorothy, Plague Vendor, Amigo the Devil,
+       All Them Witches, Slothrust, Viza, The Jacks
+       at Discovery Park, 1600 Garden Highway, Sacramento
+       a/a $90-$120 ($150-$225 2 day pass) # *** @
+       (Aftershock Festival day 2)
 oct 16 tue Mercury Rev at the Chapel, S.F. a/a **
 oct 16 tue Michale Graves, Argyle Goolsby, Nim Vind
        at the Holy Diver, Sacramento a/a 6:30pm ***

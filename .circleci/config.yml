@@ -5,6 +5,9 @@ jobs:
       - image: circleci/python:3.6.8-jessie
     steps:
       - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - "46:99:bd:8a:56:ae:07:3b:13:07:1b:a2:f4:dc:20:21"
       - run:
           command: |
             git config user.name "Tony Kelman"

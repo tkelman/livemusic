@@ -13,19 +13,29 @@ elif ! $PUP --version > /dev/null 2>&1; then
   unzip $PUP_ZIPFILE
 fi
 ALLDATES=$(curl http://jon.luini.com/thelist/archive/ | $PUP 'a attr{href}')
+
+do_date () {
+  curl -Sso thelist.txt http://jon.luini.com/thelist/archive/$1
+  git add thelist.txt
+  # skip this date if no modifications
+  # don't want the empty commits --allow-empty would create
+  if git diff-index --quiet HEAD; then
+    echo "skipping $1 because there are no changes"
+  else
+    git commit -m "the list for $1"
+  fi
+}
+
 for date in $ALLDATES; do
   case $date in
+    1996-07-05)
+      do_date $date
+      # 1996-07-12 is mislabeled as 1996-70-12
+      do_date 1996-70-12;;
+    1996-70-12)
+      echo "skipping bad date $date";;
     *-*-*)
-      curl -Sso thelist.txt http://jon.luini.com/thelist/archive/$date
-      git add thelist.txt
-      # skip this date if no modifications
-      # don't want the empty commits --allow-empty would create
-      if git diff-index --quiet HEAD; then
-        echo "skipping $date because there are no changes"
-      else
-        git commit -m "the list for $date"
-      fi
-      ;;
+      do_date $date;;
     *)
       echo "skipping bad date $date";;
   esac

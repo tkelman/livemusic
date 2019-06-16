@@ -28,11 +28,15 @@ do_date () {
 
 for date in $ALLDATES; do
   case $date in
+    1995-06-30)
+      do_date $date
+      # 1995-07-07 is mislabeled as 1995-06-06
+      do_date 1995-06-06;;
     1996-07-05)
       do_date $date
       # 1996-07-12 is mislabeled as 1996-70-12
       do_date 1996-70-12;;
-    1996-70-12 | 2010-10-01)
+    1995-06-06 | 1996-70-12 | 2010-10-01)
       # 2010-10-01 is an empty file
       echo "skipping bad date $date";;
     *-*-*)

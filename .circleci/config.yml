@@ -9,4 +9,6 @@ jobs:
           command: |
             git config user.name "Tony Kelman"
             git config user.email "tony@kelman.net"
+            git checkout -b archive
             ./thelist_archive.sh
+            git push origin archive

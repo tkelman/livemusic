@@ -18,7 +18,9 @@ for date in $ALLDATES; do
     *-*-*)
       curl -Sso thelist.txt http://jon.luini.com/thelist/archive/$date
       git add thelist.txt
-      git commit -m "the list for $date"
+      # don't want the empty commits --allow-empty would create
+      # skip this date if no modifications
+      git diff-index --quiet HEAD || git commit -m "the list for $date"
       ;;
     *)
       echo "skipping bad date $date";;

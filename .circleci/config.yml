@@ -16,3 +16,18 @@ jobs:
             git checkout -B archive
             ./thelist_archive.sh
             git push origin archive
+workflows:
+  version: 2
+  commit:
+    jobs:
+      - build
+  nightly:
+    triggers:
+      - schedule:
+          cron: "30 8 * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - build

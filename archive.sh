@@ -7,5 +7,6 @@ git add thelist.txt
 if git diff-index --quiet HEAD; then
   echo "doing nothing because there are no changes"
 else
-  git commit -m "the list for $(env TZ="America/Los_Angeles" date -Iminute)"
+  export TZ="America/Los_Angeles"
+  git commit -m "the list for $(date -Iminute)"
 fi

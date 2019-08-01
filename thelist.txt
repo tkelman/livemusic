@@ -45,7 +45,6 @@ aug  1 thr The Wiggles at August Hall, S.F.
        a/a $40 2:30pm/3:30pm and 5:30pm/6:30pm ** (kids show)
 aug  1 thr Beach Bums, High Sunn, Madd, Trash Vanpires
        at Slim's, S.F. 6+ $15 7pm/8pm ***
-aug  1 thr Jacob Lee, Rose Droll at the Rickshaw Stop, S.F. a/a $12 8pm **
 aug  1 thr Lambchop, Madeline Kenney
        at the Independent, S.F. 21+ $26/$30 7:30pm/8pm **
 aug  1 thr Hucci at 1015 Folsom, S.F. 21+ (free with rsvp) 10pm **
@@ -56,6 +55,7 @@ aug  1 thr Squid Ink, Bastet at the El Rio, S.F. 21+ free **
 aug  1 thr Kool & The Gang, Evelyn King
        at the Mountain Winery, Saratoga a/a ***
 aug  1 thr Backstreet Boys at the Golden 1 Center, Sacramento a/a $29 # ***
+aug  1 thr cancelled:  Jacob Lee, Rose Droll at the Rickshaw Stop, S.F.
 aug  2 fri Blurred Out, Tell Me Tell Me, LoFi Satellites
        at 924 Gilman Street, Berkeley a/a $10 7:30pm/8pm ***
 aug  2 fri Lord Huron, Shakey Graves, Julia Jacklin
@@ -81,8 +81,8 @@ aug  2 fri Alceu Valenca, Dona Francisca, Grupo Cocada
 aug  2 fri Audrey Mika, Calioto, Brant Jackson, dj Gospel
        at Slim's, S.F. 6+ $15 7pm/8pm ** (sold out)
 aug  2 fri Julia Holter, Ana Roxanne at the Chapel, S.F. a/a $20/$22 9pm **
-aug  2 fri Imperial Teen, The Younger Lovers
-       at the Rickshaw Stop, S.F. a/a $15 8pm ***
+aug  2 fri Imperial Teen (album release), The Younger Lovers, dj Aaron Axelsen
+       at the Rickshaw Stop, S.F. a/a $15/$18 8pm ***
 aug  2 fri The Mermen at the Great American Music Hall, S.F. 6+ $20 8pm/9pm ***
 aug  2 fri Iggy Azalea, Shuga Cain, Silky Ganache
        at the Fillmore, S.F. a/a $34.95 7pm/8:30pm # **
@@ -1315,8 +1315,8 @@ sep 14 sat Chance The Rapper
 sep 14 sat Beehive at the Knockout, S.F. 21+ ** @
 sep 14 sat The Atomic Punks (tribute), The Watchers
        at House of Rock, Santa Rosa 18+ (a/a with adult) 7pm/8pm ***
-sep 14 sat Ben Harper & THe Innocent Criminals, Iration, The Record Company,
-       Mandolin Orange, Maggie Koerner
+sep 14 sat Ben Harper & THe Innocent Criminals (4:45pm), Iration,
+       The Record Company, Mandolin Orange, Maggie Koerner (11:30am)
        at B R Cohn Winery, 15140 Hwy. 12, Glen Ellen
        a/a $119+ 11am *** (Sonoma Harvest Music Festival day 1)
 sep 14 sat H.E.R., Jhene Aiko, Daniel Caesar, Summer Walker, Ari Lennox,
@@ -1335,8 +1335,8 @@ sep 15 sun Gruff Rhys at the Chapel, S.F. a/a $18/$20 8pm **
 sep 15 sun The Brother Brothers
        at the Bottom of the Hill, S.F. 21+ $12/$15 8pm/8:30pm **
 sep 15 sun Maggie Koerner at Cafe du Nord, S.F. 21+ **
-sep 15 sun Ms. Lauryn Hill, Ceelo Green, Karl Denson's Tiny Universe,
-       North Mississippi Allstars, Monophonics
+sep 15 sun Ms. Lauryn Hill (4:45pm), Ceelo Green, Karl Denson's Tiny Universe,
+       North Mississippi Allstars, Monophonics (11:30am)
        at B R Cohn Winery, 15140 Hwy. 12, Glen Ellen
        a/a $119+ 11am *** (Sonoma Harvest Music Festival day 2)
 sep 15 sun Bryan Adams
@@ -1454,8 +1454,8 @@ sep 21 sat Romare at August Hall, S.F. 21+ $20 8pm/9pm **
 sep 21 sat Mat Zo (London, U.K.) at Mezzanine, S.F. 21+ $20 9pm **
 sep 21 sat Bob Weir And Wolf Bros
        at the Oxbow River Stage, Napa a/a $479-$55 6pm # **
-sep 21 sat Chvrches, Walk The Moon, Misterwives, Atlas Genius, The Score
-       at B R Cohn Winery, 15140 Hwy. 12, Glen Ellen
+sep 21 sat Chvrches (4:45pm), Walk The Moon, Misterwives, Atlas Genius,
+       The Score (11:30am) at B R Cohn Winery, 15140 Hwy. 12, Glen Ellen
        a/a $119+ 11am *** (Sonoma Harvest Music Festival day 3)
 sep 21 sat Bryan Adams
        at Shoreline Amphitheater, Mountain View a/a $133-$29 6:30pm/8pm # ***
@@ -1470,9 +1470,9 @@ sep 22 sun William Tyler
        at the Swedish American Hall, S.F. a/a $15/$18 7pm **
 sep 22 sun Nebula, Sasquatch, Turn Me On Dead Man
        at the Bottom of the Hill, S.F. 21+ $15 8pm/8:30pm **
-sep 22 sun Death Cab For Cutie, Silverson Pickups, Cold War Kids,
+sep 22 sun Death Cab For Cutie (4:45pm), Silverson Pickups, Cold War Kids,
        Mondo Cozmo, Nightly at B R Cohn Winery, 15140 Hwy. 12, Glen Ellen
-       a/a $119+ 11am *** (Sonoma Harvest Music Festival day 4)
+       a/a $119+ 11am/11:30am *** (Sonoma Harvest Music Festival day 4)
 sep 22 sun Diana Krall at the Mountain Winery, Saratoga a/a **
 sep 23 mon Eric Andre (comedy)
        at the Fox Theater, Oakland a/a $50/$35 7pm/8pm # ***
@@ -2061,6 +2061,9 @@ oct 21 mon Trapt at the Cornerstone, Berkeley a/a $20/$24 7:30pm/8:30pm ***
 oct 21 mon Tame at the Honey Hive, S.F. a/a $10 6:30pm/7pm **
 oct 21 mon Dorian Electra, Mood Killer, dj Adam Kraft
        at Cafe du Nord, S.F. a/a $12/$14 7:30pm **
+oct 21 mon Rich Brian at the Warfield, S.F. a/a $40-$29.50 7pm/8pm # **
+oct 21 mon Boulet Brothers' Dragula (reality show)
+       at the Regency Ballroom, S.F. a/a $20 7pm/8pm # **
 oct 21 mon Big Wreck at the Bottom of the Hill, S.F. 21+ $20/$25 8pm/8:30pm **
 oct 21 mon Hozier, Freya Ridings
        at Memorial Auditorium, 1515 J St., Sacramento a/a $49.50/$39.50 # ***
@@ -2238,6 +2241,8 @@ nov  8 fri Peter Hook & The Light, Lydia Loveless
        at the Fillmore, S.F. a/a $32.50 8pm/9pm # ***
 nov  8 fri Alessia Cara, Ryland James
        at the Masonic, S.F. a/a $49.50-$29.50 7pm/8pm **
+nov  8 fri Max, dj Aaron Axelsen
+       at the Rickshaw Stop, S.F. 18+ $21.50 9pm ***
 nov  8 fri Robert Forster
        at the Swedish American Hall, S.F. 21+ $22/$25 7:30pm ***
 nov  8 fri Bobby Coleman, Agneta Falk Hirschman, Jack Hirschman, Soheyl Dahi,
@@ -2301,6 +2306,7 @@ nov 14 thr Post Malone, Swae Lee, Tyla Yaweh
 nov 14 thr Drew Holcomb And The Neighbors, Birdtalker
        at the Great American Music Hall, S.F. 6+ $20 7pm/8pm **
 nov 14 thr Prateek Kuhad at August Hall, S.F. a/a $25 7:30pm/8:30pm **
+nov 14 thr Derek Smalls at the Warfield, S.F. a/a $75-$45 7pm/8pm # ***
 nov 14 thr Madeon at the Civic Auditorium, S.F. 18+ $39.50 7pm # ***
 nov 14 thr Helmet at the Independent, S.F. 21+ $22/$25 7:30pm/8pm *** @ $
 nov 14 thr Suicidegirls:  Blackheart Burlesque
@@ -2327,7 +2333,8 @@ nov 16 sat Strung Out, The Casualties
        at the Holy Diver, Sacramento a/a $18 7pm *** @
 nov 16/17  Sleater-Kinney at the Fox Theater, Oakland a/a $45 7pm/8pm # *** $
 nov 17 sun Strung Out, The Casualties at Slim's, S.F. 6+ $20/$22 7pm/8pm *** @
-nov 17 sun Jonathan Bree at the Rickshaw Stop, S.F. a/a **
+nov 17 sun Jonathan Bree, Ryder The Eagle
+       at the Rickshaw Stop, S.F. a/a $15 8pm **
 nov 19 tue Ray Lamontagne, Kacy & Clayton
        at the Fox Theater, Oakland a/a $125-$59.50 6:30pm/7:30pm # ***
 nov 19 tue X Ambassadors (N.Y.) at the Warfield, S.F. a/a $38 7:30pm # ***
@@ -2344,7 +2351,7 @@ nov 20 wed Hippo Campus, The Greeting Committee
        at the Catalyst, Santa Cruz 16+ $25/$28 8pm/9pm ***
 nov 21 thr Cher, Nile Rodgers, Chic
        at the Warriors New Stadium, S.F. a/a $208-$68 6:30pm/7:30pm # ***
-nov 21 thr Black Midi at the Rickshaw Stop, S.F. a/a $14/$16 8pm **
+nov 21 thr Black Midi, Ami Dang at the Rickshaw Stop, S.F. a/a $14/$16 8pm **
 nov 21 thr Ali Barter at Cafe du Nord, S.F. 21+ **
 nov 22 fri Jo Koy (comic)
        at the Paramount Theater, Oakland a/a 7:30pm # *** (seated show)
@@ -2369,6 +2376,7 @@ nov 24 sun Nile, Terrorizer, Captured By Robots
 nov 24 sun Cherry Poppin' Daddies at Slim's, S.F. 6+ $25/$30 7pm/8pm ***
 nov 25 mon The Yummy Fur (Glasgow, Scotland), Future Punx
        at the Rickshaw Stop, S.F. a/a $20 8pm ***
+nov 25 mon Kevin Gates at the Warfield, S.F. a/a $53/$68.50 8pm/9pm # ***
 nov 25/26  Joanna Newson (solo)
        at the Herbst Theatre, 401 Van Ness Avenue, S.F. a/a $55 9pm **
 nov 26 tue Slayer, PRIMUS, Ministry, Philip H. Anselmo & The Illegals

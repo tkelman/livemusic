@@ -285,7 +285,7 @@ sep  3 tue Slaughter Beach Dog (Philadelphia, PA), Cave People, Margalee
        at the Bottom of the Hill, S.F. a/a $15/$17 8:30pm/9pm ***
 sep  3 tue Aries, Biskwiq
        at the Great American Music Hall, S.F. 6+ $15 7pm/8pm **
-sep  3 tue Raveen at the Chapel, S.F. a/a $22.50/$25 9pm **
+sep  3 tue Raveena at the Chapel, S.F. a/a $22.50/$25 9pm **
 sep  3 tue Bolero, Gilberto Rodriquez y Los Intocable, dj Paul Costuros
        at the Knockout, S.F. 21+ $8 9pm ** (Fuck ICE Benefit)
 sep  3 tue Man Man, Creed Bratton at Lagunitas Brewery, Petaluma 21+ 4:20pm **
@@ -367,9 +367,11 @@ sep  6 fri Psychedelic Porn Crumpets, Levitation Room
 sep  6 fri Man With A Mission (Japan)
        at the Great American Music Hall, S.F. 6+ $25 8pm/9pm ***
 sep  6 fri Howlin Rain, Gospelbeach, Pacific Range,
-       Mad Alchemy Liquid Light Show at the Chapel, S.F. a/a $18/$20 9pm **
+       dj The Hip Death Godess & The Head Mad Alchemy Liquid Light Show
+       at the Chapel, S.F. a/a $18/$20 9pm **
 sep  6 fri The Undercurrent (album release)
        at the Rickshaw Stop, S.F. a/a $13 8pm **
+sep  6 fri Roman Spinale at the Curio Bar, S.F. ?/? free 8pm til 11pm **
 sep  6 fri Angelo Moore & The Brand New Step (with Del The Funky Homosapien),
        Kid Beyond, Mad Noise at the Independent, S.F. 21+ $16/$20 8:30pm/9pm ***
 sep  6 fri Heart, Joan Jett And The Blackhearts, Elle King
@@ -549,6 +551,10 @@ sep 12 thr The Doobie Brothers at the Masonic, S.F. a/a $125-$40 7pm/8pm ***
 sep 12 thr Ramon Mirabet at the Bottom of the Hill, S.F. a/a $20 7:30pm/8pm **
 sep 12 thr Ben Folds (concert & book tour)
        at Jewish Community Center, 3200 California Street, S.F. a/a ***
+sep 12 thr David Nelson Band, Bernie And The Believers, Casual Coalition,
+       T Sisters, Essence And Danny, Jeremy D'Antonio And Darren Nelson Duo,
+       Alex Nelson And David Simon Baker, Avery Hellman
+       at the Chapel, S.F. a/a $45 8pm *** (Bernie Dalton Memorial)
 sep 12 thr film "Murder in the Front Row - S.F. Bay Area Thrash Metal Story"
        at Alamo Drafthouse, 2550 Mission Street, S.F. 18+ (sold out)
 sep 12 thr Sigrid, Raffaella at the Mezzanine, S.F. 21+ $25 8:30pm/9pm **
@@ -598,6 +604,7 @@ sep 13 fri Hayden James (Sydney, Australia)
        at the Regency Ballroom, S.F. 18+ $25/$30 8pm # ***
 sep 13 fri Ehiorobo With dj Marvl, Deca With dj Marvl, Magic Moments
        at the Bottom of the Hill, S.F. a/a $12/$14 8:30pm/9pm ** (hip hop)
+sep 13 fri Tammy Hall at the Curio Bar, S.F. ?/? free 8pm **
 sep 13 fri Charlie Cunningham (U.K.)
        at Cafe du Nord, S.F. 21+ $15/$18 7:30pm **
 sep 13 fri Memory Leak (Tijuana, Mexico), Dead In Argentina, Quali (San Diego)
@@ -612,6 +619,8 @@ sep 13 fri Kung Fu Vampire, Dirtbag Dan & Reverse Live, Illustrious, Valeria
        at the Ritz, San Jose 21+ $15/$25 8pm **
 sep 13 fri Hail The Sun, Strawberry Girls, Royal Coda, Vis (L.A.)
        at Holy Diver, Sacramento a/a $15 6:30pm ***
+sep 13 fri Golden Shoulders (Nevada City), Brett Shady
+       at Riving Loom, 2741 Fruitridge Rd #6, Sacramento a/a $10 7pm & 9pm  **
 sep 13 fri Duran Duran
        At Harvey's Outdoor Arena, 50 Stateline Ave., Lake Tahoe a/a 7:30pm ***
 sep 14 sat Illicit Nature (Boise, ID), Killer Couture, Fall Children,
@@ -643,6 +652,8 @@ sep 14 sat Blues For Pops, Phony PPL, Daisy
 sep 14 sat Daniela Mercury at August Hall, S.F. a/a $35 7pm/8pm **
 sep 14 sat Chance The Rapper
        at the Wariors New Stadium, S.F. a/a $129-$59 6pm/7pm ***
+sep 14 sat Curls, French Cassettes, Holy Spirit
+       at the Chapel, S.F. a/a $15/$20 9pm **
 sep 14 sat Rip Room, Beehive (Chico - record release), Mutt, Fake Fruit
        at the Knockout, S.F. 21+ $8 4pm/4:30pm til 8pm *** @
 sep 14 sat The Atomic Punks (tribute), The Watchers
@@ -663,6 +674,8 @@ sep 14 sat The California Honeydrops
 sep 14 sat The Sam Chase And The Untraditional, Rainbow Girls
        at Armstrong Redwoods, 17000 Armstrong Woods Rd, Guerneville
        a/a 4:30pm/5:30pm *** (Old Grove Festival day 1)
+sep 14 sat Golden Shoulders (Nevada City), Big Woop
+       at the Plaza, 998 Plaza Drive, Grass Valley a/a $13/$15 8pm **
 sep 14 sat Bone Thugs-N-Harmony
        at Senator Theater, Chico a/a $27.50/$30 8pm/9pm ***
 sep 15 sun Extra Action Marching Band, Jessie Evans (Brazil),
@@ -714,7 +727,7 @@ sep 17 tue Millencolin (Sweden), Mest at Slim's, S.F. 6+ $25/$27 7pm/8pm *** @
 sep 17 tue The Australian Pink Floyd
        at the Warfield, S.F. a/a $35-$65.50 7pm/8pm # ***
 sep 17 tue Adrian Belew, Saul Zonana
-       at the Chapel, S.F. a/a $32/$35 7pm/8pm ***
+       at the Chapel, S.F. a/a $12-$35 7pm/8pm ***
 sep 17 tue Love Fame Tragedy at the Rickshaw Stop, S.F. a/a $18 8pm **
 sep 17 tue  Chelsea Wolfe at Amoeba Music, S.F. a/a free 6pm **
 sep 17 tue Lily & Horn Horse (New York), Stress Dreams, Buck Wilson
@@ -740,7 +753,6 @@ sep 18 wed Mika at the Fillmore, S.F. a/a $45 7pm/8pm # ***
 sep 18 wed Grayscale (Philadelphia, PA), Belmont (Chicago, IL),
        Bearings (Ottawa, Ontario), Rich People (Sicklerville, N.J.)
        at the Bottom of the Hill, S.F. a/a $16/$18 6pm/7pm *** @
-sep 18 wed Purple Mountains at the Chapel, S.F. a/a 8pm *** (sold out)
 sep 18 wed Clubz & Girl Ultra at Slim's, S.F. 6+ $20/$25 8pm/9pm **
 sep 18 wed Rachael Yamagata, Zach Djanikian
        at the Independent, S.F. 21+ $25 7:30pm/8pm ***
@@ -756,6 +768,8 @@ sep 18 wed Hed PE, Gay Bar Hotel, Blacksheep
        at Holy Diver, Sacramento a/a $18 6:30pm ***
 sep 18 wed incorrect listing:  Phantogram, Bob Moses
        at the Civic Auditorium, S.F.
+sep 18/19  Ariel Pink, Jennifer Herrema
+       at the Chapel, S.F. a/a $35-$50 8pm ***
 sep 19 thr Tom Segura (comedy)
        at the Fox Theater, Oakland a/a $99.50-$39.50 7pm/8pm # **
 sep 19 thr Swingatto at Forbidden Island, Alameda 21+ 8pm til 11pm **
@@ -800,8 +814,10 @@ sep 20 fri Metalachi, Diego's Umbrella at Slim's, S.F. 6+ $15/$17 8pm/9pm ***
 sep 20 fri Brian McKnight at the Warfield, S.F. a/a $69.50-$39.50 7pm/8pm # ***
 sep 20 fri Mini Ladd (vlogger), Bigjigglypanda
        at the Regency Ballroom, S.F. a/a $35 7pm/8pm # **
+sep 20 fri William Cenote at the Curio Bar, S.F. ?/? free 8pm **
 sep 20 fri Chelou at Cafe du Nord, S.F. 18+ $12 8pm **
-sep 20 fri Phum Viphurit at the Mezzanine, S.F. 21+ $20 9pm **
+sep 20 fri Phum Viphurit (Bangkok), Ginger Root (L.A.)
+       at the Mezzanine, S.F. 21+ $20 9pm ***
 sep 20 fri Giuda (Italy), Exotic Ticks, So What
        at the Bottom of the Hill, S.F. 21+ $20 8:30pm/9pm *** (KALX)
 sep 20 fri Phoenix Pro Wrestling at the Phoenix Theater, Petaluma a/a $2-$10 8pm
@@ -891,7 +907,7 @@ sep 23 mon Dub Trio
 sep 23 mon Temple Canyon, Root Beer Floats, Body Language, Panoram
        at the Blue Lagoon, Santa Cruz 21+ **
 sep 23 mon A//tar (Porland, OR) at On the Y, Sacramento 21+ ** @
-sep 23/24/25  Yo Lo Tengo, William Tyler (mon), The Chuckleberries (tue),
+sep 23/24/25  Yo La Tengo, William Tyler (mon), The Chuckleberries (tue),
        Meg Baird (wed) at Chapel, S.F. a/a $45/$50 8pm *** (mon/wed sold out)
 sep 24 tue 9/24 day at 924 Gilman Street, Berkeley a/a
 sep 24 tue Lewis Capaldi, Lower Dens

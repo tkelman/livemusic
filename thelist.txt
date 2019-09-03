@@ -1352,6 +1352,7 @@ oct 11 fri Slipknot, Staind, Lamb Of God, Halestorm, Dropkick Murphys, Sum 41,
        While She Sleeps, Ded, The Pink Slips, Sata Cruz
        at Discovery Park, 1600 Garden Highway, Sacramento a/a 11am # *** @
        (Aftershock Fest day 1)
+oct 11 fri Gygax at Jub Jub's, 71 S Wells Avenue, Reno, NV ?/? *** @
 oct 11 fri Rising Appalachia at Osborne / Woods Hall, Nevada City a/a ***
 oct 11 fri Henry Chadwick
        at Cooper's, 235 Commercial Street at Pine Street, Nevada City 21+ **
@@ -1362,6 +1363,7 @@ oct 12 sat Rising Appalachia, Raye Zaragoza
        at the UC Theater, Berkeley a/a $28.50 7pm/8pm # ***
 oct 12 sat Bad Gyal (Spain)
        at Starline Social Club, Oakland a/a $15/$17 9pm/10pm ***
+oct 12 sat Gygax, Haunt at the Jack London Elbo Room, Oakland 21+ *** @
 oct 12 sat Sabaton, Hammerfall
        at the Regency Ballroom, S.F. a/a $32/$36 7pm/8pm # *** @
 oct 12 sat Acid King, Wizard Rifle, Warish
@@ -1405,6 +1407,7 @@ oct 12 sat Tyler The Creator (L.A.), Blood Orange (New York, N.Y.)
        at Selland Arena, 700 M Street, Fresno a/a # ***
 oct 12 sat Sum 41 (Ajax, Ontario), The Amity Affliction, The Plot In You
        at Senator Theater, Chico a/a $30 6pm/7pm *** @
+oct 13 sun Sect at 924 Gilman Street, Berkeley a/a ** @
 oct 13 sun Zaz at the Fox Theater, Oakland a/a $75-$35 6pm/7pm # **
 oct 13 sun Rituals Of Mine
        at New Parish, Oakland a/a $16/$20 (under 21 plus $5) 7:30pm/7pm ^ **
@@ -1421,6 +1424,8 @@ oct 13 sun Con Permiso, It Thing Remains, The Scroobio Brothers, Rue 66
        at the Bottom of the Hill, S.F. 21+ $10 3pm/3:30pm ***
        (Tribute to the Memory and Music of Mark Zanandrea)
 oct 13 sun Altin Gun at the Independent, S.F. 21+ $20/$22 7:30pm/8pm **
+oct 13 sun Gygax, Haunt, Space Vacation, Crepuscle
+       at the Knockout, S.F. 21+ 3pm *** @
 oct 13 sun Aaron Lee Tasjan
        at Felton Music Hall, 6275 Hwy 9, Felton 21+ $13/$15 7pm/8pm **
 oct 13 sun Tool, Korn. A Day To Remember, Chevelle, Babymetal, Gojira,
@@ -1708,6 +1713,8 @@ oct 25 fri Saintseneca at Cafe du Nord, S.F. 18+ $14/$16 8pm **
 oct 25 fri Cory Wong, Paris Monster
        at the Independent, S.F. 21+ $25 ($100 vip) 8:30pm/9pm ***
 oct 25 fri Frank Turner at the Ace of Spades, Sacramento a/a ***
+oct 25 fri Eyehategod, Negative Approach, Sheer Terror, Final Conflict,
+       The Accused AD at Den of Sin, 8264 Alpine Avenue, Sacramento a/a *** @
 oct 25 fri The Coffis Brothers
        at the Torch Club, 904 15th Street, Sacramento 21+ **
 oct 25/26  Vivian Girls, Great Grandpa at the Chapel, S.F. a/a $25 9pm ***
@@ -1731,6 +1738,8 @@ oct 26 sat Witt Lowry, Xuitcasecity at Slim's, S.F. 6+ $16/$18 8pm/9pm ***
 oct 26 sat R.A.P. Ferreira Will Rap Forever, Phantom Thrett,
        Kaila Chare, Pieces, Wolf Langis
        at the Bottom of the Hill, S.F. a/a $14/$16 8:30pm/9pm **
+oct 26 sat Eyehategod, Negative Approach, Sheer Terror, Final Conflict,
+       The Accused AD at the DNA Lounge, S.F. a/a *** @
 oct 26 sat Halloween Covers Show
        at the Phoenix Theater, Petaluma a/a $10 8pm *** @
 oct 26 sat The B-52s at the Oxbow River Stage, Napa a/a $125-$55 7:30pm # ***
@@ -2179,8 +2188,7 @@ nov 30 sat Mana at the Arena, Oakland a/a $250-$30 6:30pm/8pm # ***
 nov 30 sat Big Wild, Evan Giia, Ark Patro
        at the Civic Auditorium, S.F. 18+ $42.50 8pm # **
 nov 30 sat Zimmer at the Independent, S.F. 21+ $15/$20 8:30pm/9pm ***
-nov 30 sat Morbid Angel, Watain, Incantation
-       at the Ritz, San Jose 21+ *** @
+nov 30 sat Morbid Angel, Watain, Incantation at the Ritz, San Jose 21+ *** @
 dec  1 sun The Dead South, Scott H. Biram, Danny Olliver
        at the Fillmore, S.F. a/a $25 7pm/8pm ***
 dec  1 sun The Hu (Mongolia)

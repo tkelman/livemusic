@@ -58,6 +58,8 @@ sep  5 thr Robots Of The Ancient World (Portland), Edifice, Three Towers
        at Golden Bull, Oakland 21+ $10 9pm **
 sep  5 thr Cutlass Supreme, Butterfly Knives, Mist And Mast
        at Ivy Room, Albany 21+ $8/$10 8pm **
+sep  5 thr Manny & The Blackouts (9pm), Lyda (7:30pm)
+       at the Uptown, Oakland 21+ free **
 sep  5 thr Stephen Marley, dj Shacia Payne
        at the Fillmore, S.F. a/a $33.50 7pm/8pm ***
 sep  5 thr Slowthai, Icecoldbishop at the Rickshaw Stop, S.F. a/a $20 8pm **
@@ -94,8 +96,8 @@ sep  6 fri IV Of Spades (Manila, Philippines), UDD (Manila, Philippines)
        at the UC Theater, Berkeley a/a $91.49 ($121.49 vip) 6pm/7pm # ***
 sep  6 fri Atta Kid
        at Kaiser Center Roof Gardens, 300 Lakeside, Oakland a/a free noon **
-sep  6 fri SWMRS, Blushh
-       at Clif Bar HQ, 1451 66th Street, Emeryville a/a 7pm til 11:30pm *** @ $
+sep  6 fri SWMRS, Blushh, Grumpster
+       at Clif Bar HQ, 1451 66th St., Emeryville a/a $15 7pm til 11:30pm *** @ $
        (Benefit Surfrider Foundation and Living Lands & Water)
 sep  6 fri Octopus Funeral March with the Extra Action Marching Band
        at the Octopus Litary Salon, Oakland a/a free 5pm/7pm ***
@@ -104,6 +106,8 @@ sep  6 fri Phantom Surfers, Durty Whyte Boots, The Fadeaways (Japan),
        at Golden Bull, Oakland 21+ $12 8:30pm/9pm ***
 sep  6 fri Pamela Parker, Thrown Out Bones
        at Ivy Room, Albany 21+ $6/$12 8:30pm **
+sep  6 fri Ash Code (Italy), Wingtips (Chicago), Creux Lies (Sacramento)
+       at the Uptown, Oakland 21+ 8pm ***
 sep  6 fri Metallica With The San Francisco Symphony
        at the Warriors New Stadium, S.F. a/a 6pm/8pm # *** (sold out)
 sep  6 fri I.O (Vitoria, B.C.), Murder Murder, Earth Jerks,
@@ -238,6 +242,8 @@ sep  8 sun Out Of System Transfer (N.Y.C.), The Scum Lourdes
        at Siren's Song Tavern, 325 2nd Street, Eureka a/a ***
 sep  9 mon Striations, Putrid Temple, Befoulment, The Incursion
        at the Golden Bull, Oakland 21+ $8 8pm *** (noise)
+sep  9 mon Spyn Reset (Seattle), Klyph (New Orleans), Secret Sidewalk
+       at the Uptown, Oakland 21+ 7pm **
 sep  9 mon Sunn O))) (Seattle, WA), Papa M, Big Brave (Montreal, Quebec)
        at the Fillmore, S.F. a/a $29.50 7pm/8pm # ***
 sep  9 mon Hater, Bear Call, Sonoda at the Rickshaw Stop, S.F. a/a $13 8pm **
@@ -357,7 +363,8 @@ sep 13 fri The Revivalists, Anderson East
 sep 13 fri Hella Fitzgerald
        at Kaiser Center Roof Gardens, 300 Lakeside, Oakland a/a free noon **
 sep 13 fri Shakey Zimmerman (tribute) at Ashkenaz, Berkeley a/a $15/$18 8pm **
-sep 13 fri Van's The Spirit of DIY at some venue, somewhere, Oakland a/a
+sep 13 fri Marbled Eye, Toner, Gouge Away, Cell Rot
+       at Octopus Litary Salon, Oakland a/a free 7pm *** @ (Vans Off the Wall)
 sep 13 fri Pink Turns Blue (Berlin, Germany), Second Still (L.A.),
        Over (Portland), The Ire (Philladelphia), Yama Uba,
        dj Caja de Ritmo, dj Adrienne Scissorhands
@@ -711,6 +718,11 @@ sep 21 sat Bryan Adams
        at Shoreline Amphitheater, Mountain View a/a $133-$29 6:30pm/8pm # ***
 sep 21 sat Sheer Mag (Philadelphia, PA), Tweens
        at the Ritz, San Jose 21+ $13/$15 8pm **
+sep 21 sat Incubus, Portugal. The Man, Hot Chip, Neon Trees, Pvris,
+       The Strumbellas, Twin XL, Wild Belle, Zephyr, Benjam,
+       Island Of Black And White, A.D.D. Ianother Damn Disappointment,
+       Amber Delarosa, Alderty, dj Lady Kate
+       at Papa Murphy's, Sacramento a/a $43 3pm *** (Alt 94.7 City of Trees)
 sep 21/22  Brandi Carlile, Lucious at Greek Theater, UC Berkeley Campus
        a/a $96-$41 6:30pm/8pm (sat) 5:30pm/7pm (sun) # *** (sat sold out)
 sep 22 sun Dadweed (Vancouber, B.C.), Oatmeal (San Diego), Kan Kan (San Diego),
@@ -781,7 +793,7 @@ sep 24 tue Sutros, Sauces, Torrey
        at the El Rio, S.F. 21+ $5-$10 ** (Benefit for Friends of Alemany Farm)
 sep 24 tue Paul Cauthen at Lagunitas Brewery, Petaluma 21+ 4:20pm **
 sep 24 tue A//tar (Porland, OR) at the Ritz, San Jose 21+ ** @
-sep 24 tue Hot Chip at the Catalyst, Santa Cruz 16+ $35/$40 8pm/9pm  ***
+sep 24 tue Hot Chip at the Catalyst, Santa Cruz 16+ $35/$40 8pm/9pm ***
 sep 24 tue Social Distortion, Flogging Molly, The Devil Makes Three,
        Le Butcherettes at Papa Murphy's Park, Sacramento a/a $45+ 5:30pm *** @
 sep 24/25  Incubus, Dub Trio at the Masonic, S.F. a/a $145/$75/$65 7pm/8pm ***

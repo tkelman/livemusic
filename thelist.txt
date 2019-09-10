@@ -7,22 +7,8 @@
      T     H    H  E              L           I    S    S     T
      T     H    H  EEEEEE         LLLLLLL     I     SSSS      T
 
-funk-punk-thrash-ska      Upcoming shows of interest       September  9, 2019
+funk-punk-thrash-ska      Upcoming shows of interest       September 10, 2019
 
-sep  9 mon Striations, Putrid Temple, Befoulment, The Incursion
-       at the Golden Bull, Oakland 21+ $8 8pm *** (noise)
-sep  9 mon Spyn Reset (Seattle), Klyph (New Orleans), Secret Sidewalk
-       at the Uptown, Oakland 21+ 7pm **
-sep  9 mon Sunn O))) (Seattle, WA), Papa M, Big Brave (Montreal, Quebec)
-       at the Fillmore, S.F. a/a $29.50 7pm/8pm # ***
-sep  9 mon Hater, Bear Call, Sonoda at the Rickshaw Stop, S.F. a/a $13 8pm **
-sep  9 mon Enforcer, Warbringer, Hell Fire
-       at thee Parkside, S.F. 21+ $20 8pm *** @
-sep  9 mon TWRP, Rich Aucoin at the Ritz, San Jose 21+ 8pm **
-sep  9 mon Iron Maiden, The Raven Age
-       at the Golden 1 Center, Sacramento a/a 6:30pm/7:30pm # ***
-sep  9 mon Entrail
-       at Blackbird Coffee & Bookstore, 1431 Park Avenue, Chico a/a **
 sep 10 tue Out Of System Transfer (N.Y.C.), Wayfairy, Red Tailed
        at 924 Gilman Street, Berkeley a/a $10 7pm *** (acoustic show)
 sep 10 tue Iron Maiden, The Raven Age
@@ -1301,6 +1287,9 @@ oct 14 mon The KVB (England), Numb.er, Houses Of Heaven
        at the Rickshaw Stop, S.F. a/a $12/$15 8pm **
 oct 14 mon The Japanese House at the Fillmore, S.F. a/a $25 7pm/8pm # ***
 oct 14 mon Andrew Combs at Cafe du Nord, S.F. 18+ $12/$14 7:30pm **
+oct 14 mon Bob Dylan And His Band
+       at Frost Amphitheater, Stanford University
+       a/a $69 ($35 Stanford Students) 6pm/7:30pm ****
 oct 14 mon Yung Gravy at the Catalyst, Santa Cruz 16+ $20/$25/$28 8pm/9pm ***
 oct 14 mon The Faim, Stand Atlantic, WSTR, Point North
        Roman Pilot at Holy Diver, Sacramento a/a $16 6pm ***
@@ -1689,6 +1678,7 @@ oct 31 thr Cuco. La Dona, Chulita Vinyl Club
        at the Warfield, S.F. a/a $29.50/$35/$40 7pm/8pm # **
 oct 31 thr Jaden Padilla, Altitudes, Goof
        at the Honey Hive, S.F. a/a $10 6:30pm/7pm til 10pm ***
+oct 31 thr Madonna at Golden Gate Theater, 1 Taylor Street, S.F. a/a *** $
 oct 31 thr  Lust For Youth (Dnemark), Crack Cloud (Vancouver, BC), Las Sucias,
        dj Omar at the Eagle, S.F. 21+ $15 8:30pm ***
 oct 31 thr Fisher at City National Civic, San Jose 18+ $60-$35 7pm/8pm # **
@@ -1726,6 +1716,7 @@ nov  2 sat Bishop Briggs, Miya Folick, Jax Anderson
        at the Warfield, S.F. a/a $29.50/$40 7pm/8pm # ***
 nov  2 sat The Spill Canvas (S.D.), The Juliana Theory, Cory Wells
        at Slim's, S.F. 6+ $18/$20 7pm/7:30pm *** @
+nov  2 sat Madonna at Golden Gate Theater, 1 Taylor Street, S.F. a/a *** $
 nov  2 sat Shaed, Absofacto at the Independent, S.F. 21+ $15/$18 8:30pm/9pm **
 nov  2 sat Panic Is Perfect, Great Highway, The Minnesota Child
        at the Bottom of the Hill, S.F. 21+ $10/$12 8:30pm/9pm **
@@ -1755,6 +1746,7 @@ nov  4 mon The Band Perry, Phangs
        at the Great American Music Hall, S.F. 6+ $29.50 7pm/8pm ***
 nov  4 mon Miss June at the Rickshaw Stop, S.F. a/a $12 7pm ** @
 nov  4 mon IDK at Slim's, S.F. 6+ $15/$17 7pm/8pm ***
+nov  4 mon Madonna at Golden Gate Theater, 1 Taylor Street, S.F. a/a *** $
 nov  4 mon Skegss (Byron Bay, Australia)
        at the Independent, S.F. 21+ $16/$18 7:30pm/8pm *** $
 nov  5 tue Pivot Gang
@@ -2295,6 +2287,8 @@ apr 21 sun Arlo Guthrie
        at the Palace of Fine Arts, S.F. a/a $35 7pm/8pm ***
 apr 22 mon Matt Corby at August Hall, S.F. a/a $37.50 7pm/8pm **
 jul 11/12  Burger Boogaloo at Mosswood Park, Oakland
+jul 21 tue GREEN DAY, Fall Out Boy, Weezer, The Interrupters
+       at the Giants Ball Park, S.F. a/a $199.50-$29.50 # ****
 
 	*    recommendable Shows		a/a  all ages
 	$    will probably sell out		@    pit warning

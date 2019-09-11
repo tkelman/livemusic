@@ -36,8 +36,6 @@ sep 10/11  Duran Duran at the Mountain Winery, Saratoga a/a 6pm/8pm ***
 sep 11 wed Little Steven at the UC Theater, Berkeley a/a $66 7pm/8pm # **
 sep 11 wed Misfits (Glenn Danzig, Jerry Only), RANCID, The Damned, Cro-Mags
        at the Arena, Oakland a/a $69+ 6:30pm # *** @
-sep 11 wed Doc & The Parasites, George Crustanza, Factoids, F.A.S.
-       at Oracle Arena Parking Lot, Oakland a/a free 4pm *** (generator show)
 sep 11 wed Pop Fiction (covers)
        at Memorial Park, 1325 Portland Ave., Albany a/a free 6:30pm til 8pm **
 sep 11 wed Torche (Miami, FL), Pinkish Black, SRSQ
@@ -63,6 +61,8 @@ sep 11 wed Cake, Ben Folds
        at Golden 1 Center, Sacramento a/a $100-$60 7pm # ***
 sep 11 wed Morgxn at Holy Diver, Sacramento a/a $15 7pm ***
 sep 11 wed Quantic at Haven Underground, 228 Broad Street, Nevada City ?/? **
+sep 11 wed cancelled:  Doc & The Parasites, George Crustanza, Factoids, F.A.S.
+       at Oracle Arena Parking Lot, Oakland
 sep 12 thr Squeeze (U.K.), X
        at the Fox Theater, Oakland a/a $70-$50 7pm/8pm # ***
 sep 12 thr Kataklysm, Exhorder, Krisium, Hatchet
@@ -612,7 +612,8 @@ sep 25 wed ViVii (Sweden), Emily Afton
 sep 25 wed Jail Weddings at the Honey Hive, S.F. a/a **
 sep 25 wed PJ Sin Suela at Slim's, S.F. 6+ $25 ($75 vip) 7pm/8pm **
 sep 25 wed Hatchie, Orchin at Cafe du Nord, S.F. 18+ $14 7:30pm **
-sep 25 wed Pond (Perth, Austrailia) at the Independent, S.F. 21+ $20 7:30pm **
+sep 25 wed Pond (Perth, Austrailia), Maraschino
+       at the Independent, S.F. 21+ $20 7:30pm **
 sep 25 wed Shake Well, Electric Machine Gun Tits
        at the Make-Out Room, S.F. 21+ $10 6pm/7pm til 9:30pm ***
 sep 25 wed Rick Ross at August Hall, S.F. 21+ $38.50 7pm/8pm **
@@ -671,6 +672,7 @@ sep 27 fri Wonder Bread 5, Illeagles (tribute)
        at the Cornerstone, Berkeley a/a $20/$24 7:30pm/8:30pm **
 sep 27 fri Loud Luxury, Cid, Midnight Kids
        at the Fox Theater, Oakland a/a $35 8pm # ***
+sep 27 fri Purple Haze (tribute) at Ashkenaz, Berkeley a/a $15/$18 8pm **
 sep 27 fri BJ The Chicago Kid
        at New Parish, Oakland 18+ (under 21 plus $5) 8:30pm/9pm ^ **
 sep 27 fri King George (tribute) at the Ivy Room, Albany 21+ $15/$20 9pm ***
@@ -2162,6 +2164,8 @@ dec 10 tue Conan Gray
 dec 10 tue The Pineapple Thief at Slim's, S.F. 6+ $25/$30 7pm/8pm **
 dec 10 tue Allah-Las (L.A.), Mapache, Tim Hill
        at the Fillmore, S.F. a/a $25 7pm/8pm # ***
+dec 11 wed Thievery Corporation, Brazilian Girls
+       at the Fox Theater, Oakland a/a $49.50 8pm # ***
 dec 12 thr Jonas Brothers
        at the Arena, Oakland a/a $250-$40 6:30pm/7:30pm # ***
 dec 12 thr Vintage Trouble
@@ -2288,7 +2292,7 @@ apr 21 sun Arlo Guthrie
 apr 22 mon Matt Corby at August Hall, S.F. a/a $37.50 7pm/8pm **
 jul 11/12  Burger Boogaloo at Mosswood Park, Oakland
 jul 21 tue GREEN DAY, Fall Out Boy, Weezer, The Interrupters
-       at the Giants Ball Park, S.F. a/a $199.50-$29.50 # ****
+       at the Giants Ball Park, S.F. a/a $199.50-$29.50 6:30pm # ****
 
 	*    recommendable Shows		a/a  all ages
 	$    will probably sell out		@    pit warning

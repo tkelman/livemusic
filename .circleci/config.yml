@@ -12,9 +12,7 @@ jobs:
           command: |
             git config user.name "Tony Kelman"
             git config user.email "tony@kelman.net"
-            git checkout -B archive
             ./$CIRCLE_BRANCH.sh
-            git push $([ "$CIRCLE_BRANCH" = master ] && echo --force) origin archive
 workflows:
   version: 2
   commit:
@@ -24,6 +22,7 @@ workflows:
             branches:
               only:
                 - master
+                - testing
   hourly:
     triggers:
       - schedule:

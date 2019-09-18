@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e # stop on error
-pip install archiveis
+pip install --user archiveis
 archiveis https://starlinesocialclub.com/event/yip-deceiver

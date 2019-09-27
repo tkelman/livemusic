@@ -155,6 +155,7 @@ sep 29 sun Mipso, Forest Sun at Cornerstone, Berkeley a/a $14 7:30pm/8:30pm ***
 sep 29 sun Dario Argento's 'Suspiria' screens with
        Claudio Simonetti's Goblin performing score live
        at the Metro, Oakland a/a $35/$40 8pm # *** (see oct 1)
+sep 29 sun Salami Rose Joe Louis at Amoeba Music, Berkeley a/a free 2pm **
 sep 29 sun Migos, Lil Uzi Vert, Juice Wrld, Playboi Carti, Young Thug, Nav,
        Tyga, Lil Yachty, Dababy, Shoreline Mafia, Berner, Lil Mosey, Lil Tjay,
        Polo G, Currensy, Saweetie, Rico Nasty, Lil Keed, Nef The Pharaoh,
@@ -288,6 +289,7 @@ oct  3 thr Lurid, Jordan Garrett, Hieronymus Goon, Old Crow Faust, Stezzy
        at the Honey Hive, S.F. a/a $10 6:30pm/7pm til 10pm **
 oct  3 thr Cindy, The Red Pinks & Pruples, Andy Aylward
        at Adobe Books, 3130 24th Street, S.F. a/a $7 7pm/8pm **
+oct  3 thr Bill Frisell at Amoeba Music, S.F. a/a free 6pm **
 oct  3 thr Ruston Kelly, Donovan Woods
        at the Independent, S.F. 21+ $16 7:30pm/8pm **
 oct  3 thr Movits!, Top Secret Robot Alliance, Chow Mane
@@ -313,6 +315,7 @@ oct  4 fri Buddy Guy, Billy Cox, Joe Satriani, Jonny Lang, Dweezil Zappa,
        at Paramount, Oakland a/a $115-$45 7pm/8pm # *** (Experience Hendrix)
 oct  4 fri Too Many Zooz, Thumpasaurus
        at the Cornerstone, Berkeley a/a $22/$24 7:30pm/8:30pm ***
+oct  4 fri Blanck Mass at the Starline Social Club, Oakland ?/? **
 oct  4 fri Rupa & The April Fishes
        at New Parish, Oakland 18+ $17/$22 (under 21 plus $5) 8:30pm/9pm ^ **
 oct  4 fri Hell On Wheels, Business Dicks
@@ -635,6 +638,7 @@ oct 11 fri Hallucinator (Oakland), Evulse, Skulls (L.A.), Dipygus (Santa Cruz),
 oct 11 fri All Your Sisters, The Same, False Figure
        at the Golden Bull, Oakland 21+ $10 8pm ***
 oct 11 fri Son Volt, Peter Bruntnell at Slim's, S.F. 6+ $25/$30 8pm/9pm ***
+oct 11 fri Ride (acoustic) at Amoeba Music, S.F. a/a free 6:30pm ***
 oct 11 fri Ride (Oxford, England), The Spirit Of The Beehive
        at the Regency Ballroom, S.F. a/a $39.50/$45 8pm # ***
 oct 11 fri Rock and Roll Flea Market, 4 bands
@@ -1246,6 +1250,7 @@ oct 29 tue Shovels And Rope, John Paul White
        at the Fillmore, S.F. a/a $30 7pm/8pm # **
 oct 29 tue (Sandy) Alex G
        at the Great American Music Hall, S.F. 6+ $20 7pm/8pm ***
+oct 29 tue Blueface at the Regency Ballroom, S.F. a/a $55-$34 8pm/9pm # **
 oct 29 tue Iron Lung, Bad Breeding (Stevenage, U.K.), Shit Coffins
        at the Knockout, S.F. 21+ $10 8:30pm *** @
 oct 29 tue Kero Kero Bonito (London, England), Negative Gemini
@@ -1290,7 +1295,7 @@ oct 31 thr Madonna
        at Golden Gate Theater, 1 Taylor St., S.F. a/a $507-$50 7pm/8:30pm *** $
 oct 31 thr Astrozombies, Rusty Chains, Jean Genies
        at the Chapel, S.F. a/a $20/$25 8:30pm *** (Halloween tribute night)
-oct 31 thr  Lust For Youth (Dnemark), Crack Cloud (Vancouver, BC), Las Sucias,
+oct 31 thr Lust For Youth (Dnemark), Crack Cloud (Vancouver, BC), Las Sucias,
        dj Omar at the Eagle, S.F. 21+ $15 8:30pm ***
 oct 31 thr Starlight Walkers, The Flying Nuns, Lunchables, Touch Of Gay,
        Dia De Los Ritch, Burt Backingtrack
@@ -1615,6 +1620,7 @@ nov 15 fri Amber Run (Nottingham, U.K.), Jordan Mackampa
        at the Great American Music Hall, S.F. 6+ $20 8pm/9pm ***
 nov 15 fri Tauk, Jazz Is Phsh at the Chapel, S.F. a/a $22/$25 8:30pm **
 nov 15 fri Yotto at the Regency Ballroom, S.F. 18+ $20/$30/$35 8pm/9pm # **
+nov 15 fri Killy, Coi Leray, Nessly at Slim's, S.F. 6+ $18/$20 7pm/7:30pm **
 nov 15 fri Lloyd at Slim's, S.F. 6+ $35 11pm/11:30pm ***
 nov 15 fri Kllo (Melbourne, Austrailia)
        at Cafe du Nord, S.F. a/a $16/$18 8pm **
@@ -1671,6 +1677,8 @@ nov 17 sun Issues (Atlanta, Georgia), Polyphia, Lil Aaron, Sleep Token
        at the Regency Ballroom, S.F. a/a $22.50/$27.50 6pm/6:30pm # *** @
 nov 17 sun Nahko And Medicine For The People, Ayla Nereo
        at the Warfield, S.F. a/a $35/$50 7pm/8pm # ***
+nov 17 sun Park Hye-jin
+       at the Great American Music Hall, S.F. 6+ $15/$25 7pm/8pm **
 nov 17 sun Daniel Rodriquez at Cafe du Nord, S.F. 21+ $15/$18 7:30pm **
 nov 18 mon Atreyu, Whitechapel, Tempting Fate, He Is Legend
        at the Catalyst, Santa Cruz ?/? *** @
@@ -1722,7 +1730,7 @@ nov 21 thr Fortunate Youth, Mike Love, Kash'd Out
 nov 21 thr Ali Barter at Cafe du Nord, S.F. 21+ **
 nov 21 thr Puma Blue at the Independent, S.F. 21+ $15 7:30pm/8pm **
 nov 21/22  Zero (Steve Kimock, Greg Anton, Pete Sears, Melvin Seals)
-       at the Great American Music Hall, S.F. 6+ $40 8pm/9pm *** @
+       at Great American Music Hall, S.F. 6+ $40 8pm/9pm *** @ (fri sold out)
 nov 22 fri Tsunami Bomb, Arnocorps, host dj Jello Biafra
        at the Cornerstone, Berkeley a/a $25/$29 ($40 2 day) 7pm/8pm *** @
        (Alternative Tentacles Records 40th Anniversary day 1)
@@ -1782,6 +1790,8 @@ nov 24 sun Simple Plan, State Champs, We The Kings
 nov 24 sun Oliver Francis
        at the Rickshaw Stop, S.F. a/a $15 ($60 vip) 7pm ***
 nov 24 sun Shoreline Mafia at the Warfield, S.F. a/a $50-$35 7pm/8pm # ***
+nov 24 sun Sharry Mann, Intense
+       at the Great American Music Hall, S.F. 6+ $40 7pm/8pm ***
 nov 25 mon The Yummy Fur (Glasgow, Scotland), Future Punx
        at the Rickshaw Stop, S.F. a/a $20 8pm ***
 nov 25 mon Kevin Gates at the Warfield, S.F. a/a $53/$68.50 8pm/9pm # ***
@@ -1844,6 +1854,10 @@ dec  1 sun Exhumed, Gatecreeper (AZ), Necrot, Judiciary (TX)
        at Rampart Skatepark, 700 South G Street, Arcata a/a *** @
 dec  2 mon Exhumed, Gatecreeper (AZ), Necrot, Judiciary (TX)
        at the Rickshaw Stop, S.F. a/a $18/$22 8pm/8:30pm *** @
+dec  2 mon Snoh Aalegra, Baby Rose, Giveon
+       at the Regency Ballroom, S.F. a/a $24.50/$29.50 7pm/8pm # **
+dec  2 mon Mr. Carmack
+       at the Great American Music Hall, S.F. 6+ $25/$30 7pm/9pm **
 dec  2 mon Snoop Dogg at the Fillmore, S.F. a/a 7pm/8pm # ***
 dec  2 mon The Hu (Mongolia) at the Ritz, San Jose 21+ $20/$25 7pm *** $
 dec  3 tue Odezenne (France) at the Rickshaw Stop, S.F. a/a $12 8pm ***
@@ -1963,6 +1977,8 @@ dec 14 sat Cattle Decapitation, Atheist, Primitive Man, Author & Punisher,
 dec 15 sun Cattle Decapitation, Atheist, Primitive Man, Author & Punisher,
        Vitriol at the Greek Theater, UC Berkeley Campus a/a # *** @
 dec 15 sun Lola Kirke at the Rickshaw Stop, S.F. a/a $12/$15 7pm ***
+dec 15 sun Bayside (Queens, N.Y.C.), Capstan
+       at the Great American Music Hall, S.F. 6+ $25 6:30pm/7:30pm ***
 dec 15 sun Tragedy (tribute)
        at the Bottom of the Hill, S.F. 21+ $15 8:30pm/9pm **
 dec 15 sun Empath at the Holland Project, Reno, NV a/a **
@@ -1985,6 +2001,8 @@ dec 18 wed Phantom Planet at August Hall, S.F. a/a $25 7:30pm/8:30pm ***
 dec 18 wed Common Holly (Montreal) at Cafe du Nord, S.F. 18+ $12/$15 7:30pm **
 dec 18 wed Static-X (L.A.)
        at Fulton 55, 875 Divisadero Street, S.F. 21+ ***
+dec 19 thr Sebastian, dj Dials
+       at the Great American Music Hall, S.F. 6+ $25/$30 7pm/9pm ***
 dec 19 thr Amo Amo at the Independent, S.F. 21+ $15 7:30pm/8pm **
 dec 19 thr Cattle Decapitation, Atheist, Primitive Man, Author & Punisher,
        Vitriol at Holy Diver, Sacramento a/a *** @
@@ -2064,6 +2082,7 @@ dec 31 tue Lettuce, Chris Karns
 dec 31 tue Sol Horizon
        at House of Rock, Santa Rosa 18+ (a/a with adult) $45-$25 9pm **
 jan  1/2   John Oliver (comedian) at the Masonic, S.F. ?/? $100-$70 6pm/7pm ***
+jan  4 sat Alia at Slim's, S.F. 6+ $30/$35 7pm/8pm **
 jan  4 sat Emo Night at the Independent, S.F. 21+ $15/$20 8:30pm/9pm **
 jan 10 fri Greyson Chance
        at New Parish, Oakland a/a $15/$20 (under 21 plus $5) 8:30pm/9pm ^ **
@@ -2094,7 +2113,8 @@ jan 26 sun Reverend Horton Heat, Deke Dickerson, The Buttertones, The Paladins
        at the Ace of Spades, Sacramento a/a $26 6:30pm ***
 jan 30 thr Ron Rope at the Great American Music Hall, S.F. 6+ $25 7pm/8pm ***
 jan 30 thr Dermot Kennedy at the Masonic, S.F. ?/? $32/$38/$42 7pm/8pm ***
-jan 31 fri Queensryche, John 5 And The Creatures at Slim's, S.F. 6+ ***
+jan 31 fri Queensryche, John 5 And The Creatures, Eve To Adam
+       at Slim's, S.F. 6+ $39.50/$40 7pm/8pm ***
 jan 31 fri Caroline Polachek at the Independent, S.F. 21+ $15 8:30pm/9pm **
 feb  1 sat Radical Face at August Hall, S.F. a/a $27 7:30pm/8:30pm *** $
 feb  1 sat Queensryche, John 5 And The Creatures
@@ -2122,6 +2142,8 @@ feb 10 mon Tender, XYLO
 feb 13 thr Mr. Bungle (performing The Raging Wrath of the Easter Bunny)
        at the Warfield, S.F. a/a 8pm # *** (only after market tickets available)
 feb 14 fri Ross The Boss at the Holy Diver, Sacramento a/a $15 7pm ***
+feb 15 sat The Glorious Sons (Kingston, Ontario), Des Rocs
+       at the Great American Music Hall, S.F. 6+ $25 8pm/9pm ***
 feb 15/16  Dashboard Confessional, Piebald
        at the Fillmore, S.F. a/a $35 (sat) 7pm/8pm (sun) 6pm/7pm # ***
 feb 16 sun Ezra Furman, Kelley Stoltz

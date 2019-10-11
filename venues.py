@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import dateutil.parser
 
 
-def archived_date(venue_url, redirect=False):
+def archived_date(venue_url, redirect=True):
     prefix = ''
     if redirect:
         prefix = 'https://via.hypothes.is/'

@@ -8,8 +8,8 @@ import dateutil.parser
 def archived_date(venue_url, redirect=False):
     prefix = ''
     if redirect:
-        prefix = 'http://via.hypothes.is/'
-    ret = requests.get('{}http://archive.today/{}/{}'.format(
+        prefix = 'https://via.hypothes.is/'
+    ret = requests.get('{}https://archive.today/{}/{}'.format(
         prefix, date.today() + timedelta(days=1), venue_url))
     ret.raise_for_status()
     doc = BeautifulSoup(ret.text, 'html.parser')

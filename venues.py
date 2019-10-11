@@ -11,6 +11,7 @@ def archived_date(venue_url, redirect=True):
         prefix = 'https://via.hypothes.is/'
     ret = requests.get('{}https://archive.today/{}/{}'.format(
         prefix, date.today() + timedelta(days=1), venue_url))
+    ret.raise_for_status()
     doc = BeautifulSoup(ret.text, 'html.parser')
     pubdates = doc.find_all(itemprop='pubdate')
     assert len(pubdates) == 1

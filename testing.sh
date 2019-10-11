@@ -1,4 +1,5 @@
 #!/bin/sh
 set -e # stop on error
-pip install --user archiveis
-archiveis https://starlinesocialclub.com/event/yip-deceiver
+pip install --user beautifulsoup4 python-dateutil
+./venues.py
+#archiveis https://starlinesocialclub.com/event/yip-deceiver

@@ -76,9 +76,9 @@ for venue_url in venue_list:
     pubdate = archived_date(venue_url)
     if pubdate is None:
         print('{} not yet archived'.format(venue_url))
-        archiveis.capture(venue_url)
     else:
         age = datetime.now(tz=pytz.utc) - pubdate
         print('{} archived {} ago'.format(venue_url, age))
-        if age > timedelta(days=2):
-            archiveis.capture(venue_url)
+
+    if pubdate is None or age > timedelta(days=2):
+        print('submitted new archive: {}'.format(archiveis.capture(venue_url)))

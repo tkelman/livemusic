@@ -16,6 +16,9 @@ def archived_date(venue_url, redirect=False):
     ret = requests.get('{}https://archive.today/{}/{}{}'.format(
         prefix, date.today() + timedelta(days=1), prefix, venue_url),
         headers={'User-Agent': ua.chrome})
+    if ret.status_code == 404:
+        # not yet archived
+        return None
     ret.raise_for_status()
     doc = BeautifulSoup(ret.text, 'html.parser')
     pubdates = doc.find_all(itemprop='pubdate')
@@ -48,7 +51,7 @@ venue_list = [
     'https://www.crestsacramento.com/calendar/',
     'https://www.hollandreno.org/calendar/list/',
     'https://www.rickshawstop.com/',
-#    'https://www.dnalounge.com/calendar/latest.html', # TODO deal with not-yet-archived
+    'https://www.dnalounge.com/calendar/latest.html',
     'https://www.thefreight.org/shows/',
     'https://www.brickandmortarmusic.com/',
     'https://publicsf.com/calendar',
@@ -70,7 +73,9 @@ venue_list = [
 ]
 
 for venue_url in venue_list:
-    age = datetime.now(tz=pytz.utc) - archived_date(venue_url)
-    print('{} archived {} ago'.format(venue_url, age))
-    if age > timedelta(days=2):
+    pubdate = archived_date(venue_url)
+    if pubdate is not None:
+        age = datetime.now(tz=pytz.utc) - pubdate
+        print('{} archived {} ago'.format(venue_url, age))
+    if pubdate is None or age > timedelta(days=2):
         archiveis.capture(venue_url)

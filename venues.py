@@ -29,6 +29,18 @@ def archived_date(venue_url, redirect=False):
     return dateutil.parser.isoparse(pubdates[0].attrs['datetime'])
 
 
+def rearchive_if_old(venue_url, threshold_days=2):
+    pubdate = archived_date(venue_url)
+    if pubdate is None:
+        print('{} not yet archived'.format(venue_url))
+    else:
+        age = datetime.now(tz=pytz.utc) - pubdate
+        print('{} archived {} ago'.format(venue_url, age))
+
+    if pubdate is None or age > timedelta(days=threshold_days):
+        print('submitted new archive: {}'.format(archiveis.capture(venue_url)))
+
+
 venue_list = [
     'http://www.makeoutroom.com/events',
     'https://amnesiathebar.com/calendar/list/',
@@ -104,15 +116,9 @@ venue_list = [
     'https://www.amoeba.com/live-shows',
     'https://www.amoeba.com/live-shows/upcoming/index.html',
 ]
-venue_list.extend([redirect_prefix + venue_url for venue_url in venue_list])
 
 for venue_url in venue_list:
-    pubdate = archived_date(venue_url)
-    if pubdate is None:
-        print('{} not yet archived'.format(venue_url))
-    else:
-        age = datetime.now(tz=pytz.utc) - pubdate
-        print('{} archived {} ago'.format(venue_url, age))
+    rearchive_if_old(venue_url, threshold_days=2)
 
-    if pubdate is None or age > timedelta(days=2):
-        print('submitted new archive: {}'.format(archiveis.capture(venue_url)))
+for venue_url in venue_list:
+    rearchive_if_old(redirect_prefix + venue_url, threshold_days=4)

@@ -48,7 +48,7 @@ venue_list = [
     'https://www.crestsacramento.com/calendar/',
     'https://www.hollandreno.org/calendar/list/',
     'https://www.rickshawstop.com/',
-    'https://www.dnalounge.com/calendar/latest.html',
+#    'https://www.dnalounge.com/calendar/latest.html', # TODO deal with not-yet-archived
     'https://www.thefreight.org/shows/',
     'https://www.brickandmortarmusic.com/',
     'https://publicsf.com/calendar',

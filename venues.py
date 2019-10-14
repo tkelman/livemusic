@@ -1,16 +1,19 @@
 #!/usr/bin/env python
+from fake_useragent import UserAgent
 import requests
 from datetime import date, timedelta
 from bs4 import BeautifulSoup
 import dateutil.parser
 
 
-def archived_date(venue_url, redirect=True):
+def archived_date(venue_url, redirect=False):
     prefix = ''
     if redirect:
         prefix = 'https://via.hypothes.is/'
-    ret = requests.get('{}https://archive.today/{}/{}'.format(
-        prefix, date.today() + timedelta(days=1), venue_url))
+    ua = UserAgent()
+    ret = requests.get('{}https://archive.today/{}/{}{}'.format(
+        prefix, date.today() + timedelta(days=1), prefix, venue_url),
+        headers={'User-Agent': ua.chrome})
     ret.raise_for_status()
     doc = BeautifulSoup(ret.text, 'html.parser')
     pubdates = doc.find_all(itemprop='pubdate')

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from fake_useragent import UserAgent
 import requests
-from datetime import timedelta, datetime
+from datetime import date, timedelta, datetime
 from bs4 import BeautifulSoup
 import dateutil.parser
 import pytz
@@ -16,8 +16,9 @@ def archived_date(venue_url, redirect=False):
     if redirect:
         prefix = redirect_prefix
     ua = UserAgent()
-    ret = requests.get('{}https://archive.today/?run=1&url={}'.format(
-        prefix, venue_url), headers={'User-Agent': ua.chrome})
+    ret = requests.get('{}https://archive.today/{}/{}{}'.format(
+        prefix, date.today() + timedelta(days=1), prefix, venue_url),
+        headers={'User-Agent': ua.chrome})
     if ret.status_code == 404:
         # not yet archived
         return None

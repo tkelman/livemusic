@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 from fake_useragent import UserAgent
 import requests
-from datetime import date, timedelta
+from datetime import date, timedelta, datetime
 from bs4 import BeautifulSoup
 import dateutil.parser
+import pytz
 
 
 def archived_date(venue_url, redirect=False):
@@ -21,5 +22,7 @@ def archived_date(venue_url, redirect=False):
     return dateutil.parser.isoparse(pubdates[0].attrs['datetime'])
 
 
-print(archived_date('https://www.slimspresents.com/event-listing/'))
+venue_url = 'https://www.slimspresents.com/event-listing/'
+print('{} archived {} ago'.format(venue_url,
+    datetime.now(tz=pytz.utc) - archived_date(venue_url)))
 #ret = requests.get('https://via.hypothes.is/http://archive.today/20191010/https://www.slimspresents.com/event-listing/')

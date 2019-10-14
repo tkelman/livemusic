@@ -22,7 +22,13 @@ def archived_date(venue_url, redirect=False):
     return dateutil.parser.isoparse(pubdates[0].attrs['datetime'])
 
 
-venue_url = 'https://www.slimspresents.com/event-listing/'
-print('{} archived {} ago'.format(venue_url,
-    datetime.now(tz=pytz.utc) - archived_date(venue_url)))
-#ret = requests.get('https://via.hypothes.is/http://archive.today/20191010/https://www.slimspresents.com/event-listing/')
+venue_list = [
+    'http://www.makeoutroom.com/events',
+    'https://amnesiathebar.com/calendar/list/',
+    'https://www.hotelutah.com/calendar/',
+    'https://www.yoshis.com/calendar/',
+    'https://www.slimspresents.com/event-listing/',
+]
+for venue_url in venue_list:
+    print('{} archived {} ago'.format(venue_url,
+        datetime.now(tz=pytz.utc) - archived_date(venue_url)))

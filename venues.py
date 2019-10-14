@@ -16,8 +16,8 @@ def archived_date(venue_url, redirect=False):
     if redirect:
         prefix = redirect_prefix
     ua = UserAgent()
-    ret = requests.get('{}https://archive.today/{}/{}{}'.format(
-        prefix, date.today() + timedelta(days=1), prefix, venue_url),
+    ret = requests.get('{}https://archive.today/{}/{}'.format(
+        prefix, date.today() + timedelta(days=1), venue_url),
         headers={'User-Agent': ua.chrome})
     if ret.status_code == 404:
         # not yet archived

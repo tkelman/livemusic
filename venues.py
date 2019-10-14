@@ -5,6 +5,7 @@ from datetime import date, timedelta, datetime
 from bs4 import BeautifulSoup
 import dateutil.parser
 import pytz
+import archiveis
 
 
 def archived_date(venue_url, redirect=False):
@@ -30,5 +31,7 @@ venue_list = [
     'https://www.slimspresents.com/event-listing/',
 ]
 for venue_url in venue_list:
-    print('{} archived {} ago'.format(venue_url,
-        datetime.now(tz=pytz.utc) - archived_date(venue_url)))
+    age = datetime.now(tz=pytz.utc) - archived_date(venue_url)
+    print('{} archived {} ago'.format(venue_url, age))
+    if age > timedelta(days=2):
+        archiveis.capture(venue_url)

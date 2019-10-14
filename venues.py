@@ -8,10 +8,13 @@ import pytz
 import archiveis
 
 
+redirect_prefix = 'https://via.hypothes.is/'
+
+
 def archived_date(venue_url, redirect=False):
     prefix = ''
     if redirect:
-        prefix = 'https://via.hypothes.is/'
+        prefix = redirect_prefix
     ua = UserAgent()
     ret = requests.get('{}https://archive.today/{}/{}{}'.format(
         prefix, date.today() + timedelta(days=1), prefix, venue_url),
@@ -101,6 +104,7 @@ venue_list = [
     'https://www.amoeba.com/live-shows',
     'https://www.amoeba.com/live-shows/upcoming/index.html',
 ]
+venue_list.extend([redirect_prefix + venue_url for venue_url in venue_list])
 
 for venue_url in venue_list:
     pubdate = archived_date(venue_url)

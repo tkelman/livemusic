@@ -65,7 +65,7 @@ venue_list = [
     'http://www.uptowntheatrenapa.com/events/',
     'https://mezzaninesf.com/events/',
     'https://renobrewhouse.com/events/',
-    'http://paramounttheatre.com/schedule.html',
+    'http://www.paramounttheatre.com/schedule.html',
     'https://www.jmaxproductions.net/calendar/',
     'http://billgrahamcivic.com/event-listing/',
     'https://www.neckofthewoodssf.com/calendar/',

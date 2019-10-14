@@ -98,7 +98,7 @@ venue_list = [
     'https://www.chasecenter.com/events',
     'https://www.thewarfieldtheatre.com/events',
     'https://feltonmusichall.com/',
-    'https://www.amoeba.com/live-shows#cat-most_recent_shows/',
+    'https://www.amoeba.com/live-shows',
     'https://www.amoeba.com/live-shows/upcoming/index.html',
 ]
 

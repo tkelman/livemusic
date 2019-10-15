@@ -147,7 +147,9 @@ if __name__ == '__main__':
         rearchive_if_older_than(redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=4))
 
     for venue_url in venue_list:
-        if venue_url == 'http://www.adobebooks.com/events':
+        if venue_url == 'https://jubjubsthirstparlor.com/events/':
+            archive_events(venue_url, venue_url.replace('/events/', '/event/'))
+        elif venue_url == 'http://www.adobebooks.com/events':
             archive_events(venue_url, '/events/', venue_url.replace('/events', ''))
         #elif venue_url == 'http://montalvoarts.org/calendar/':
         #    archive_events(venue_url, '/exhibitions/', venue_url.replace('/calendar/', ''))

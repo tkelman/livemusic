@@ -165,7 +165,7 @@ if __name__ == '__main__':
     archive_once('https://www.yoshis.com/e/damien-escobar-66619973133/')
     archive_once('https://www.yoshis.com/e/damien-escobar-66619973133/#')
     #archive_once('')
-    threshold = datetime(2019, 10, 15, 20, tzinfo=pytz.utc)
+    threshold = datetime(2019, 10, 15, 22, tzinfo=pytz.utc)
     rearchive_if_older_than('https://www.thechapelsf.com/e/w-i-t-c-h-we-intend-to-cause-havoc--69227614659/', threshold)
     rearchive_if_older_than('https://www.slimspresents.com/e/fink-61850136423/', threshold)
     rearchive_if_older_than('https://www.slimspresents.com/e/senses-fail-69658102259/', threshold)

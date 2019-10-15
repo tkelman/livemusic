@@ -127,6 +127,17 @@ venue_list = [
 ]
 
 
+def archive_events(venue_listing_url, event_prefix, venue_top_url=''):
+    # venue_top_url only needed if event links are relative
+    ret = requests.get(venue_listing_url, headers=ua_header)
+    ret.raise_for_status()
+    doc = BeautifulSoup(ret.text, 'html.parser')
+    all_events = [link.get('href') for link in doc.find_all('a')
+        if link.get('href', '').startswith(event_prefix)]
+    for event in set(all_events): # remove duplicates
+        archive_once(venue_top_url + event)
+
+
 if __name__ == '__main__':
     for venue_url in venue_list:
         rearchive_if_older_than(venue_url, datetime.now(tz=pytz.utc) - timedelta(days=1))
@@ -135,14 +146,16 @@ if __name__ == '__main__':
         rearchive_if_older_than(redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=4))
 
     for venue_url in venue_list:
-        if venue_url == 'https://www.neckofthewoodssf.com/calendar/':
-            ret = requests.get(venue_url, headers=ua_header)
-            ret.raise_for_status()
-            doc = BeautifulSoup(ret.text, 'html.parser')
-            all_events = [link.get('href') for link in doc.find_all('a')
-                if link.get('href', '').startswith('/e/')]
-            for event in set(all_events): # remove duplicates
-                archive_once('https://www.neckofthewoodssf.com' + event)
+        if venue_url == 'https://mezzaninesf.com/events/':
+            archive_events(venue_url, venue_url)
+        elif venue_url == 'https://renobrewhouse.com/events/':
+            archive_events(venue_url, 'https://renobrewhouse.com/event/')
+        elif venue_url == 'https://www.jmaxproductions.net/calendar/':
+            archive_events(venue_url, 'https://www.jmaxproductions.net/event/')
+        elif venue_url == 'http://billgrahamcivic.com/event-listing/':
+            archive_events(venue_url, 'http://billgrahamcivic.com/events/')
+        elif venue_url == 'https://www.neckofthewoodssf.com/calendar/':
+            archive_events(venue_url, '/e/', 'https://www.neckofthewoodssf.com')
 
 
     # TEMPORARY

@@ -118,7 +118,7 @@ venue_list = [
     'https://palaceoffinearts.org/',
     'https://palaceoffinearts.org/events/',
     'https://catalystclub.com/',
-    'https://www.holydiversac.com/#concerts',
+    'https://www.holydiversac.com/',
     'http://www.aceofspadessac.com',
 ]
 

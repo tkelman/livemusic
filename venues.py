@@ -16,14 +16,14 @@ def archived_date(venue_url, redirect=False):
     prefix = ''
     if redirect:
         prefix = redirect_prefix
-    ret = requests.get('{}https://archive.today/{}/{}'.format(
+    response = requests.get('{}https://archive.today/{}/{}'.format(
         prefix, date.today() + timedelta(days=1), venue_url),
         headers=ua_header)
-    if ret.status_code == 404:
+    if response.status_code == 404:
         # not yet archived
         return None
-    ret.raise_for_status()
-    doc = BeautifulSoup(ret.text, 'html.parser')
+    response.raise_for_status()
+    doc = BeautifulSoup(response.text, 'html.parser')
     pubdates = doc.find_all(itemprop='pubdate')
     assert len(pubdates) == 1
     return dateutil.parser.isoparse(pubdates[0].attrs['datetime'])
@@ -81,6 +81,7 @@ venue_list = [
     'https://jubjubsthirstparlor.com/events/',
     'http://www.adobebooks.com/events',
     'http://montalvoarts.org/calendar/',
+    'http://montalvoarts.org/events/',
     'http://www.uptowntheatrenapa.com/events/',
     'https://mezzaninesf.com/events/',
     'https://renobrewhouse.com/events/',
@@ -129,9 +130,9 @@ venue_list = [
 
 def archive_events(venue_listing_url, event_prefix, venue_top_url=''):
     # venue_top_url only needed if event links are relative
-    ret = requests.get(venue_listing_url, headers=ua_header)
-    ret.raise_for_status()
-    doc = BeautifulSoup(ret.text, 'html.parser')
+    response = requests.get(venue_listing_url, headers=ua_header)
+    response.raise_for_status()
+    doc = BeautifulSoup(response.text, 'html.parser')
     all_events = [link.get('href') for link in doc.find_all('a')
         if link.get('href', '').startswith(event_prefix)]
     for event in set(all_events): # remove duplicates
@@ -146,16 +147,28 @@ if __name__ == '__main__':
         rearchive_if_older_than(redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=4))
 
     for venue_url in venue_list:
-        if venue_url == 'https://mezzaninesf.com/events/':
+        if venue_url == 'http://www.adobebooks.com/events':
+            archive_events(venue_url, '/events/', venue_url.replace('/events', ''))
+        #elif venue_url == 'http://montalvoarts.org/calendar/':
+        #    archive_events(venue_url, '/exhibitions/', venue_url.replace('/calendar/', ''))
+        #    archive_events(venue_url, '/classes/', venue_url.replace('/calendar/', ''))
+        #    archive_events(venue_url, '/events/', venue_url.replace('/calendar/', ''))
+        elif venue_url == 'http://montalvoarts.org/events/':
+            archive_events(venue_url, '/exhibitions/', venue_url.replace('/events/', ''))
+            archive_events(venue_url, '/classes/', venue_url.replace('/events/', ''))
+            archive_events(venue_url, '/events/', venue_url.replace('/events/', ''))
+        elif venue_url == 'http://www.uptowntheatrenapa.com/events/':
+            archive_events(venue_url, venue_url.replace('/events/', '/event/'))
+        elif venue_url == 'https://mezzaninesf.com/events/':
             archive_events(venue_url, venue_url)
         elif venue_url == 'https://renobrewhouse.com/events/':
-            archive_events(venue_url, 'https://renobrewhouse.com/event/')
+            archive_events(venue_url, venue_url.replace('/events/', '/event/'))
         elif venue_url == 'https://www.jmaxproductions.net/calendar/':
-            archive_events(venue_url, 'https://www.jmaxproductions.net/event/')
+            archive_events(venue_url, venue_url.replace('/calendar/', '/event/'))
         elif venue_url == 'http://billgrahamcivic.com/event-listing/':
-            archive_events(venue_url, 'http://billgrahamcivic.com/events/')
+            archive_events(venue_url, venue_url.replace('/event-listing/', '/events/'))
         elif venue_url == 'https://www.neckofthewoodssf.com/calendar/':
-            archive_events(venue_url, '/e/', 'https://www.neckofthewoodssf.com')
+            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''))
 
 
     # TEMPORARY

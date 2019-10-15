@@ -9,16 +9,16 @@ import archiveis
 
 
 redirect_prefix = 'https://via.hypothes.is/'
+ua_header = {'User-Agent': UserAgent().chrome}
 
 
 def archived_date(venue_url, redirect=False):
     prefix = ''
     if redirect:
         prefix = redirect_prefix
-    ua = UserAgent()
     ret = requests.get('{}https://archive.today/{}/{}'.format(
         prefix, date.today() + timedelta(days=1), venue_url),
-        headers={'User-Agent': ua.chrome})
+        headers=ua_header)
     if ret.status_code == 404:
         # not yet archived
         return None
@@ -134,15 +134,15 @@ if __name__ == '__main__':
     for venue_url in venue_list:
         rearchive_if_older_than(redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=4))
 
-    if venue_url == 'https://www.neckofthewoodssf.com/calendar/':
-        ua = UserAgent()
-        ret = requests.get(venue_url, headers={'User-Agent': ua.chrome})
-        ret.raise_for_status()
-        doc = BeautifulSoup(ret.text, 'html.parser')
-        all_events = [link.get('href') for link in doc.find_all('a')
-            if link.get('href', '').startswith('/e/')]
-        for event in set(all_events): # remove duplicates
-            archive_once('https://www.neckofthewoodssf.com' + event)
+    for venue_url in venue_list:
+        if venue_url == 'https://www.neckofthewoodssf.com/calendar/':
+            ret = requests.get(venue_url, headers=ua_header)
+            ret.raise_for_status()
+            doc = BeautifulSoup(ret.text, 'html.parser')
+            all_events = [link.get('href') for link in doc.find_all('a')
+                if link.get('href', '').startswith('/e/')]
+            for event in set(all_events): # remove duplicates
+                archive_once('https://www.neckofthewoodssf.com' + event)
 
 
     # TEMPORARY

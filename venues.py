@@ -29,7 +29,7 @@ def archived_date(venue_url, redirect=False):
     return dateutil.parser.isoparse(pubdates[0].attrs['datetime'])
 
 
-def rearchive_if_old(venue_url, threshold_days=2):
+def rearchive_if_older_than(venue_url, threshold_date):
     pubdate = archived_date(venue_url)
     if pubdate is None:
         print('{} not yet archived'.format(venue_url))
@@ -37,8 +37,12 @@ def rearchive_if_old(venue_url, threshold_days=2):
         age = datetime.now(tz=pytz.utc) - pubdate
         print('{} archived {} ago'.format(venue_url, age))
 
-    if pubdate is None or age > timedelta(days=threshold_days):
+    if pubdate is None or pubdate < threshold_date:
         print('submitted new archive: {}'.format(archiveis.capture(venue_url)))
+
+
+def archive_once(venue_url):
+    rearchive_if_older_than(venue_url, datetime(1, 1, 1, tzinfo=pytz.utc))
 
 
 venue_list = [
@@ -122,26 +126,29 @@ venue_list = [
     'http://www.aceofspadessac.com',
 ]
 
-for venue_url in venue_list:
-    rearchive_if_old(venue_url, threshold_days=1)
 
-for venue_url in venue_list:
-    rearchive_if_old(redirect_prefix + venue_url, threshold_days=4)
+if __name__ == '__main__':
+    for venue_url in venue_list:
+        rearchive_if_older_than(venue_url, datetime.now(tz=pytz.utc) - timedelta(days=1))
 
+    for venue_url in venue_list:
+        rearchive_if_older_than(redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=4))
 
-# TEMPORARY
-rearchive_if_old('https://www.neckofthewoodssf.com/e/karaoke-night-66763035035/', threshold_days=200)
-rearchive_if_old('https://www.harlows.com/event/gaelic-storm/', threshold_days=200)
-rearchive_if_old('https://www.monarchsf.com/e/payam-source-zero-stark-fader-shababo-soundpieces-sf-75775958933/', threshold_days=200)
-rearchive_if_old('https://www.yoshis.com/e/count-basie-orchestra-66619949061/', threshold_days=200)
-rearchive_if_old('https://www.yoshis.com/e/count-basie-orchestra-66619949061/#', threshold_days=200)
-rearchive_if_old('https://www.yoshis.com/e/damien-escobar-66619973133/', threshold_days=200)
-rearchive_if_old('https://www.yoshis.com/e/damien-escobar-66619973133/#', threshold_days=200)
-rearchive_if_old('https://www.thechapelsf.com/e/w-i-t-c-h-we-intend-to-cause-havoc--69227614659/', threshold_days=200)
-rearchive_if_old('https://www.slimspresents.com/e/fink-61850136423/', threshold_days=200)
-rearchive_if_old('https://www.slimspresents.com/e/senses-fail-69658102259/', threshold_days=200)
-rearchive_if_old('https://thefillmore.com/event/the-japanese-house/', threshold_days=200)
-rearchive_if_old('https://shows.swedishamericanhall.com/event/andrew-combs', threshold_days=200)
-rearchive_if_old('https://shows.swedishamericanhall.com/event/claud', threshold_days=200)
-rearchive_if_old('https://live.stanford.edu/calendar/october-2019/bob-dylan-and-his-band', threshold_days=200)
-#rearchive_if_old('', threshold_days=200)
+    # TEMPORARY
+    archive_once('https://www.neckofthewoodssf.com/e/karaoke-night-66763035035/')
+    archive_once('https://www.yoshis.com/e/count-basie-orchestra-66619949061/')
+    archive_once('https://www.yoshis.com/e/count-basie-orchestra-66619949061/#')
+    archive_once('https://www.yoshis.com/e/damien-escobar-66619973133/')
+    archive_once('https://www.yoshis.com/e/damien-escobar-66619973133/#')
+    #archive_once('')
+    threshold = datetime(2019, 10, 15, 20, tzinfo=pytz.utc)
+    rearchive_if_older_than('https://www.thechapelsf.com/e/w-i-t-c-h-we-intend-to-cause-havoc--69227614659/', threshold)
+    rearchive_if_older_than('https://www.slimspresents.com/e/fink-61850136423/', threshold)
+    rearchive_if_older_than('https://www.slimspresents.com/e/senses-fail-69658102259/', threshold)
+    rearchive_if_older_than('https://thefillmore.com/event/the-japanese-house/', threshold)
+    rearchive_if_older_than('https://shows.swedishamericanhall.com/event/andrew-combs', threshold)
+    rearchive_if_older_than('https://shows.swedishamericanhall.com/event/claud', threshold)
+    rearchive_if_older_than('https://live.stanford.edu/calendar/october-2019/bob-dylan-and-his-band', threshold)
+    rearchive_if_older_than('https://www.rickshawstop.com/e/monster-rally-with-mejiwahn-and-lake-cube-69941694491/', threshold)
+    rearchive_if_older_than('https://jubjubsthirstparlor.com/event/dreadful-children-lincoln-skinz/', threshold)
+    #rearchive_if_older_than('', threshold)

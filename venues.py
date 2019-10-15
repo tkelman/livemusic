@@ -122,3 +122,16 @@ for venue_url in venue_list:
 
 for venue_url in venue_list:
     rearchive_if_old(redirect_prefix + venue_url, threshold_days=4)
+
+
+# TEMPORARY
+rearchive_if_old('https://www.neckofthewoodssf.com/e/karaoke-night-66763035035/', threshold_days=200)
+rearchive_if_old('https://www.neckofthewoodssf.com/e/salsa-classes-66531939823/', threshold_days=200)
+rearchive_if_old('https://www.thefreight.org/event/1876557-lula-wiles-berkeley/', threshold_days=200)
+rearchive_if_old('https://www.rickshawstop.com/e/monster-rally-with-mejiwahn-and-lake-cube-69941694491/', threshold_days=200)
+rearchive_if_old('https://www.hollandreno.org/event/jot-writing-workshop-5/', threshold_days=200)
+rearchive_if_old('https://www.harlows.com/event/maribou-state-kingdoms-in-colour-album-live-tour/', threshold_days=200)
+rearchive_if_old('https://www.harlows.com/event/gaelic-storm/', threshold_days=200)
+rearchive_if_old('http://www.milksf.com/shows/haight-street-trivia-and-comedy-come-night-trivia-and-stand-historic-haight-ashbury-milk-ba-10', threshold_days=200)
+rearchive_if_old('http://www.milksf.com/shows/monday-night-open-mic-your-host-tony-sparks-milk-bar-presents-0', threshold_days=200)
+

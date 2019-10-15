@@ -115,10 +115,15 @@ venue_list = [
     'https://feltonmusichall.com/',
     'https://www.amoeba.com/live-shows',
     'https://www.amoeba.com/live-shows/upcoming/index.html',
+    'https://palaceoffinearts.org/',
+    'https://palaceoffinearts.org/events/',
+    'https://catalystclub.com/',
+    'https://www.holydiversac.com/#concerts',
+    'http://www.aceofspadessac.com',
 ]
 
 for venue_url in venue_list:
-    rearchive_if_old(venue_url, threshold_days=2)
+    rearchive_if_old(venue_url, threshold_days=1)
 
 for venue_url in venue_list:
     rearchive_if_old(redirect_prefix + venue_url, threshold_days=4)
@@ -126,20 +131,17 @@ for venue_url in venue_list:
 
 # TEMPORARY
 rearchive_if_old('https://www.neckofthewoodssf.com/e/karaoke-night-66763035035/', threshold_days=200)
-rearchive_if_old('https://www.neckofthewoodssf.com/e/salsa-classes-66531939823/', threshold_days=200)
-rearchive_if_old('https://www.thefreight.org/event/1876557-lula-wiles-berkeley/', threshold_days=200)
-rearchive_if_old('https://www.rickshawstop.com/e/monster-rally-with-mejiwahn-and-lake-cube-69941694491/', threshold_days=200)
 rearchive_if_old('https://www.harlows.com/event/gaelic-storm/', threshold_days=200)
 rearchive_if_old('https://www.monarchsf.com/e/payam-source-zero-stark-fader-shababo-soundpieces-sf-75775958933/', threshold_days=200)
 rearchive_if_old('https://www.yoshis.com/e/count-basie-orchestra-66619949061/', threshold_days=200)
 rearchive_if_old('https://www.yoshis.com/e/count-basie-orchestra-66619949061/#', threshold_days=200)
 rearchive_if_old('https://www.yoshis.com/e/damien-escobar-66619973133/', threshold_days=200)
 rearchive_if_old('https://www.yoshis.com/e/damien-escobar-66619973133/#', threshold_days=200)
-rearchive_if_old('https://www.hotelutah.com/e/tom-goss-nakia-liz-deroche-70535279921/', threshold_days=200)
-rearchive_if_old('https://www.hotelutah.com/e/leeroy-stagger-brooks-hubbard-plus-tba-68524018183/', threshold_days=200)
-rearchive_if_old('https://www.hotelutah.com/e/hotel-utah-open-mic-with-host-brendan-getzell-69073616045/', threshold_days=200)
-rearchive_if_old('https://starlinesocialclub.com/event/quasi-w-slang', threshold_days=200)
-rearchive_if_old('https://starlinesocialclub.com/event/starline-comedy', threshold_days=200)
-rearchive_if_old('https://starlinesocialclub.com/event/starline-comedy-w-irene-tu-and-andrew-orolfo-6', threshold_days=200)
-rearchive_if_old('https://starlinesocialclub.com/event/dingbat-superminx-brian-tester-jamile-jackson-beast-nest-final-fantasy', threshold_days=200)
+rearchive_if_old('https://www.thechapelsf.com/e/w-i-t-c-h-we-intend-to-cause-havoc--69227614659/', threshold_days=200)
+rearchive_if_old('https://www.slimspresents.com/e/fink-61850136423/', threshold_days=200)
+rearchive_if_old('https://www.slimspresents.com/e/senses-fail-69658102259/', threshold_days=200)
+rearchive_if_old('https://thefillmore.com/event/the-japanese-house/', threshold_days=200)
+rearchive_if_old('https://shows.swedishamericanhall.com/event/andrew-combs', threshold_days=200)
+rearchive_if_old('https://shows.swedishamericanhall.com/event/claud', threshold_days=200)
+rearchive_if_old('https://live.stanford.edu/calendar/october-2019/bob-dylan-and-his-band', threshold_days=200)
 #rearchive_if_old('', threshold_days=200)

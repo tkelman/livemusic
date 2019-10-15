@@ -134,6 +134,17 @@ if __name__ == '__main__':
     for venue_url in venue_list:
         rearchive_if_older_than(redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=4))
 
+    if venue_url == 'https://www.neckofthewoodssf.com/calendar/':
+        ua = UserAgent()
+        ret = requests.get(venue_url, headers={'User-Agent': ua.chrome})
+        ret.raise_for_status()
+        doc = BeautifulSoup(ret.text, 'html.parser')
+        all_events = [link.get('href') for link in doc.find_all('a')
+            if link.get('href', '').startswith('/e/')]
+        for event in set(all_events): # remove duplicates
+            archive_once('https://www.neckofthewoodssf.com' + event)
+
+
     # TEMPORARY
     archive_once('https://www.neckofthewoodssf.com/e/karaoke-night-66763035035/')
     archive_once('https://www.yoshis.com/e/count-basie-orchestra-66619949061/')
@@ -146,8 +157,6 @@ if __name__ == '__main__':
     rearchive_if_older_than('https://www.slimspresents.com/e/fink-61850136423/', threshold)
     rearchive_if_older_than('https://www.slimspresents.com/e/senses-fail-69658102259/', threshold)
     rearchive_if_older_than('https://thefillmore.com/event/the-japanese-house/', threshold)
-    rearchive_if_older_than('https://shows.swedishamericanhall.com/event/andrew-combs', threshold)
-    rearchive_if_older_than('https://shows.swedishamericanhall.com/event/claud', threshold)
     rearchive_if_older_than('https://live.stanford.edu/calendar/october-2019/bob-dylan-and-his-band', threshold)
     rearchive_if_older_than('https://www.rickshawstop.com/e/monster-rally-with-mejiwahn-and-lake-cube-69941694491/', threshold)
     rearchive_if_older_than('https://jubjubsthirstparlor.com/event/dreadful-children-lincoln-skinz/', threshold)

@@ -149,6 +149,20 @@ if __name__ == '__main__':
     for venue_url in venue_list:
         if venue_url == '':
             assert False
+        elif venue_url == 'http://www.stocktonlive.com/events/':
+            archive_events(venue_url, venue_url)
+        elif venue_url == 'https://mystictheatre.com/event-calendar':
+            archive_events(venue_url, 'https://www.eventbrite.com/')
+        elif venue_url == 'https://thecrepeplace.com/events/':
+            archive_events(venue_url, '/events/', venue_url.replace('/events/', ''))
+        elif venue_url == 'https://sierranevada.com/events/':
+            archive_events(venue_url, venue_url.replace('/events/', '/event/'))
+        elif venue_url == 'https://empresstheatre.org/events/':
+            archive_events(venue_url, venue_url)
+        elif venue_url == 'https://www.crestsacramento.com/calendar/':
+            archive_events(venue_url, '/event/', venue_url.replace('/calendar/', ''))
+        elif venue_url == 'https://www.hollandreno.org/calendar/list/':
+            archive_events(venue_url, venue_url.replace('/calendar/list/', '/event/'))
         elif venue_url == 'https://www.rickshawstop.com/':
             archive_events(venue_url, '/e/', venue_url.replace('.com/', '.com'), redirect_only=True)
         elif venue_url == 'https://www.dnalounge.com/calendar/latest.html':

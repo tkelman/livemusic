@@ -131,6 +131,7 @@ def archive_events(venue_listing_url, event_prefix, venue_top_url=''):
         if link.get('href', '').startswith(event_prefix)]
     for event in set(all_events): # remove duplicates
         archive_once(venue_top_url + event)
+        archive_once(redirect_prefix + venue_top_url + event)
 
 
 if __name__ == '__main__':
@@ -138,7 +139,7 @@ if __name__ == '__main__':
         rearchive_if_older_than(venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
 
     for venue_url in venue_list:
-        rearchive_if_older_than(redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=4))
+        rearchive_if_older_than(redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
 
     for venue_url in venue_list:
         if venue_url == 'https://jubjubsthirstparlor.com/events/':

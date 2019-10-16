@@ -129,6 +129,7 @@ def archive_events(listing_url, event_prefix, top_url='', include_original=True)
     doc = BeautifulSoup(response.text, 'html.parser')
     all_events = [link.get('href') for link in doc.find_all('a')
         if link.get('href', '').startswith(event_prefix)]
+    assert len(all_events) > 0
     for event in set(all_events): # remove duplicates
         if '?' in event:
             event = event[:event.find('?')]
@@ -267,6 +268,47 @@ if __name__ == '__main__':
         elif venue_url == 'https://www.neckofthewoodssf.com/calendar/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
             archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
+        elif venue_url == 'https://www.slimspresents.com/event-listing/':
+            archive_events(venue_url, '/e/', venue_url.replace('/event-listing/', ''))
+        elif venue_url == 'https://www.theuctheatre.org/':
+            archive_events(venue_url, '/e/', venue_url[:-1])
+        elif venue_url == 'https://www.thenewparish.com/calendar/':
+            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''))
+        elif venue_url == 'https://thegreekberkeley.com/calendar/':
+            archive_events(venue_url, venue_url.replace('/calendar/', '/events/').replace('https://', 'http://'))
+        elif venue_url == 'https://thefoxoakland.com/listing/':
+            archive_events(venue_url, venue_url.replace('/listing/', '/events/').replace('https://', 'http://'))
+#    'http://www.ashkenaz.com/',
+#    'https://ivyroom.ticketfly.com',
+#    'https://www.theregencyballroom.com/events',
+#    'https://www.augusthallsf.com/',
+#    'https://thefillmore.com/calendar/',
+#    'https://www.thechapelsf.com/calendar/',
+#    'http://ritespotcafe.net/calendar.php',
+#    'https://www.theindependentsf.com/calendar/',
+#    'http://madroneartbar.com/',
+#    'http://madroneartbar.com/calendar/',
+#    'http://www.mountainviewamphitheater.com/events/',
+#    'https://sanjosetheaters.org/calendar/',
+#    'https://www.thephoenixtheater.com/calendar/',
+#    'http://www.theoaklandarena.com/events',
+#    'https://www.cornerstoneberkeley.com/music-venue/cornerstone-events/',
+#    'https://www.theeparkside.com/',
+#    'http://theknockoutsf.com/events/',
+#    'https://shows.swedishamericanhall.com/',
+#    'http://www.concordamp.com/events/',
+#    'https://live.stanford.edu/venues/frost-amphitheater',
+#    'https://www.golden1center.com/events',
+#    'https://www.chasecenter.com/events',
+#    'https://www.thewarfieldtheatre.com/events',
+#    'https://feltonmusichall.com/',
+#    'https://www.amoeba.com/live-shows',
+#    'https://www.amoeba.com/live-shows/upcoming/index.html',
+#    'https://palaceoffinearts.org/',
+#    'https://palaceoffinearts.org/events/',
+#    'https://catalystclub.com/',
+#    'https://www.holydiversac.com/',
+#    'http://www.aceofspadessac.com',
 
 
     # TEMPORARY

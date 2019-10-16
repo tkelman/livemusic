@@ -130,7 +130,7 @@ def archive_events(venue_listing_url, event_prefix, venue_top_url=''):
     all_events = [link.get('href') for link in doc.find_all('a')
         if link.get('href', '').startswith(event_prefix)]
     for event in set(all_events): # remove duplicates
-        archive_once(venue_top_url + event)
+        #archive_once(venue_top_url + event)
         archive_once(redirect_prefix + venue_top_url + event)
 
 
@@ -187,18 +187,18 @@ if __name__ == '__main__':
 
 
     # TEMPORARY
-    archive_once('https://www.neckofthewoodssf.com/e/karaoke-night-66763035035/')
-    archive_once('https://www.yoshis.com/e/count-basie-orchestra-66619949061/')
-    archive_once('https://www.yoshis.com/e/count-basie-orchestra-66619949061/#')
-    archive_once('https://www.yoshis.com/e/damien-escobar-66619973133/')
-    archive_once('https://www.yoshis.com/e/damien-escobar-66619973133/#')
-    archive_once('https://www.cornerstoneberkeley.com/e/afrocomiccon-73340422177/')
-    archive_once('https://thefillmore.com/event/city-and-colour/')
-    archive_once('https://www.slimspresents.com/e/injury-reserve-69659073163/')
-    archive_once('https://www.slimspresents.com/e/shintaro-sakamoto-sold-out--62092013885/')
-    archive_once('https://www.thechapelsf.com/e/jesse-malin-joseph-arthur-66965115463/')
-    archive_once('https://www.augusthallsf.com/event/9814505/finneas-blood-harmony-tour-2019/')
-    archive_once('https://www.theindependentsf.com/event/9940555/temples/')
+    archive_once(redirect_prefix + 'https://www.neckofthewoodssf.com/e/karaoke-night-66763035035/')
+    archive_once(redirect_prefix + 'https://www.yoshis.com/e/count-basie-orchestra-66619949061/')
+    archive_once(redirect_prefix + 'https://www.yoshis.com/e/count-basie-orchestra-66619949061/#')
+    archive_once(redirect_prefix + 'https://www.yoshis.com/e/damien-escobar-66619973133/')
+    archive_once(redirect_prefix + 'https://www.yoshis.com/e/damien-escobar-66619973133/#')
+    archive_once(redirect_prefix + 'https://www.cornerstoneberkeley.com/e/afrocomiccon-73340422177/')
+    archive_once(redirect_prefix + 'https://thefillmore.com/event/city-and-colour/')
+    archive_once(redirect_prefix + 'https://www.slimspresents.com/e/injury-reserve-69659073163/')
+    archive_once(redirect_prefix + 'https://www.slimspresents.com/e/shintaro-sakamoto-sold-out--62092013885/')
+    archive_once(redirect_prefix + 'https://www.thechapelsf.com/e/jesse-malin-joseph-arthur-66965115463/')
+    archive_once(redirect_prefix + 'https://www.augusthallsf.com/event/9814505/finneas-blood-harmony-tour-2019/')
+    archive_once(redirect_prefix + 'https://www.theindependentsf.com/event/9940555/temples/')
     #archive_once('')
     threshold = datetime(2019, 10, 15, 22, tzinfo=pytz.utc)
     rearchive_if_older_than('https://www.thechapelsf.com/e/w-i-t-c-h-we-intend-to-cause-havoc--69227614659/', threshold)

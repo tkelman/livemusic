@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from fake_useragent import UserAgent
 import requests
-from datetime import timedelta, datetime
+from datetime import timedelta, datetime, date
 from bs4 import BeautifulSoup
 import dateutil.parser
 import pytz
@@ -141,8 +141,16 @@ if __name__ == '__main__':
     for venue_url in venue_list:
         rearchive_if_older_than(redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
 
+    this_year = str(date.today().year)
+    this_month = str(date.today().month)
     for venue_url in venue_list:
-        if venue_url == 'https://www.thefreight.org/shows/':
+        if venue_url == '':
+            assert False
+        elif venue_url == 'https://www.rickshawstop.com/':
+            archive_events(venue_url, '/e/', venue_url.replace('.com/', '.com'))
+        elif venue_url == 'https://www.dnalounge.com/calendar/latest.html':
+            archive_events(venue_url, this_month, venue_url.replace('latest.html', this_year + '/'))
+        elif venue_url == 'https://www.thefreight.org/shows/':
             archive_events(venue_url, '/event/', venue_url.replace('/shows/', ''))
         elif venue_url == 'https://www.brickandmortarmusic.com/':
             archive_events(venue_url, 'https://www.ticketweb.com/event/')

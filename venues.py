@@ -140,8 +140,8 @@ def archive_events(venue_listing_url, event_prefix, venue_top_url='', include_or
 
 
 if __name__ == '__main__':
-    for venue_url in venue_list:
-        rearchive_if_older_than(venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
+    #for venue_url in venue_list:
+    #    rearchive_if_older_than(venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
 
     for venue_url in venue_list:
         rearchive_if_older_than(redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
@@ -161,9 +161,9 @@ if __name__ == '__main__':
         elif venue_url == 'https://amnesiathebar.com/calendar/list/':
             archive_events(venue_url, venue_url.replace('/list/', '/'))
         elif venue_url == 'https://www.hotelutah.com/calendar/':
-            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''))
+            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
         elif venue_url == 'https://www.yoshis.com/calendar/':
-            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''))
+            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
         elif venue_url == 'http://www.milksf.com/':
             archive_events(venue_url, '/shows/', venue_url[:-1])
         elif venue_url == 'http://www.bottomofthehill.com/calendar.html':
@@ -211,7 +211,7 @@ if __name__ == '__main__':
         #elif venue_url == 'https://publicsf.com/calendar':
         #    archive_events(venue_url, ) #TODO
         #elif venue_url == 'https://oaklandoctopus.org/calendar':
-        #    archive_events(venue_url, )
+        #    archive_events(venue_url, ) # :(
         elif venue_url == 'https://www.riotheatre.com/events':
             archive_events(venue_url, '/events-2/', venue_url.replace('/events', ''), include_original=stagger)
         elif venue_url == 'https://centerfornewmusic.com/calendar/':
@@ -232,6 +232,8 @@ if __name__ == '__main__':
             archive_events(venue_url, venue_url, include_original=stagger)
         elif venue_url == 'https://renobrewhouse.com/events/':
             archive_events(venue_url, venue_url.replace('/events/', '/event/'), include_original=stagger)
+        #elif venue_url == 'http://www.paramounttheatre.com/schedule.html':
+        #    continue # no separate event pages
         elif venue_url == 'https://www.jmaxproductions.net/calendar/':
             archive_events(venue_url, venue_url.replace('/calendar/', '/event/'), include_original=stagger)
         elif venue_url == 'http://billgrahamcivic.com/event-listing/':

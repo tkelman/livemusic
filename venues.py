@@ -171,7 +171,8 @@ if __name__ == '__main__':
         elif venue_url == 'http://www.bottomofthehill.com/calendar.html':
             archive_events(venue_url, venue_url.replace('calendar.html', '') + this_year)
         elif venue_url.startswith('https://www.monarchsf.com/'):
-            archive_events(venue_url, '/e/', 'https://www.monarchsf.com')
+            stagger and print('trying problematic venue {} this hour'.format(venue_url))
+            archive_events(venue_url, '/e/', 'https://www.monarchsf.com', include_original=stagger)
         elif venue_url == 'https://starlinesocialclub.com/calendar/list':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
             archive_events(venue_url, '/event/', venue_url.replace('/calendar/list', ''), include_original=stagger)

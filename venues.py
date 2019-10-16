@@ -122,9 +122,9 @@ ua_header = {'User-Agent': UserAgent().chrome}
 redirect_prefix = 'https://via.hypothes.is/'
 
 
-def archive_events(venue_listing_url, event_prefix, venue_top_url='', include_original=True):
-    # venue_top_url only needed if event links are relative
-    response = requests.get(venue_listing_url, headers=ua_header)
+def archive_events(listing_url, event_prefix, top_url='', include_original=True):
+    # top_url only needed if event links are relative
+    response = requests.get(listing_url, headers=ua_header)
     response.raise_for_status()
     doc = BeautifulSoup(response.text, 'html.parser')
     all_events = [link.get('href') for link in doc.find_all('a')
@@ -135,8 +135,12 @@ def archive_events(venue_listing_url, event_prefix, venue_top_url='', include_or
         if event == 'http://www.stocktonlive.com/events/rss':
             continue # skip this
         if include_original:
-            archive_once(venue_top_url + event)
-        archive_once(redirect_prefix + venue_top_url + event)
+            archive_once(top_url + event)
+        archive_once(redirect_prefix + top_url + event)
+        if top_url == 'https://www.yoshis.com':
+            if include_original:
+                archive_once(top_url + event + '#')
+            archive_once(redirect_prefix + top_url + event + '#')
 
 
 if __name__ == '__main__':

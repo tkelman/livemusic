@@ -142,18 +142,28 @@ if __name__ == '__main__':
         rearchive_if_older_than(redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
 
     for venue_url in venue_list:
-        if venue_url == 'https://jubjubsthirstparlor.com/events/':
+        if venue_url == 'https://www.thefreight.org/shows/':
+            archive_events(venue_url, '/event/', venue_url.replace('/shows/', ''))
+        elif venue_url == 'https://www.brickandmortarmusic.com/':
+            archive_events(venue_url, 'https://www.ticketweb.com/event/')
+        #elif venue_url == 'https://publicsf.com/calendar':
+        #    archive_events(venue_url, )
+        #elif venue_url == 'https://oaklandoctopus.org/calendar':
+        #    archive_events(venue_url, )
+        elif venue_url == 'https://www.riotheatre.com/events':
+            archive_events(venue_url, '/events-2/', venue_url.replace('/events', ''))
+        elif venue_url == 'https://centerfornewmusic.com/calendar/':
+            archive_events(venue_url, venue_url)
+        elif venue_url == 'https://lutherburbankcenter.org/events/':
+            archive_events(venue_url, venue_url.replace('/events/', '/event/'))
+        elif venue_url == 'https://jubjubsthirstparlor.com/events/':
             archive_events(venue_url, venue_url.replace('/events/', '/event/'))
         elif venue_url == 'http://www.adobebooks.com/events':
             archive_events(venue_url, '/events/', venue_url.replace('/events', ''))
-        #elif venue_url == 'http://montalvoarts.org/calendar/':
-        #    archive_events(venue_url, '/exhibitions/', venue_url.replace('/calendar/', ''))
-        #    archive_events(venue_url, '/classes/', venue_url.replace('/calendar/', ''))
-        #    archive_events(venue_url, '/events/', venue_url.replace('/calendar/', ''))
-        elif venue_url == 'http://montalvoarts.org/events/':
-            archive_events(venue_url, '/exhibitions/', venue_url.replace('/events/', ''))
-            archive_events(venue_url, '/classes/', venue_url.replace('/events/', ''))
-            archive_events(venue_url, '/events/', venue_url.replace('/events/', ''))
+        elif venue_url.startswith('http://montalvoarts.org/'):
+            archive_events(venue_url, '/exhibitions/', 'http://montalvoarts.org')
+            archive_events(venue_url, '/classes/', 'http://montalvoarts.org')
+            archive_events(venue_url, '/events/', 'http://montalvoarts.org')
         elif venue_url == 'http://www.uptowntheatrenapa.com/events/':
             archive_events(venue_url, venue_url.replace('/events/', '/event/'))
         elif venue_url == 'https://mezzaninesf.com/events/':

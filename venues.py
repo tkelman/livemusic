@@ -130,6 +130,8 @@ def archive_events(venue_listing_url, event_prefix, venue_top_url=''):
     all_events = [link.get('href') for link in doc.find_all('a')
         if link.get('href', '').startswith(event_prefix)]
     for event in set(all_events): # remove duplicates
+        if '?' in event:
+            event = event[:event.find('?')]
         #archive_once(venue_top_url + event)
         archive_once(redirect_prefix + venue_top_url + event)
 

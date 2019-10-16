@@ -150,11 +150,11 @@ if __name__ == '__main__':
         if venue_url == '':
             assert False
         elif venue_url == 'https://www.rickshawstop.com/':
-            archive_events(venue_url, '/e/', venue_url.replace('.com/', '.com'))
+            archive_events(venue_url, '/e/', venue_url.replace('.com/', '.com'), redirect_only=True)
         elif venue_url == 'https://www.dnalounge.com/calendar/latest.html':
-            archive_events(venue_url, this_month, venue_url.replace('latest.html', this_year + '/'))
+            archive_events(venue_url, this_month, venue_url.replace('latest.html', this_year + '/'), redirect_only=True)
         elif venue_url == 'https://www.thefreight.org/shows/':
-            archive_events(venue_url, '/event/', venue_url.replace('/shows/', ''))
+            archive_events(venue_url, '/event/', venue_url.replace('/shows/', ''), redirect_only=True)
         elif venue_url == 'https://www.brickandmortarmusic.com/':
             archive_events(venue_url, 'https://www.ticketweb.com/event/', redirect_only=True)
         #elif venue_url == 'https://publicsf.com/calendar':
@@ -162,13 +162,13 @@ if __name__ == '__main__':
         #elif venue_url == 'https://oaklandoctopus.org/calendar':
         #    archive_events(venue_url, )
         elif venue_url == 'https://www.riotheatre.com/events':
-            archive_events(venue_url, '/events-2/', venue_url.replace('/events', ''))
+            archive_events(venue_url, '/events-2/', venue_url.replace('/events', ''), redirect_only=True)
         elif venue_url == 'https://centerfornewmusic.com/calendar/':
-            archive_events(venue_url, venue_url)
+            archive_events(venue_url, venue_url, redirect_only=True)
         elif venue_url == 'https://lutherburbankcenter.org/events/':
-            archive_events(venue_url, venue_url.replace('/events/', '/event/'))
+            archive_events(venue_url, venue_url.replace('/events/', '/event/'), redirect_only=True)
         elif venue_url == 'https://jubjubsthirstparlor.com/events/':
-            archive_events(venue_url, venue_url.replace('/events/', '/event/'))
+            archive_events(venue_url, venue_url.replace('/events/', '/event/'), redirect_only=True)
         elif venue_url == 'http://www.adobebooks.com/events':
             archive_events(venue_url, '/events/', venue_url.replace('/events', ''))
         elif venue_url.startswith('http://montalvoarts.org/'):
@@ -178,37 +178,37 @@ if __name__ == '__main__':
         elif venue_url == 'http://www.uptowntheatrenapa.com/events/':
             archive_events(venue_url, venue_url.replace('/events/', '/event/'))
         elif venue_url == 'https://mezzaninesf.com/events/':
-            archive_events(venue_url, venue_url)
+            archive_events(venue_url, venue_url, redirect_only=True)
         elif venue_url == 'https://renobrewhouse.com/events/':
-            archive_events(venue_url, venue_url.replace('/events/', '/event/'))
+            archive_events(venue_url, venue_url.replace('/events/', '/event/'), redirect_only=True)
         elif venue_url == 'https://www.jmaxproductions.net/calendar/':
-            archive_events(venue_url, venue_url.replace('/calendar/', '/event/'))
+            archive_events(venue_url, venue_url.replace('/calendar/', '/event/'), redirect_only=True)
         elif venue_url == 'http://billgrahamcivic.com/event-listing/':
             archive_events(venue_url, venue_url.replace('/event-listing/', '/events/'))
         elif venue_url == 'https://www.neckofthewoodssf.com/calendar/':
-            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''))
+            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''), redirect_only=True)
 
 
     # TEMPORARY
-    archive_once(redirect_prefix + 'https://www.neckofthewoodssf.com/e/karaoke-night-66763035035/')
-    archive_once(redirect_prefix + 'https://www.yoshis.com/e/count-basie-orchestra-66619949061/')
-    archive_once(redirect_prefix + 'https://www.yoshis.com/e/count-basie-orchestra-66619949061/#')
-    archive_once(redirect_prefix + 'https://www.yoshis.com/e/damien-escobar-66619973133/')
-    archive_once(redirect_prefix + 'https://www.yoshis.com/e/damien-escobar-66619973133/#')
-    archive_once(redirect_prefix + 'https://www.cornerstoneberkeley.com/e/afrocomiccon-73340422177/')
-    archive_once(redirect_prefix + 'https://thefillmore.com/event/city-and-colour/')
-    archive_once(redirect_prefix + 'https://www.slimspresents.com/e/injury-reserve-69659073163/')
-    archive_once(redirect_prefix + 'https://www.slimspresents.com/e/shintaro-sakamoto-sold-out--62092013885/')
-    archive_once(redirect_prefix + 'https://www.thechapelsf.com/e/jesse-malin-joseph-arthur-66965115463/')
-    archive_once(redirect_prefix + 'https://www.augusthallsf.com/event/9814505/finneas-blood-harmony-tour-2019/')
-    archive_once(redirect_prefix + 'https://www.theindependentsf.com/event/9940555/temples/')
+    #archive_once('https://www.neckofthewoodssf.com/e/karaoke-night-66763035035/')
+    #archive_once('https://www.yoshis.com/e/count-basie-orchestra-66619949061/')
+    #archive_once('https://www.yoshis.com/e/count-basie-orchestra-66619949061/#')
+    #archive_once('https://www.yoshis.com/e/damien-escobar-66619973133/')
+    #archive_once('https://www.yoshis.com/e/damien-escobar-66619973133/#')
+    #archive_once('https://www.cornerstoneberkeley.com/e/afrocomiccon-73340422177/')
+    #archive_once('https://thefillmore.com/event/city-and-colour/')
+    #archive_once('https://www.slimspresents.com/e/injury-reserve-69659073163/')
+    #archive_once('https://www.slimspresents.com/e/shintaro-sakamoto-sold-out--62092013885/')
+    #archive_once('https://www.thechapelsf.com/e/jesse-malin-joseph-arthur-66965115463/')
+    #archive_once('https://www.augusthallsf.com/event/9814505/finneas-blood-harmony-tour-2019/')
+    #archive_once('https://www.theindependentsf.com/event/9940555/temples/')
     #archive_once('')
-    threshold = datetime(2019, 10, 15, 22, tzinfo=pytz.utc)
-    rearchive_if_older_than('https://www.thechapelsf.com/e/w-i-t-c-h-we-intend-to-cause-havoc--69227614659/', threshold)
-    rearchive_if_older_than('https://www.slimspresents.com/e/fink-61850136423/', threshold)
-    rearchive_if_older_than('https://www.slimspresents.com/e/senses-fail-69658102259/', threshold)
-    rearchive_if_older_than('https://thefillmore.com/event/the-japanese-house/', threshold)
-    rearchive_if_older_than('https://live.stanford.edu/calendar/october-2019/bob-dylan-and-his-band', threshold)
-    rearchive_if_older_than('https://www.rickshawstop.com/e/monster-rally-with-mejiwahn-and-lake-cube-69941694491/', threshold)
-    rearchive_if_older_than('https://jubjubsthirstparlor.com/event/dreadful-children-lincoln-skinz/', threshold)
+    #threshold = datetime(2019, 10, 15, 22, tzinfo=pytz.utc)
+    #rearchive_if_older_than('https://www.thechapelsf.com/e/w-i-t-c-h-we-intend-to-cause-havoc--69227614659/', threshold)
+    #rearchive_if_older_than('https://www.slimspresents.com/e/fink-61850136423/', threshold)
+    #rearchive_if_older_than('https://www.slimspresents.com/e/senses-fail-69658102259/', threshold)
+    #rearchive_if_older_than('https://thefillmore.com/event/the-japanese-house/', threshold)
+    #rearchive_if_older_than('https://live.stanford.edu/calendar/october-2019/bob-dylan-and-his-band', threshold)
+    #rearchive_if_older_than('https://www.rickshawstop.com/e/monster-rally-with-mejiwahn-and-lake-cube-69941694491/', threshold)
+    #rearchive_if_older_than('https://jubjubsthirstparlor.com/event/dreadful-children-lincoln-skinz/', threshold)
     #rearchive_if_older_than('', threshold)

@@ -149,10 +149,26 @@ if __name__ == '__main__':
     for venue_url in venue_list:
         if venue_url == '':
             assert False
+        elif venue_url == 'https://starlinesocialclub.com/calendar/list':
+            archive_events(venue_url, '/event/', venue_url.replace('/calendar/list', ''))
+        elif venue_url == 'http://thedipredding.com/events/':
+            archive_events(venue_url, 'https://facebook.com/events/')
+        elif venue_url == 'https://www.harlows.com/all-shows/':
+            archive_events(venue_url, venue_url.replace('/all-shows/', '/event/'))
+        elif venue_url == 'https://boomboomroom.com/':
+            archive_events(venue_url, venue_url + 'event_listings/')
+        elif venue_url == 'https://www.moesalley.com/calendar/':
+            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''))
+        elif venue_url == 'https://www.thegreatnorthernsf.com/events/':
+            archive_events(venue_url, '/e/', venue_url.replace('/events/', ''))
+        #elif venue_url == 'https://themidwaysf.com/calendar/':
+        #    archive_events(venue_url, ) #TODO
+        elif venue_url == 'http://www.uptownnightclub.com/events/':
+            archive_events(venue_url, venue_url.replace('/events/', '/event/'))
         elif venue_url == 'http://www.stocktonlive.com/events/':
             archive_events(venue_url, venue_url)
         elif venue_url == 'https://mystictheatre.com/event-calendar':
-            archive_events(venue_url, 'https://www.eventbrite.com/')
+            archive_events(venue_url, 'https://www.eventbrite.com/', redirect_only=True)
         elif venue_url == 'https://thecrepeplace.com/events/':
             archive_events(venue_url, '/events/', venue_url.replace('/events/', ''))
         elif venue_url == 'https://sierranevada.com/events/':
@@ -172,7 +188,7 @@ if __name__ == '__main__':
         elif venue_url == 'https://www.brickandmortarmusic.com/':
             archive_events(venue_url, 'https://www.ticketweb.com/event/', redirect_only=True)
         #elif venue_url == 'https://publicsf.com/calendar':
-        #    archive_events(venue_url, )
+        #    archive_events(venue_url, ) #TODO
         #elif venue_url == 'https://oaklandoctopus.org/calendar':
         #    archive_events(venue_url, )
         elif venue_url == 'https://www.riotheatre.com/events':

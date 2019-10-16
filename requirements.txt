@@ -2,6 +2,6 @@ fake-useragent
 beautifulsoup4
 python-dateutil
 pytz
-#https://github.com/tkelman/archiveis/archive/patch-1.zip
-archiveis
+https://github.com/tkelman/archiveis/archive/patch-2.zip
+#archiveis
 pyopenssl

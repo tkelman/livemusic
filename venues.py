@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from fake_useragent import UserAgent
 import requests
-from datetime import date, timedelta, datetime
+from datetime import timedelta, datetime
 from bs4 import BeautifulSoup
 import dateutil.parser
 import pytz
@@ -12,37 +12,31 @@ redirect_prefix = 'https://via.hypothes.is/'
 ua_header = {'User-Agent': UserAgent().chrome}
 
 
-def archived_date(venue_url, redirect=False):
-    prefix = ''
-    if redirect:
-        prefix = redirect_prefix
-    response = requests.get('{}https://archive.today/{}/{}'.format(
-        prefix, date.today() + timedelta(days=1), venue_url),
-        headers=ua_header)
-    if response.status_code == 404:
-        # not yet archived
-        return None
+def archived_date(url):
+    response = archiveis.api.do_post(url, anyway=0)
     response.raise_for_status()
     doc = BeautifulSoup(response.text, 'html.parser')
     pubdates = doc.find_all(itemprop='pubdate')
-    assert len(pubdates) == 1
+    assert len(pubdates) <= 1
+    if len(pubdates) == 0:
+        return archiveis.api.parse_memento(response)
     return dateutil.parser.isoparse(pubdates[0].attrs['datetime'])
 
 
-def rearchive_if_older_than(venue_url, threshold_date):
-    pubdate = archived_date(venue_url)
-    if pubdate is None:
-        print('{} not yet archived'.format(venue_url))
-    else:
+def rearchive_if_older_than(url, threshold_date):
+    pubdate = archived_date(url)
+    if isinstance(pubdate, datetime):
         age = datetime.now(tz=pytz.utc) - pubdate
-        print('{} archived {} ago'.format(venue_url, age))
+        print('{} archived {} ago'.format(url, age))
+        if pubdate < threshold_date:
+            print('submitted new archive: {}'.format(archiveis.capture(url)))
+    else:
+        print('{} not yet archived'.format(url))
+        print('submitted new archive: {}'.format(pubdate))
 
-    if pubdate is None or pubdate < threshold_date:
-        print('submitted new archive: {}'.format(archiveis.capture(venue_url)))
 
-
-def archive_once(venue_url):
-    rearchive_if_older_than(venue_url, datetime(1, 1, 1, tzinfo=pytz.utc))
+def archive_once(url):
+    rearchive_if_older_than(url, datetime(1, 1, 1, tzinfo=pytz.utc))
 
 
 venue_list = [
@@ -141,7 +135,7 @@ def archive_events(venue_listing_url, event_prefix, venue_top_url=''):
 
 if __name__ == '__main__':
     for venue_url in venue_list:
-        rearchive_if_older_than(venue_url, datetime.now(tz=pytz.utc) - timedelta(days=1))
+        rearchive_if_older_than(venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
 
     for venue_url in venue_list:
         rearchive_if_older_than(redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=4))

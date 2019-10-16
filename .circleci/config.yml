@@ -33,10 +33,10 @@ workflows:
                 - archive
     jobs:
       - build
-  everytenminutes:
+  everytwentyminutes:
     triggers:
       - schedule:
-          cron: "5,15,25,35,45,55 * * * *"
+          cron: "5,25,45 * * * *"
           filters:
             branches:
               only:

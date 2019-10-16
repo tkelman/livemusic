@@ -1,15 +1,11 @@
 #!/usr/bin/env python
-from fake_useragent import UserAgent
-import requests
-from datetime import timedelta, datetime, date
+import archiveis
 from bs4 import BeautifulSoup
 import dateutil.parser
+from datetime import datetime, timedelta, date
 import pytz
-import archiveis
-
-
-redirect_prefix = 'https://via.hypothes.is/'
-ua_header = {'User-Agent': UserAgent().chrome}
+from fake_useragent import UserAgent
+import requests
 
 
 def archived_date(url):
@@ -122,7 +118,11 @@ venue_list = [
 ]
 
 
-def archive_events(venue_listing_url, event_prefix, venue_top_url=''):
+ua_header = {'User-Agent': UserAgent().chrome}
+redirect_prefix = 'https://via.hypothes.is/'
+
+
+def archive_events(venue_listing_url, event_prefix, venue_top_url='', redirect_only=False):
     # venue_top_url only needed if event links are relative
     response = requests.get(venue_listing_url, headers=ua_header)
     response.raise_for_status()
@@ -132,7 +132,8 @@ def archive_events(venue_listing_url, event_prefix, venue_top_url=''):
     for event in set(all_events): # remove duplicates
         if '?' in event:
             event = event[:event.find('?')]
-        #archive_once(venue_top_url + event)
+        if not redirect_only:
+            archive_once(venue_top_url + event)
         archive_once(redirect_prefix + venue_top_url + event)
 
 
@@ -155,7 +156,7 @@ if __name__ == '__main__':
         elif venue_url == 'https://www.thefreight.org/shows/':
             archive_events(venue_url, '/event/', venue_url.replace('/shows/', ''))
         elif venue_url == 'https://www.brickandmortarmusic.com/':
-            archive_events(venue_url, 'https://www.ticketweb.com/event/')
+            archive_events(venue_url, 'https://www.ticketweb.com/event/', redirect_only=True)
         #elif venue_url == 'https://publicsf.com/calendar':
         #    archive_events(venue_url, )
         #elif venue_url == 'https://oaklandoctopus.org/calendar':

@@ -1,7 +1,7 @@
-fake-useragent
-beautifulsoup4
-python-dateutil
-pytz
 https://github.com/tkelman/archiveis/archive/patch-2.zip
 #archiveis
+beautifulsoup4
+fake-useragent
 pyopenssl
+python-dateutil
+pytz

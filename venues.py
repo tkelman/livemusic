@@ -122,7 +122,7 @@ ua_header = {'User-Agent': UserAgent().chrome}
 redirect_prefix = 'https://via.hypothes.is/'
 
 
-def archive_events(venue_listing_url, event_prefix, venue_top_url='', redirect_only=False):
+def archive_events(venue_listing_url, event_prefix, venue_top_url='', include_original=True):
     # venue_top_url only needed if event links are relative
     response = requests.get(venue_listing_url, headers=ua_header)
     response.raise_for_status()
@@ -132,7 +132,9 @@ def archive_events(venue_listing_url, event_prefix, venue_top_url='', redirect_o
     for event in set(all_events): # remove duplicates
         if '?' in event:
             event = event[:event.find('?')]
-        if not redirect_only:
+        if event == 'http://www.stocktonlive.com/events/rss':
+            continue # skip this
+        if include_original:
             archive_once(venue_top_url + event)
         archive_once(redirect_prefix + venue_top_url + event)
 
@@ -146,21 +148,40 @@ if __name__ == '__main__':
 
     this_year = str(date.today().year)
     this_month = str(date.today().month)
-    for venue_url in venue_list:
+    day_of_month = date.today().day
+    hour_of_day = datetime.now(tz=pytz.utc).hour
+    for i, venue_url in enumerate(venue_list):
+        # for problematic venue pages, only try during one hour per day
+        # different hour per venue, different per day of the month
+        stagger = (hour_of_day == (day_of_month + i) % 24)
         if venue_url == '':
             assert False
+        elif venue_url == 'http://www.makeoutroom.com/events':
+            archive_events(venue_url, venue_url.replace('http://', '//'), 'http:')
+        elif venue_url == 'https://amnesiathebar.com/calendar/list/':
+            archive_events(venue_url, venue_url.replace('/list/', '/'))
+        elif venue_url == 'https://www.hotelutah.com/calendar/':
+            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''))
+        elif venue_url == 'https://www.yoshis.com/calendar/':
+            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''))
+        elif venue_url == 'http://www.milksf.com/':
+            archive_events(venue_url, '/shows/', venue_url[:-1])
+        elif venue_url == 'http://www.bottomofthehill.com/calendar.html':
+            archive_events(venue_url, venue_url.replace('calendar.html', '') + this_year)
+        elif venue_url.startswith('https://www.monarchsf.com/'):
+            archive_events(venue_url, '/e/', 'https://www.monarchsf.com')
         elif venue_url == 'https://starlinesocialclub.com/calendar/list':
-            archive_events(venue_url, '/event/', venue_url.replace('/calendar/list', ''))
+            archive_events(venue_url, '/event/', venue_url.replace('/calendar/list', ''), include_original=stagger)
         elif venue_url == 'http://thedipredding.com/events/':
             archive_events(venue_url, 'https://facebook.com/events/')
         elif venue_url == 'https://www.harlows.com/all-shows/':
-            archive_events(venue_url, venue_url.replace('/all-shows/', '/event/'))
+            archive_events(venue_url, venue_url.replace('/all-shows/', '/event/'), include_original=stagger)
         elif venue_url == 'https://boomboomroom.com/':
-            archive_events(venue_url, venue_url + 'event_listings/')
+            archive_events(venue_url, venue_url + 'event_listings/', include_original=stagger)
         elif venue_url == 'https://www.moesalley.com/calendar/':
-            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''))
+            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
         elif venue_url == 'https://www.thegreatnorthernsf.com/events/':
-            archive_events(venue_url, '/e/', venue_url.replace('/events/', ''))
+            archive_events(venue_url, '/e/', venue_url.replace('/events/', ''), include_original=stagger)
         #elif venue_url == 'https://themidwaysf.com/calendar/':
         #    archive_events(venue_url, ) #TODO
         elif venue_url == 'http://www.uptownnightclub.com/events/':
@@ -168,37 +189,37 @@ if __name__ == '__main__':
         elif venue_url == 'http://www.stocktonlive.com/events/':
             archive_events(venue_url, venue_url)
         elif venue_url == 'https://mystictheatre.com/event-calendar':
-            archive_events(venue_url, 'https://www.eventbrite.com/', redirect_only=True)
+            archive_events(venue_url, 'https://www.eventbrite.com/', include_original=stagger)
         elif venue_url == 'https://thecrepeplace.com/events/':
             archive_events(venue_url, '/events/', venue_url.replace('/events/', ''))
         elif venue_url == 'https://sierranevada.com/events/':
-            archive_events(venue_url, venue_url.replace('/events/', '/event/'))
+            archive_events(venue_url, venue_url.replace('/events/', '/event/'), include_original=stagger)
         elif venue_url == 'https://empresstheatre.org/events/':
             archive_events(venue_url, venue_url)
         elif venue_url == 'https://www.crestsacramento.com/calendar/':
-            archive_events(venue_url, '/event/', venue_url.replace('/calendar/', ''))
+            archive_events(venue_url, '/event/', venue_url.replace('/calendar/', ''), include_original=stagger)
         elif venue_url == 'https://www.hollandreno.org/calendar/list/':
             archive_events(venue_url, venue_url.replace('/calendar/list/', '/event/'))
         elif venue_url == 'https://www.rickshawstop.com/':
-            archive_events(venue_url, '/e/', venue_url.replace('.com/', '.com'), redirect_only=True)
+            archive_events(venue_url, '/e/', venue_url.replace('.com/', '.com'), include_original=stagger)
         elif venue_url == 'https://www.dnalounge.com/calendar/latest.html':
-            archive_events(venue_url, this_month, venue_url.replace('latest.html', this_year + '/'), redirect_only=True)
+            archive_events(venue_url, this_month, venue_url.replace('latest.html', this_year + '/'), include_original=stagger)
         elif venue_url == 'https://www.thefreight.org/shows/':
-            archive_events(venue_url, '/event/', venue_url.replace('/shows/', ''), redirect_only=True)
+            archive_events(venue_url, '/event/', venue_url.replace('/shows/', ''), include_original=stagger)
         elif venue_url == 'https://www.brickandmortarmusic.com/':
-            archive_events(venue_url, 'https://www.ticketweb.com/event/', redirect_only=True)
+            archive_events(venue_url, 'https://www.ticketweb.com/event/', include_original=stagger)
         #elif venue_url == 'https://publicsf.com/calendar':
         #    archive_events(venue_url, ) #TODO
         #elif venue_url == 'https://oaklandoctopus.org/calendar':
         #    archive_events(venue_url, )
         elif venue_url == 'https://www.riotheatre.com/events':
-            archive_events(venue_url, '/events-2/', venue_url.replace('/events', ''), redirect_only=True)
+            archive_events(venue_url, '/events-2/', venue_url.replace('/events', ''), include_original=stagger)
         elif venue_url == 'https://centerfornewmusic.com/calendar/':
-            archive_events(venue_url, venue_url, redirect_only=True)
+            archive_events(venue_url, venue_url, include_original=stagger)
         elif venue_url == 'https://lutherburbankcenter.org/events/':
-            archive_events(venue_url, venue_url.replace('/events/', '/event/'), redirect_only=True)
+            archive_events(venue_url, venue_url.replace('/events/', '/event/'), include_original=stagger)
         elif venue_url == 'https://jubjubsthirstparlor.com/events/':
-            archive_events(venue_url, venue_url.replace('/events/', '/event/'), redirect_only=True)
+            archive_events(venue_url, venue_url.replace('/events/', '/event/'), include_original=stagger)
         elif venue_url == 'http://www.adobebooks.com/events':
             archive_events(venue_url, '/events/', venue_url.replace('/events', ''))
         elif venue_url.startswith('http://montalvoarts.org/'):
@@ -208,15 +229,15 @@ if __name__ == '__main__':
         elif venue_url == 'http://www.uptowntheatrenapa.com/events/':
             archive_events(venue_url, venue_url.replace('/events/', '/event/'))
         elif venue_url == 'https://mezzaninesf.com/events/':
-            archive_events(venue_url, venue_url, redirect_only=True)
+            archive_events(venue_url, venue_url, include_original=stagger)
         elif venue_url == 'https://renobrewhouse.com/events/':
-            archive_events(venue_url, venue_url.replace('/events/', '/event/'), redirect_only=True)
+            archive_events(venue_url, venue_url.replace('/events/', '/event/'), include_original=stagger)
         elif venue_url == 'https://www.jmaxproductions.net/calendar/':
-            archive_events(venue_url, venue_url.replace('/calendar/', '/event/'), redirect_only=True)
+            archive_events(venue_url, venue_url.replace('/calendar/', '/event/'), include_original=stagger)
         elif venue_url == 'http://billgrahamcivic.com/event-listing/':
             archive_events(venue_url, venue_url.replace('/event-listing/', '/events/'))
         elif venue_url == 'https://www.neckofthewoodssf.com/calendar/':
-            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''), redirect_only=True)
+            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
 
 
     # TEMPORARY

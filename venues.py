@@ -138,7 +138,7 @@ def archive_events(listing_url, event_prefix, top_url='', include_original=True)
         if link.get('href', '').startswith(event_prefix)]
     assert len(all_events) > 0
     for event in set(all_events): # remove duplicates
-        if '?' in event:
+        if '?' in event and not event.startswith('http://www.aceofspadessac.com'):
             event = event[:event.find('?')]
         if event == 'http://www.stocktonlive.com/events/rss':
             continue # skip this
@@ -374,8 +374,10 @@ if __name__ == '__main__':
         #    archive_events(venue_url, ) #TODO
         elif venue_url == 'http://www.sapcenter.com/events/all':
             archive_events(venue_url, venue_url.replace('/all', '/detail/'))
-#    'http://1015.com/calendar/',
-#    'http://theritzsanjose.com/',
+        elif venue_url == 'http://1015.com/calendar/':
+            archive_events(venue_url, venue_url.replace('/calendar/', '/events/'))
+        #elif venue_url == 'http://theritzsanjose.com/':
+        #    archive_events(venue_url, ) #TODO
 
 
     # TEMPORARY

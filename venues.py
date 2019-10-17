@@ -11,8 +11,8 @@ import curio
 asks.init('curio')
 
 
-async def archived_date(url):
-    response = await archiveis.api.do_post(url, anyway=0)
+async def archived_date(session, url):
+    response = await curio.spawn(archiveis.api.do_post(session, url, anyway=0))
     response.raise_for_status()
     doc = BeautifulSoup(response.text, 'html.parser')
     pubdates = doc.find_all(itemprop='pubdate')
@@ -22,20 +22,20 @@ async def archived_date(url):
     return dateutil.parser.isoparse(pubdates[0].attrs['datetime'])
 
 
-async def rearchive_if_older_than(url, threshold_date):
-    pubdate = await archived_date(url)
+async def rearchive_if_older_than(session, url, threshold_date):
+    pubdate = await archived_date(session, url)
     if isinstance(pubdate, datetime):
         age = datetime.now(tz=pytz.utc) - pubdate
         print('{} archived {} ago'.format(url, age))
         if pubdate < threshold_date:
-            print('submitted new archive: {}'.format(await archiveis.capture(url)))
+            print('submitted new archive: {}'.format(await curio.spawn(archiveis.capture(session, url))))
     else:
         print('{} not yet archived'.format(url))
         print('submitted new archive: {}'.format(pubdate))
 
 
-async def archive_once(url):
-    await rearchive_if_older_than(url, datetime(1, 1, 1, tzinfo=pytz.utc))
+async def archive_once(session, url):
+    await rearchive_if_older_than(session, url, datetime(1, 1, 1, tzinfo=pytz.utc))
 
 
 venue_list = [
@@ -133,7 +133,7 @@ ua_header = {'User-Agent': UserAgent().chrome}
 redirect_prefix = 'https://via.hypothes.is/'
 
 
-async def archive_events(listing_url, event_prefix, top_url='', include_original=True):
+async def archive_events(session, listing_url, event_prefix, top_url='', include_original=True):
     # top_url only needed if event links are relative
     response = requests.get(listing_url, headers=ua_header)
     response.raise_for_status()
@@ -147,20 +147,22 @@ async def archive_events(listing_url, event_prefix, top_url='', include_original
         if event == 'http://www.stocktonlive.com/events/rss':
             continue # skip this
         if include_original:
-            await archive_once(top_url + event)
-        await archive_once(redirect_prefix + top_url + event)
+            await archive_once(session, top_url + event)
+        await archive_once(session, redirect_prefix + top_url + event)
         if top_url == 'https://www.yoshis.com':
             if include_original:
-                await archive_once(top_url + event + '#')
-            await archive_once(redirect_prefix + top_url + event + '#')
+                await archive_once(session, top_url + event + '#')
+            await archive_once(session, redirect_prefix + top_url + event + '#')
 
 
 async def main():
+    session = asks.Session(connections=5)
+
     #for venue_url in venue_list:
-    #    await rearchive_if_older_than(venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
+    #    await rearchive_if_older_than(session, venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
 
     for venue_url in venue_list:
-        await rearchive_if_older_than(redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
+        await rearchive_if_older_than(session, redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
 
     this_year = str(date.today().year)
     this_month = str(date.today().month)
@@ -174,216 +176,216 @@ async def main():
         if venue_url == '':
             assert False
         elif venue_url == 'http://www.makeoutroom.com/events':
-            await archive_events(venue_url, venue_url.replace('http://', '//'), 'http:')
+            await archive_events(session, venue_url, venue_url.replace('http://', '//'), 'http:')
         elif venue_url == 'https://amnesiathebar.com/calendar/list/':
-            await archive_events(venue_url, venue_url.replace('/list/', '/'))
+            await archive_events(session, venue_url, venue_url.replace('/list/', '/'))
         elif venue_url == 'https://www.hotelutah.com/calendar/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
+            await archive_events(session, venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
         elif venue_url == 'https://www.yoshis.com/calendar/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
+            await archive_events(session, venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
         elif venue_url == 'http://www.milksf.com/':
-            await archive_events(venue_url, '/shows/', venue_url[:-1])
+            await archive_events(session, venue_url, '/shows/', venue_url[:-1])
         elif venue_url == 'http://www.bottomofthehill.com/calendar.html':
-            await archive_events(venue_url, venue_url.replace('calendar.html', '') + this_year)
+            await archive_events(session, venue_url, venue_url.replace('calendar.html', '') + this_year)
         elif venue_url.startswith('https://www.monarchsf.com/'):
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, '/e/', 'https://www.monarchsf.com', include_original=stagger)
+            await archive_events(session, venue_url, '/e/', 'https://www.monarchsf.com', include_original=stagger)
         elif venue_url == 'https://starlinesocialclub.com/calendar/list':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, '/event/', venue_url.replace('/calendar/list', ''), include_original=stagger)
+            await archive_events(session, venue_url, '/event/', venue_url.replace('/calendar/list', ''), include_original=stagger)
         elif venue_url == 'http://thedipredding.com/events/':
-            await archive_events(venue_url, 'https://facebook.com/events/')
+            await archive_events(session, venue_url, 'https://facebook.com/events/')
         elif venue_url == 'https://www.harlows.com/all-shows/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, venue_url.replace('/all-shows/', '/event/'), include_original=stagger)
+            await archive_events(session, venue_url, venue_url.replace('/all-shows/', '/event/'), include_original=stagger)
         elif venue_url == 'https://boomboomroom.com/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, venue_url + 'event_listings/', include_original=stagger)
+            await archive_events(session, venue_url, venue_url + 'event_listings/', include_original=stagger)
         elif venue_url == 'https://www.moesalley.com/calendar/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
+            await archive_events(session, venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
         elif venue_url == 'https://www.thegreatnorthernsf.com/events/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, '/e/', venue_url.replace('/events/', ''), include_original=stagger)
+            await archive_events(session, venue_url, '/e/', venue_url.replace('/events/', ''), include_original=stagger)
         #elif venue_url == 'https://themidwaysf.com/calendar/':
-        #    await archive_events(venue_url, ) #TODO
+        #    await archive_events(session, venue_url, ) #TODO
         elif venue_url == 'http://www.uptownnightclub.com/events/':
-            await archive_events(venue_url, venue_url.replace('/events/', '/event/'))
+            await archive_events(session, venue_url, venue_url.replace('/events/', '/event/'))
         elif venue_url == 'http://www.stocktonlive.com/events/':
-            await archive_events(venue_url, venue_url)
+            await archive_events(session, venue_url, venue_url)
         elif venue_url == 'https://mystictheatre.com/event-calendar':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, 'https://www.eventbrite.com/', include_original=stagger)
+            await archive_events(session, venue_url, 'https://www.eventbrite.com/', include_original=stagger)
         elif venue_url == 'https://thecrepeplace.com/events/':
-            await archive_events(venue_url, '/events/', venue_url.replace('/events/', ''))
+            await archive_events(session, venue_url, '/events/', venue_url.replace('/events/', ''))
         elif venue_url == 'https://sierranevada.com/events/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, venue_url.replace('/events/', '/event/'), include_original=stagger)
+            await archive_events(session, venue_url, venue_url.replace('/events/', '/event/'), include_original=stagger)
         elif venue_url == 'https://empresstheatre.org/events/':
-            await archive_events(venue_url, venue_url)
+            await archive_events(session, venue_url, venue_url)
         elif venue_url == 'https://www.crestsacramento.com/calendar/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, '/event/', venue_url.replace('/calendar/', ''), include_original=stagger)
+            await archive_events(session, venue_url, '/event/', venue_url.replace('/calendar/', ''), include_original=stagger)
         elif venue_url == 'https://www.hollandreno.org/calendar/list/':
-            await archive_events(venue_url, venue_url.replace('/calendar/list/', '/event/'))
+            await archive_events(session, venue_url, venue_url.replace('/calendar/list/', '/event/'))
         elif venue_url == 'https://www.rickshawstop.com/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, '/e/', venue_url.replace('.com/', '.com'), include_original=stagger)
+            await archive_events(session, venue_url, '/e/', venue_url.replace('.com/', '.com'), include_original=stagger)
         elif venue_url == 'https://www.dnalounge.com/calendar/latest.html':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, this_month, venue_url.replace('latest.html', this_year + '/'), include_original=stagger)
+            await archive_events(session, venue_url, this_month, venue_url.replace('latest.html', this_year + '/'), include_original=stagger)
         elif venue_url == 'https://www.thefreight.org/shows/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, '/event/', venue_url.replace('/shows/', ''), include_original=stagger)
+            await archive_events(session, venue_url, '/event/', venue_url.replace('/shows/', ''), include_original=stagger)
         elif venue_url == 'https://www.brickandmortarmusic.com/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, 'https://www.ticketweb.com/event/', include_original=stagger)
+            await archive_events(session, venue_url, 'https://www.ticketweb.com/event/', include_original=stagger)
         #elif venue_url == 'https://publicsf.com/calendar':
-        #    await archive_events(venue_url, ) #TODO
+        #    await archive_events(session, venue_url, ) #TODO
         #elif venue_url == 'https://oaklandoctopus.org/calendar':
-        #    await archive_events(venue_url, ) # :(
+        #    await archive_events(session, venue_url, ) # :(
         elif venue_url == 'https://www.riotheatre.com/events':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, '/events-2/', venue_url.replace('/events', ''), include_original=stagger)
+            await archive_events(session, venue_url, '/events-2/', venue_url.replace('/events', ''), include_original=stagger)
         elif venue_url == 'https://centerfornewmusic.com/calendar/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, venue_url, include_original=stagger)
+            await archive_events(session, venue_url, venue_url, include_original=stagger)
         elif venue_url == 'https://lutherburbankcenter.org/events/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, venue_url.replace('/events/', '/event/'), include_original=stagger)
+            await archive_events(session, venue_url, venue_url.replace('/events/', '/event/'), include_original=stagger)
         elif venue_url == 'https://jubjubsthirstparlor.com/events/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, venue_url.replace('/events/', '/event/'), include_original=stagger)
+            await archive_events(session, venue_url, venue_url.replace('/events/', '/event/'), include_original=stagger)
         elif venue_url == 'http://www.adobebooks.com/events':
-            await archive_events(venue_url, '/events/', venue_url.replace('/events', ''))
+            await archive_events(session, venue_url, '/events/', venue_url.replace('/events', ''))
         elif venue_url.startswith('http://montalvoarts.org/'):
-            await archive_events(venue_url, '/exhibitions/', 'http://montalvoarts.org')
-            await archive_events(venue_url, '/classes/', 'http://montalvoarts.org')
-            await archive_events(venue_url, '/events/', 'http://montalvoarts.org')
+            await archive_events(session, venue_url, '/exhibitions/', 'http://montalvoarts.org')
+            await archive_events(session, venue_url, '/classes/', 'http://montalvoarts.org')
+            await archive_events(session, venue_url, '/events/', 'http://montalvoarts.org')
         elif venue_url == 'http://www.uptowntheatrenapa.com/events/':
-            await archive_events(venue_url, venue_url.replace('/events/', '/event/'))
+            await archive_events(session, venue_url, venue_url.replace('/events/', '/event/'))
         elif venue_url == 'https://mezzaninesf.com/events/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, venue_url, include_original=stagger)
+            await archive_events(session, venue_url, venue_url, include_original=stagger)
         elif venue_url == 'https://renobrewhouse.com/events/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, venue_url.replace('/events/', '/event/'), include_original=stagger)
+            await archive_events(session, venue_url, venue_url.replace('/events/', '/event/'), include_original=stagger)
         #elif venue_url == 'http://www.paramounttheatre.com/schedule.html':
         #    continue # no separate event pages
         elif venue_url == 'https://www.jmaxproductions.net/calendar/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, venue_url.replace('/calendar/', '/event/'), include_original=stagger)
+            await archive_events(session, venue_url, venue_url.replace('/calendar/', '/event/'), include_original=stagger)
         elif venue_url == 'http://billgrahamcivic.com/event-listing/':
-            await archive_events(venue_url, venue_url.replace('/event-listing/', '/events/'))
+            await archive_events(session, venue_url, venue_url.replace('/event-listing/', '/events/'))
         elif venue_url == 'https://www.neckofthewoodssf.com/calendar/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
+            await archive_events(session, venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
         elif venue_url == 'https://www.slimspresents.com/event-listing/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, '/e/', venue_url.replace('/event-listing/', ''), include_original=stagger)
+            await archive_events(session, venue_url, '/e/', venue_url.replace('/event-listing/', ''), include_original=stagger)
         elif venue_url == 'https://www.theuctheatre.org/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, '/e/', venue_url[:-1], include_original=stagger)
+            await archive_events(session, venue_url, '/e/', venue_url[:-1], include_original=stagger)
         elif venue_url == 'https://www.thenewparish.com/calendar/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
+            await archive_events(session, venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
         elif venue_url == 'https://thegreekberkeley.com/calendar/':
-            await archive_events(venue_url, venue_url.replace('/calendar/', '/events/').replace('https://', 'http://'))
+            await archive_events(session, venue_url, venue_url.replace('/calendar/', '/events/').replace('https://', 'http://'))
         elif venue_url == 'https://thefoxoakland.com/listing/':
-            await archive_events(venue_url, venue_url.replace('/listing/', '/events/').replace('https://', 'http://'))
+            await archive_events(session, venue_url, venue_url.replace('/listing/', '/events/').replace('https://', 'http://'))
         elif venue_url == 'http://www.ashkenaz.com/':
-            await archive_events(venue_url, '/eventcalendar/', venue_url[:-1])
+            await archive_events(session, venue_url, '/eventcalendar/', venue_url[:-1])
         elif venue_url == 'https://ivyroom.ticketfly.com':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, '/e/', venue_url, include_original=stagger)
+            await archive_events(session, venue_url, '/e/', venue_url, include_original=stagger)
         #elif venue_url == 'https://www.theregencyballroom.com/events':
-        #    await archive_events(venue_url, venue_url + '/detail/')
+        #    await archive_events(session, venue_url, venue_url + '/detail/')
         elif venue_url == 'https://www.theregencyballroom.com/events/all':
             # TODO google text-only cache
-            await archive_events(venue_url, venue_url.replace('/all', '/detail/'))
+            await archive_events(session, venue_url, venue_url.replace('/all', '/detail/'))
         elif venue_url == 'https://www.augusthallsf.com/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, venue_url + 'event/', include_original=stagger)
+            await archive_events(session, venue_url, venue_url + 'event/', include_original=stagger)
         elif venue_url == 'https://thefillmore.com/calendar/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, venue_url.replace('/calendar/', '/event/'), include_original=stagger)
+            await archive_events(session, venue_url, venue_url.replace('/calendar/', '/event/'), include_original=stagger)
         elif venue_url == 'https://www.thechapelsf.com/calendar/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
+            await archive_events(session, venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
         #elif venue_url == 'http://ritespotcafe.net/calendar.php':
         #    continue # no separate event pages
         elif venue_url == 'https://www.theindependentsf.com/calendar/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, venue_url.replace('/calendar/', '/event/'), include_original=stagger)
+            await archive_events(session, venue_url, venue_url.replace('/calendar/', '/event/'), include_original=stagger)
         elif venue_url == 'http://madroneartbar.com/':
-            await archive_events(venue_url, venue_url + 'event/')
+            await archive_events(session, venue_url, venue_url + 'event/')
         # this one seems to give empty results a lot of the time
         #elif venue_url == 'http://madroneartbar.com/calendar/':
-        #    await archive_events(venue_url, venue_url.replace('/calendar/', '/event/').replace('http://', 'https://'))
+        #    await archive_events(session, venue_url, venue_url.replace('/calendar/', '/event/').replace('http://', 'https://'))
         elif venue_url == 'http://www.mountainviewamphitheater.com/events/':
-            await archive_events(venue_url, venue_url)
+            await archive_events(session, venue_url, venue_url)
         elif venue_url == 'https://sanjosetheaters.org/calendar/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, venue_url.replace('/calendar/', '/event/'), include_original=stagger)
+            await archive_events(session, venue_url, venue_url.replace('/calendar/', '/event/'), include_original=stagger)
         elif venue_url == 'https://www.thephoenixtheater.com/calendar/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
+            await archive_events(session, venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
         elif venue_url == 'http://www.theoaklandarena.com/events':
-            await archive_events(venue_url, venue_url)
+            await archive_events(session, venue_url, venue_url)
         elif venue_url == 'https://www.cornerstoneberkeley.com/music-venue/cornerstone-events/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, '/e/', venue_url.replace('/music-venue/cornerstone-events/', ''), include_original=stagger)
+            await archive_events(session, venue_url, '/e/', venue_url.replace('/music-venue/cornerstone-events/', ''), include_original=stagger)
         elif venue_url == 'https://www.theeparkside.com/':
-            await archive_events(venue_url, '/event/', venue_url[:-1])
+            await archive_events(session, venue_url, '/event/', venue_url[:-1])
         elif venue_url == 'http://theknockoutsf.com/events/':
-            await archive_events(venue_url, venue_url.replace('/events/', '/event/'))
+            await archive_events(session, venue_url, venue_url.replace('/events/', '/event/'))
         elif venue_url == 'https://shows.swedishamericanhall.com/':
-            await archive_events(venue_url, '/event/', venue_url[:-1])
+            await archive_events(session, venue_url, '/event/', venue_url[:-1])
         #elif venue_url == 'http://www.concordamp.com/events/':
-        #    await archive_events(venue_url, ) # empty for now?
+        #    await archive_events(session, venue_url, ) # empty for now?
         #elif venue_url == 'https://live.stanford.edu/venues/frost-amphitheater':
-        #    await archive_events(venue_url, '/calendar/', venue_url.replace('/venues/frost-amphitheater', ''))
+        #    await archive_events(session, venue_url, '/calendar/', venue_url.replace('/venues/frost-amphitheater', ''))
         elif venue_url == 'https://live.stanford.edu/calendar':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, '/calendar/', venue_url.replace('/calendar', ''), include_original=stagger)
+            await archive_events(session, venue_url, '/calendar/', venue_url.replace('/calendar', ''), include_original=stagger)
         elif venue_url == 'https://www.golden1center.com/events':
-            await archive_events(venue_url, venue_url)
+            await archive_events(session, venue_url, venue_url)
         elif venue_url == 'https://www.chasecenter.com/events':
-            await archive_events(venue_url, '/events/', venue_url.replace('/events', ''))
-            await archive_events(venue_url, '/games/', venue_url.replace('/events', ''))
+            await archive_events(session, venue_url, '/events/', venue_url.replace('/events', ''))
+            await archive_events(session, venue_url, '/games/', venue_url.replace('/events', ''))
         #elif venue_url == 'https://www.thewarfieldtheatre.com/events':
-        #    await archive_events(venue_url, venue_url + '/detail/')
+        #    await archive_events(session, venue_url, venue_url + '/detail/')
         elif venue_url == 'https://www.thewarfieldtheatre.com/events/all':
             # TODO google text-only cache
-            await archive_events(venue_url, venue_url.replace('/all', '/detail/'))
+            await archive_events(session, venue_url, venue_url.replace('/all', '/detail/'))
         elif venue_url == 'https://feltonmusichall.com/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(venue_url, 'https://www.eventbrite.com/', include_original=stagger)
+            await archive_events(session, venue_url, 'https://www.eventbrite.com/', include_original=stagger)
         elif venue_url.startswith('https://www.amoeba.com/live-shows'):
-            await archive_events(venue_url, '/live-shows/', 'https://www.amoeba.com')
+            await archive_events(session, venue_url, '/live-shows/', 'https://www.amoeba.com')
         #elif venue_url == 'https://palaceoffinearts.org/':
-        #    await archive_events(venue_url, '/event/', venue_url[:-1])
+        #    await archive_events(session, venue_url, '/event/', venue_url[:-1])
         elif venue_url == 'https://palaceoffinearts.org/events/':
-            await archive_events(venue_url, '/event/', venue_url.replace('/events/', ''))
+            await archive_events(session, venue_url, '/event/', venue_url.replace('/events/', ''))
         elif venue_url == 'https://catalystclub.com/':
-            await archive_events(venue_url, venue_url + 'eventbrite-events/')
+            await archive_events(session, venue_url, venue_url + 'eventbrite-events/')
         #elif venue_url == 'https://www.holydiversac.com/':
-        #    await archive_events(venue_url, ) #TODO
+        #    await archive_events(session, venue_url, ) #TODO
         elif venue_url == 'http://www.aceofspadessac.com':
             # TODO get this reading the whole event list, not just handful at top from thumbnails
-            await archive_events(venue_url, venue_url)
+            await archive_events(session, venue_url, venue_url)
         #elif venue_url == 'https://sfmasonic.com/calendar/':
-        #    await archive_events(venue_url, ) #TODO
+        #    await archive_events(session, venue_url, ) #TODO
         elif venue_url == 'http://www.sapcenter.com/events/all':
-            await archive_events(venue_url, venue_url.replace('/all', '/detail/'))
+            await archive_events(session, venue_url, venue_url.replace('/all', '/detail/'))
         elif venue_url == 'http://1015.com/calendar/':
-            await archive_events(venue_url, venue_url.replace('/calendar/', '/events/'))
+            await archive_events(session, venue_url, venue_url.replace('/calendar/', '/events/'))
         #elif venue_url == 'http://theritzsanjose.com/':
-        #    await archive_events(venue_url, ) #TODO
+        #    await archive_events(session, venue_url, ) #TODO
         elif venue_url == 'https://www.oaklandmetro.org/':
-            await archive_events(venue_url, '/event/', venue_url[:-1])
+            await archive_events(session, venue_url, '/event/', venue_url[:-1])
 
 
     # TEMPORARY

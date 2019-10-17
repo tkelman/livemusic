@@ -158,12 +158,13 @@ if __name__ == '__main__':
 
     this_year = str(date.today().year)
     this_month = str(date.today().month)
-    day_of_month = date.today().day
+    day_of_year = date.today().timetuple().tm_yday
+    #day_of_month = date.today().day
     hour_of_day = datetime.now(tz=pytz.utc).hour
     for i, venue_url in enumerate(venue_list):
         # for problematic venue pages, only try during one hour per day
-        # different hour per venue, different per day of the month
-        stagger = (hour_of_day == (day_of_month + i) % 24)
+        # different hour per venue, different hour per day
+        stagger = (hour_of_day == (day_of_year + i) % 24)
         if venue_url == '':
             assert False
         elif venue_url == 'http://www.makeoutroom.com/events':
@@ -291,8 +292,8 @@ if __name__ == '__main__':
         elif venue_url == 'https://ivyroom.ticketfly.com':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
             archive_events(venue_url, '/e/', venue_url, include_original=stagger)
-#        elif venue_url == 'https://www.theregencyballroom.com/events':
-#            archive_events(venue_url, venue_url + '/detail/')
+        #elif venue_url == 'https://www.theregencyballroom.com/events':
+        #    archive_events(venue_url, venue_url + '/detail/')
         elif venue_url == 'https://www.theregencyballroom.com/events/all':
             # TODO google text-only cache
             archive_events(venue_url, venue_url.replace('/all', '/detail/'))
@@ -312,9 +313,9 @@ if __name__ == '__main__':
             archive_events(venue_url, venue_url.replace('/calendar/', '/event/'), include_original=stagger)
         elif venue_url == 'http://madroneartbar.com/':
             archive_events(venue_url, venue_url + 'event/')
-# this one seems to give empty results a lot of the time
-#        elif venue_url == 'http://madroneartbar.com/calendar/':
-#            archive_events(venue_url, venue_url.replace('/calendar/', '/event/').replace('http://', 'https://'))
+        # this one seems to give empty results a lot of the time
+        #elif venue_url == 'http://madroneartbar.com/calendar/':
+        #    archive_events(venue_url, venue_url.replace('/calendar/', '/event/').replace('http://', 'https://'))
         elif venue_url == 'http://www.mountainviewamphitheater.com/events/':
             archive_events(venue_url, venue_url)
         elif venue_url == 'https://sanjosetheaters.org/calendar/':
@@ -334,24 +335,26 @@ if __name__ == '__main__':
             archive_events(venue_url, venue_url.replace('/events/', '/event/'))
         elif venue_url == 'https://shows.swedishamericanhall.com/':
             archive_events(venue_url, '/event/', venue_url[:-1])
-#        elif venue_url == 'http://www.concordamp.com/events/':
-#            archive_events(venue_url, ) # empty for now?
-#        elif venue_url == 'https://live.stanford.edu/venues/frost-amphitheater':
-#            archive_events(venue_url, '/calendar/', venue_url.replace('/venues/frost-amphitheater', ''))
+        #elif venue_url == 'http://www.concordamp.com/events/':
+        #    archive_events(venue_url, ) # empty for now?
+        #elif venue_url == 'https://live.stanford.edu/venues/frost-amphitheater':
+        #    archive_events(venue_url, '/calendar/', venue_url.replace('/venues/frost-amphitheater', ''))
         elif venue_url == 'https://live.stanford.edu/calendar':
-            archive_events(venue_url, '/calendar/', venue_url.replace('/calendar', ''))
+            stagger and print('trying problematic venue {} this hour'.format(venue_url))
+            archive_events(venue_url, '/calendar/', venue_url.replace('/calendar', ''), include_original=stagger)
         elif venue_url == 'https://www.golden1center.com/events':
             archive_events(venue_url, venue_url)
         elif venue_url == 'https://www.chasecenter.com/events':
             archive_events(venue_url, '/events/', venue_url.replace('/events', ''))
             archive_events(venue_url, '/games/', venue_url.replace('/events', ''))
-#        elif venue_url == 'https://www.thewarfieldtheatre.com/events':
-#            archive_events(venue_url, venue_url + '/detail/')
+        #elif venue_url == 'https://www.thewarfieldtheatre.com/events':
+        #    archive_events(venue_url, venue_url + '/detail/')
         elif venue_url == 'https://www.thewarfieldtheatre.com/events/all':
             # TODO google text-only cache
             archive_events(venue_url, venue_url.replace('/all', '/detail/'))
         elif venue_url == 'https://feltonmusichall.com/':
-            archive_events(venue_url, 'https://www.eventbrite.com/')
+            stagger and print('trying problematic venue {} this hour'.format(venue_url))
+            archive_events(venue_url, 'https://www.eventbrite.com/', include_original=stagger)
 #    'https://www.amoeba.com/live-shows',
 #    'https://www.amoeba.com/live-shows/upcoming/index.html',
 #    'https://palaceoffinearts.org/',

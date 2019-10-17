@@ -119,7 +119,9 @@ venue_list = [
     'https://www.holydiversac.com/',
     'http://www.aceofspadessac.com',
     'https://sfmasonic.com/calendar/',
-    'http://sapcenter.com/events/all',
+    'http://www.sapcenter.com/events/all',
+    'http://1015.com/calendar/',
+    'http://theritzsanjose.com/',
 ]
 
 
@@ -355,15 +357,25 @@ if __name__ == '__main__':
         elif venue_url == 'https://feltonmusichall.com/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
             archive_events(venue_url, 'https://www.eventbrite.com/', include_original=stagger)
-#    'https://www.amoeba.com/live-shows',
-#    'https://www.amoeba.com/live-shows/upcoming/index.html',
-#    'https://palaceoffinearts.org/',
-#    'https://palaceoffinearts.org/events/',
-#    'https://catalystclub.com/',
-#    'https://www.holydiversac.com/',
-#    'http://www.aceofspadessac.com',
-#    'https://sfmasonic.com/calendar/',
-#    'http://sapcenter.com/events/all',
+        elif venue_url.startswith('https://www.amoeba.com/live-shows'):
+            archive_events(venue_url, '/live-shows/', 'https://www.amoeba.com')
+        #elif venue_url == 'https://palaceoffinearts.org/':
+        #    archive_events(venue_url, '/event/', venue_url[:-1])
+        elif venue_url == 'https://palaceoffinearts.org/events/':
+            archive_events(venue_url, '/event/', venue_url.replace('/events/', ''))
+        elif venue_url == 'https://catalystclub.com/':
+            archive_events(venue_url, venue_url + 'eventbrite-events/')
+        #elif venue_url == 'https://www.holydiversac.com/':
+        #    archive_events(venue_url, ) #TODO
+        elif venue_url == 'http://www.aceofspadessac.com':
+            # TODO get this reading the whole event list, not just handful at top from thumbnails
+            archive_events(venue_url, venue_url)
+        #elif venue_url == 'https://sfmasonic.com/calendar/':
+        #    archive_events(venue_url, ) #TODO
+        elif venue_url == 'http://www.sapcenter.com/events/all':
+            archive_events(venue_url, venue_url.replace('/all', '/detail/'))
+#    'http://1015.com/calendar/',
+#    'http://theritzsanjose.com/',
 
 
     # TEMPORARY

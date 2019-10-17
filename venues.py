@@ -7,8 +7,8 @@ import pytz
 from fake_useragent import UserAgent
 import requests
 import asks
-import curio
-asks.init('curio')
+import trio
+asks.init('trio')
 
 
 async def archived_date(session, url):
@@ -147,22 +147,22 @@ async def archive_events(session, listing_url, event_prefix, top_url='', include
         if event == 'http://www.stocktonlive.com/events/rss':
             continue # skip this
         if include_original:
-            curio.spawn(archive_once(session, top_url + event))
-        curio.spawn(archive_once(session, redirect_prefix + top_url + event))
+            await archive_once(session, top_url + event)
+        await archive_once(session, redirect_prefix + top_url + event)
         if top_url == 'https://www.yoshis.com':
             if include_original:
-                curio.spawn(archive_once(session, top_url + event + '#'))
-            curio.spawn(archive_once(session, redirect_prefix + top_url + event + '#'))
+                await archive_once(session, top_url + event + '#')
+            await archive_once(session, redirect_prefix + top_url + event + '#')
 
 
 session = asks.Session(connections=5)
 
 async def main():
     #for venue_url in venue_list:
-    #    curio.spawn(rearchive_if_older_than(session, venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2)))
+    #    await rearchive_if_older_than(session, venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
 
     for venue_url in venue_list:
-        curio.spawn(rearchive_if_older_than(session, redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2)))
+        await rearchive_if_older_than(session, redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
 
     this_year = str(date.today().year)
     this_month = str(date.today().month)
@@ -416,4 +416,4 @@ async def main():
 
 
 if __name__ == '__main__':
-    curio.run(main())
+    trio.run(main())

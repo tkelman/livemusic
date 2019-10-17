@@ -155,9 +155,9 @@ async def archive_events(session, listing_url, event_prefix, top_url='', include
             curio.spawn(archive_once(session, redirect_prefix + top_url + event + '#'))
 
 
-async def main():
-    session = asks.Session(connections=5)
+session = asks.Session(connections=5)
 
+async def main():
     #for venue_url in venue_list:
     #    curio.spawn(rearchive_if_older_than(session, venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2)))
 

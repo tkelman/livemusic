@@ -147,22 +147,22 @@ async def archive_events(session, listing_url, event_prefix, top_url='', include
         if event == 'http://www.stocktonlive.com/events/rss':
             continue # skip this
         if include_original:
-            await curio.spawn(archive_once(session, top_url + event))
-        await curio.spawn(archive_once(session, redirect_prefix + top_url + event))
+            curio.spawn(archive_once(session, top_url + event))
+        curio.spawn(archive_once(session, redirect_prefix + top_url + event))
         if top_url == 'https://www.yoshis.com':
             if include_original:
-                await curio.spawn(archive_once(session, top_url + event + '#'))
-            await curio.spawn(archive_once(session, redirect_prefix + top_url + event + '#'))
+                curio.spawn(archive_once(session, top_url + event + '#'))
+            curio.spawn(archive_once(session, redirect_prefix + top_url + event + '#'))
 
 
 async def main():
     session = asks.Session(connections=5)
 
     #for venue_url in venue_list:
-    #    await curio.spawn(rearchive_if_older_than(session, venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2)))
+    #    curio.spawn(rearchive_if_older_than(session, venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2)))
 
     for venue_url in venue_list:
-        await curio.spawn(rearchive_if_older_than(session, redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2)))
+        curio.spawn(rearchive_if_older_than(session, redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2)))
 
     this_year = str(date.today().year)
     this_month = str(date.today().month)

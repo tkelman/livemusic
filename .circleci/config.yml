@@ -22,7 +22,7 @@ workflows:
             branches:
               only:
                 - master
-                - testing
+                - venues
   hourly:
     triggers:
       - schedule:

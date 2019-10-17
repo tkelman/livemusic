@@ -6,10 +6,13 @@ from datetime import datetime, timedelta, date
 import pytz
 from fake_useragent import UserAgent
 import requests
+import asks
+import trio
+asks.init('trio')
 
 
 def archived_date(url):
-    response = archiveis.api.do_post(url, anyway=0)
+    response = trio.run(archiveis.api.do_post(url, anyway=0))
     response.raise_for_status()
     doc = BeautifulSoup(response.text, 'html.parser')
     pubdates = doc.find_all(itemprop='pubdate')
@@ -25,7 +28,7 @@ def rearchive_if_older_than(url, threshold_date):
         age = datetime.now(tz=pytz.utc) - pubdate
         print('{} archived {} ago'.format(url, age))
         if pubdate < threshold_date:
-            print('submitted new archive: {}'.format(archiveis.capture(url)))
+            print('submitted new archive: {}'.format(trio.run(archiveis.capture(url))))
     else:
         print('{} not yet archived'.format(url))
         print('submitted new archive: {}'.format(pubdate))

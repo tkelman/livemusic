@@ -1,4 +1,6 @@
-https://github.com/tkelman/archiveis/archive/patch-2.zip
+asks==2.2.1 # last version that supports py3.5?
+trio
+https://github.com/tkelman/archiveis/archive/async.zip
 #archiveis
 beautifulsoup4
 fake-useragent

@@ -141,18 +141,19 @@ async def archive_events(session, listing_url, event_prefix, top_url='', include
     all_events = [link.get('href') for link in doc.find_all('a')
         if link.get('href', '').startswith(event_prefix)]
     assert len(all_events) > 0
-    for event in set(all_events): # remove duplicates
-        if '?' in event and not event.startswith('http://www.aceofspadessac.com'):
-            event = event[:event.find('?')]
-        if event == 'http://www.stocktonlive.com/events/rss':
-            continue # skip this
-        if include_original:
-            await archive_once(session, top_url + event)
-        await archive_once(session, redirect_prefix + top_url + event)
-        if top_url == 'https://www.yoshis.com':
+    async with trio.open_nursery() as nursery:
+        for event in set(all_events): # remove duplicates
+            if '?' in event and not event.startswith('http://www.aceofspadessac.com'):
+                event = event[:event.find('?')]
+            if event == 'http://www.stocktonlive.com/events/rss':
+                continue # skip this
             if include_original:
-                await archive_once(session, top_url + event + '#')
-            await archive_once(session, redirect_prefix + top_url + event + '#')
+                nursery.start_soon(archive_once, session, top_url + event)
+            nursery.start_soon(archive_once, session, redirect_prefix + top_url + event)
+            if top_url == 'https://www.yoshis.com':
+                if include_original:
+                    nursery.start_soon(archive_once, session, top_url + event + '#')
+                nursery.start_soon(archive_once, session, redirect_prefix + top_url + event + '#')
 
 
 session = asks.Session(connections=5)
@@ -161,8 +162,9 @@ async def main():
     #for venue_url in venue_list:
     #    await rearchive_if_older_than(session, venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
 
-    for venue_url in venue_list:
-        await rearchive_if_older_than(session, redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
+    async with trio.open_nursery() as nursery:
+        for venue_url in venue_list:
+            nursery.start_soon(rearchive_if_older_than, session, redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
 
     this_year = str(date.today().year)
     this_month = str(date.today().month)

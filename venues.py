@@ -87,6 +87,7 @@ venue_list = [
     'http://www.ashkenaz.com/',
     'https://ivyroom.ticketfly.com',
     'https://www.theregencyballroom.com/events',
+    'https://www.theregencyballroom.com/events/all',
     'https://www.augusthallsf.com/',
     'https://thefillmore.com/calendar/',
     'https://www.thechapelsf.com/calendar/',
@@ -115,6 +116,7 @@ venue_list = [
     'https://catalystclub.com/',
     'https://www.holydiversac.com/',
     'http://www.aceofspadessac.com',
+    'https://sfmasonic.com/calendar/',
 ]
 
 
@@ -278,12 +280,20 @@ if __name__ == '__main__':
             archive_events(venue_url, venue_url.replace('/calendar/', '/events/').replace('https://', 'http://'))
         elif venue_url == 'https://thefoxoakland.com/listing/':
             archive_events(venue_url, venue_url.replace('/listing/', '/events/').replace('https://', 'http://'))
-#    'http://www.ashkenaz.com/',
-#    'https://ivyroom.ticketfly.com',
-#    'https://www.theregencyballroom.com/events',
-#    'https://www.augusthallsf.com/',
-#    'https://thefillmore.com/calendar/',
-#    'https://www.thechapelsf.com/calendar/',
+        elif venue_url == 'http://www.ashkenaz.com/':
+            archive_events(venue_url, '/eventcalendar/', venue_url[:-1])
+        elif venue_url == 'https://ivyroom.ticketfly.com':
+            archive_events(venue_url, '/e/', venue_url)
+#        elif venue_url == 'https://www.theregencyballroom.com/events':
+#            archive_events(venue_url, venue_url + '/detail/')
+        elif venue_url == 'https://www.theregencyballroom.com/events/all':
+            archive_events(venue_url, venue_url.replace('/all', '/detail/'))
+        elif venue_url == 'https://www.augusthallsf.com/':
+            archive_events(venue_url, venue_url + 'event/')
+        elif venue_url == 'https://thefillmore.com/calendar/':
+            archive_events(venue_url, venue_url.replace('/calendar/', '/event/'))
+        elif venue_url == 'https://www.thechapelsf.com/calendar/':
+            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''))
 #    'http://ritespotcafe.net/calendar.php',
 #    'https://www.theindependentsf.com/calendar/',
 #    'http://madroneartbar.com/',
@@ -309,6 +319,7 @@ if __name__ == '__main__':
 #    'https://catalystclub.com/',
 #    'https://www.holydiversac.com/',
 #    'http://www.aceofspadessac.com',
+#    'https://sfmasonic.com/calendar/',
 
 
     # TEMPORARY

@@ -12,7 +12,7 @@ asks.init('curio')
 
 
 async def archived_date(session, url):
-    response = await curio.spawn(archiveis.api.do_post(session, url, anyway=0))
+    response = await archiveis.api.do_post(session, url, anyway=0)
     response.raise_for_status()
     doc = BeautifulSoup(response.text, 'html.parser')
     pubdates = doc.find_all(itemprop='pubdate')
@@ -28,7 +28,7 @@ async def rearchive_if_older_than(session, url, threshold_date):
         age = datetime.now(tz=pytz.utc) - pubdate
         print('{} archived {} ago'.format(url, age))
         if pubdate < threshold_date:
-            print('submitted new archive: {}'.format(await curio.spawn(archiveis.capture(session, url))))
+            print('submitted new archive: {}'.format(await archiveis.capture(session, url)))
     else:
         print('{} not yet archived'.format(url))
         print('submitted new archive: {}'.format(pubdate))
@@ -147,22 +147,22 @@ async def archive_events(session, listing_url, event_prefix, top_url='', include
         if event == 'http://www.stocktonlive.com/events/rss':
             continue # skip this
         if include_original:
-            await archive_once(session, top_url + event)
-        await archive_once(session, redirect_prefix + top_url + event)
+            await curio.spawn(archive_once(session, top_url + event))
+        await curio.spawn(archive_once(session, redirect_prefix + top_url + event))
         if top_url == 'https://www.yoshis.com':
             if include_original:
-                await archive_once(session, top_url + event + '#')
-            await archive_once(session, redirect_prefix + top_url + event + '#')
+                await curio.spawn(archive_once(session, top_url + event + '#'))
+            await curio.spawn(archive_once(session, redirect_prefix + top_url + event + '#'))
 
 
 async def main():
     session = asks.Session(connections=5)
 
     #for venue_url in venue_list:
-    #    await rearchive_if_older_than(session, venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
+    #    await curio.spawn(rearchive_if_older_than(session, venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2)))
 
     for venue_url in venue_list:
-        await rearchive_if_older_than(session, redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
+        await curio.spawn(rearchive_if_older_than(session, redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2)))
 
     this_year = str(date.today().year)
     this_month = str(date.today().month)

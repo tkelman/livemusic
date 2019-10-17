@@ -302,15 +302,24 @@ if __name__ == '__main__':
         elif venue_url == 'https://www.thechapelsf.com/calendar/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
             archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
-#    'http://ritespotcafe.net/calendar.php',
-#    'https://www.theindependentsf.com/calendar/',
-#    'http://madroneartbar.com/',
-#    'http://madroneartbar.com/calendar/',
-#    'http://www.mountainviewamphitheater.com/events/',
-#    'https://sanjosetheaters.org/calendar/',
-#    'https://www.thephoenixtheater.com/calendar/',
-#    'http://www.theoaklandarena.com/events',
-#    'https://www.cornerstoneberkeley.com/music-venue/cornerstone-events/',
+        #elif venue_url == 'http://ritespotcafe.net/calendar.php':
+        #    continue # no separate event pages
+        elif venue_url == 'https://www.theindependentsf.com/calendar/':
+            archive_events(venue_url, venue_url.replace('/calendar/', '/event/'))
+        elif venue_url == 'http://madroneartbar.com/':
+            archive_events(venue_url, venue_url + 'event/')
+        elif venue_url == 'http://madroneartbar.com/calendar/':
+            archive_events(venue_url, venue_url.replace('/calendar/', '/event/').replace('http://', 'https://'))
+        elif venue_url == 'http://www.mountainviewamphitheater.com/events/':
+            archive_events(venue_url, venue_url)
+        elif venue_url == 'https://sanjosetheaters.org/calendar/':
+            archive_events(venue_url, venue_url.replace('/calendar/', '/event/'))
+        elif venue_url == 'https://www.thephoenixtheater.com/calendar/':
+            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''))
+        elif venue_url == 'http://www.theoaklandarena.com/events':
+            archive_events(venue_url, venue_url)
+        elif venue_url == 'https://www.cornerstoneberkeley.com/music-venue/cornerstone-events/':
+            archive_events(venue_url, '/e/', venue_url.replace('/music-venue/cornerstone-events/', ''))
 #    'https://www.theeparkside.com/',
 #    'http://theknockoutsf.com/events/',
 #    'https://shows.swedishamericanhall.com/',
@@ -352,4 +361,6 @@ if __name__ == '__main__':
     #rearchive_if_older_than('https://live.stanford.edu/calendar/october-2019/bob-dylan-and-his-band', threshold)
     #rearchive_if_older_than('https://www.rickshawstop.com/e/monster-rally-with-mejiwahn-and-lake-cube-69941694491/', threshold)
     #rearchive_if_older_than('https://jubjubsthirstparlor.com/event/dreadful-children-lincoln-skinz/', threshold)
+    #rearchive_if_older_than('https://thefillmore.com/event/cautious-clay/', threshold)
+    #rearchive_if_older_than('https://www.yoshis.com/e/john-daversa-progressive-big-band-66619951067/', threshold)
     #rearchive_if_older_than('', threshold)

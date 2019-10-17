@@ -105,9 +105,11 @@ venue_list = [
     'https://shows.swedishamericanhall.com/',
     'http://www.concordamp.com/events/',
     'https://live.stanford.edu/venues/frost-amphitheater',
+    'https://live.stanford.edu/calendar',
     'https://www.golden1center.com/events',
     'https://www.chasecenter.com/events',
     'https://www.thewarfieldtheatre.com/events',
+    'https://www.thewarfieldtheatre.com/events/all',
     'https://feltonmusichall.com/',
     'https://www.amoeba.com/live-shows',
     'https://www.amoeba.com/live-shows/upcoming/index.html',
@@ -117,6 +119,7 @@ venue_list = [
     'https://www.holydiversac.com/',
     'http://www.aceofspadessac.com',
     'https://sfmasonic.com/calendar/',
+    'http://sapcenter.com/events/all',
 ]
 
 
@@ -309,8 +312,9 @@ if __name__ == '__main__':
             archive_events(venue_url, venue_url.replace('/calendar/', '/event/'), include_original=stagger)
         elif venue_url == 'http://madroneartbar.com/':
             archive_events(venue_url, venue_url + 'event/')
-        elif venue_url == 'http://madroneartbar.com/calendar/':
-            archive_events(venue_url, venue_url.replace('/calendar/', '/event/').replace('http://', 'https://'))
+# this one seems to give empty results a lot of the time
+#        elif venue_url == 'http://madroneartbar.com/calendar/':
+#            archive_events(venue_url, venue_url.replace('/calendar/', '/event/').replace('http://', 'https://'))
         elif venue_url == 'http://www.mountainviewamphitheater.com/events/':
             archive_events(venue_url, venue_url)
         elif venue_url == 'https://sanjosetheaters.org/calendar/':
@@ -324,15 +328,30 @@ if __name__ == '__main__':
         elif venue_url == 'https://www.cornerstoneberkeley.com/music-venue/cornerstone-events/':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
             archive_events(venue_url, '/e/', venue_url.replace('/music-venue/cornerstone-events/', ''), include_original=stagger)
-#    'https://www.theeparkside.com/',
-#    'http://theknockoutsf.com/events/',
-#    'https://shows.swedishamericanhall.com/',
-#    'http://www.concordamp.com/events/',
-#    'https://live.stanford.edu/venues/frost-amphitheater',
-#    'https://www.golden1center.com/events',
-#    'https://www.chasecenter.com/events',
-#    'https://www.thewarfieldtheatre.com/events',
-#    'https://feltonmusichall.com/',
+        elif venue_url == 'https://www.theeparkside.com/':
+            archive_events(venue_url, '/event/', venue_url[:-1])
+        elif venue_url == 'http://theknockoutsf.com/events/':
+            archive_events(venue_url, venue_url.replace('/events/', '/event/'))
+        elif venue_url == 'https://shows.swedishamericanhall.com/':
+            archive_events(venue_url, '/event/', venue_url[:-1])
+#        elif venue_url == 'http://www.concordamp.com/events/':
+#            archive_events(venue_url, ) # empty for now?
+#        elif venue_url == 'https://live.stanford.edu/venues/frost-amphitheater':
+#            archive_events(venue_url, '/calendar/', venue_url.replace('/venues/frost-amphitheater', ''))
+        elif venue_url == 'https://live.stanford.edu/calendar':
+            archive_events(venue_url, '/calendar/', venue_url.replace('/calendar', ''))
+        elif venue_url == 'https://www.golden1center.com/events':
+            archive_events(venue_url, venue_url)
+        elif venue_url == 'https://www.chasecenter.com/events':
+            archive_events(venue_url, '/events/', venue_url.replace('/events', ''))
+            archive_events(venue_url, '/games/', venue_url.replace('/events', ''))
+#        elif venue_url == 'https://www.thewarfieldtheatre.com/events':
+#            archive_events(venue_url, venue_url + '/detail/')
+        elif venue_url == 'https://www.thewarfieldtheatre.com/events/all':
+            # TODO google text-only cache
+            archive_events(venue_url, venue_url.replace('/all', '/detail/'))
+        elif venue_url == 'https://feltonmusichall.com/':
+            archive_events(venue_url, 'https://www.eventbrite.com/')
 #    'https://www.amoeba.com/live-shows',
 #    'https://www.amoeba.com/live-shows/upcoming/index.html',
 #    'https://palaceoffinearts.org/',
@@ -341,6 +360,7 @@ if __name__ == '__main__':
 #    'https://www.holydiversac.com/',
 #    'http://www.aceofspadessac.com',
 #    'https://sfmasonic.com/calendar/',
+#    'http://sapcenter.com/events/all',
 
 
     # TEMPORARY

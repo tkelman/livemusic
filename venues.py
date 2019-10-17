@@ -305,7 +305,8 @@ if __name__ == '__main__':
         #elif venue_url == 'http://ritespotcafe.net/calendar.php':
         #    continue # no separate event pages
         elif venue_url == 'https://www.theindependentsf.com/calendar/':
-            archive_events(venue_url, venue_url.replace('/calendar/', '/event/'))
+            stagger and print('trying problematic venue {} this hour'.format(venue_url))
+            archive_events(venue_url, venue_url.replace('/calendar/', '/event/'), include_original=stagger)
         elif venue_url == 'http://madroneartbar.com/':
             archive_events(venue_url, venue_url + 'event/')
         elif venue_url == 'http://madroneartbar.com/calendar/':
@@ -313,13 +314,16 @@ if __name__ == '__main__':
         elif venue_url == 'http://www.mountainviewamphitheater.com/events/':
             archive_events(venue_url, venue_url)
         elif venue_url == 'https://sanjosetheaters.org/calendar/':
-            archive_events(venue_url, venue_url.replace('/calendar/', '/event/'))
+            stagger and print('trying problematic venue {} this hour'.format(venue_url))
+            archive_events(venue_url, venue_url.replace('/calendar/', '/event/'), include_original=stagger)
         elif venue_url == 'https://www.thephoenixtheater.com/calendar/':
-            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''))
+            stagger and print('trying problematic venue {} this hour'.format(venue_url))
+            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
         elif venue_url == 'http://www.theoaklandarena.com/events':
             archive_events(venue_url, venue_url)
         elif venue_url == 'https://www.cornerstoneberkeley.com/music-venue/cornerstone-events/':
-            archive_events(venue_url, '/e/', venue_url.replace('/music-venue/cornerstone-events/', ''))
+            stagger and print('trying problematic venue {} this hour'.format(venue_url))
+            archive_events(venue_url, '/e/', venue_url.replace('/music-venue/cornerstone-events/', ''), include_original=stagger)
 #    'https://www.theeparkside.com/',
 #    'http://theknockoutsf.com/events/',
 #    'https://shows.swedishamericanhall.com/',

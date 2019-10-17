@@ -271,11 +271,14 @@ if __name__ == '__main__':
             stagger and print('trying problematic venue {} this hour'.format(venue_url))
             archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
         elif venue_url == 'https://www.slimspresents.com/event-listing/':
-            archive_events(venue_url, '/e/', venue_url.replace('/event-listing/', ''))
+            stagger and print('trying problematic venue {} this hour'.format(venue_url))
+            archive_events(venue_url, '/e/', venue_url.replace('/event-listing/', ''), include_original=stagger)
         elif venue_url == 'https://www.theuctheatre.org/':
-            archive_events(venue_url, '/e/', venue_url[:-1])
+            stagger and print('trying problematic venue {} this hour'.format(venue_url))
+            archive_events(venue_url, '/e/', venue_url[:-1], include_original=stagger)
         elif venue_url == 'https://www.thenewparish.com/calendar/':
-            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''))
+            stagger and print('trying problematic venue {} this hour'.format(venue_url))
+            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
         elif venue_url == 'https://thegreekberkeley.com/calendar/':
             archive_events(venue_url, venue_url.replace('/calendar/', '/events/').replace('https://', 'http://'))
         elif venue_url == 'https://thefoxoakland.com/listing/':
@@ -283,17 +286,22 @@ if __name__ == '__main__':
         elif venue_url == 'http://www.ashkenaz.com/':
             archive_events(venue_url, '/eventcalendar/', venue_url[:-1])
         elif venue_url == 'https://ivyroom.ticketfly.com':
-            archive_events(venue_url, '/e/', venue_url)
+            stagger and print('trying problematic venue {} this hour'.format(venue_url))
+            archive_events(venue_url, '/e/', venue_url, include_original=stagger)
 #        elif venue_url == 'https://www.theregencyballroom.com/events':
 #            archive_events(venue_url, venue_url + '/detail/')
         elif venue_url == 'https://www.theregencyballroom.com/events/all':
+            # TODO google text-only cache
             archive_events(venue_url, venue_url.replace('/all', '/detail/'))
         elif venue_url == 'https://www.augusthallsf.com/':
-            archive_events(venue_url, venue_url + 'event/')
+            stagger and print('trying problematic venue {} this hour'.format(venue_url))
+            archive_events(venue_url, venue_url + 'event/', include_original=stagger)
         elif venue_url == 'https://thefillmore.com/calendar/':
-            archive_events(venue_url, venue_url.replace('/calendar/', '/event/'))
+            stagger and print('trying problematic venue {} this hour'.format(venue_url))
+            archive_events(venue_url, venue_url.replace('/calendar/', '/event/'), include_original=stagger)
         elif venue_url == 'https://www.thechapelsf.com/calendar/':
-            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''))
+            stagger and print('trying problematic venue {} this hour'.format(venue_url))
+            archive_events(venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
 #    'http://ritespotcafe.net/calendar.php',
 #    'https://www.theindependentsf.com/calendar/',
 #    'http://madroneartbar.com/',

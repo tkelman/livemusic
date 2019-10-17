@@ -122,6 +122,7 @@ venue_list = [
     'http://www.sapcenter.com/events/all',
     'http://1015.com/calendar/',
     'http://theritzsanjose.com/',
+    'https://www.oaklandmetro.org/',
 ]
 
 
@@ -378,6 +379,8 @@ if __name__ == '__main__':
             archive_events(venue_url, venue_url.replace('/calendar/', '/events/'))
         #elif venue_url == 'http://theritzsanjose.com/':
         #    archive_events(venue_url, ) #TODO
+        elif venue_url == 'https://www.oaklandmetro.org/':
+            archive_events(venue_url, '/event/', venue_url[:-1])
 
 
     # TEMPORARY

@@ -154,6 +154,7 @@ def archive_events(listing_url, event_prefix, top_url='', include_original=True)
             'https://www.rickshawstop.com/',
             'https://www.neckofthewoodssf.com/calendar/',
             'https://www.slimspresents.com/event-listing/',
+            'https://www.theuctheatre.org/',
             ): # TODO re enable
         assert len(all_events) > 0
     for event in set(all_events): # remove duplicates
@@ -439,4 +440,6 @@ if __name__ == '__main__':
     #rearchive_if_older_than('https://jubjubsthirstparlor.com/event/dreadful-children-lincoln-skinz/', threshold)
     #rearchive_if_older_than('https://thefillmore.com/event/cautious-clay/', threshold)
     #rearchive_if_older_than('https://www.yoshis.com/e/john-daversa-progressive-big-band-66619951067/', threshold)
+    #threshold = datetime(2019, 10, 18, 22, tzinfo=pytz.utc)
+    #rearchive_if_older_than('https://lutherburbankcenter.org/event/left-edge-theatre-presents-between-riverside-and-crazy/2019-10-18/', threshold)
     #rearchive_if_older_than('', threshold)

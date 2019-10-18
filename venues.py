@@ -25,12 +25,13 @@ async def rearchive_if_older_than(session, url, threshold_date):
     pubdate = await archived_date(session, url)
     if isinstance(pubdate, datetime):
         age = datetime.now(tz=pytz.utc) - pubdate
-        print('{} archived {} ago'.format(url, age))
+        msg = '{} archived {} ago'.format(url, age)
         if pubdate < threshold_date:
-            print('submitted new archive: {}'.format(await archiveis.capture(session, url)))
+            msg += '\nsubmitted new archive: {}'.format(await archiveis.capture(session, url))
     else:
-        print('{} not yet archived'.format(url))
-        print('submitted new archive: {}'.format(pubdate))
+        msg = '{} not yet archived'.format(url)
+        msg += '\nsubmitted new archive: {}'.format(pubdate)
+    print(msg)
 
 
 async def archive_once(session, url):
@@ -155,7 +156,7 @@ async def archive_events(session, listing_url, event_prefix, top_url='', include
                 nursery.start_soon(archive_once, session, redirect_prefix + top_url + event + '#')
 
 
-session = asks.Session(connections=4)
+session = asks.Session(connections=3)
 
 async def main():
     async with trio.open_nursery() as nursery:

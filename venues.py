@@ -149,6 +149,7 @@ def archive_events(listing_url, event_prefix, top_url='', include_original=True)
             'https://www.yoshis.com/calendar/',
             'https://www.monarchsf.com/',
             'https://www.monarchsf.com/calendar/the-bar-at-monarch/',
+            'https://www.moesalley.com/calendar/',
             ): # TODO re enable
         assert len(all_events) > 0
     for event in set(all_events): # remove duplicates

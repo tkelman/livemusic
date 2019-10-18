@@ -144,7 +144,8 @@ def archive_events(listing_url, event_prefix, top_url='', include_original=True)
     doc = BeautifulSoup(response.text, 'html.parser')
     all_events = [link.get('href') for link in doc.find_all('a')
         if link.get('href', '').startswith(event_prefix)]
-    if venue_url != 'https://www.hotelutah.com/calendar/': # TODO re enable
+    if venue_url not in ('https://www.hotelutah.com/calendar/',
+            'https://www.yoshis.com/calendar/'): # TODO re enable
         assert len(all_events) > 0
     for event in set(all_events): # remove duplicates
         if '?' in event and not event.startswith('http://www.aceofspadessac.com'):

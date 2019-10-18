@@ -1,4 +1,4 @@
-asks==2.2.1 # last version that supports py3.5?
+asks
 trio
 https://github.com/tkelman/archiveis/archive/async.zip
 #archiveis

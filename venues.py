@@ -155,15 +155,15 @@ async def archive_events(session, listing_url, event_prefix, top_url='', include
                 nursery.start_soon(archive_once, session, redirect_prefix + top_url + event + '#')
 
 
-session = asks.Session(connections=5)
+session = asks.Session(connections=4)
 
 async def main():
-    #for venue_url in venue_list:
-    #    await rearchive_if_older_than(session, venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
-
     async with trio.open_nursery() as nursery:
         for venue_url in venue_list:
-            nursery.start_soon(rearchive_if_older_than, session, redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
+            nursery.start_soon(rearchive_if_older_than, session,
+                venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
+            nursery.start_soon(rearchive_if_older_than, session,
+                redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
 
     this_year = str(date.today().year)
     this_month = str(date.today().month)

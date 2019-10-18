@@ -5,7 +5,6 @@ import dateutil.parser
 from datetime import datetime, timedelta, date
 import pytz
 from fake_useragent import UserAgent
-import requests
 import asks
 import trio
 asks.init('trio')
@@ -135,7 +134,7 @@ redirect_prefix = 'https://via.hypothes.is/'
 
 async def archive_events(session, listing_url, event_prefix, top_url='', include_original=True):
     # top_url only needed if event links are relative
-    response = requests.get(listing_url, headers=ua_header)
+    response = await session.get(listing_url, headers=ua_header)
     response.raise_for_status()
     doc = BeautifulSoup(response.text, 'html.parser')
     all_events = [link.get('href') for link in doc.find_all('a')

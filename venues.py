@@ -124,6 +124,12 @@ venue_list = [
     'http://theritzsanjose.com/',
     'https://www.oaklandmetro.org/',
     'https://sf-eagle.com/events/list',
+    'https://bstreettheatre.org/shows/',
+    'https://theploughandstars.com/',
+    'https://www.thestarryplough.com/events-',
+    'https://www.gunbun.com/events/',
+    'https://www.mondaviarts.org/events/upcoming-events',
+    'https://www.grandsierraresort.com/reno-entertainment/',
 ]
 
 
@@ -138,7 +144,8 @@ def archive_events(listing_url, event_prefix, top_url='', include_original=True)
     doc = BeautifulSoup(response.text, 'html.parser')
     all_events = [link.get('href') for link in doc.find_all('a')
         if link.get('href', '').startswith(event_prefix)]
-    assert len(all_events) > 0
+    if venue_url != 'https://www.hotelutah.com/calendar/': # TODO re enable
+        assert len(all_events) > 0
     for event in set(all_events): # remove duplicates
         if '?' in event and not event.startswith('http://www.aceofspadessac.com'):
             event = event[:event.find('?')]
@@ -384,6 +391,18 @@ if __name__ == '__main__':
             archive_events(venue_url, '/event/', venue_url[:-1])
         elif venue_url == 'https://sf-eagle.com/events/list':
             archive_events(venue_url, venue_url.replace('/events/list', '/event/'))
+        elif venue_url == 'https://bstreettheatre.org/shows/':
+            archive_events(venue_url, venue_url.replace('/shows/', '/show/'))
+        #elif venue_url == 'https://theploughandstars.com/':
+        #    continue # no separate event pages
+        elif venue_url == 'https://www.thestarryplough.com/events-':
+            archive_events(venue_url, 'https://www.eventbrite.com/')
+        elif venue_url == 'https://www.gunbun.com/events/':
+            archive_events(venue_url, venue_url.replace('/events/', '/event/'))
+        elif venue_url == 'https://www.mondaviarts.org/events/upcoming-events':
+            archive_events(venue_url, '/event/', venue_url.replace('/events/upcoming-events', ''))
+        elif venue_url == 'https://www.grandsierraresort.com/reno-entertainment/':
+            archive_events(venue_url, venue_url)
 
 
     # TEMPORARY

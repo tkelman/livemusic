@@ -40,6 +40,6 @@ workflows:
           filters:
             branches:
               only:
-                - venues
+                - testing
     jobs:
       - build

@@ -126,6 +126,7 @@ venue_list = [
     'http://1015.com/calendar/',
     'http://theritzsanjose.com/',
     'https://www.oaklandmetro.org/',
+    'https://sf-eagle.com/events/list',
 ]
 
 
@@ -388,6 +389,8 @@ async def main():
         #    await archive_events(session, venue_url, ) #TODO
         elif venue_url == 'https://www.oaklandmetro.org/':
             await archive_events(session, venue_url, '/event/', venue_url[:-1])
+        elif venue_url == 'https://sf-eagle.com/events/list':
+            await archive_events(session, venue_url, venue_url.replace('/events/list', '/event/'))
 
 
     # TEMPORARY

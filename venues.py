@@ -123,6 +123,7 @@ venue_list = [
     'http://1015.com/calendar/',
     'http://theritzsanjose.com/',
     'https://www.oaklandmetro.org/',
+    'https://sf-eagle.com/events/list',
 ]
 
 
@@ -381,6 +382,8 @@ if __name__ == '__main__':
         #    archive_events(venue_url, ) #TODO
         elif venue_url == 'https://www.oaklandmetro.org/':
             archive_events(venue_url, '/event/', venue_url[:-1])
+        elif venue_url == 'https://sf-eagle.com/events/list':
+            archive_events(venue_url, venue_url.replace('/events/list', '/event/'))
 
 
     # TEMPORARY

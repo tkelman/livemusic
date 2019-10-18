@@ -153,6 +153,7 @@ def archive_events(listing_url, event_prefix, top_url='', include_original=True)
             'https://www.thegreatnorthernsf.com/events/',
             'https://www.rickshawstop.com/',
             'https://www.neckofthewoodssf.com/calendar/',
+            'https://www.slimspresents.com/event-listing/',
             ): # TODO re enable
         assert len(all_events) > 0
     for event in set(all_events): # remove duplicates

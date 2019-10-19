@@ -268,8 +268,8 @@ all_venues[-1]['problematic'] = True
 
 all_venues.append({'listing_url': 'http://madroneartbar.com/'})
 all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'] + 'event/'
+all_venues.append({'listing_url': 'http://madroneartbar.com/calendar/'})
 # this one seems to give empty results a lot of the time
-#all_venues.append({'listing_url': 'http://madroneartbar.com/calendar/'})
 #all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/', '/event/').replace('http://', 'https://')
 
 all_venues.append({'listing_url': 'http://www.mountainviewamphitheater.com/events/'})
@@ -373,6 +373,7 @@ all_venues[-1]['top_url'] = all_venues[-1]['listing_url'][:-1]
 
 all_venues.append({'listing_url': 'https://sf-eagle.com/events/list'})
 all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/events/list', '/event/')
+all_venues[-1]['problematic'] = True
 
 all_venues.append({'listing_url': 'https://bstreettheatre.org/shows/'})
 all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/shows/', '/show/')

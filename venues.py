@@ -2,7 +2,7 @@
 import archiveis
 from bs4 import BeautifulSoup
 import dateutil.parser
-from datetime import datetime, timedelta, date
+from datetime import datetime, date, timedelta
 import pytz
 from fake_useragent import UserAgent
 import asks
@@ -36,6 +36,366 @@ async def rearchive_if_older_than(session, url, threshold_date):
 
 async def archive_once(session, url):
     await rearchive_if_older_than(session, url, datetime(1, 1, 1, tzinfo=pytz.utc))
+
+
+this_year = str(date.today().year)
+this_month = str(date.today().month)
+day_of_year = date.today().timetuple().tm_yday
+#day_of_month = date.today().day
+hour_of_day = datetime.now(tz=pytz.utc).hour
+
+all_venues = []
+all_venues.append({'listing_url': 'http://www.makeoutroom.com/events'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('http://', '//')
+all_venues[-1]['top_url'] = 'http:'
+
+all_venues.append({'listing_url': 'https://amnesiathebar.com/calendar/list/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/list/', '/')
+
+all_venues.append({'listing_url': 'https://www.hotelutah.com/calendar/'})
+all_venues[-1]['event_prefix'] = '/e/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/calendar/', '')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://www.yoshis.com/calendar/'})
+all_venues[-1]['event_prefix'] = '/e/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/calendar/', '')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'http://www.milksf.com/'})
+all_venues[-1]['event_prefix'] = '/shows/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'][:-1]
+
+all_venues.append({'listing_url': 'http://www.bottomofthehill.com/calendar.html'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('calendar.html', '') + this_year
+
+all_venues.append({'listing_url': 'https://www.monarchsf.com/'})
+all_venues[-1]['event_prefix'] = '/e/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'][:-1]
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://www.monarchsf.com/calendar/the-bar-at-monarch/'})
+all_venues[-1]['event_prefix'] = '/e/'
+all_venues[-1]['top_url'] = all_venues[-2]['top_url']
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://starlinesocialclub.com/calendar/list'})
+all_venues[-1]['event_prefix'] = '/event/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/calendar/list', '')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'http://thedipredding.com/events/'})
+all_venues[-1]['event_prefix'] = 'https://facebook.com/events/'
+
+all_venues.append({'listing_url': 'https://www.harlows.com/all-shows/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/all-shows/', '/event/')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://boomboomroom.com/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'] + 'event_listings/'
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://www.moesalley.com/calendar/'})
+all_venues[-1]['event_prefix'] = '/e/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/calendar/', '')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://www.thegreatnorthernsf.com/events/'})
+all_venues[-1]['event_prefix'] = '/e/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/', '')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://themidwaysf.com/calendar/'})
+#TODO
+
+all_venues.append({'listing_url': 'http://www.uptownnightclub.com/events/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/events/', '/event/')
+
+all_venues.append({'listing_url': 'http://www.stocktonlive.com/events/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url']
+
+all_venues.append({'listing_url': 'https://mystictheatre.com/event-calendar'})
+all_venues[-1]['event_prefix'] = 'https://www.eventbrite.com/'
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://thecrepeplace.com/events/'})
+all_venues[-1]['event_prefix'] = '/events/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/', '')
+
+all_venues.append({'listing_url': 'https://sierranevada.com/events/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/events/', '/event/')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://empresstheatre.org/events/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url']
+
+all_venues.append({'listing_url': 'https://www.crestsacramento.com/calendar/'})
+all_venues[-1]['event_prefix'] = '/event/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/calendar/', '')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://www.hollandreno.org/calendar/list/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/list/', '/event/')
+
+all_venues.append({'listing_url': 'https://www.rickshawstop.com/'})
+all_venues[-1]['event_prefix'] = '/e/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'][:-1]
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://www.dnalounge.com/calendar/latest.html'})
+all_venues[-1]['event_prefix'] = this_month
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('latest.html', this_year + '/')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://www.thefreight.org/shows/'})
+all_venues[-1]['event_prefix'] = '/event/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/shows/', '')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://www.brickandmortarmusic.com/'})
+all_venues[-1]['event_prefix'] = 'https://www.ticketweb.com/event/'
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://publicsf.com/calendar'})
+#TODO
+
+all_venues.append({'listing_url': 'https://oaklandoctopus.org/calendar'})
+# gone but not forgotten :(
+
+all_venues.append({'listing_url': 'https://www.riotheatre.com/events'})
+all_venues[-1]['event_prefix'] = '/events-2/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events', '')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://centerfornewmusic.com/calendar/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url']
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://lutherburbankcenter.org/events/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/events/', '/event/')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://jubjubsthirstparlor.com/events/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/events/', '/event/')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'http://www.adobebooks.com/events'})
+all_venues[-1]['event_prefix'] = '/events/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events', '')
+
+all_venues.append({'listing_url': 'http://montalvoarts.org/calendar/'})
+all_venues.append({'listing_url': 'http://montalvoarts.org/events/'})
+# special cased below due to multiple event prefixes
+
+all_venues.append({'listing_url': 'http://www.uptowntheatrenapa.com/events/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/events/', '/event/')
+
+all_venues.append({'listing_url': 'https://mezzaninesf.com/events/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url']
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://renobrewhouse.com/events/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/events/', '/event/')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'http://www.paramounttheatre.com/schedule.html'})
+# no separate event pages
+
+all_venues.append({'listing_url': 'https://www.jmaxproductions.net/calendar/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/', '/event/')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'http://billgrahamcivic.com/event-listing/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/event-listing/', '/events/')
+
+all_venues.append({'listing_url': 'https://www.neckofthewoodssf.com/calendar/'})
+all_venues[-1]['event_prefix'] = '/e/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/calendar/', '')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://www.slimspresents.com/event-listing/'})
+all_venues[-1]['event_prefix'] = '/e/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/event-listing/', '')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://www.theuctheatre.org/'})
+all_venues[-1]['event_prefix'] = '/e/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'][:-1]
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://www.thenewparish.com/calendar/'})
+all_venues[-1]['event_prefix'] = '/e/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/calendar/', '')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://thegreekberkeley.com/calendar/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/', '/events/').replace('https://', 'http://')
+
+all_venues.append({'listing_url': 'https://thefoxoakland.com/listing/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/listing/', '/events/').replace('https://', 'http://')
+
+all_venues.append({'listing_url': 'http://www.ashkenaz.com/'})
+all_venues[-1]['event_prefix'] = '/eventcalendar/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'][:-1]
+
+all_venues.append({'listing_url': 'https://ivyroom.ticketfly.com'})
+all_venues[-1]['event_prefix'] = '/e/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url']
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://www.theregencyballroom.com/events'})
+#all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'] + '/detail/'
+all_venues.append({'listing_url': 'https://www.theregencyballroom.com/events/all'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/all', '/detail/')
+# TODO archive google text-only cache
+
+all_venues.append({'listing_url': 'https://www.augusthallsf.com/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'] + 'event/'
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://thefillmore.com/calendar/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/', '/event/')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://www.thechapelsf.com/calendar/'})
+all_venues[-1]['event_prefix'] = '/e/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/calendar/', '')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'http://ritespotcafe.net/calendar.php'})
+# no separate event pages
+
+all_venues.append({'listing_url': 'https://www.theindependentsf.com/calendar/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/', '/event/')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'http://madroneartbar.com/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'] + 'event/'
+all_venues.append({'listing_url': 'http://madroneartbar.com/calendar/'})
+# this one seems to give empty results a lot of the time
+#all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/', '/event/').replace('http://', 'https://')
+
+all_venues.append({'listing_url': 'http://www.mountainviewamphitheater.com/events/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url']
+
+all_venues.append({'listing_url': 'https://sanjosetheaters.org/calendar/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/', '/event/')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://www.thephoenixtheater.com/calendar/'})
+all_venues[-1]['event_prefix'] = '/e/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/calendar/', '')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'http://www.theoaklandarena.com/events'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url']
+
+all_venues.append({'listing_url': 'https://www.cornerstoneberkeley.com/music-venue/cornerstone-events/'})
+all_venues[-1]['event_prefix'] = '/e/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/music-venue/cornerstone-events/', '')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://www.theeparkside.com/'})
+all_venues[-1]['event_prefix'] = '/event/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'][:-1]
+
+all_venues.append({'listing_url': 'http://theknockoutsf.com/events/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/events/', '/event/')
+
+all_venues.append({'listing_url': 'https://shows.swedishamericanhall.com/'})
+all_venues[-1]['event_prefix'] = '/event/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'][:-1]
+
+all_venues.append({'listing_url': 'http://www.concordamp.com/events/'})
+# empty for now?
+
+all_venues.append({'listing_url': 'https://live.stanford.edu/venues/frost-amphitheater'})
+#all_venues[-1]['event_prefix'] = '/calendar/'
+#all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/venues/frost-amphitheater', '')
+all_venues.append({'listing_url': 'https://live.stanford.edu/calendar'})
+all_venues[-1]['event_prefix'] = '/calendar/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/calendar', '')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://www.golden1center.com/events'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url']
+
+all_venues.append({'listing_url': 'https://www.chasecenter.com/events'})
+# special cased below due to multiple event prefixes
+
+all_venues.append({'listing_url': 'https://www.thewarfieldtheatre.com/events'})
+#all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'] + '/detail/'
+all_venues.append({'listing_url': 'https://www.thewarfieldtheatre.com/events/all'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/all', '/detail/')
+# TODO archive google text-only cache
+
+all_venues.append({'listing_url': 'https://feltonmusichall.com/'})
+all_venues[-1]['event_prefix'] = 'https://www.eventbrite.com/'
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://www.amoeba.com/live-shows'})
+all_venues[-1]['event_prefix'] = '/live-shows/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/live-shows', '')
+
+all_venues.append({'listing_url': 'https://www.amoeba.com/live-shows/upcoming/index.html'})
+all_venues[-1]['event_prefix'] = '/live-shows/'
+all_venues[-1]['top_url'] = 'https://www.amoeba.com'
+
+all_venues.append({'listing_url': 'https://palaceoffinearts.org/'})
+#all_venues[-1]['event_prefix'] = '/event/'
+#all_venues[-1]['top_url'] = all_venues[-1]['listing_url'][:-1]
+all_venues.append({'listing_url': 'https://palaceoffinearts.org/events/'})
+all_venues[-1]['event_prefix'] = '/event/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/', '')
+
+all_venues.append({'listing_url': 'https://catalystclub.com/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'] + 'eventbrite-events/'
+
+all_venues.append({'listing_url': 'https://www.holydiversac.com/'})
+#TODO
+
+all_venues.append({'listing_url': 'http://www.aceofspadessac.com'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url']
+# TODO get this reading the whole event list, not just handful at top from thumbnails
+
+all_venues.append({'listing_url': 'https://sfmasonic.com/calendar/'})
+#TODO
+
+all_venues.append({'listing_url': 'http://www.sapcenter.com/events/all'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/all', '/detail/')
+
+all_venues.append({'listing_url': 'http://1015.com/calendar/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/', '/events/')
+
+all_venues.append({'listing_url': 'http://theritzsanjose.com/'})
+#TODO
+
+all_venues.append({'listing_url': 'https://www.oaklandmetro.org/'})
+all_venues[-1]['event_prefix'] = '/event/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'][:-1]
+
+all_venues.append({'listing_url': 'https://sf-eagle.com/events/list'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/events/list', '/event/')
+all_venues[-1]['problematic'] = True
+
+all_venues.append({'listing_url': 'https://bstreettheatre.org/shows/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/shows/', '/show/')
+
+all_venues.append({'listing_url': 'https://theploughandstars.com/'})
+# no separate event pages
+
+all_venues.append({'listing_url': 'https://www.thestarryplough.com/events-'})
+all_venues[-1]['event_prefix'] = 'https://www.eventbrite.com/'
+
+all_venues.append({'listing_url': 'https://www.gunbun.com/events/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/events/', '/event/')
+
+all_venues.append({'listing_url': 'https://www.mondaviarts.org/events/upcoming-events'})
+all_venues[-1]['event_prefix'] = '/event/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/upcoming-events', '')
+
+all_venues.append({'listing_url': 'https://www.grandsierraresort.com/reno-entertainment/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url']
 
 
 venue_list = [
@@ -134,6 +494,8 @@ venue_list = [
     'https://www.mondaviarts.org/events/upcoming-events',
     'https://www.grandsierraresort.com/reno-entertainment/',
 ]
+assert len(all_venues) == len(venue_list)
+assert [v['listing_url'] for v in all_venues] == venue_list
 
 
 ua_header = {'User-Agent': UserAgent().chrome}
@@ -147,21 +509,21 @@ async def archive_events(session, listing_url, event_prefix, top_url='', include
     doc = BeautifulSoup(response.text, 'html.parser')
     all_events = [link.get('href') for link in doc.find_all('a')
         if link.get('href', '').startswith(event_prefix)]
-    if venue_url not in (
-            'https://www.hotelutah.com/calendar/',
-            'https://www.yoshis.com/calendar/',
-            'https://www.monarchsf.com/',
-            'https://www.monarchsf.com/calendar/the-bar-at-monarch/',
-            'https://www.moesalley.com/calendar/',
-            'https://www.thegreatnorthernsf.com/events/',
-            'https://www.rickshawstop.com/',
-            'https://www.neckofthewoodssf.com/calendar/',
-            'https://www.slimspresents.com/event-listing/',
-            'https://www.theuctheatre.org/',
-            'https://www.thenewparish.com/calendar/',
-            'https://ivyroom.ticketfly.com',
-            ): # TODO re enable
-        assert len(all_events) > 0
+#    if listing_url not in (
+#            'https://www.hotelutah.com/calendar/',
+#            'https://www.yoshis.com/calendar/',
+#            'https://www.monarchsf.com/',
+#            'https://www.monarchsf.com/calendar/the-bar-at-monarch/',
+#            'https://www.moesalley.com/calendar/',
+#            'https://www.thegreatnorthernsf.com/events/',
+#            'https://www.rickshawstop.com/',
+#            'https://www.neckofthewoodssf.com/calendar/',
+#            'https://www.slimspresents.com/event-listing/',
+#            'https://www.theuctheatre.org/',
+#            'https://www.thenewparish.com/calendar/',
+#            'https://ivyroom.ticketfly.com',
+#            ):
+    assert len(all_events) > 0
     async with trio.open_nursery() as nursery:
         for event in set(all_events): # remove duplicates
             if '?' in event and not event.startswith('http://www.aceofspadessac.com'):
@@ -181,248 +543,36 @@ session = asks.Session(connections=3)
 
 async def main():
     async with trio.open_nursery() as nursery:
-        for venue_url in venue_list:
+        for venue in all_venues:
             nursery.start_soon(rearchive_if_older_than, session,
-                venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
+                venue['listing_url'], datetime.now(tz=pytz.utc) - timedelta(days=2))
             nursery.start_soon(rearchive_if_older_than, session,
-                redirect_prefix + venue_url, datetime.now(tz=pytz.utc) - timedelta(days=2))
+                redirect_prefix + venue['listing_url'], datetime.now(tz=pytz.utc) - timedelta(days=2))
 
-    this_year = str(date.today().year)
-    this_month = str(date.today().month)
-    day_of_year = date.today().timetuple().tm_yday
-    #day_of_month = date.today().day
-    hour_of_day = datetime.now(tz=pytz.utc).hour
-    for i, venue_url in enumerate(venue_list):
-        # for problematic venue pages, only try during one hour per day
-        # different hour per venue, different hour per day
-        stagger = (hour_of_day == (day_of_year + i) % 24)
+    for i, venue in enumerate(all_venues):
+        venue_url = venue['listing_url']
+        if venue.get('problematic', False):
+            # for problematic venue pages, only try during one hour per day
+            # different hour per venue, different hour per day
+            include_original = (hour_of_day == (day_of_year + i) % 24)
+            if include_original:
+                print('trying problematic venue {} this hour'.format(venue_url))
+        else:
+            include_original = True
+
         if venue_url == '':
             assert False
-        elif venue_url == 'http://www.makeoutroom.com/events':
-            await archive_events(session, venue_url, venue_url.replace('http://', '//'), 'http:')
-        elif venue_url == 'https://amnesiathebar.com/calendar/list/':
-            await archive_events(session, venue_url, venue_url.replace('/list/', '/'))
-        elif venue_url == 'https://www.hotelutah.com/calendar/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
-        elif venue_url == 'https://www.yoshis.com/calendar/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
-        elif venue_url == 'http://www.milksf.com/':
-            await archive_events(session, venue_url, '/shows/', venue_url[:-1])
-        elif venue_url == 'http://www.bottomofthehill.com/calendar.html':
-            await archive_events(session, venue_url, venue_url.replace('calendar.html', '') + this_year)
-        elif venue_url.startswith('https://www.monarchsf.com/'):
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, '/e/', 'https://www.monarchsf.com', include_original=stagger)
-        elif venue_url == 'https://starlinesocialclub.com/calendar/list':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, '/event/', venue_url.replace('/calendar/list', ''), include_original=stagger)
-        elif venue_url == 'http://thedipredding.com/events/':
-            await archive_events(session, venue_url, 'https://facebook.com/events/')
-        elif venue_url == 'https://www.harlows.com/all-shows/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, venue_url.replace('/all-shows/', '/event/'), include_original=stagger)
-        elif venue_url == 'https://boomboomroom.com/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, venue_url + 'event_listings/', include_original=stagger)
-        elif venue_url == 'https://www.moesalley.com/calendar/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
-        elif venue_url == 'https://www.thegreatnorthernsf.com/events/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, '/e/', venue_url.replace('/events/', ''), include_original=stagger)
-        #elif venue_url == 'https://themidwaysf.com/calendar/':
-        #    await archive_events(session, venue_url, ) #TODO
-        elif venue_url == 'http://www.uptownnightclub.com/events/':
-            await archive_events(session, venue_url, venue_url.replace('/events/', '/event/'))
-        elif venue_url == 'http://www.stocktonlive.com/events/':
-            await archive_events(session, venue_url, venue_url)
-        elif venue_url == 'https://mystictheatre.com/event-calendar':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, 'https://www.eventbrite.com/', include_original=stagger)
-        elif venue_url == 'https://thecrepeplace.com/events/':
-            await archive_events(session, venue_url, '/events/', venue_url.replace('/events/', ''))
-        elif venue_url == 'https://sierranevada.com/events/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, venue_url.replace('/events/', '/event/'), include_original=stagger)
-        elif venue_url == 'https://empresstheatre.org/events/':
-            await archive_events(session, venue_url, venue_url)
-        elif venue_url == 'https://www.crestsacramento.com/calendar/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, '/event/', venue_url.replace('/calendar/', ''), include_original=stagger)
-        elif venue_url == 'https://www.hollandreno.org/calendar/list/':
-            await archive_events(session, venue_url, venue_url.replace('/calendar/list/', '/event/'))
-        elif venue_url == 'https://www.rickshawstop.com/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, '/e/', venue_url.replace('.com/', '.com'), include_original=stagger)
-        elif venue_url == 'https://www.dnalounge.com/calendar/latest.html':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, this_month, venue_url.replace('latest.html', this_year + '/'), include_original=stagger)
-        elif venue_url == 'https://www.thefreight.org/shows/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, '/event/', venue_url.replace('/shows/', ''), include_original=stagger)
-        elif venue_url == 'https://www.brickandmortarmusic.com/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, 'https://www.ticketweb.com/event/', include_original=stagger)
-        #elif venue_url == 'https://publicsf.com/calendar':
-        #    await archive_events(session, venue_url, ) #TODO
-        #elif venue_url == 'https://oaklandoctopus.org/calendar':
-        #    await archive_events(session, venue_url, ) # :(
-        elif venue_url == 'https://www.riotheatre.com/events':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, '/events-2/', venue_url.replace('/events', ''), include_original=stagger)
-        elif venue_url == 'https://centerfornewmusic.com/calendar/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, venue_url, include_original=stagger)
-        elif venue_url == 'https://lutherburbankcenter.org/events/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, venue_url.replace('/events/', '/event/'), include_original=stagger)
-        elif venue_url == 'https://jubjubsthirstparlor.com/events/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, venue_url.replace('/events/', '/event/'), include_original=stagger)
-        elif venue_url == 'http://www.adobebooks.com/events':
-            await archive_events(session, venue_url, '/events/', venue_url.replace('/events', ''))
         elif venue_url.startswith('http://montalvoarts.org/'):
             await archive_events(session, venue_url, '/exhibitions/', 'http://montalvoarts.org')
             await archive_events(session, venue_url, '/classes/', 'http://montalvoarts.org')
             await archive_events(session, venue_url, '/events/', 'http://montalvoarts.org')
-        elif venue_url == 'http://www.uptowntheatrenapa.com/events/':
-            await archive_events(session, venue_url, venue_url.replace('/events/', '/event/'))
-        elif venue_url == 'https://mezzaninesf.com/events/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, venue_url, include_original=stagger)
-        elif venue_url == 'https://renobrewhouse.com/events/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, venue_url.replace('/events/', '/event/'), include_original=stagger)
-        #elif venue_url == 'http://www.paramounttheatre.com/schedule.html':
-        #    continue # no separate event pages
-        elif venue_url == 'https://www.jmaxproductions.net/calendar/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, venue_url.replace('/calendar/', '/event/'), include_original=stagger)
-        elif venue_url == 'http://billgrahamcivic.com/event-listing/':
-            await archive_events(session, venue_url, venue_url.replace('/event-listing/', '/events/'))
-        elif venue_url == 'https://www.neckofthewoodssf.com/calendar/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
-        elif venue_url == 'https://www.slimspresents.com/event-listing/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, '/e/', venue_url.replace('/event-listing/', ''), include_original=stagger)
-        elif venue_url == 'https://www.theuctheatre.org/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, '/e/', venue_url[:-1], include_original=stagger)
-        elif venue_url == 'https://www.thenewparish.com/calendar/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
-        elif venue_url == 'https://thegreekberkeley.com/calendar/':
-            await archive_events(session, venue_url, venue_url.replace('/calendar/', '/events/').replace('https://', 'http://'))
-        elif venue_url == 'https://thefoxoakland.com/listing/':
-            await archive_events(session, venue_url, venue_url.replace('/listing/', '/events/').replace('https://', 'http://'))
-        elif venue_url == 'http://www.ashkenaz.com/':
-            await archive_events(session, venue_url, '/eventcalendar/', venue_url[:-1])
-        elif venue_url == 'https://ivyroom.ticketfly.com':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, '/e/', venue_url, include_original=stagger)
-        #elif venue_url == 'https://www.theregencyballroom.com/events':
-        #    await archive_events(session, venue_url, venue_url + '/detail/')
-        elif venue_url == 'https://www.theregencyballroom.com/events/all':
-            # TODO google text-only cache
-            await archive_events(session, venue_url, venue_url.replace('/all', '/detail/'))
-        elif venue_url == 'https://www.augusthallsf.com/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, venue_url + 'event/', include_original=stagger)
-        elif venue_url == 'https://thefillmore.com/calendar/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, venue_url.replace('/calendar/', '/event/'), include_original=stagger)
-        elif venue_url == 'https://www.thechapelsf.com/calendar/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
-        #elif venue_url == 'http://ritespotcafe.net/calendar.php':
-        #    continue # no separate event pages
-        elif venue_url == 'https://www.theindependentsf.com/calendar/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, venue_url.replace('/calendar/', '/event/'), include_original=stagger)
-        elif venue_url == 'http://madroneartbar.com/':
-            await archive_events(session, venue_url, venue_url + 'event/')
-        # this one seems to give empty results a lot of the time
-        #elif venue_url == 'http://madroneartbar.com/calendar/':
-        #    await archive_events(session, venue_url, venue_url.replace('/calendar/', '/event/').replace('http://', 'https://'))
-        elif venue_url == 'http://www.mountainviewamphitheater.com/events/':
-            await archive_events(session, venue_url, venue_url)
-        elif venue_url == 'https://sanjosetheaters.org/calendar/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, venue_url.replace('/calendar/', '/event/'), include_original=stagger)
-        elif venue_url == 'https://www.thephoenixtheater.com/calendar/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, '/e/', venue_url.replace('/calendar/', ''), include_original=stagger)
-        elif venue_url == 'http://www.theoaklandarena.com/events':
-            await archive_events(session, venue_url, venue_url)
-        elif venue_url == 'https://www.cornerstoneberkeley.com/music-venue/cornerstone-events/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, '/e/', venue_url.replace('/music-venue/cornerstone-events/', ''), include_original=stagger)
-        elif venue_url == 'https://www.theeparkside.com/':
-            await archive_events(session, venue_url, '/event/', venue_url[:-1])
-        elif venue_url == 'http://theknockoutsf.com/events/':
-            await archive_events(session, venue_url, venue_url.replace('/events/', '/event/'))
-        elif venue_url == 'https://shows.swedishamericanhall.com/':
-            await archive_events(session, venue_url, '/event/', venue_url[:-1])
-        #elif venue_url == 'http://www.concordamp.com/events/':
-        #    await archive_events(session, venue_url, ) # empty for now?
-        #elif venue_url == 'https://live.stanford.edu/venues/frost-amphitheater':
-        #    await archive_events(session, venue_url, '/calendar/', venue_url.replace('/venues/frost-amphitheater', ''))
-        elif venue_url == 'https://live.stanford.edu/calendar':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, '/calendar/', venue_url.replace('/calendar', ''), include_original=stagger)
-        elif venue_url == 'https://www.golden1center.com/events':
-            await archive_events(session, venue_url, venue_url)
         elif venue_url == 'https://www.chasecenter.com/events':
             await archive_events(session, venue_url, '/events/', venue_url.replace('/events', ''))
             await archive_events(session, venue_url, '/games/', venue_url.replace('/events', ''))
-        #elif venue_url == 'https://www.thewarfieldtheatre.com/events':
-        #    await archive_events(session, venue_url, venue_url + '/detail/')
-        elif venue_url == 'https://www.thewarfieldtheatre.com/events/all':
-            # TODO google text-only cache
-            await archive_events(session, venue_url, venue_url.replace('/all', '/detail/'))
-        elif venue_url == 'https://feltonmusichall.com/':
-            stagger and print('trying problematic venue {} this hour'.format(venue_url))
-            await archive_events(session, venue_url, 'https://www.eventbrite.com/', include_original=stagger)
-        elif venue_url.startswith('https://www.amoeba.com/live-shows'):
-            await archive_events(session, venue_url, '/live-shows/', 'https://www.amoeba.com')
-        #elif venue_url == 'https://palaceoffinearts.org/':
-        #    await archive_events(session, venue_url, '/event/', venue_url[:-1])
-        elif venue_url == 'https://palaceoffinearts.org/events/':
-            await archive_events(session, venue_url, '/event/', venue_url.replace('/events/', ''))
-        elif venue_url == 'https://catalystclub.com/':
-            await archive_events(session, venue_url, venue_url + 'eventbrite-events/')
-        #elif venue_url == 'https://www.holydiversac.com/':
-        #    await archive_events(session, venue_url, ) #TODO
-        elif venue_url == 'http://www.aceofspadessac.com':
-            # TODO get this reading the whole event list, not just handful at top from thumbnails
-            await archive_events(session, venue_url, venue_url)
-        #elif venue_url == 'https://sfmasonic.com/calendar/':
-        #    await archive_events(session, venue_url, ) #TODO
-        elif venue_url == 'http://www.sapcenter.com/events/all':
-            await archive_events(session, venue_url, venue_url.replace('/all', '/detail/'))
-        elif venue_url == 'http://1015.com/calendar/':
-            await archive_events(session, venue_url, venue_url.replace('/calendar/', '/events/'))
-        #elif venue_url == 'http://theritzsanjose.com/':
-        #    await archive_events(session, venue_url, ) #TODO
-        elif venue_url == 'https://www.oaklandmetro.org/':
-            await archive_events(session, venue_url, '/event/', venue_url[:-1])
-        elif venue_url == 'https://sf-eagle.com/events/list':
-            await archive_events(session, venue_url, venue_url.replace('/events/list', '/event/'))
-        elif venue_url == 'https://bstreettheatre.org/shows/':
-            await archive_events(session, venue_url, venue_url.replace('/shows/', '/show/'))
-        #elif venue_url == 'https://theploughandstars.com/':
-        #    continue # no separate event pages
-        elif venue_url == 'https://www.thestarryplough.com/events-':
-            await archive_events(session, venue_url, 'https://www.eventbrite.com/')
-        elif venue_url == 'https://www.gunbun.com/events/':
-            await archive_events(session, venue_url, venue_url.replace('/events/', '/event/'))
-        elif venue_url == 'https://www.mondaviarts.org/events/upcoming-events':
-            await archive_events(session, venue_url, '/event/', venue_url.replace('/events/upcoming-events', ''))
-        elif venue_url == 'https://www.grandsierraresort.com/reno-entertainment/':
-            await archive_events(session, venue_url, venue_url)
+        else:
+            if 'event_prefix' in venue.keys():
+                await archive_events(session, venue_url, venue['event_prefix'],
+                    venue.get('top_url', ''), include_original)
 
 
     # TEMPORARY

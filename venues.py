@@ -159,6 +159,7 @@ async def archive_events(session, listing_url, event_prefix, top_url='', include
             'https://www.slimspresents.com/event-listing/',
             'https://www.theuctheatre.org/',
             'https://www.thenewparish.com/calendar/',
+            'https://ivyroom.ticketfly.com',
             ): # TODO re enable
         assert len(all_events) > 0
     async with trio.open_nursery() as nursery:

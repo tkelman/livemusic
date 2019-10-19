@@ -443,12 +443,14 @@ if __name__ == '__main__':
     for venue in all_venues:
         rearchive_if_older_than(redirect_prefix + venue['listing_url'], datetime.now(tz=pytz.utc) - timedelta(days=2))
 
-    for i, venue in enumerate(all_venues):
+    prob_counter = 0
+    for venue in all_venues:
         venue_url = venue['listing_url']
         if venue.get('problematic', False):
+            prob_counter += 1
             # for problematic venue pages, only try during one hour per day
             # different hour per venue, different hour per day
-            include_original = (hour_of_day == (day_of_year + i) % 24)
+            include_original = (hour_of_day == (day_of_year + prob_counter) % 24)
             if include_original:
                 print('trying problematic venue {} this hour'.format(venue_url))
         else:

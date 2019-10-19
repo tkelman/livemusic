@@ -563,7 +563,7 @@ if __name__ == '__main__':
             archive_events(venue_url, '/events/', venue_url.replace('/events', ''))
             archive_events(venue_url, '/games/', venue_url.replace('/events', ''))
         else:
-            if haskey(venue, 'event_prefix'):
+            if 'event_prefix' in venue.keys():
                 archive_events(venue_url, venue['event_prefix'], venue.get('top_url', ''), include_original)
 
 

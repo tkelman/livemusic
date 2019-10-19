@@ -23,12 +23,13 @@ def rearchive_if_older_than(url, threshold_date):
     pubdate = archived_date(url)
     if isinstance(pubdate, datetime):
         age = datetime.now(tz=pytz.utc) - pubdate
-        print('{} archived {} ago'.format(url, age))
+        msg = '{} archived {} ago'.format(url, age)
         if pubdate < threshold_date:
-            print('submitted new archive: {}'.format(archiveis.capture(url)))
+            msg += '\nsubmitted new archive: {}'.format(archiveis.capture(url))
     else:
-        print('{} not yet archived'.format(url))
-        print('submitted new archive: {}'.format(pubdate))
+        msg = '{} not yet archived'.format(url)
+        msg += '\nsubmitted new archive: {}'.format(pubdate)
+    print(msg)
 
 
 def archive_once(url):
@@ -393,106 +394,6 @@ all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/upcom
 
 all_venues.append({'listing_url': 'https://www.grandsierraresort.com/reno-entertainment/'})
 all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url']
-
-
-venue_list = [
-    'http://www.makeoutroom.com/events',
-    'https://amnesiathebar.com/calendar/list/',
-    'https://www.hotelutah.com/calendar/',
-    'https://www.yoshis.com/calendar/',
-    'http://www.milksf.com/',
-    'http://www.bottomofthehill.com/calendar.html',
-    'https://www.monarchsf.com/',
-    'https://www.monarchsf.com/calendar/the-bar-at-monarch/',
-    'https://starlinesocialclub.com/calendar/list',
-    'http://thedipredding.com/events/',
-    'https://www.harlows.com/all-shows/',
-    'https://boomboomroom.com/',
-    'https://www.moesalley.com/calendar/',
-    'https://www.thegreatnorthernsf.com/events/',
-    'https://themidwaysf.com/calendar/',
-    'http://www.uptownnightclub.com/events/',
-    'http://www.stocktonlive.com/events/',
-    'https://mystictheatre.com/event-calendar',
-    'https://thecrepeplace.com/events/',
-    'https://sierranevada.com/events/',
-    'https://empresstheatre.org/events/',
-    'https://www.crestsacramento.com/calendar/',
-    'https://www.hollandreno.org/calendar/list/',
-    'https://www.rickshawstop.com/',
-    'https://www.dnalounge.com/calendar/latest.html',
-    'https://www.thefreight.org/shows/',
-    'https://www.brickandmortarmusic.com/',
-    'https://publicsf.com/calendar',
-    'https://oaklandoctopus.org/calendar',
-    'https://www.riotheatre.com/events',
-    'https://centerfornewmusic.com/calendar/',
-    'https://lutherburbankcenter.org/events/',
-    'https://jubjubsthirstparlor.com/events/',
-    'http://www.adobebooks.com/events',
-    'http://montalvoarts.org/calendar/',
-    'http://montalvoarts.org/events/',
-    'http://www.uptowntheatrenapa.com/events/',
-    'https://mezzaninesf.com/events/',
-    'https://renobrewhouse.com/events/',
-    'http://www.paramounttheatre.com/schedule.html',
-    'https://www.jmaxproductions.net/calendar/',
-    'http://billgrahamcivic.com/event-listing/',
-    'https://www.neckofthewoodssf.com/calendar/',
-    'https://www.slimspresents.com/event-listing/',
-    'https://www.theuctheatre.org/',
-    'https://www.thenewparish.com/calendar/',
-    'https://thegreekberkeley.com/calendar/',
-    'https://thefoxoakland.com/listing/',
-    'http://www.ashkenaz.com/',
-    'https://ivyroom.ticketfly.com',
-    'https://www.theregencyballroom.com/events',
-    'https://www.theregencyballroom.com/events/all',
-    'https://www.augusthallsf.com/',
-    'https://thefillmore.com/calendar/',
-    'https://www.thechapelsf.com/calendar/',
-    'http://ritespotcafe.net/calendar.php',
-    'https://www.theindependentsf.com/calendar/',
-    'http://madroneartbar.com/',
-    'http://madroneartbar.com/calendar/',
-    'http://www.mountainviewamphitheater.com/events/',
-    'https://sanjosetheaters.org/calendar/',
-    'https://www.thephoenixtheater.com/calendar/',
-    'http://www.theoaklandarena.com/events',
-    'https://www.cornerstoneberkeley.com/music-venue/cornerstone-events/',
-    'https://www.theeparkside.com/',
-    'http://theknockoutsf.com/events/',
-    'https://shows.swedishamericanhall.com/',
-    'http://www.concordamp.com/events/',
-    'https://live.stanford.edu/venues/frost-amphitheater',
-    'https://live.stanford.edu/calendar',
-    'https://www.golden1center.com/events',
-    'https://www.chasecenter.com/events',
-    'https://www.thewarfieldtheatre.com/events',
-    'https://www.thewarfieldtheatre.com/events/all',
-    'https://feltonmusichall.com/',
-    'https://www.amoeba.com/live-shows',
-    'https://www.amoeba.com/live-shows/upcoming/index.html',
-    'https://palaceoffinearts.org/',
-    'https://palaceoffinearts.org/events/',
-    'https://catalystclub.com/',
-    'https://www.holydiversac.com/',
-    'http://www.aceofspadessac.com',
-    'https://sfmasonic.com/calendar/',
-    'http://www.sapcenter.com/events/all',
-    'http://1015.com/calendar/',
-    'http://theritzsanjose.com/',
-    'https://www.oaklandmetro.org/',
-    'https://sf-eagle.com/events/list',
-    'https://bstreettheatre.org/shows/',
-    'https://theploughandstars.com/',
-    'https://www.thestarryplough.com/events-',
-    'https://www.gunbun.com/events/',
-    'https://www.mondaviarts.org/events/upcoming-events',
-    'https://www.grandsierraresort.com/reno-entertainment/',
-]
-assert len(all_venues) == len(venue_list)
-assert [v['listing_url'] for v in all_venues] == venue_list
 
 
 ua_header = {'User-Agent': UserAgent().chrome}

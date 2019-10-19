@@ -422,7 +422,6 @@ async def main():
             await archive_events(session, venue_url, '/event/', venue_url.replace('/events/upcoming-events', ''))
         elif venue_url == 'https://www.grandsierraresort.com/reno-entertainment/':
             await archive_events(session, venue_url, venue_url)
->>>>>>> testing
 
 
     # TEMPORARY

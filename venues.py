@@ -127,6 +127,12 @@ venue_list = [
     'http://theritzsanjose.com/',
     'https://www.oaklandmetro.org/',
     'https://sf-eagle.com/events/list',
+    'https://bstreettheatre.org/shows/',
+    'https://theploughandstars.com/',
+    'https://www.thestarryplough.com/events-',
+    'https://www.gunbun.com/events/',
+    'https://www.mondaviarts.org/events/upcoming-events',
+    'https://www.grandsierraresort.com/reno-entertainment/',
 ]
 
 
@@ -141,7 +147,20 @@ async def archive_events(session, listing_url, event_prefix, top_url='', include
     doc = BeautifulSoup(response.text, 'html.parser')
     all_events = [link.get('href') for link in doc.find_all('a')
         if link.get('href', '').startswith(event_prefix)]
-    assert len(all_events) > 0
+    if venue_url not in (
+            'https://www.hotelutah.com/calendar/',
+            'https://www.yoshis.com/calendar/',
+            'https://www.monarchsf.com/',
+            'https://www.monarchsf.com/calendar/the-bar-at-monarch/',
+            'https://www.moesalley.com/calendar/',
+            'https://www.thegreatnorthernsf.com/events/',
+            'https://www.rickshawstop.com/',
+            'https://www.neckofthewoodssf.com/calendar/',
+            'https://www.slimspresents.com/event-listing/',
+            'https://www.theuctheatre.org/',
+            'https://www.thenewparish.com/calendar/',
+            ): # TODO re enable
+        assert len(all_events) > 0
     async with trio.open_nursery() as nursery:
         for event in set(all_events): # remove duplicates
             if '?' in event and not event.startswith('http://www.aceofspadessac.com'):
@@ -391,6 +410,19 @@ async def main():
             await archive_events(session, venue_url, '/event/', venue_url[:-1])
         elif venue_url == 'https://sf-eagle.com/events/list':
             await archive_events(session, venue_url, venue_url.replace('/events/list', '/event/'))
+        elif venue_url == 'https://bstreettheatre.org/shows/':
+            await archive_events(session, venue_url, venue_url.replace('/shows/', '/show/'))
+        #elif venue_url == 'https://theploughandstars.com/':
+        #    continue # no separate event pages
+        elif venue_url == 'https://www.thestarryplough.com/events-':
+            await archive_events(session, venue_url, 'https://www.eventbrite.com/')
+        elif venue_url == 'https://www.gunbun.com/events/':
+            await archive_events(session, venue_url, venue_url.replace('/events/', '/event/'))
+        elif venue_url == 'https://www.mondaviarts.org/events/upcoming-events':
+            await archive_events(session, venue_url, '/event/', venue_url.replace('/events/upcoming-events', ''))
+        elif venue_url == 'https://www.grandsierraresort.com/reno-entertainment/':
+            await archive_events(session, venue_url, venue_url)
+>>>>>>> testing
 
 
     # TEMPORARY
@@ -417,6 +449,9 @@ async def main():
     #rearchive_if_older_than('https://jubjubsthirstparlor.com/event/dreadful-children-lincoln-skinz/', threshold)
     #rearchive_if_older_than('https://thefillmore.com/event/cautious-clay/', threshold)
     #rearchive_if_older_than('https://www.yoshis.com/e/john-daversa-progressive-big-band-66619951067/', threshold)
+    #threshold = datetime(2019, 10, 18, 22, tzinfo=pytz.utc)
+    #rearchive_if_older_than('https://lutherburbankcenter.org/event/left-edge-theatre-presents-between-riverside-and-crazy/2019-10-18/', threshold)
+    #rearchive_if_older_than('https://www.dnalounge.com/calendar/2019/10-19.html', threshold)
     #rearchive_if_older_than('', threshold)
 
 

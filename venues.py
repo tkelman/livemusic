@@ -156,6 +156,7 @@ def archive_events(listing_url, event_prefix, top_url='', include_original=True)
             'https://www.slimspresents.com/event-listing/',
             'https://www.theuctheatre.org/',
             'https://www.thenewparish.com/calendar/',
+            'https://ivyroom.ticketfly.com',
             ): # TODO re enable
         assert len(all_events) > 0
     for event in set(all_events): # remove duplicates

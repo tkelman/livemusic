@@ -226,10 +226,10 @@ all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/calendar/', 
 all_venues[-1]['problematic'] = True
 
 all_venues.append({'listing_url': 'https://thegreekberkeley.com/calendar/'})
-all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/', '/events/').replace('https://', 'http://'))
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/', '/events/').replace('https://', 'http://')
 
 all_venues.append({'listing_url': 'https://thefoxoakland.com/listing/'})
-all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/listing/', '/events/').replace('https://', 'http://'))
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/listing/', '/events/').replace('https://', 'http://')
 
 all_venues.append({'listing_url': 'http://www.ashkenaz.com/'})
 all_venues[-1]['event_prefix'] = '/eventcalendar/'
@@ -270,7 +270,7 @@ all_venues.append({'listing_url': 'http://madroneartbar.com/'})
 all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'] + 'event/'
 # this one seems to give empty results a lot of the time
 #all_venues.append({'listing_url': 'http://madroneartbar.com/calendar/'})
-#all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/', '/event/').replace('http://', 'https://'))
+#all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/', '/event/').replace('http://', 'https://')
 
 all_venues.append({'listing_url': 'http://www.mountainviewamphitheater.com/events/'})
 all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url']

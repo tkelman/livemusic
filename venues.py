@@ -144,21 +144,21 @@ def archive_events(listing_url, event_prefix, top_url='', include_original=True)
     doc = BeautifulSoup(response.text, 'html.parser')
     all_events = [link.get('href') for link in doc.find_all('a')
         if link.get('href', '').startswith(event_prefix)]
-    if venue_url not in (
-            'https://www.hotelutah.com/calendar/',
-            'https://www.yoshis.com/calendar/',
-            'https://www.monarchsf.com/',
-            'https://www.monarchsf.com/calendar/the-bar-at-monarch/',
-            'https://www.moesalley.com/calendar/',
-            'https://www.thegreatnorthernsf.com/events/',
-            'https://www.rickshawstop.com/',
-            'https://www.neckofthewoodssf.com/calendar/',
-            'https://www.slimspresents.com/event-listing/',
-            'https://www.theuctheatre.org/',
-            'https://www.thenewparish.com/calendar/',
-            'https://ivyroom.ticketfly.com',
-            ): # TODO re enable
-        assert len(all_events) > 0
+#    if venue_url not in (
+#            'https://www.hotelutah.com/calendar/',
+#            'https://www.yoshis.com/calendar/',
+#            'https://www.monarchsf.com/',
+#            'https://www.monarchsf.com/calendar/the-bar-at-monarch/',
+#            'https://www.moesalley.com/calendar/',
+#            'https://www.thegreatnorthernsf.com/events/',
+#            'https://www.rickshawstop.com/',
+#            'https://www.neckofthewoodssf.com/calendar/',
+#            'https://www.slimspresents.com/event-listing/',
+#            'https://www.theuctheatre.org/',
+#            'https://www.thenewparish.com/calendar/',
+#            'https://ivyroom.ticketfly.com',
+#            ):
+    assert len(all_events) > 0
     for event in set(all_events): # remove duplicates
         if '?' in event and not event.startswith('http://www.aceofspadessac.com'):
             event = event[:event.find('?')]

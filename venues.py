@@ -395,6 +395,38 @@ all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/upcom
 all_venues.append({'listing_url': 'https://www.grandsierraresort.com/reno-entertainment/'})
 all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url']
 
+all_venues.append({'listing_url': 'http://pspharbor.com/calendar/list/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/list/', '/event/')
+all_venues.append({'listing_url': 'http://pspharbor.com/calendar/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/', '/event/')
+
+all_venues.append({'listing_url': 'http://www.bridgestorage.com/events/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/events/', '/event/')
+all_venues.append({'listing_url': 'http://www.bridgestorage.com/events/month/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/events/month/', '/event/')
+
+all_venues.append({'listing_url': 'https://rockstaruniversity.com/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'] + 'events/'
+
+all_venues.append({'listing_url': 'http://www.papamurphyspark.com/events/calendar/'})
+all_venues[-1]['event_prefix'] = '/event/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/calendar/', '')
+
+# reno events center? tyler the creator 10/17
+# pro arts
+# eli's
+# castro theater
+# thrillhouse records
+# pianofight
+# event center? gryffin 10/19
+# bing concert hall
+# caravan
+# blacksmith square
+# winters tavern
+# memorial auditorium
+# lincoln theater
+# mountain winery
+
 
 ua_header = {'User-Agent': UserAgent().chrome}
 redirect_prefix = 'https://via.hypothes.is/'
@@ -497,4 +529,7 @@ if __name__ == '__main__':
     #threshold = datetime(2019, 10, 18, 22, tzinfo=pytz.utc)
     #rearchive_if_older_than('https://lutherburbankcenter.org/event/left-edge-theatre-presents-between-riverside-and-crazy/2019-10-18/', threshold)
     #rearchive_if_older_than('https://www.dnalounge.com/calendar/2019/10-19.html', threshold)
+    #threshold = datetime(2019, 10, 20, 14, tzinfo=pytz.utc)
+    #rearchive_if_older_than('https://lutherburbankcenter.org/event/left-edge-theatre-presents-between-riverside-and-crazy/2019-10-20/', threshold)
+    #rearchive_if_older_than('https://www.monarchsf.com/e/werd-johnnie-walker-smokes-68547805331/', threshold)
     #rearchive_if_older_than('', threshold)

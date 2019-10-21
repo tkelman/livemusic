@@ -426,6 +426,12 @@ all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/calen
 # memorial auditorium
 # lincoln theater
 # mountain winery
+# benders
+# golden bull
+# elbo
+# valencia room
+# stork club
+# gilman
 
 
 ua_header = {'User-Agent': UserAgent().chrome}
@@ -532,4 +538,6 @@ if __name__ == '__main__':
     #threshold = datetime(2019, 10, 20, 14, tzinfo=pytz.utc)
     #rearchive_if_older_than('https://lutherburbankcenter.org/event/left-edge-theatre-presents-between-riverside-and-crazy/2019-10-20/', threshold)
     #rearchive_if_older_than('https://www.monarchsf.com/e/werd-johnnie-walker-smokes-68547805331/', threshold)
+    #rearchive_if_older_than('https://www.thenewparish.com/e/hot-brass-band-69350664705/', threshold)
+    #rearchive_if_older_than('https://www.thephoenixtheater.com/e/the-rocky-horror-picture-show-72719095773/', threshold)
     #rearchive_if_older_than('', threshold)

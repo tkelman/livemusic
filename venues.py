@@ -440,7 +440,8 @@ redirect_prefix = 'https://via.hypothes.is/'
 
 def archive_events(listing_url, event_prefix, top_url='', include_original=True):
     # top_url only needed if event links are relative
-    response = requests.get(listing_url, headers=ua_header)
+    response = requests.get(listing_url, headers=ua_header,
+        verify=(listing_url != 'https://ivyroom.ticketfly.com')) # TODO remove this
     response.raise_for_status()
     doc = BeautifulSoup(response.text, 'html.parser')
     all_events = [link.get('href') for link in doc.find_all('a')

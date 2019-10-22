@@ -1,7 +1,8 @@
 https://github.com/tkelman/archiveis/archive/async.zip
 #archiveis
+asks
 beautifulsoup4
 fake-useragent
 python-dateutil
 pytz
-requests-threads
+trio

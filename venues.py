@@ -5,7 +5,8 @@ import dateutil.parser
 from datetime import datetime, date, timedelta
 import pytz
 from fake_useragent import UserAgent
-from requests_threads import AsyncSession
+import trio
+import asks
 
 
 async def archived_date(session, url):
@@ -461,26 +462,30 @@ async def archive_events(session, listing_url, event_prefix, top_url='', include
 #            'https://ivyroom.ticketfly.com',
 #            ):
     assert len(all_events) > 0
-    for event in set(all_events): # remove duplicates
-        if '?' in event and not event.startswith('http://www.aceofspadessac.com'):
-            event = event[:event.find('?')]
-        if event == 'http://www.stocktonlive.com/events/rss':
-            continue # skip this
-        if include_original:
-            await archive_once(session, top_url + event)
-        await archive_once(session, redirect_prefix + top_url + event)
-        if top_url == 'https://www.yoshis.com':
+    async with trio.open_nursery() as nursery:
+        for event in set(all_events): # remove duplicates
+            if '?' in event and not event.startswith('http://www.aceofspadessac.com'):
+                event = event[:event.find('?')]
+            if event == 'http://www.stocktonlive.com/events/rss':
+                continue # skip this
             if include_original:
-                await archive_once(session, top_url + event + '#')
-            await archive_once(session, redirect_prefix + top_url + event + '#')
+                nursery.start_soon(archive_once, session, top_url + event)
+            nursery.start_soon(archive_once, session, redirect_prefix + top_url + event)
+            if top_url == 'https://www.yoshis.com':
+                if include_original:
+                    nursery.start_soon(archive_once, session, top_url + event + '#')
+                nursery.start_soon(archive_once, session, redirect_prefix + top_url + event + '#')
 
 
-session = AsyncSession(n=1)
+session = asks.Session(connections=1)
 
 async def main():
-    for venue in all_venues:
-        await rearchive_if_older_than(session, venue['listing_url'], datetime.now(tz=pytz.utc) - timedelta(days=2))
-        await rearchive_if_older_than(session, redirect_prefix + venue['listing_url'], datetime.now(tz=pytz.utc) - timedelta(days=2))
+    async with trio.open_nursery() as nursery:
+        for venue in all_venues:
+            nursery.start_soon(rearchive_if_older_than, session,
+                venue['listing_url'], datetime.now(tz=pytz.utc) - timedelta(days=2))
+            nursery.start_soon(rearchive_if_older_than, session,
+                redirect_prefix + venue['listing_url'], datetime.now(tz=pytz.utc) - timedelta(days=2))
 
     prob_counter = 0
     for venue in all_venues:
@@ -547,4 +552,4 @@ async def main():
 
 
 if __name__ == '__main__':
-    session.run(main)
+    trio.run(main)

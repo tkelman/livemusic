@@ -423,7 +423,7 @@ all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/calen
 # caravan
 # blacksmith square
 # winters tavern
-# memorial auditorium
+# memorial auditorium (sacramento)
 # lincoln theater
 # mountain winery
 # benders
@@ -432,6 +432,7 @@ all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/calen
 # valencia room
 # stork club
 # gilman
+# el rio
 
 
 ua_header = {'User-Agent': UserAgent().chrome}
@@ -542,4 +543,6 @@ if __name__ == '__main__':
     #rearchive_if_older_than('https://www.thenewparish.com/e/hot-brass-band-69350664705/', threshold)
     #rearchive_if_older_than('https://www.thephoenixtheater.com/e/the-rocky-horror-picture-show-72719095773/', threshold)
     #rearchive_if_older_than('https://www.hotelutah.com/e/noah-sheikh-ktl-chris-tewhill-74974802653/', threshold)
+    #rearchive_if_older_than('https://ivyroom.ticketfly.com/e/-cancelled-off-with-their-heads-69197980021/', threshold)
+    #rearchive_if_older_than('https://www.thechapelsf.com/e/a-celebration-of-the-life-times-of-mike-wilhelm-70563903535/', threshold)
     #rearchive_if_older_than('', threshold)

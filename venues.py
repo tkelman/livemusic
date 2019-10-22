@@ -475,7 +475,7 @@ async def archive_events(session, listing_url, event_prefix, top_url='', include
             await archive_once(session, redirect_prefix + top_url + event + '#')
 
 
-session = AsyncSession(n=3)
+session = AsyncSession(n=1)
 
 async def main():
     for venue in all_venues:

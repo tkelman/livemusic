@@ -5,13 +5,13 @@ import dateutil.parser
 from datetime import datetime, date, timedelta
 import pytz
 from fake_useragent import UserAgent
-import asks
 import trio
-asks.init('trio')
+import httpx
+from httpx.concurrency.trio import TrioBackend
 
 
-async def archived_date(session, url):
-    response = await archiveis.api.do_post(session, url, anyway=0)
+async def archived_date(client, url):
+    response = await archiveis.api.do_post(client, url, anyway=0)
     response.raise_for_status()
     doc = BeautifulSoup(response.text, 'html.parser')
     pubdates = doc.find_all(itemprop='pubdate')
@@ -21,21 +21,21 @@ async def archived_date(session, url):
     return dateutil.parser.isoparse(pubdates[0].attrs['datetime'])
 
 
-async def rearchive_if_older_than(session, url, threshold_date):
-    pubdate = await archived_date(session, url)
+async def rearchive_if_older_than(client, url, threshold_date):
+    pubdate = await archived_date(client, url)
     if isinstance(pubdate, datetime):
         age = datetime.now(tz=pytz.utc) - pubdate
         msg = '{} archived {} ago'.format(url, age)
         if pubdate < threshold_date:
-            msg += '\nsubmitted new archive: {}'.format(await archiveis.capture(session, url))
+            msg += '\nsubmitted new archive: {}'.format(await archiveis.capture(client, url))
     else:
         msg = '{} not yet archived'.format(url)
         msg += '\nsubmitted new archive: {}'.format(pubdate)
     print(msg)
 
 
-async def archive_once(session, url):
-    await rearchive_if_older_than(session, url, datetime(1, 1, 1, tzinfo=pytz.utc))
+async def archive_once(client, url):
+    await rearchive_if_older_than(client, url, datetime(1, 1, 1, tzinfo=pytz.utc))
 
 
 this_year = str(date.today().year)
@@ -397,14 +397,53 @@ all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/upcom
 all_venues.append({'listing_url': 'https://www.grandsierraresort.com/reno-entertainment/'})
 all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url']
 
+all_venues.append({'listing_url': 'http://pspharbor.com/calendar/list/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/list/', '/event/')
+all_venues.append({'listing_url': 'http://pspharbor.com/calendar/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/', '/event/')
+
+all_venues.append({'listing_url': 'http://www.bridgestorage.com/events/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/events/', '/event/')
+all_venues.append({'listing_url': 'http://www.bridgestorage.com/events/month/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/events/month/', '/event/')
+
+all_venues.append({'listing_url': 'https://rockstaruniversity.com/'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'] + 'events/'
+
+all_venues.append({'listing_url': 'http://www.papamurphyspark.com/events/calendar/'})
+all_venues[-1]['event_prefix'] = '/event/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/calendar/', '')
+
+# reno events center? tyler the creator 10/17
+# pro arts
+# eli's
+# castro theater
+# thrillhouse records
+# pianofight
+# event center? gryffin 10/19
+# bing concert hall
+# caravan
+# blacksmith square
+# winters tavern
+# memorial auditorium
+# lincoln theater
+# mountain winery
+# benders
+# golden bull
+# elbo
+# valencia room
+# stork club
+# gilman
+
 
 ua_header = {'User-Agent': UserAgent().chrome}
 redirect_prefix = 'https://via.hypothes.is/'
 
 
-async def archive_events(session, listing_url, event_prefix, top_url='', include_original=True):
+async def archive_events(client, listing_url, event_prefix, top_url='', include_original=True):
     # top_url only needed if event links are relative
-    response = await session.get(listing_url, headers=ua_header)
+    response = await client.get(listing_url, headers=ua_header)
+#        verify=(listing_url != 'https://ivyroom.ticketfly.com')) # TODO remove this
     response.raise_for_status()
     doc = BeautifulSoup(response.text, 'html.parser')
     all_events = [link.get('href') for link in doc.find_all('a')
@@ -431,48 +470,50 @@ async def archive_events(session, listing_url, event_prefix, top_url='', include
             if event == 'http://www.stocktonlive.com/events/rss':
                 continue # skip this
             if include_original:
-                nursery.start_soon(archive_once, session, top_url + event)
-            nursery.start_soon(archive_once, session, redirect_prefix + top_url + event)
+                nursery.start_soon(archive_once, client, top_url + event)
+            nursery.start_soon(archive_once, client, redirect_prefix + top_url + event)
             if top_url == 'https://www.yoshis.com':
                 if include_original:
-                    nursery.start_soon(archive_once, session, top_url + event + '#')
-                nursery.start_soon(archive_once, session, redirect_prefix + top_url + event + '#')
+                    nursery.start_soon(archive_once, client, top_url + event + '#')
+                nursery.start_soon(archive_once, client, redirect_prefix + top_url + event + '#')
 
 
-session = asks.Session(connections=3)
 
 async def main():
-    async with trio.open_nursery() as nursery:
+    async with httpx.AsyncClient(backend=TrioBackend()) as client:
+        async with trio.open_nursery() as nursery:
+            for venue in all_venues:
+                nursery.start_soon(rearchive_if_older_than, client,
+                    venue['listing_url'], datetime.now(tz=pytz.utc) - timedelta(days=2))
+                nursery.start_soon(rearchive_if_older_than, client,
+                    redirect_prefix + venue['listing_url'], datetime.now(tz=pytz.utc) - timedelta(days=2))
+
+        prob_counter = 0
         for venue in all_venues:
-            nursery.start_soon(rearchive_if_older_than, session,
-                venue['listing_url'], datetime.now(tz=pytz.utc) - timedelta(days=2))
-            nursery.start_soon(rearchive_if_older_than, session,
-                redirect_prefix + venue['listing_url'], datetime.now(tz=pytz.utc) - timedelta(days=2))
+            venue_url = venue['listing_url']
+            if venue.get('problematic', False):
+                prob_counter += 1
+                # for problematic venue pages, only try during one hour per day
+                # different hour per venue, different hour per day
+                include_original = (hour_of_day == (day_of_year + prob_counter) % 24)
+                if include_original:
+                    print('trying problematic venue {} this hour'.format(venue_url))
+            else:
+                include_original = True
 
-    for i, venue in enumerate(all_venues):
-        venue_url = venue['listing_url']
-        if venue.get('problematic', False):
-            # for problematic venue pages, only try during one hour per day
-            # different hour per venue, different hour per day
-            include_original = (hour_of_day == (day_of_year + i) % 24)
-            if include_original:
-                print('trying problematic venue {} this hour'.format(venue_url))
-        else:
-            include_original = True
-
-        if venue_url == '':
-            assert False
-        elif venue_url.startswith('http://montalvoarts.org/'):
-            await archive_events(session, venue_url, '/exhibitions/', 'http://montalvoarts.org')
-            await archive_events(session, venue_url, '/classes/', 'http://montalvoarts.org')
-            await archive_events(session, venue_url, '/events/', 'http://montalvoarts.org')
-        elif venue_url == 'https://www.chasecenter.com/events':
-            await archive_events(session, venue_url, '/events/', venue_url.replace('/events', ''))
-            await archive_events(session, venue_url, '/games/', venue_url.replace('/events', ''))
-        else:
-            if 'event_prefix' in venue.keys():
-                await archive_events(session, venue_url, venue['event_prefix'],
-                    venue.get('top_url', ''), include_original)
+            if venue_url == '':
+                assert False
+            elif venue_url.startswith('http://montalvoarts.org/'):
+                await archive_events(client, venue_url, '/exhibitions/', 'http://montalvoarts.org')
+                await archive_events(client, venue_url, '/classes/', 'http://montalvoarts.org')
+                await archive_events(client, venue_url, '/events/', 'http://montalvoarts.org')
+            elif venue_url == 'https://www.chasecenter.com/events':
+                await archive_events(client, venue_url, '/events/', venue_url.replace('/events', ''))
+                await archive_events(client, venue_url, '/games/', venue_url.replace('/events', ''))
+            else:
+                if 'event_prefix' in venue.keys():
+                    await archive_events(client, venue_url, venue['event_prefix'],
+                        venue.get('top_url', ''), include_original)
 
 
     # TEMPORARY
@@ -502,6 +543,12 @@ async def main():
     #threshold = datetime(2019, 10, 18, 22, tzinfo=pytz.utc)
     #rearchive_if_older_than('https://lutherburbankcenter.org/event/left-edge-theatre-presents-between-riverside-and-crazy/2019-10-18/', threshold)
     #rearchive_if_older_than('https://www.dnalounge.com/calendar/2019/10-19.html', threshold)
+    #threshold = datetime(2019, 10, 20, 14, tzinfo=pytz.utc)
+    #rearchive_if_older_than('https://lutherburbankcenter.org/event/left-edge-theatre-presents-between-riverside-and-crazy/2019-10-20/', threshold)
+    #rearchive_if_older_than('https://www.monarchsf.com/e/werd-johnnie-walker-smokes-68547805331/', threshold)
+    #rearchive_if_older_than('https://www.thenewparish.com/e/hot-brass-band-69350664705/', threshold)
+    #rearchive_if_older_than('https://www.thephoenixtheater.com/e/the-rocky-horror-picture-show-72719095773/', threshold)
+    #rearchive_if_older_than('https://www.hotelutah.com/e/noah-sheikh-ktl-chris-tewhill-74974802653/', threshold)
     #rearchive_if_older_than('', threshold)
 
 

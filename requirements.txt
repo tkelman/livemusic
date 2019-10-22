@@ -1,9 +1,8 @@
-asks
-trio
 https://github.com/tkelman/archiveis/archive/async.zip
 #archiveis
 beautifulsoup4
 fake-useragent
-pyopenssl
+httpx
 python-dateutil
 pytz
+trio

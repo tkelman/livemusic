@@ -433,6 +433,12 @@ all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/calen
 # stork club
 # gilman
 # el rio
+# underground sf
+# tioga-sequoia brewing
+# strangelove
+# red hat
+# saint john's episcopal church
+# goldfield trading post
 
 
 ua_header = {'User-Agent': UserAgent().chrome}
@@ -441,13 +447,13 @@ redirect_prefix = 'https://via.hypothes.is/'
 
 def archive_events(listing_url, event_prefix, top_url='', include_original=True):
     # top_url only needed if event links are relative
-    response = requests.get(listing_url, headers=ua_header,
-        verify=(listing_url != 'https://ivyroom.ticketfly.com')) # TODO remove this
+    response = requests.get(listing_url, headers=ua_header)
+#        verify=(listing_url != 'https://ivyroom.ticketfly.com'))
     response.raise_for_status()
     doc = BeautifulSoup(response.text, 'html.parser')
     all_events = [link.get('href') for link in doc.find_all('a')
         if link.get('href', '').startswith(event_prefix)]
-#    if listing_url not in (
+    if listing_url not in (
 #            'https://www.hotelutah.com/calendar/',
 #            'https://www.yoshis.com/calendar/',
 #            'https://www.monarchsf.com/',
@@ -455,13 +461,14 @@ def archive_events(listing_url, event_prefix, top_url='', include_original=True)
 #            'https://www.moesalley.com/calendar/',
 #            'https://www.thegreatnorthernsf.com/events/',
 #            'https://www.rickshawstop.com/',
+            'http://montalvoarts.org/calendar/', # some categories are empty occasionally
 #            'https://www.neckofthewoodssf.com/calendar/',
 #            'https://www.slimspresents.com/event-listing/',
 #            'https://www.theuctheatre.org/',
 #            'https://www.thenewparish.com/calendar/',
 #            'https://ivyroom.ticketfly.com',
-#            ):
-    assert len(all_events) > 0
+            ):
+        assert len(all_events) > 0
     for event in set(all_events): # remove duplicates
         if '?' in event and not event.startswith('http://www.aceofspadessac.com'):
             event = event[:event.find('?')]
@@ -537,7 +544,7 @@ if __name__ == '__main__':
     #threshold = datetime(2019, 10, 18, 22, tzinfo=pytz.utc)
     #rearchive_if_older_than('https://lutherburbankcenter.org/event/left-edge-theatre-presents-between-riverside-and-crazy/2019-10-18/', threshold)
     #rearchive_if_older_than('https://www.dnalounge.com/calendar/2019/10-19.html', threshold)
-    #threshold = datetime(2019, 10, 20, 14, tzinfo=pytz.utc)
+    #threshold = datetime(2019, 10, 23, 14, tzinfo=pytz.utc)
     #rearchive_if_older_than('https://lutherburbankcenter.org/event/left-edge-theatre-presents-between-riverside-and-crazy/2019-10-20/', threshold)
     #rearchive_if_older_than('https://www.monarchsf.com/e/werd-johnnie-walker-smokes-68547805331/', threshold)
     #rearchive_if_older_than('https://www.thenewparish.com/e/hot-brass-band-69350664705/', threshold)
@@ -545,4 +552,10 @@ if __name__ == '__main__':
     #rearchive_if_older_than('https://www.hotelutah.com/e/noah-sheikh-ktl-chris-tewhill-74974802653/', threshold)
     #rearchive_if_older_than('https://ivyroom.ticketfly.com/e/-cancelled-off-with-their-heads-69197980021/', threshold)
     #rearchive_if_older_than('https://www.thechapelsf.com/e/a-celebration-of-the-life-times-of-mike-wilhelm-70563903535/', threshold)
+    #rearchive_if_older_than('https://www.slimspresents.com/e/evan-zane-71744490703/', threshold)
+    #rearchive_if_older_than('https://www.neckofthewoodssf.com/e/an-evening-with-chris-barron-of-spin-doctors-and-blake-morgan-65327760089/', threshold)
+    #rearchive_if_older_than('https://www.neckofthewoodssf.com/e/quench-the-meaty-ogres-71470974609/', threshold)
+    #rearchive_if_older_than('https://www.rickshawstop.com/e/escort-with-vice-reine-64451090948/', threshold)
+    #rearchive_if_older_than('https://www.monarchsf.com/e/mosaic-chuck-love-mario-dubbz-rob-g-brent-northey-erik-love-dj-seven-76405796795/', threshold)
+    #rearchive_if_older_than('https://www.hotelutah.com/e/justin-peter-kinkel-schuster-spencer-thomas-graham-norwood-64384808696/', threshold)
     #rearchive_if_older_than('', threshold)

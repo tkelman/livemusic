@@ -467,20 +467,20 @@ async def archive_events(session, listing_url, event_prefix, top_url='', include
         if event == 'http://www.stocktonlive.com/events/rss':
             continue # skip this
         if include_original:
-            archive_once(session, top_url + event)
-        archive_once(session, redirect_prefix + top_url + event)
+            await archive_once(session, top_url + event)
+        await archive_once(session, redirect_prefix + top_url + event)
         if top_url == 'https://www.yoshis.com':
             if include_original:
-                archive_once(session, top_url + event + '#')
-            archive_once(session, redirect_prefix + top_url + event + '#')
+                await archive_once(session, top_url + event + '#')
+            await archive_once(session, redirect_prefix + top_url + event + '#')
 
 
 session = AsyncSession(n=3)
 
 async def main():
     for venue in all_venues:
-        rearchive_if_older_than(session, venue['listing_url'], datetime.now(tz=pytz.utc) - timedelta(days=2))
-        rearchive_if_older_than(session, redirect_prefix + venue['listing_url'], datetime.now(tz=pytz.utc) - timedelta(days=2))
+        await rearchive_if_older_than(session, venue['listing_url'], datetime.now(tz=pytz.utc) - timedelta(days=2))
+        await rearchive_if_older_than(session, redirect_prefix + venue['listing_url'], datetime.now(tz=pytz.utc) - timedelta(days=2))
 
     prob_counter = 0
     for venue in all_venues:

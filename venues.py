@@ -6,12 +6,11 @@ from datetime import datetime, date, timedelta
 import pytz
 from fake_useragent import UserAgent
 import trio
-import httpx
-from httpx.concurrency.trio import TrioBackend
+import asks
 
 
-async def archived_date(client, url):
-    response = await archiveis.api.do_post(client, url, anyway=0)
+async def archived_date(session, url):
+    response = await archiveis.api.do_post(session, url, anyway=0)
     response.raise_for_status()
     doc = BeautifulSoup(response.text, 'html.parser')
     pubdates = doc.find_all(itemprop='pubdate')
@@ -21,21 +20,21 @@ async def archived_date(client, url):
     return dateutil.parser.isoparse(pubdates[0].attrs['datetime'])
 
 
-async def rearchive_if_older_than(client, url, threshold_date):
-    pubdate = await archived_date(client, url)
+async def rearchive_if_older_than(session, url, threshold_date):
+    pubdate = await archived_date(session, url)
     if isinstance(pubdate, datetime):
         age = datetime.now(tz=pytz.utc) - pubdate
         msg = '{} archived {} ago'.format(url, age)
         if pubdate < threshold_date:
-            msg += '\nsubmitted new archive: {}'.format(await archiveis.capture(client, url))
+            msg += '\nsubmitted new archive: {}'.format(await archiveis.capture(session, url))
     else:
         msg = '{} not yet archived'.format(url)
         msg += '\nsubmitted new archive: {}'.format(pubdate)
     print(msg)
 
 
-async def archive_once(client, url):
-    await rearchive_if_older_than(client, url, datetime(1, 1, 1, tzinfo=pytz.utc))
+async def archive_once(session, url):
+    await rearchive_if_older_than(session, url, datetime(1, 1, 1, tzinfo=pytz.utc))
 
 
 this_year = str(date.today().year)
@@ -440,9 +439,9 @@ ua_header = {'User-Agent': UserAgent().chrome}
 redirect_prefix = 'https://via.hypothes.is/'
 
 
-async def archive_events(client, listing_url, event_prefix, top_url='', include_original=True):
+async def archive_events(session, listing_url, event_prefix, top_url='', include_original=True):
     # top_url only needed if event links are relative
-    response = await client.get(listing_url, headers=ua_header)
+    response = await session.get(listing_url, headers=ua_header)
 #        verify=(listing_url != 'https://ivyroom.ticketfly.com')) # TODO remove this
     response.raise_for_status()
     doc = BeautifulSoup(response.text, 'html.parser')
@@ -470,50 +469,50 @@ async def archive_events(client, listing_url, event_prefix, top_url='', include_
             if event == 'http://www.stocktonlive.com/events/rss':
                 continue # skip this
             if include_original:
-                nursery.start_soon(archive_once, client, top_url + event)
-            nursery.start_soon(archive_once, client, redirect_prefix + top_url + event)
+                nursery.start_soon(archive_once, session, top_url + event)
+            nursery.start_soon(archive_once, session, redirect_prefix + top_url + event)
             if top_url == 'https://www.yoshis.com':
                 if include_original:
-                    nursery.start_soon(archive_once, client, top_url + event + '#')
-                nursery.start_soon(archive_once, client, redirect_prefix + top_url + event + '#')
+                    nursery.start_soon(archive_once, session, top_url + event + '#')
+                nursery.start_soon(archive_once, session, redirect_prefix + top_url + event + '#')
 
 
+session = asks.Session(connections=3)
 
 async def main():
-    async with httpx.AsyncClient(backend=TrioBackend()) as client:
-        async with trio.open_nursery() as nursery:
-            for venue in all_venues:
-                nursery.start_soon(rearchive_if_older_than, client,
-                    venue['listing_url'], datetime.now(tz=pytz.utc) - timedelta(days=2))
-                nursery.start_soon(rearchive_if_older_than, client,
-                    redirect_prefix + venue['listing_url'], datetime.now(tz=pytz.utc) - timedelta(days=2))
-
-        prob_counter = 0
+    async with trio.open_nursery() as nursery:
         for venue in all_venues:
-            venue_url = venue['listing_url']
-            if venue.get('problematic', False):
-                prob_counter += 1
-                # for problematic venue pages, only try during one hour per day
-                # different hour per venue, different hour per day
-                include_original = (hour_of_day == (day_of_year + prob_counter) % 24)
-                if include_original:
-                    print('trying problematic venue {} this hour'.format(venue_url))
-            else:
-                include_original = True
+            nursery.start_soon(rearchive_if_older_than, session,
+                venue['listing_url'], datetime.now(tz=pytz.utc) - timedelta(days=2))
+            nursery.start_soon(rearchive_if_older_than, session,
+                redirect_prefix + venue['listing_url'], datetime.now(tz=pytz.utc) - timedelta(days=2))
 
-            if venue_url == '':
-                assert False
-            elif venue_url.startswith('http://montalvoarts.org/'):
-                await archive_events(client, venue_url, '/exhibitions/', 'http://montalvoarts.org')
-                await archive_events(client, venue_url, '/classes/', 'http://montalvoarts.org')
-                await archive_events(client, venue_url, '/events/', 'http://montalvoarts.org')
-            elif venue_url == 'https://www.chasecenter.com/events':
-                await archive_events(client, venue_url, '/events/', venue_url.replace('/events', ''))
-                await archive_events(client, venue_url, '/games/', venue_url.replace('/events', ''))
-            else:
-                if 'event_prefix' in venue.keys():
-                    await archive_events(client, venue_url, venue['event_prefix'],
-                        venue.get('top_url', ''), include_original)
+    prob_counter = 0
+    for venue in all_venues:
+        venue_url = venue['listing_url']
+        if venue.get('problematic', False):
+            prob_counter += 1
+            # for problematic venue pages, only try during one hour per day
+            # different hour per venue, different hour per day
+            include_original = (hour_of_day == (day_of_year + prob_counter) % 24)
+            if include_original:
+                print('trying problematic venue {} this hour'.format(venue_url))
+        else:
+            include_original = True
+
+        if venue_url == '':
+            assert False
+        elif venue_url.startswith('http://montalvoarts.org/'):
+            await archive_events(session, venue_url, '/exhibitions/', 'http://montalvoarts.org')
+            await archive_events(session, venue_url, '/classes/', 'http://montalvoarts.org')
+            await archive_events(session, venue_url, '/events/', 'http://montalvoarts.org')
+        elif venue_url == 'https://www.chasecenter.com/events':
+            await archive_events(session, venue_url, '/events/', venue_url.replace('/events', ''))
+            await archive_events(session, venue_url, '/games/', venue_url.replace('/events', ''))
+        else:
+            if 'event_prefix' in venue.keys():
+                await archive_events(session, venue_url, venue['event_prefix'],
+                    venue.get('top_url', ''), include_original)
 
 
     # TEMPORARY

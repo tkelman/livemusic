@@ -395,8 +395,8 @@ all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/upcom
 all_venues.append({'listing_url': 'https://www.grandsierraresort.com/reno-entertainment/'})
 all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url']
 
-all_venues.append({'listing_url': 'http://pspharbor.com/calendar/list/'})
-all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/list/', '/event/')
+#all_venues.append({'listing_url': 'http://pspharbor.com/calendar/list/'})
+#all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/list/', '/event/')
 all_venues.append({'listing_url': 'http://pspharbor.com/calendar/'})
 all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/', '/event/')
 
@@ -558,4 +558,5 @@ if __name__ == '__main__':
     #rearchive_if_older_than('https://www.rickshawstop.com/e/escort-with-vice-reine-64451090948/', threshold)
     #rearchive_if_older_than('https://www.monarchsf.com/e/mosaic-chuck-love-mario-dubbz-rob-g-brent-northey-erik-love-dj-seven-76405796795/', threshold)
     #rearchive_if_older_than('https://www.hotelutah.com/e/justin-peter-kinkel-schuster-spencer-thomas-graham-norwood-64384808696/', threshold)
+    #rearchive_if_older_than('https://ivyroom.ticketfly.com/e/united-x-bombs-year-of-the-fist-the-rinds-70661088217/', threshold)
     #rearchive_if_older_than('', threshold)

@@ -398,7 +398,7 @@ all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url']
 #all_venues.append({'listing_url': 'http://pspharbor.com/calendar/list/'})
 #all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/list/', '/event/')
 all_venues.append({'listing_url': 'http://pspharbor.com/calendar/'})
-all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/', '/event/')
+#all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/', '/event/')
 
 all_venues.append({'listing_url': 'http://www.bridgestorage.com/events/'})
 all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/events/', '/event/')

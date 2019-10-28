@@ -441,7 +441,7 @@ all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/calen
 # goldfield trading post
 
 
-ua_header = {'User-Agent': UserAgent().chrome}
+ua_header = {'User-Agent': UserAgent().random}
 redirect_prefix = 'https://via.hypothes.is/'
 
 
@@ -484,8 +484,8 @@ def archive_events(listing_url, event_prefix, top_url='', include_original=True)
 
 
 if __name__ == '__main__':
-    #for venue in all_venues:
-    #    rearchive_if_older_than(venue['listing_url'], datetime.now(tz=pytz.utc) - timedelta(days=2))
+    for venue in all_venues:
+        rearchive_if_older_than(venue['listing_url'], datetime.now(tz=pytz.utc) - timedelta(days=2))
 
     for venue in all_venues:
         rearchive_if_older_than(redirect_prefix + venue['listing_url'], datetime.now(tz=pytz.utc) - timedelta(days=2))

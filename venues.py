@@ -466,6 +466,7 @@ def archive_events(listing_url, event_prefix, top_url='', include_original=True)
 #            'https://www.slimspresents.com/event-listing/',
 #            'https://www.theuctheatre.org/',
 #            'https://www.thenewparish.com/calendar/',
+            'https://thegreekberkeley.com/calendar/', # season over
 #            'https://ivyroom.ticketfly.com',
             ):
         assert len(all_events) > 0
@@ -559,4 +560,6 @@ if __name__ == '__main__':
     #rearchive_if_older_than('https://www.monarchsf.com/e/mosaic-chuck-love-mario-dubbz-rob-g-brent-northey-erik-love-dj-seven-76405796795/', threshold)
     #rearchive_if_older_than('https://www.hotelutah.com/e/justin-peter-kinkel-schuster-spencer-thomas-graham-norwood-64384808696/', threshold)
     #rearchive_if_older_than('https://ivyroom.ticketfly.com/e/united-x-bombs-year-of-the-fist-the-rinds-70661088217/', threshold)
+    #rearchive_if_older_than('https://www.slimspresents.com/e/brent-cobb-and-them-60542258525/', threshold)
+    #rearchive_if_older_than('https://www.slimspresents.com/e/witt-lowry-69661877551/', threshold)
     #rearchive_if_older_than('', threshold)

@@ -496,7 +496,7 @@ async def archive_events(session, listing_url, event_prefix, top_url='', include
                 nursery.start_soon(archive_once, session, redirect_prefix + top_url + event + '#')
 
 
-session = asks.Session(connections=1)
+session = asks.Session(connections=5)
 
 async def main():
     async with trio.open_nursery() as nursery:

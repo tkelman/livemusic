@@ -439,6 +439,16 @@ all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/calen
 # red hat
 # saint john's episcopal church
 # goldfield trading post
+# cargo
+# starlet room
+# lost church
+# first st cafe
+# torch club
+# tackle box
+# robinson rancheria casino
+# oxbow river stage
+# 49ers red zone rally
+# levis stadium
 
 
 ua_header = {'User-Agent': UserAgent().random}
@@ -468,6 +478,7 @@ def archive_events(listing_url, event_prefix, top_url='', include_original=True)
 #            'https://www.thenewparish.com/calendar/',
             'https://thegreekberkeley.com/calendar/', # season over
 #            'https://ivyroom.ticketfly.com',
+            'https://www.chasecenter.com/events', # some categories are empty occasionally
             ):
         assert len(all_events) > 0
     for event in set(all_events): # remove duplicates
@@ -562,4 +573,5 @@ if __name__ == '__main__':
     #rearchive_if_older_than('https://ivyroom.ticketfly.com/e/united-x-bombs-year-of-the-fist-the-rinds-70661088217/', threshold)
     #rearchive_if_older_than('https://www.slimspresents.com/e/brent-cobb-and-them-60542258525/', threshold)
     #rearchive_if_older_than('https://www.slimspresents.com/e/witt-lowry-69661877551/', threshold)
+    #rearchive_if_older_than('https://www.neckofthewoodssf.com/e/karaoke-night-66763151383/', threshold)
     #rearchive_if_older_than('', threshold)

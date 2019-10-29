@@ -449,6 +449,8 @@ all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/calen
 # oxbow river stage
 # 49ers red zone rally
 # levis stadium
+# legionnaire saloon
+# new parkway
 
 
 ua_header = {'User-Agent': UserAgent().random}
@@ -479,6 +481,7 @@ def archive_events(listing_url, event_prefix, top_url='', include_original=True)
             'https://thegreekberkeley.com/calendar/', # season over
 #            'https://ivyroom.ticketfly.com',
             'https://www.chasecenter.com/events', # some categories are empty occasionally
+            'http://www.papamurphyspark.com/events/calendar/', # season over?
             ):
         assert len(all_events) > 0
     for event in set(all_events): # remove duplicates
@@ -574,4 +577,8 @@ if __name__ == '__main__':
     #rearchive_if_older_than('https://www.slimspresents.com/e/brent-cobb-and-them-60542258525/', threshold)
     #rearchive_if_older_than('https://www.slimspresents.com/e/witt-lowry-69661877551/', threshold)
     #rearchive_if_older_than('https://www.neckofthewoodssf.com/e/karaoke-night-66763151383/', threshold)
+    #rearchive_if_older_than('https://www.crestsacramento.com/event/1886202-exorcist-sacramento/', threshold)
+    #rearchive_if_older_than('https://sierranevada.com/event/sierra-nevada-spotlight-teton-gravity-research-roadless-chico-ca/', threshold)
+    #rearchive_if_older_than('https://www.monarchsf.com/e/sorsari-mrkryl-sf-debut-djedi-soundpieces-sf-74849802775/', threshold)
+    #rearchive_if_older_than('https://www.slimspresents.com/e/lil-tecca-70653882665/', threshold)
     #rearchive_if_older_than('', threshold)

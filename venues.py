@@ -128,7 +128,7 @@ all_venues.append({'listing_url': 'https://empresstheatre.org/events/'})
 all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url']
 
 all_venues.append({'listing_url': 'https://www.crestsacramento.com/calendar/'})
-all_venues[-1]['event_prefix'] = '/event/'
+all_venues[-1]['event_prefix'] = '/e/'
 all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/calendar/', '')
 all_venues[-1]['problematic'] = True
 
@@ -451,6 +451,7 @@ all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/calen
 # levis stadium
 # legionnaire saloon
 # new parkway
+# music city
 
 
 ua_header = {'User-Agent': UserAgent().random}
@@ -581,4 +582,6 @@ if __name__ == '__main__':
     #rearchive_if_older_than('https://sierranevada.com/event/sierra-nevada-spotlight-teton-gravity-research-roadless-chico-ca/', threshold)
     #rearchive_if_older_than('https://www.monarchsf.com/e/sorsari-mrkryl-sf-debut-djedi-soundpieces-sf-74849802775/', threshold)
     #rearchive_if_older_than('https://www.slimspresents.com/e/lil-tecca-70653882665/', threshold)
+    #rearchive_if_older_than('https://www.thechapelsf.com/e/live-dead-th-anniversary-celebration-of-the-grateful-dead-s-album-75245285675/', threshold)
+    #rearchive_if_older_than('https://www.slimspresents.com/e/-sandy-alex-g-68819403689/', threshold)
     #rearchive_if_older_than('', threshold)

@@ -146,7 +146,7 @@ all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('latest.html',
 all_venues[-1]['problematic'] = True
 
 all_venues.append({'listing_url': 'https://www.thefreight.org/shows/'})
-all_venues[-1]['event_prefix'] = '/event/'
+all_venues[-1]['event_prefix'] = '/e/'
 all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/shows/', '')
 all_venues[-1]['problematic'] = True
 
@@ -277,6 +277,7 @@ all_venues.append({'listing_url': 'http://www.mountainviewamphitheater.com/event
 all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url']
 
 all_venues.append({'listing_url': 'https://sanjosetheaters.org/calendar/'})
+# city national civic etc
 all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/', '/event/')
 all_venues[-1]['problematic'] = True
 
@@ -452,6 +453,12 @@ all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/calen
 # legionnaire saloon
 # new parkway
 # music city
+# five and dime
+# dildo factory
+# honey hive
+# revolution cafe
+# virgin hotel
+# golden gate theater
 
 
 ua_header = {'User-Agent': UserAgent().random}
@@ -560,7 +567,7 @@ if __name__ == '__main__':
     #threshold = datetime(2019, 10, 18, 22, tzinfo=pytz.utc)
     #rearchive_if_older_than('https://lutherburbankcenter.org/event/left-edge-theatre-presents-between-riverside-and-crazy/2019-10-18/', threshold)
     #rearchive_if_older_than('https://www.dnalounge.com/calendar/2019/10-19.html', threshold)
-    #threshold = datetime(2019, 10, 23, 14, tzinfo=pytz.utc)
+    #threshold = datetime(2019, 10, 31, 15, tzinfo=pytz.utc)
     #rearchive_if_older_than('https://lutherburbankcenter.org/event/left-edge-theatre-presents-between-riverside-and-crazy/2019-10-20/', threshold)
     #rearchive_if_older_than('https://www.monarchsf.com/e/werd-johnnie-walker-smokes-68547805331/', threshold)
     #rearchive_if_older_than('https://www.thenewparish.com/e/hot-brass-band-69350664705/', threshold)
@@ -584,4 +591,8 @@ if __name__ == '__main__':
     #rearchive_if_older_than('https://www.slimspresents.com/e/lil-tecca-70653882665/', threshold)
     #rearchive_if_older_than('https://www.thechapelsf.com/e/live-dead-th-anniversary-celebration-of-the-grateful-dead-s-album-75245285675/', threshold)
     #rearchive_if_older_than('https://www.slimspresents.com/e/-sandy-alex-g-68819403689/', threshold)
+    #rearchive_if_older_than('https://www.rickshawstop.com/e/midweek-metal-madness-blind-illusion-molten-satan-s-blade-plague-70234165279/', threshold)
+    #rearchive_if_older_than('https://www.thegreatnorthernsf.com/e/art-battle-san-francisco-october--76136184377/', threshold)
+    #rearchive_if_older_than('https://www.thegreatnorthernsf.com/e/drag-me-to-hell-a-club-called-rhonda-halloween-74223569695/', threshold)
+    #rearchive_if_older_than('https://starlinesocialclub.com/event/gidget-goes-to-hell-suburban-lawns-tribute-public-interest-patti-brook', threshold)
     #rearchive_if_older_than('', threshold)

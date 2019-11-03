@@ -1,39 +1,11 @@
 #!/usr/bin/env python
+from datetime import date, datetime, timedelta
+from fake_useragent import UserAgent
 import archiveis
 from bs4 import BeautifulSoup
 import dateutil.parser
-from datetime import datetime, date, timedelta
 import pytz
-from fake_useragent import UserAgent
 import requests
-
-
-def archived_date(url):
-    response = archiveis.api.do_post(url, anyway=0)
-    response.raise_for_status()
-    doc = BeautifulSoup(response.text, 'html.parser')
-    pubdates = doc.find_all(itemprop='pubdate')
-    assert len(pubdates) <= 1
-    if len(pubdates) == 0:
-        return archiveis.api.parse_memento(response)
-    return dateutil.parser.isoparse(pubdates[0].attrs['datetime'])
-
-
-def rearchive_if_older_than(url, threshold_date):
-    pubdate = archived_date(url)
-    if isinstance(pubdate, datetime):
-        age = datetime.now(tz=pytz.utc) - pubdate
-        msg = '{} archived {} ago'.format(url, age)
-        if pubdate < threshold_date:
-            msg += '\nsubmitted new archive: {}'.format(archiveis.capture(url))
-    else:
-        msg = '{} not yet archived'.format(url)
-        msg += '\nsubmitted new archive: {}'.format(pubdate)
-    print(msg)
-
-
-def archive_once(url):
-    rearchive_if_older_than(url, datetime(1, 1, 1, tzinfo=pytz.utc))
 
 
 this_year = str(date.today().year)
@@ -277,7 +249,7 @@ all_venues.append({'listing_url': 'http://www.mountainviewamphitheater.com/event
 all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url']
 
 all_venues.append({'listing_url': 'https://sanjosetheaters.org/calendar/'})
-# city national civic etc
+# city national civic, center for performing arts, etc
 all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/', '/event/')
 all_venues[-1]['problematic'] = True
 
@@ -459,10 +431,45 @@ all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/calen
 # revolution cafe
 # virgin hotel
 # golden gate theater
+# monkey house
+# little boxes theater
+# alameda island brewing
+# toots tavern
+# first lutheran church
+# toyota amphitheatre wheatland
+# peppermill
 
 
 ua_header = {'User-Agent': UserAgent().random}
 redirect_prefix = 'https://via.hypothes.is/'
+
+
+def archived_date(url):
+    response = archiveis.api.do_post(url, anyway=0)
+    response.raise_for_status()
+    doc = BeautifulSoup(response.text, 'html.parser')
+    pubdates = doc.find_all(itemprop='pubdate')
+    assert len(pubdates) <= 1
+    if len(pubdates) == 0:
+        return archiveis.api.parse_memento(response)
+    return dateutil.parser.isoparse(pubdates[0].attrs['datetime'])
+
+
+def rearchive_if_older_than(url, threshold_date):
+    pubdate = archived_date(url)
+    if isinstance(pubdate, datetime):
+        age = datetime.now(tz=pytz.utc) - pubdate
+        msg = '{} archived {} ago'.format(url, age)
+        if pubdate < threshold_date:
+            msg += '\nsubmitted new archive: {}'.format(archiveis.capture(url))
+    else:
+        msg = '{} not yet archived'.format(url)
+        msg += '\nsubmitted new archive: {}'.format(pubdate)
+    print(msg)
+
+
+def archive_once(url):
+    rearchive_if_older_than(url, datetime(1, 1, 1, tzinfo=pytz.utc))
 
 
 def archive_events(listing_url, event_prefix, top_url='', include_original=True):
@@ -595,4 +602,8 @@ if __name__ == '__main__':
     #rearchive_if_older_than('https://www.thegreatnorthernsf.com/e/art-battle-san-francisco-october--76136184377/', threshold)
     #rearchive_if_older_than('https://www.thegreatnorthernsf.com/e/drag-me-to-hell-a-club-called-rhonda-halloween-74223569695/', threshold)
     #rearchive_if_older_than('https://starlinesocialclub.com/event/gidget-goes-to-hell-suburban-lawns-tribute-public-interest-patti-brook', threshold)
+    #rearchive_if_older_than('https://lutherburbankcenter.org/event/mijares/', threshold)
+    #rearchive_if_older_than('https://www.thegreatnorthernsf.com/e/ardalan-s-official-birthday-party-mr-good-album-release-tour-69042627357/', threshold)
+    #rearchive_if_older_than('https://starlinesocialclub.com/event/egyptian-lover-2', threshold)
+    #rearchive_if_older_than('https://www.thewarfieldtheatre.com/events/detail/371218', threshold)
     #rearchive_if_older_than('', threshold)

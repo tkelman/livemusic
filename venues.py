@@ -438,6 +438,12 @@ all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/calen
 # first lutheran church
 # toyota amphitheatre wheatland
 # peppermill
+# cafe colonial
+# colony sacramento
+# blue lamp
+# peace and justice center
+# the back room
+# 1234 go records
 
 
 ua_header = {'User-Agent': UserAgent().random}
@@ -574,7 +580,7 @@ if __name__ == '__main__':
     #threshold = datetime(2019, 10, 18, 22, tzinfo=pytz.utc)
     #rearchive_if_older_than('https://lutherburbankcenter.org/event/left-edge-theatre-presents-between-riverside-and-crazy/2019-10-18/', threshold)
     #rearchive_if_older_than('https://www.dnalounge.com/calendar/2019/10-19.html', threshold)
-    #threshold = datetime(2019, 10, 31, 15, tzinfo=pytz.utc)
+    #threshold = datetime(2019, 11, 8, 0, tzinfo=pytz.utc)
     #rearchive_if_older_than('https://lutherburbankcenter.org/event/left-edge-theatre-presents-between-riverside-and-crazy/2019-10-20/', threshold)
     #rearchive_if_older_than('https://www.monarchsf.com/e/werd-johnnie-walker-smokes-68547805331/', threshold)
     #rearchive_if_older_than('https://www.thenewparish.com/e/hot-brass-band-69350664705/', threshold)
@@ -606,4 +612,11 @@ if __name__ == '__main__':
     #rearchive_if_older_than('https://www.thegreatnorthernsf.com/e/ardalan-s-official-birthday-party-mr-good-album-release-tour-69042627357/', threshold)
     #rearchive_if_older_than('https://starlinesocialclub.com/event/egyptian-lover-2', threshold)
     #rearchive_if_older_than('https://www.thewarfieldtheatre.com/events/detail/371218', threshold)
+    #rearchive_if_older_than('https://www.neckofthewoodssf.com/e/comedy-blast--66638155517/', threshold)
+    #rearchive_if_older_than('https://lutherburbankcenter.org/event/left-edge-theatre-presents-between-riverside-and-crazy/2019-11-07/', threshold)
+    #rearchive_if_older_than('https://www.rickshawstop.com/e/sir-babygirl-and-bbyweems-plus-dj-aaron-axelsen-65227382858/', threshold)
+    #rearchive_if_older_than('https://www.neckofthewoodssf.com/e/heather-mae-dillbilly-65756488427/', threshold)
+    #rearchive_if_older_than('https://jubjubsthirstparlor.com/event/headwinds-balance-trick-chocolate-jesus/', threshold)
+    #rearchive_if_older_than('https://lutherburbankcenter.org/event/wine-country-competition-2019/', threshold)
+    #rearchive_if_older_than('https://via.hypothes.is/https://boomboomroom.com/event_listings/wil-blades-starting-5-funk-soul-jazz-kevvy-kev-bbr-2/', threshold)
     #rearchive_if_older_than('', threshold)

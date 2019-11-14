@@ -320,7 +320,7 @@ all_venues[-1]['event_prefix'] = '/event/'
 all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/', '')
 
 all_venues.append({'listing_url': 'https://catalystclub.com/'})
-all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'] + 'eventbrite-events/'
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'] + 'event/'
 
 all_venues.append({'listing_url': 'https://www.holydiversac.com/'})
 #TODO
@@ -619,4 +619,6 @@ if __name__ == '__main__':
     #rearchive_if_older_than('https://jubjubsthirstparlor.com/event/headwinds-balance-trick-chocolate-jesus/', threshold)
     #rearchive_if_older_than('https://lutherburbankcenter.org/event/wine-country-competition-2019/', threshold)
     #rearchive_if_older_than('https://via.hypothes.is/https://boomboomroom.com/event_listings/wil-blades-starting-5-funk-soul-jazz-kevvy-kev-bbr-2/', threshold)
+    #rearchive_if_older_than('https://www.crestsacramento.com/e/rumours-of-fleetwood-mac-th-anniversary-tour-71680946641/', threshold)
+    #rearchive_if_older_than('https://www.crestsacramento.com/e/-quiet-summons-a-healing-journey-73510392563/', threshold)
     #rearchive_if_older_than('', threshold)

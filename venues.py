@@ -71,8 +71,7 @@ all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/calendar/', 
 all_venues[-1]['problematic'] = True
 
 all_venues.append({'listing_url': 'https://www.thegreatnorthernsf.com/events/'})
-all_venues[-1]['event_prefix'] = '/e/'
-all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/', '')
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/events/', '/e/')
 all_venues[-1]['problematic'] = True
 
 all_venues.append({'listing_url': 'https://themidwaysf.com/calendar/'})
@@ -444,6 +443,11 @@ all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/calen
 # peace and justice center
 # the back room
 # 1234 go records
+# house of rock
+# sweetwater music hall
+# herbst theater
+# tamarack
+# bimbo's 365
 
 
 ua_header = {'User-Agent': UserAgent().random}
@@ -621,4 +625,18 @@ if __name__ == '__main__':
     #rearchive_if_older_than('https://via.hypothes.is/https://boomboomroom.com/event_listings/wil-blades-starting-5-funk-soul-jazz-kevvy-kev-bbr-2/', threshold)
     #rearchive_if_older_than('https://www.crestsacramento.com/e/rumours-of-fleetwood-mac-th-anniversary-tour-71680946641/', threshold)
     #rearchive_if_older_than('https://www.crestsacramento.com/e/-quiet-summons-a-healing-journey-73510392563/', threshold)
+    #rearchive_if_older_than('https://lutherburbankcenter.org/event/lbc-presents-preservation-hall-jazz-band/', threshold)
+    #rearchive_if_older_than('https://www.crestsacramento.com/e/jesse-cook-68938654371/', threshold)
+    #rearchive_if_older_than('https://www.thegreatnorthernsf.com/e/the-storytime-speakeasy-artumnal-gathering-presented-by-pink-mammoth-78288052673/', threshold)
+    #rearchive_if_older_than('https://boomboomroom.com/event_listings/naive-melodies-plays-talking-heads/', threshold)
+    #rearchive_if_older_than('https://boomboomroom.com/event_listings/the-humidors-dj-kos/', threshold)
+    #rearchive_if_older_than('https://www.hotelutah.com/e/warren-teagarden-album-release-jon-telegraph-slow-poisoner-74299183859/', threshold)
+    #rearchive_if_older_than('https://www.rickshawstop.com/e/jonathan-bree-with-ryder-the-eagle-and-mae-powell-65284414441/', threshold)
+    #rearchive_if_older_than('https://www.crestsacramento.com/e/bianca-del-rio-it-s-jester-joke--79031608669/', threshold)
+    #rearchive_if_older_than('https://www.moesalley.com/e/selwyn-birchwood-65059660195/', threshold)
+    #rearchive_if_older_than('https://www.hotelutah.com/e/hotel-utah-open-mic-with-host-brendan-getzell-74550864643/', threshold)
+    #rearchive_if_older_than('https://www.neckofthewoodssf.com/e/karaoke-night-66763263719/', threshold)
+    #rearchive_if_older_than('https://www.dnalounge.com/calendar/2019/11-20.html', threshold)
+    #rearchive_if_older_than('https://www.monarchsf.com/e/beat-banquet-dj-kream-oakhella-maitre-d-80155630649/', threshold)
+    #rearchive_if_older_than('https://www.hotelutah.com/e/buddy-junior-rosie-plaza-memory-theater-held-78973480807/', threshold)
     #rearchive_if_older_than('', threshold)

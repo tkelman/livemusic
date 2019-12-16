@@ -71,13 +71,14 @@ all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/calendar/', 
 all_venues[-1]['problematic'] = True
 
 all_venues.append({'listing_url': 'https://www.thegreatnorthernsf.com/events/'})
-all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/events/', '/e/')
+all_venues[-1]['event_prefix'] = '/e/'
+all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/', '')
 all_venues[-1]['problematic'] = True
 
 all_venues.append({'listing_url': 'https://themidwaysf.com/calendar/'})
 #TODO
 
-all_venues.append({'listing_url': 'http://www.uptownnightclub.com/events/'})
+all_venues.append({'listing_url': 'https://www.uptownnightclub.com/events/'})
 all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/events/', '/event/')
 
 all_venues.append({'listing_url': 'http://www.stocktonlive.com/events/'})

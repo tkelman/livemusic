@@ -175,7 +175,7 @@ jan  3 fri Larry June at Slim's, S.F. 6+ $30 7pm/9pm **
 jan  3 fri Roman Spinale at the Curio Bar, S.F. ?/? free 8pm **
 jan  3 fri Chuuwee, Trizz, Sahtyre
        at the Brick and Mortar, S.F. 18+ $15 8pm/8:30pm **
-jan  3 fri Band With 1000 Names, Half Rotten Goddess, Dead River Rebels,
+jan  3 fri Half Rotten Goddess, Dead River Rebels, Band With 1000 Names,
        The Eyesores, vendors at the Knockout, S.F. 21+ $10 9pm/9:30pm *** @
 jan  3 fri Circus Of Sin, Science Friction Theater
        at the Ritz, San Jose 21+ $15/$20 8pm **
@@ -214,7 +214,8 @@ jan  7 tue Saliva Tribe, Kaleidoscope (N.Y.C.), M80
        at Stay Gold Deli, 2635 San Pablo Avenue, Oakland a/a $5 7pm **
 jan  7 tue Motionless In White (Scanton, PN), Beartooth, Stick To Your Guns,
        Nothing Left at Regency Ballroom, S.F. a/a $33/$40/$50 6pm/7pm # *** @
-jan  7 tue Unko Atama, Slow Phase at the Knockout, S.F. 21+ $7 8:30pm/9pm *** @
+jan  7 tue Unko Atama, Slow Phase, Milk For te Angry
+       at the Knockout, S.F. 21+ $7 8:30pm/9pm *** @
 jan  8 wed Jeanines (Brooklyn, N.Y.), Business Of Dreams, Neutrals
        at the Starline Social Club, Oakland 21+ $12 8:30pm/9pm **
 jan  8 wed Elis Paprika (Mexico), Voco
@@ -419,6 +420,8 @@ jan 18 sat ...And You Will Know Us By The Trail Of Dead, Rocket 808, Musk
        at the Bottom of the Hill, S.F. a/a $16/$18 8:30pm/9pm ***
 jan 18 sat Whiskerman at the Independent, S.F. 21+ $18/$20 7:30pm/8pm **
 jan 18 sat Bitter Lake at Bender's, S.F. 21+ $5 9pm/10pm **
+jan 18 sat Asada Messiah, Shark In The Water
+       at the El Rio, S.F. 21+ 9pm/9:30pm *** @
 jan 18 sat This Charming Band at the Ritz, San Jose 21+ **
 jan 18 sat Wand at Fernwood Tavern, 47200 Highway 1, Big Sur 21+ **
 jan 18 sat Pennywise
@@ -495,6 +498,7 @@ jan 23 thr Society Of Rockets (album release), Noelle And The Deserters,
 jan 23 thr Randy Houser at the Fillmore, S.F. a/a $27.50 7pm/8pm # ***
 jan 23 thr Riff Raff at Brick and Mortar, S.F. 18+ $20 ($65 vip) 8pm/9pm ***
 jan 23 thr Zola, Emily Afton at Cafe du Nord, S.F. 21+ $12/$15 7:30pm **
+jan 23 thr Goat Rhythm (Ventura) at the Eagle, S.F. 21+ $8 9pm/9:30pm ** @
 jan 23 thr Adrian West Duo
        at Aqus Cafe, 189 H Street, Petaluma a/a 7pm til 9pm **
 jan 23 thr Reverend Horton Heat, The Buttertones, The Paladins,
@@ -535,6 +539,8 @@ jan 25 sat The Soul Rebels
        at the New Parish, Oakland a/a $23/$25 (under 21 plus $5) 8:30pm/9pm **
 jan 25 sat LSD & The Search For God, The Stevenson Ranch Davidians
        at the Ivy Room, Albany 21+ $12 8pm/9pm **
+jan 25 sat Canadensis (Eugene, OR), Fyrhtu, Souls and Cities 
+       at the Golden Bull, Oakland 21+ $8 4pm/4:30pm **
 jan 25 sat The Neverland Express With Caleb Johnson (performing Bat Out of Hell)
        at the Great American Music Hall, S.F. 6+ $45/$35 8pm/9pm **
 jan 25 sat Big Head Todd & The Monsters, JD Simo

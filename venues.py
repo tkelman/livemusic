@@ -492,7 +492,7 @@ def archive_events(listing_url, event_prefix, top_url='', include_original=True)
     all_events = [link.get('href') for link in doc.find_all('a')
         if link.get('href', '').startswith(event_prefix)]
     if listing_url not in (
-#            'https://www.hotelutah.com/calendar/',
+            'https://www.hotelutah.com/calendar/', # empty?
 #            'https://www.yoshis.com/calendar/',
 #            'https://www.monarchsf.com/',
 #            'https://www.monarchsf.com/calendar/the-bar-at-monarch/',

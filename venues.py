@@ -9,7 +9,7 @@ import requests
 
 
 this_year = str(date.today().year)
-this_month = str(date.today().month)
+this_month = '{:02d}'.format(date.today().month)
 day_of_year = date.today().timetuple().tm_yday
 #day_of_month = date.today().day
 hour_of_day = datetime.now(tz=pytz.utc).hour

@@ -27,7 +27,7 @@ jan  4 sat Sabrina Is Not In This Chat, Pork Belly, Her Week Of Wonders,
 jan  4 sat Faded Love at the Rite Spot, S.F. a/a 9pm **
 jan  4 sat Mbnel at the Brick and Mortar, S.F. 16+ $15 7:30pm/8:30pm **
 jan  4 sat Emo Night at the Independent, S.F. 21+ $15/$20 8:30pm/9pm **
-jan  4 sat Cutty, Burning Curtains, Yogurt Brain, Creepy Smell (debut)
+jan  4 sat Burning Curtains, Cutty, Yogurt Brain, Creepy Smell (debut)
        at Bender's, S.F. 21+ $5 9pm/9:30pm *** @
 jan  4 sat Sweet Nughin', Sexstar, Captain Cutie Pie
        at thee Parkside, S.F. 21+ $10/$12 8pm/9pm **
@@ -56,7 +56,7 @@ jan  7 tue Motionless In White (Scanton, PN), Beartooth, Stick To Your Guns,
 jan  7 tue Pat Thomas Band, Dark Tea (N.Y.C.), Touch Of Gay, Ika's Bday
        at Adobe Books, 3130 24th St., S.F. a/a $7-$10 6pm til 10pm **
 jan  7 tue Unko Atama, Slow Phase, Milk For The Angry
-       at the Knockout, S.F. 21+ $7 8:30pm/9pm *** @
+       at the Knockout, S.F. 21+ $8 8:30pm/9pm *** @
 jan  8 wed Jeanines (Brooklyn, N.Y.), Business Of Dreams, Neutrals
        at the Starline Social Club, Oakland 21+ $12 8:30pm/9pm **
 jan  8 wed Elis Paprika (Mexico), Voco
@@ -86,6 +86,8 @@ jan  9 thr Acme x Red Handed Denial
 jan  9 thr Jeanines, Business Of Dreams, Seablite, The Umbrellas
        at August Hall, S.F. a/a $12 8pm **
 jan  9 thr Scott Okamoto (pianist) at the Rite Spot, S.F. a/a 8:30pm **
+jan  9 thr Burmese, Pandiscoridian Necrogenesis, Foreskin Sashimi In Paradise,
+       Ormus at the Peacock Lounge, 552 Haight Street, S.F. a/a $5 8pm **
 jan  9 thr Food 4 Thot (podcast)
        at the Independent, S.F. 21+ $20/$22 7pm/8pm *** (partially seated)
 jan  9 thr Death Valley High at Holy Diver, Sacramento a/a $12 7pm ***
@@ -299,8 +301,8 @@ jan 18 sat Silverware, Hayfitz And The Lavenders
        at the Rite Spot, S.F. a/a 9pm **
 jan 18 sat Whiskerman at the Independent, S.F. 21+ $18/$20 7:30pm/8pm **
 jan 18 sat Bitter Lake at Bender's, S.F. 21+ $5 9pm/10pm **
-jan 18 sat Asada Messiah, Shark In The Water
-       at the El Rio, S.F. 21+ 9pm/9:30pm *** @
+jan 18 sat Monsoon, Asada Messiah, Shark In The Water
+       at the El Rio, S.F. 21+ $8 9pm/9:30pm *** @
 jan 18 sat Casa Del Sol at Amado's, S.F. 21+ $12/$15 7pm/8pm **
 jan 18 sat This Charming Band at the Ritz, San Jose 21+ $15-$18 7pm **
 jan 18 sat Wand at Fernwood Tavern, 47200 Highway 1, Big Sur 21+ **
@@ -476,7 +478,7 @@ jan 25 sat Inciters, Scream Queens Gorelesque, Infamous Swanks
 jan 25 sat Kicker, Aninoko, Nopes, Slutzville (Grass Valley)
        at the El Rio, S.F. 21+ $10 9pm/9:30pm *** @
 jan 25 sat Godz Of Rock (hard rock covers), Hendrixian (tribute)
-       at the Knockout, S.F. 21+ 3pm til 8:30pm **
+       at the Knockout, S.F. 21+ 3pm/3:30pm til 8pm **
 jan 25 sat Peter Case at Amado's, S.F. 21+ $20/$22 7:30pm/8pm **
 jan 25 sat Andrew York
        at First Lutheran Church, 600 Homer Avenue, Palo Alto a/a 7pm ***
@@ -555,6 +557,10 @@ jan 31 fri Lila Sklar at the Curio Bar, S.F. ?/? free 8pm **
 jan 31 fri Caroline Polachek at the Independent, S.F. 21+ $15 8:30pm/9pm **
 jan 31 fri Gasolina, Sazon Libre at August Hall, S.F. 31+ $15 10pm/10pm **
 jan 31 fri Dona Francisca at Amado's, S.F. 21+ $10/$15 9pm/10pm **
+jan 31 fri Sweet Felony at the El Rio, S.F. 21+ $5 5pm/6pm til 8:45pm **
+jan 31 fri Extra Action Marching Band, Andy Human And The Reptoids,
+       Colin Manning (projections) at the Knockout, S.F. 21+ free 9pm ***
+       (Memorial show for Elrod)
 jan 31 fri Green Light Silhouette (record release), Fire In The Fuselage,
        Walking Distance at the Phoenix Theater, Petaluma a/a $10 8pm ***
 jan 31 fri Jauz, Habstrakt at the Senator Theater, Chico 18+ $26/$30 8pm/8pm **
@@ -763,7 +769,7 @@ feb 15 sat Turn Me On Dead Man, Problem With Dragons
 feb 15 sat Year Of The Cobra, Lowcaster, Squalus
        at the Bottom of the Hill, S.F. 21+ $12/$14 8pm/8:30pm **
 feb 15 sat Bells Rang, Agouti at Amado's, S.F. 21+ $10/$12 8:30pm/9pm **
-feb 15 sat new Monsoon, Achilles Wheel
+feb 15 sat New Monsoon, Achilles Wheel
        at Terrapin Crossroads, San Rafael 16+ ***
 feb 15 sat Hawktail at Michael's On Main, 2591 S Main Street, Soquel ?/? **
 feb 15 sat C.W. Stoneking

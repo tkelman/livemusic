@@ -146,6 +146,8 @@ jan 18 sat Internal Bleeding (N.Y.), Logistic Slaughter (Livermore),
        at the Jack London Elbo Room, Oakland 21+ $15 8pm *** @
 jan 18 sat Unity, Pumpkin, My Friend, Meh
        at the Golden Bull, Oakland 21+ $8/$10 8pm *** @
+jan 18 sat dj Jello Biafra, dj Sid Presley
+       at Forbidden Island, 1304 Lincoln Avenue, Alameda 21+ $5 9pm
 jan 18 sat Amber Liu, Meg & Dia, Justice Carradine
        at the Warfield, S.F. a/a $169-$29.95 7pm/8pm # **
 jan 18 sat Temptation, Rusholme Ruffians, She's Lost Control
@@ -192,8 +194,6 @@ jan 19 sun Theo Katzman, Rett Madison
        at the Fillmore, S.F. a/a $25 7pm/8pm # **
 jan 19 sun Tomorrow's Bad Seeds
        at the Brick and Mortar, S.F. 18+ $16 8pm/8:30pm ***
-jan 19 sun Bay Area Punk Rock Record Fair & Swap Meet at the Knockout, S.F.
-       21+ free ($5 2pm entry with box of records) 3pm til 7pm (Benefit MR&R)
 jan 19 sun Broken Baby, Tummyache, Thank You Come Again
        at Neck of the Woods, S.F. 21+ $10/$15 8:30pm **
 jan 19 sun Fast Times at 4900 Marie P DeBartolo Way, Santa Clara 10am **
@@ -203,6 +203,8 @@ jan 19 sun Pennywise, The Adolescents, Guttermouth, Slaughterhouse
        at the Ace of Spades, Sacramento a/a $29.50 6pm *** @
 jan 19 sun Railroad Earth
        Crystal Bay Casino, 14 Nv-28, Crystal Bay NV 18+ ***
+jan 19 sun rescheduled:  Punk Rock Record Fair & Swap Meet
+       at the Knockout, S.F. (new day is now feb 15th)
 jan 20 mon Elbow at the Fox Theater, Oakland a/a $39.50 7pm/8pm ***
 jan 20 mon Lil Boii Kantu, Ph4de
        at the New Parish, Oakland a/a $15/$20 7:30pm/8pm **
@@ -573,6 +575,9 @@ feb  7/8   Emily King
        at the Swedish American Hall, S.F. 21+ $30 ($79 vip) 7:30pm *** (seated)
 feb  7/8   Jackie Greene
        at Felton Music Hall, Felton 21+ $26/$30 ($40 2 day) 7pm/8pm ***
+feb  8 sat The Mutilations, Preschool, Termination Dust (Alaska),
+       Double Grave (Minneapolis), New Fossils, Earthworm
+       at 924 Gilman Street, Berkeley a/a $10 7pm *** @
 feb  8 sat This Will Destroy You, Amulets
        at the Cornerstone, Berkeley a/a $18/$21 7:30pm/8:30pm ***
 feb  8 sat Sango, Savon
@@ -711,6 +716,8 @@ feb 15 sat Pigeons Playing Ping Pong, Goose at Regency Ballroom, S.F.
 feb 15 sat Eric Hutchinson & The Believers, Casey McQuillen
        at Slim's, S.F. 6+ $20/$25 8pm/9pm ***
 feb 15 sat Luke James at the Brick and Mortar, S.F. 18+ $25 ($85 vip) 8pm/9pm **
+feb 15 sat Bay Area Punk Rock Record Fair & Swap Meet at the Knockout, S.F.
+       21+ free ($5 1pm entry with box of records) 2pm til 6pm (Benefit MR&R)
 feb 15 sat North Mississippi Allstars
        at the Independent, S.F. 21+ $25/$30 8:30pm/9pm ***
 feb 15 sat Dead In Argentina, Lyfecoach (Chico), No Lights
@@ -737,6 +744,9 @@ feb 16 sun Sitting On Stacy, The Cause, Sarchasm
        at the Bottom of the Hill, S.F. a/a $12/$14 7pm/7:30pm ***
 feb 16 sun Elle Varner, J. Brown
        at the Brick and Mortar, S.F. 18+ $20 8pm/9pm **
+feb 16 sun Modular Symthesizer + Shibari, Normalien, Phuturo, Franck Martin,
+       Jack Hammer XL at the Armory Club, 1799 Mission Street, S.F.
+       21+ $10-$20 donation 6pm/7pm til 10pm ** (FM+1 Mystery Event)
 feb 16 sun Dennis Callaci & Simon Joyner
        at Streetlight Records, Santa Cruz a/a free 2pm **
 feb 17 mon The Heavy (Bath, Somerset, England)

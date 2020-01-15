@@ -137,8 +137,8 @@ all_venues[-1]['event_prefix'] = '/events-2/'
 all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events', '')
 all_venues[-1]['problematic'] = True
 
-all_venues.append({'listing_url': 'https://centerfornewmusic.com/calendar/'})
-all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url']
+all_venues.append({'listing_url': 'https://centerfornewmusic.com/?post_type=event'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('?post_type=event', 'event/')
 all_venues[-1]['problematic'] = True
 
 all_venues.append({'listing_url': 'https://lutherburbankcenter.org/events/'})

@@ -19,7 +19,7 @@ jan 14 tue Your Smith (Minneapolis), Chelsea Jade, dj Aaron Axelsen
 jan 14 tue Stella Donnelly, Sofia Bolt
        at the Swedish American Hall, S.F. a/a $20/$22 7pm ***
 jan 14 tue The King Khan & BBQ Show, Sabertooth Rockers
-       at the Chapel, S.F. a/a $18/$22 8pm **
+       at the Chapel, S.F. a/a $18/$22 8pm ** (sold out)
 jan 14 tue Buck Meek, Twain at Cafe du Nord, S.F. 21+ $12/$15 7:30pm **
 jan 14 tue Morrissey's Cock, Surf Monster, The Lost Eyes
        at the Knockout, S.F. 21+ $7 8:30pm/9pm ***
@@ -52,7 +52,7 @@ jan 16 thr Rocket 808, Straight Crimes, Smokers
 jan 16 thr Rex Orange County
        at Fremont Bank Lounge, 865 Battery Street, S.F. a/a 2pm til 3pm ***
 jan 16 thr Rex Orange County at the Masonic, S.F. a/a $54-$44 7pm/8pm ***
-jan 16 thr Dessa, Monakr at the Chapel, S.F. a/a $22/$25 7pm/8pm ***
+jan 16 thr Dessa, Monakr at the Chapel, S.F. a/a $22/$25 7pm/8pm *** (sold out)
 jan 16 thr April Magazine, Pardoner, Toner, Torrey
        at the Rickshaw Stop, S.F. a/a $10 8pm ***
 jan 16 thr Sophia Prise, Vice Reine, Host Bodies, ContainHer
@@ -98,8 +98,7 @@ jan 17 fri Lotus Thief (record release), Brume, Older Sun
        at the Bottom of the Hill, S.F. 21+ $12 9pm/9:30pm **
 jan 17 fri Phoenix Pro Wrestling
        at the Phoenix Theater, Petaluma a/a $5-$12 8pm
-jan 17 fri Wand
-       at Hopmonk Tavern, 224 Vintage Way, Novato 21+ $15 7:30pm/8:30pm **
+jan 17 fri Wand at Hopmonk Tavern, Novato 21+ $15 7:30pm/8:30pm **
 jan 17 fri Victims Family, Kicker at Winter's Taveren, Pacifica
        21+ $12 8pm *** @ (Anne-Marie Anderson's 50th Birthday)
 jan 17 fri Shitkickers, Deathgrave, The Pathogens
@@ -115,7 +114,7 @@ jan 18 sat Dead In Argentina (7" release), The Throwups,
        at 924 Gilman Street, Berkeley a/a $10 7pm *** @
 jan 18 sat Joyce Manor, Drab Majesty, Ceremony, Full Of Hell,
        All Your Sisters, French Vanilla, Kim, World Peace, Glitterer
-       at the UC Theater, Berkeley a/a $40 5pm/5:40pm # *** @ $ (Home Sick)
+       at UC Theater, Berkeley a/a $40 5pm/5:40pm # *** @ $ (Home Sick Fest)
 jan 18 sat Mrs. Robinson, Dadbeats
        at the Cornerstone, Berkeley a/a $20 7:30pm/8:30pm **
 jan 18 sat The Naked Into, Macerator, Mike Levy
@@ -142,6 +141,7 @@ jan 18 sat Bitter Lake at Bender's, S.F. 21+ $5 9pm/10pm **
 jan 18 sat Monsoon, Asada Messiah, Shark In The Water
        at the El Rio, S.F. 21+ $8 9pm/9:30pm *** @
 jan 18 sat Casa Del Sol at Amado's, S.F. 21+ $12/$15 7pm/8pm **
+jan 18 sat Steven Dayvid McKellar at Hopmonk Tavern, Novato 21+ **
 jan 18 sat This Charming Band, Zoo Station
        at the Ritz, San Jose 21+ $15/$18 8pm **
 jan 18 sat Wand at Fernwood Tavern, 47200 Highway 1, Big Sur 21+ **
@@ -184,6 +184,8 @@ jan 19 sun Railroad Earth
        Crystal Bay Casino, 14 Nv-28, Crystal Bay NV 18+ ***
 jan 19 sun rescheduled:  Punk Rock Record Fair & Swap Meet
        at the Knockout, S.F. (new day is now feb 15th)
+jan 19 sun Creeping Death, Sanguisugabogg
+       at Grace Preschool, 2650 Aborn Road, San Jose a/a *** @
 jan 20 mon Elbow at the Fox Theater, Oakland a/a $39.50 7pm/8pm ***
 jan 20 mon Lil Boii Kantu, Ph4de
        at the New Parish, Oakland a/a $15/$20 7:30pm/8pm **
@@ -224,7 +226,8 @@ jan 22 wed Poppy, Vowws
        at the Great American Music Hall, S.F. 6+ $25 7pm/8pm ***
 jan 22 wed Maverick Sabre, Reece, dj Aaron Axelsen
        at the Rickshaw Stop, S.F. a/a $20/$22 8pm ***
-jan 22 wed Bonny Light Horeseman at the Chapel, S.F. a/a $18/$22 8:30pm **
+jan 22 wed Bonny Light Horeseman, Johanna Samuels
+       at the Chapel, S.F. a/a $18/$22 8:30pm **
 jan 22 wed Blackmoon at the DNA Lounge, S.F. a/a $10/$12 8pm/8:30pm **
 jan 22 wed The Wailers at the Ritz, San Jose 21+ $30/$34 7pm **
 jan 22 wed The Infamous String Dusters
@@ -453,6 +456,7 @@ jan 31 fri Jauz, Habstrakt at the Senator Theater, Chico 18+ $26/$30 8pm/8pm **
 feb  1 sat The Green, Ka'ikena Scanlan
        at the UC Theater, Berkeley a/a $35 7pm/8pm # *** (reggae)
 feb  1 sat Dirtwire at the Cornerstone, Berkeley a/a 7:30pm/8:30pm ***
+feb  1 sat Tempest, Avalon Rising at the Ashkenaz, Berkeley a/a $20/$22 8pm **
 feb  1 sat Rosegarden Fueneral Party, Otzi, Bizou, Primal Wound
        at the Elbo Room Jack London, 21+ $10 9pm ***
 feb  1 sat Radical Face, Axel Flovent
@@ -476,6 +480,7 @@ feb  1 sat Bloodflowers (tribute), dj Bit, dj Starr Noir
        at the Ritz, San Jose 21+ $6/$10 9pm ** (The Cure celebration)
 feb  1 sat Queensryche, John 5 And The Creatures
        at Ace of Spades, Sacramento a/a ***
+feb  2 sat Joe Craven at the Ashkenaz, Berkeley a/a $15/$18 7:30pm **
 feb  2 sat Brown Fellinis, Voodoo Dolly
        at the Ivy Room, Albany 21+ $12/$15 8:30pm *** (Kevin's Birthday)
 feb  2 sun Courtney Barnett, Hachiku
@@ -565,6 +570,7 @@ feb  8 sat Sango, Savon
        at the UC Theater, Berkeley a/a $27.50/$32.50 9pm/10pm # **
 feb  8 sat Silversun Pickups (L.A.), Eliza & The Delusionals
        at the Fox Theater, Oakland a/a $35 7pm/8pm # *** $
+feb  8 sat School Of Rock at the Ashkenaz, Berkeley a/a $10/$15 7pm **
 feb  8 sat mc Taylor, Sam Cohen, Sam Evian, Stuart Bogie,
        Andrew Barr, Brian Betancourt
        at the Starline Social Club, Oakland 21+ $30 7pm *** (alone & together)
@@ -657,6 +663,8 @@ feb 13 thr Bad Omens, Oh Sleeper, Thousand Below, Bloodline
        at the Ritz, San Jose 21+ $15/$20 8pm *** @
 feb 13 thr Spite, Varials, Orthodox, Unity TX, Dealer
        at Holy Diver, Sacramento a/a $14 6pm *** @
+feb 13 thr Iration, The Ries Brothers, Cydeways
+       at the Senator Theater, Chico a/a $27/$30 7pm/8pm ***
 feb 13/14  Violent Femmes at the Fillmore, S.F. a/a $55 7pm/8pm # ***
 feb 14 fri Lolly Gaggers, Middle-Aged Queers, Copyslut
        at 924 Gilman St., Berkeley a/a $10 7:30pm *** (Valentine's Gay)
@@ -749,6 +757,8 @@ feb 18 tue Ani DiFranco, Jesca Hoop
 feb 18 tue Dr. Dog, Michael Nau at the Catalyst, Santa Cruz ?/? ***
 feb 18 tue Son Little at Moe's Alley, 1535 Commercial Way, Santa Cruz 21+ **
 feb 18 tue Magic City Hippies, The Palms at Harlow's, Sacramento 21+ **
+feb 18 tue Brother Ali, Open Mike Eagle, dj Last Word
+       at the Tackle Box, 379 E Park Avenue, Chico a/a $20 8pm/8:30pm ***
 feb 19 wed Dijon, Deaton Chris Anthony
        at the Swedish American Hall, S.F. a/a $17 7pm ***
 feb 19 wed Iann Dior (TX), Landon Cube, Poorstacy
@@ -962,6 +972,8 @@ feb 29 sat Tori Kelly, Audrey Mika
 feb 29 sat The Stone Foxes
        at the Independent, S.F. 21+ $25/$28 7:30pm/8pm *** (Noise Pop)
 feb 29 sat Hikes at Neck of the Woods, S.F. 21+ $10/$15 8pm *** (Noise Pop)
+feb 29 sat K. Michelle, Sydney Nycole, Sominiconz, BC Tray
+       at the Midway, S.F. 21+ $25 ($60 vip) 9pm **
 feb 29 sat When Doves Cry (tribute) at the Ritz, San Jose 21+ $15/$20 8pm **
 feb 29 sat Miranda Lambert, Cody Johnson, Lanco
        at the Golden 1 Center, Sacramento a/a $91-$36 # ***
@@ -1062,7 +1074,7 @@ mar  8 sun Escape From The Zoo, Paul The Kid, Omnigone,
 mar  8 sun The Wonder Years, Free Throw, Spanish Love Songs, Pool Kids
        at the Great American Music Hall, S.F. 6+ $27.50/$30 6pm/7pm *** @
 mar  8 sun Soul Asylum, Local H at Slim's, S.F. 6+ $28/$30 7pm/8pm ***
-mar  8 sun DragonForce (London), Unlease The Archers, Visions Of Atlantis
+mar  8 sun Dragonforce (London), Unlease The Archers, Visions Of Atlantis
        at the Regency Ballroom, S.F. a/a $25/$30 7pm/7pm # *** @
 mar  8 sun Neal Francis at the Brick and Mortar, S.F. 18+ $12 7pm/8pm **
 mar  8 sun Party Force, Public Enema, Deathwishkid, Enemy Of My Enemy
@@ -1145,6 +1157,8 @@ mar 14 sat Lynyrd Skynyrd
 mar 15 sun Blue Bear School of Music All Star Band Spring Showcase
        at Bottom of the Hill, S.F. a/a $10 5:30pm/6pm ***
 mar 15 sun Umphrey's McGee at Terrapin Crossroads, San Rafael a/a ***
+mar 15 sun Metalachi
+       at the Tackle Box, 379 E Park Avenue, Chico a/a $15 8pm/9pm ***
 mar 16 mon Baby Rose at the New Parish, Oakland a/a 7:30pm/8pm **
 mar 16 mon The Acacia Strain, Rotting Out, Chamber, Fuming Mouth
        at the Cornerstone, Berkeley a/a 7pm *** @
@@ -1207,6 +1221,7 @@ mar 21 sat Damage Inc (tribute), Hellbender
        at House of Rock, Santa Rosa 21+ $25-$20 8pm **
 mar 21 sat Sepultura, Sacred Reich, Crowbar, The Art Of Shock
        at the Ace of Spades, Sacramento a/a *** @ $
+mar 22 sun Child Bite, Today Is The Day, -16- at the Metro, Oakland a/a # *** @
 mar 22 sun G Herbo (Chicago) at Slim's, S.F. 6+ $30 ($99 vip) 7pm/8pm **
 mar 22 sun Vita & The Woolf
        at Bottom of the Hill, S.F. a/a $12/$14 8pm/8:30pm **
@@ -1383,8 +1398,11 @@ apr 17 fri Big Rock Revival, The Butlers
        at House of Rock, Santa Rosa 21+ $25-$20 8pm ** (Evan's Birthday)
 apr 17 fri Lynch Mob, SJ Sindicate, Damaged Things, Anarchy Lace
        at Holy Diver, Sacramento a/a $25/$30 6:30pm *** (also apr 18)
+apr 17 fri Tech N9ne, Jelly Roll, Krizz Kaliko, King Iso, Maez301
+       at the Senator Theater, Chico a/a $28/$30 7pm/8pm ***
 apr 17/18  Little Big Town, Caitlyn Smith
        at the Fox Theater, Oakland a/a $109-$29 7pm/8pm # *** $
+apr 18 sat record store day
 apr 18 sat King Gizzard And The Lizard Wizard (3 hour set)
        at the Greek Theater, UC Berkeley Campus a/a $45 7pm # ***
 apr 18 sat The Beths (New Zealand)
@@ -1434,6 +1452,8 @@ apr 25 sat Nightmares On Wax at the Midway, S.F. 21+ $20/$30 9pm **
 apr 25 sat Emo Night at the Independent, S.F. 21+ $15/$20 8:30pm/9pm **
 apr 26 sun Arlo Guthrie, Folk Uke
        at Mondavi Center, 523 Mrak Hall Drive, UC Davis a/a $79-$13.50 7pm ***
+apr 26 sun ZZ Top
+       at the Arena, 248 W Fremont Street, Stockton a/a $150-$45 6:30pm # ***
 apr 27 mon Hante (Paris), Box And The Twins, Part/Human, Vex, dj Josh Yule
        at the DNA Lounge, S.F. a/a $10/$15 8pm/8:30pm ***
 apr 27/28  Deafheaven, Inter Arma, All Your Sisters

@@ -7,15 +7,13 @@
      T     H    H  E              L           I    S    S     T
      T     H    H  EEEEEE         LLLLLLL     I     SSSS      T
 
-funk-punk-thrash-ska      Upcoming shows of interest       January  27, 2020
+funk-punk-thrash-ska      Upcoming shows of interest       January  28, 2020
 
-jan 27 mon Jacquees, TK Kravitz, Forte, FYB, Jacob Latimore, T Rell,
-       DC Young Fly at the Ace of Spades, Sacramento a/a ***
-jan 27/28  Shakey Graves at the Independent, S.F. 21+ $30 7:30pm/8pm ***
 jan 28 tue Cycles, Cash Pony at the Cornerstone, Berkeley a/a 8:30pm **
 jan 28 tue Stress Dreams, Peter Bixby (L.A.), Schlub
        at the Golden Bull, Oakland 21+ $5 8pm **
 jan 28 tue Juliana Hatfield, Potty Mouth at Slim's, S.F. 6+ $20/$25 7pm/8pm ***
+jan 28 tue Shakey Graves at the Independent, S.F. 21+ $30 7:30pm/8pm ***
 jan 28 tue Higher Power (England), Take Offense, Drain, Lif's Question
        at the Ritz, San Jose 21+ $15/$17 7pm *** @
 jan 28 tue Reverend Horton Heat, The Buttertones
@@ -89,6 +87,8 @@ jan 31 fri Cold Moon, Bellavista, Breathing Room, Mobin's Child
        at the Golden Bull, Oakland 21+ $10 8pm ***
 jan 31 fri The Missin' Cousins (country)
        at 3411 Lounge, 3411 MacArthur Blvd., Oakland 21+ free 6pm til 8pm ***
+jan 31 fri The Rinds, The Mondo Shawan, Groove Mafia, Anju's Pale Blue Eyes
+       at the Stork Club, Oakland 21+ 8pm *** @
 jan 31 fri Queensryche, John 5 And The Creatures, Eve To Adam
        at Slim's, S.F. 6+ $39.50/$40 7pm/8pm ***
 jan 31 fri Xavier Omar, Parisalexa
@@ -1691,6 +1691,7 @@ may 16 sat Wavves (San Diego), Sadgirl (L.A.)
        at August Hall, S.F. a/a $30 8pm/9pm ***
 may 16 sat Emancipator Ensemble
        at the Warfield, S.F. a/a $50-$28 7pm/8pm # ***
+may 16 sat Mxmtoon, Temporex, Verzache at the Regency Ballroom, S.F. a/a # **
 may 16 sat Robotaki (Montreal, Quebec), Tails (Vancouber, B.C.)
        at the Independent, S.F. 21+ $16/$20 8:30pm/9pm ***
 may 16 sat Swallow The Sun (Jyvaskyla, Finland), Infected Rain, Wheel
@@ -1865,9 +1866,11 @@ jul 21 tue GREEN DAY, Fall Out Boy, Weezer, The Interrupters
        at the Giants Ball Park, S.F. a/a $575-$29.50 4pm/5:30pm # ****
 jul 25 sat Ozzy Osbourne, Marilyn Manson
        at Shoreline Amphitheater, Mountain View a/a # ****
+jul 30 fri Thomas Rhett, Cole Swindell, Hardy
+       at the Amphitheatre, 2677 Forty Mile Road, Wheatland a/a $125-$35 # ***
 jul 31 fri Westerman at the Independent, S.F. 21+ $15/$17 8:30pm/9pm **
 jul 31 fri Thomas Rhett, Cole Swindell, Hardy
-       at Shoreline Amphitheater, Mountain View a/a # ***
+       at Shoreline Amphitheater, Mountain View a/a $115-$35 # ***
 aug  1 sat David Gray (performing White Ladder)
        at the Greek Theater, UC Berkeley Campus a/a $45+ 8pm # ***
 aug  1 sat Ministry, KMFDM, Front Line Assembly
@@ -1888,10 +1891,14 @@ aug 28 fri Kidz Bop
 sep  4 fri Rebelution, Steel Pulse, The Green, Keznamdi, dj Mackle
        at the Greek Theater, UC Berkeley Campus, Berkeley a/a $112.50 6pm # ***
 sep  4 fri Alicia Keys at the Masonic, S.F. a/a $200-$60 7pm/8pm ***
+sep  4 fri Disturbed, Stained, Bad Wolves
+       at Shoreline Amphitheater, Mountain View a/a $150-$30 7pm # ***
 sep  5 sat A Flock Of Seagulls, The Romantics, Missing Persons, Naked Eyes,
        The Vapors, Animotion, Musical Youth, Farrington & Mann,
        Burning Sensations, B Movie, Glass Tiger
        at Mountain Winery, 14831 Pierce Road, Saratoga a/a ***
+sep  5 sat Disturbed, Stained, Bad Wolves
+       at Amphitheatre, 2677 Forty Mile Road, Wheatland a/a $150-$30 7pm # ***
 sep  8 tue The Black Crowes
        at the Pavilion, Concord a/a $135-$29.50 6:30pm/8pm # ***
 sep  9 wed The Black Crowes
@@ -1900,6 +1907,8 @@ sep 10 wed The Doobie Brothers, Michael McDonald, The Dirty Dozen Brass Band
        at the Amphitheatre, 2677 Forty Mile Road, Wheatland a/a # ***
 sep 12 sat The Doobie Brothers, The Dirty Dozen Brass Band
        at Shoreline Amphitheater, Mountain View a/a $150-$30 6pm/7:30pm # ***
+sep 13 sun Sammy Hagar & The Circle, Whitesnake, Night Ranger
+       at Shoreline Amphitheater, Mountain View a/a $130-$30 # ***
 sep 14 mon Amaranthe (Sweden/Denmark)
        at Holy Diver, Sacramento a/a $25 ($65 vip) 6:30pm/7pm *** @
 sep 17 thr Ty Segall And The Freedom Band

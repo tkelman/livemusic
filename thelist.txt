@@ -47,7 +47,7 @@ feb  5 wed Homeboy Sandman, Quelle Chris, Dibiase, Wolf Langis
        at the Bottom of the Hill, S.F. a/a $15 8pm/8:30pm *** (hip-hop/rap)
 feb  5 wed Highwinds, Gravedodger, Dirty Rice
        at the Rickshaw Stop, S.F. a/a $10 7:30pm/8pm til 11:30pm *** @
-feb  5 wed Ryan McMullan at Cafe du Nord, S.F. 21+ $12/$15 7:30pm **
+feb  5 wed Ryan McMullan, Ken Yates at Cafe du Nord, S.F. 21+ $12/$15 7:30pm **
 feb  5 wed Lo-Fi & Chill, Mild Monk, Frank From Mars, B, Dopey Dana, Tmacbeats
        at the Ritz, San Jose 21+ $5 8pm **
 feb  5 wed Mustard Plug, The Toasters, Flip The Switch, Ants In My Eyes Johnson
@@ -101,7 +101,7 @@ feb  7 fri Telepathic Children, Seemway, Little Arcs, Ryan Von Gonten
        at the White Horse, 66th & Telegraph, Oakland 21+ $8 6pm/7pm ***
 feb  7 fri Esses, Silence In The Snow, Terebellum (debut)
        at the Elbo Room Jack London, Oakland 21+ $10 9pm **
-feb  7 fri Big Business, Death Eyes, Your Leader
+feb  7 fri Big Business, Terry Gross, Your Leader
        at the Ivy Room, Albany $16/$18 8pm/9pm *** @
 feb  7 fri Blessed Curse, Blind Illusion, Creepo, Face The Pain
        at Toot's Tavern, Crockett 21+ $10 8pm/9pm *** @
@@ -130,8 +130,8 @@ feb  7 fri Hiss Golden Messenger at Sweetwater Music Hall, Mill Valley a/a **
 feb  7 fri The Whole In The Wall Gang, Parasox (N.Y.), Tentacle
        at the Phoenix Theater, Petaluma a/a $10 7:30pm/8pm ***
 feb  7/8   Lloyd Cole at the Chapel, S.F. a/a $25 9pm ***
-feb  7/8   Emily King
-       at the Swedish American Hall, S.F. 21+ $30 ($79 vip) 7:30pm *** (seated)
+feb  7/8   Emily King (seated show)
+       at Swedish American Hall, S.F. 21+ $30 ($79 vip) 7:30pm *** (sold out)
 feb  7/8   Luna, Everyone Is Dirty (fri), Madeline Kenney (sat)
        at the Independent, S.F. 21+ $30 8:30pm/9pm ***
 feb  7/8   Spooky Mansion (L.A.), Meernaa (fri), The Y Axes (fri),
@@ -200,7 +200,8 @@ feb  8 sat Soulfly, Toxic Holocaust, X Method, Madzilla, Skinflint,
        Systemhouse 33 at the Phoenix Theater, Petaluma a/a $25/$30 8pm *** @
 feb  8 sat Isabella Rossellini
        at Sebastiani Theater, 476 1st Street E, Sonoma a/a *** (see feb 3-6)
-feb  8 sat Surfer Joe, Adrian West Band at Winter's Tavern, Pacifica 21+ 4pm **
+feb  8 sat Surfer Joe, The Greasy Gills, The Reefriders, The Young Barons,
+       dj Sid Presley at Winter's Tavern, Pacifica 21+ $10 8pm/8:30pm ***
 feb  8 sat Angela Aguilar
        at the San Jose Civic, San Jose a/a $125-$35 7pm/8pm # ***
 feb  8 sat Grayscale (Philadelphia), Hot Mulligan (Lansing, MI), Wstr, Lurk
@@ -700,7 +701,7 @@ feb 24 mon Joshua Radin, Ben Kweller, William Fitzsimmons
 feb 24 mon Sudan Archives (L.A.)
        at the Swedish American Hall, S.F. a/a $16/$18 7pm *** (Noise Pop)
 feb 24 mon Los Retros, Kwest at Slim's, S.F. 6+ $15 7pm/8pm ***
-feb 24 mon Aviva, 8 Graves at the Rickshaw Stop, S.F. a/a **
+feb 24 mon Aviva, 8 Graves at the Rickshaw Stop, S.F. a/a 7pm **
 feb 25 tue Sudan Archives (L.A.)
        at the Starline Social Club, Oakland a/a $16/$18 7:30pm **
 feb 25 tue The Michael Ruy Band, Nott The Hoople
@@ -1190,6 +1191,8 @@ mar 17 tue Brittany Howard
        at Luther Burbank Center, 50 Mark West Springs, Santa Rosa a/a 8pm ***
 mar 18 wed Criss Angel at the Warfield, S.F. a/a $130-$40 7pm/8:30pm # ***
 mar 18 wed Ivy Queen at the Fillmore, S.F. a/a $45 7pm/8pm # **
+mar 18 wed Umi (Brooklyn, N.Y.), Dianna Lopez
+       at Cafe du Nord, S.F. a/a $18/$20 7:30pm **
 mar 18 wed Nicole Bus, Tone Stith
        at the Brick and Mortar, S.F. 18+ $18 ($69/$125 vip) 8pm/9pm ***
 mar 19 thr Ana Gabriel at the Arena, Oakland a/a $135-$44.50 7pm/8pm # ***
@@ -1259,6 +1262,7 @@ mar 21 sat mc Hotdog, Kenzy at August Hall, S.F. a/a $35 ($99 vip) 8pm/9pm **
 mar 21 sat Y&T, John Corabi at the Fillmore, S.F. a/a $39.50 7pm/8pm # ***
 mar 21 sat Leecher, The Tortued, The Truants, Liazard Music
        at the Honey Hive, S.F. a/a 6:30pm/7pm til 10pm ***
+mar 21 sat Fleetwood Macrame at the Rickshaw Stop, S.F. a/a **
 mar 21 sat San Holo, Manila Killa, Slow Magic
        at the Civic Auditorium, S.F. 18+ $45/$40/$35 7pm/8pm # ***
 mar 21 sat Frazey Ford (Canada)
@@ -1443,6 +1447,7 @@ mar 31 tue David Archuleta at the Ritz, San Jose 21+ $26.50/30 7pm **
 apr  1 wed Mum at the Fillmore, S.F. a/a $36.50 7pm/8pm # ***
 apr  1 wed Billy Raffoul at Slim's, S.F. 6+ $15 7pm/8pm ***
 apr  1 wed Allen Stone at the Warfield, S.F. a/a $30/$40 7pm/8pm # ***
+apr  1 wed Baby Bushka at Cafe du Nord, S.F. 21+ $12/$14 7:30pm **
 apr  2 thr The Warning at the New Parish, Oakland a/a 7:30pm/8pm **
 apr  2 thr Ripe, Sammy Ray & The Friends
        at the Fillmore, S.F. a/a $22.50 7pm/8pm # **
@@ -1561,6 +1566,7 @@ apr 11 sat Code Orange, Shoe Me The Body, Jesus Piece, Year Of The Knife,
        Machine Girl at Slim's, S.F. 6+ $20/$24 6pm/7pm *** @
 apr 11 sat Bitter Candy, Full Volume Only
        at the Honey Hive, S.F. a/a 6:30pm/7pm til 10pm **
+apr 11 sat Crywank, Chastity at thee Parkside, S.F. a/a $15 8pm ***
 apr 11 sat Jenny Hval at Gray Area, 2665 Mission St., S.F. 21+ $25/$30 8pm **
 apr 11 sat Circles Around The Sun
        at the Independent, S.F. 21+ $22/$25 8:30pm/9pm **
@@ -1918,6 +1924,8 @@ may 26 tue Stormzy (U.K.) at the Fox Theater, Oakland a/a 8pm # ***
 may 26 tue Molchat Doma at the Jack London Elbo Room, Oakland 21+ **
 may 26 tue Greg Dulli, Joseph Arthur (Brooklyn, N.Y.)
        at August Hall, S.F. a/a $40 ($140 vip) 7pm/8pm ***
+may 26 tue The Black Dahlia Murder, Testament, Municipal Waste, Meshiaak
+       at the Ace of Spades, Sacramento a/a *** @
 may 27 wed Fuzz at the Great American Music Hall, S.F. 6+ $22 7pm/8pm ***
 may 27 wed Barns Courtney
        at the Independent, S.F. 21+ $25 ($75-$125 vip) 7:30pm/8pm ***
@@ -1945,6 +1953,8 @@ may 31 sun Flotsam And Jetsam, Bypassing Oblivion
 jun  2 tue Nombe, Bad Child at August Hall, S.F. a/a $20 7pm/8pm ***
 jun  3 wed Symphony X, Primal Fear, Firewind
        at Slim's, S.F. 6+ $30 ($60 vip) 7pm/8pm *** @
+jun  3 wed Club Sport (Brisbane, Queensland, Australia)
+       at the Rickshaw Stop, S.F. a/a *** $
 jun  4 thr Tanya Tucker at the Fillmore, S.F. a/a $35 7pm/8pm # ***
 jun  5 fri The Fratellis (Glasgow)
        at the Fillmore, S.F. a/a $26.50 7pm/8pm # ***
@@ -2045,8 +2055,11 @@ jul 19 sun Def Leppard, Motley Crue, Poison, Joan Jett And The Blackhearts
        at the S.F. Giants Ballpark, S.F. a/a $179.50-$49.50 6pm/7pm # ***
 jul 21 tue GREEN DAY, Fall Out Boy, Weezer, The Interrupters
        at the Giants Ball Park, S.F. a/a $575-$29.50 4pm/5:30pm # ****
+jul 21 tue Quasi
+       at Starline Social Club, Oakland 21+ $20/$22 7:30pm ** (see jul 26th)
 jul 25 sat Ozzy Osbourne, Marilyn Manson
        at Shoreline Amphitheater, Mountain View a/a # ****
+jul 26 sun Quasi at Cafe du Nord, S.F. 21+ $20/$22 7:30pm ** (see jul 21st)
 jul 30 fri Thomas Rhett, Cole Swindell, Hardy
        at the Amphitheatre, 2677 Forty Mile Road, Wheatland a/a $125-$35 # ***
 jul 31 fri Westerman at the Independent, S.F. 21+ $15/$17 8:30pm/9pm **
@@ -2057,6 +2070,7 @@ aug  1 sat David Gray (performing White Ladder)
 aug  1 sat Ministry, KMFDM, Front Line Assembly
        at the Regency Ballroom, S.F. a/a $48.50/$50 6pm/7pm # *** @ $
 aug  1 sat JJ Savage at Winter's Tavern, Pacifica 21+ 8pm **
+aug  5 wed Guns N' Roses at the Giant's Stadium, S.F. a/a $275-$50 # ***
 aug 18 tue The Lumineers, Gregory Alan Isakov, Daniel Rodaiguez
        at the Warriors Stadium, S.F. a/a $322-$39 7pm # ***
 aug 19 wed Maroon 5, Meghan Trainor
@@ -2074,9 +2088,9 @@ aug 28 fri Kidz Bop
        at Shoreline Amphitheater, Mountain View a/a $85-$15 # **
 sep  4 fri Rebelution, Steel Pulse, The Green, Keznamdi, dj Mackle
        at the Greek Theater, UC Berkeley Campus, Berkeley a/a $112.50 6pm # ***
-sep  4 fri Alicia Keys at the Masonic, S.F. a/a $200-$60 7pm/8pm ***
 sep  4 fri Disturbed, Stained, Bad Wolves
        at Shoreline Amphitheater, Mountain View a/a $150-$30 5:30pm/7pm # ***
+sep  4/5   Alicia Keys at the Masonic, S.F. a/a $200-$60 7pm/8pm ***
 sep  5 sat A Flock Of Seagulls, The Romantics, Missing Persons, Naked Eyes,
        The Vapors, Animotion, Musical Youth, Farrington & Mann,
        Burning Sensations, B Movie, Glass Tiger

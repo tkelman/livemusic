@@ -100,6 +100,8 @@ feb 14 fri Little Marvin And The Gardeners at the Ivy Room, Albany $5 8pm **
 feb 14 fri Moniloca at the Jack London Elbo Room, Oakland 21+ $5 9pm **
 feb 14 fri Mother & The Boards, open mik
        at the Fireside Lounge, Alameda 21+ $5 **
+feb 14 fri The Lovemakers, Hi Scores, Ava Lashay, dj Aaron Axelson
+       at the Uptown, Oakland 21+ $12 9pm ***
 feb 14 fri This Will Destroy You, Amulets
        at Slim's, S.F. 6+ $20/$22 8pm/9pm ***
 feb 14 fri Pigeons Playing Ping Pong, Goose
@@ -163,7 +165,8 @@ feb 15 sat Y Axes, Kat Van Morgan, A Farewell Device
 feb 15 sat The Glorious Sons (Kingston, Ontario),
        Des Rocs, Matchstick Skeletons
        at the Great American Music Hall, S.F. 6+ $25 7pm/8pm ***
-feb 15 sat Tones And I at the Rickshaw Stop, S.F. a/a $20/$22 8pm ** (sold out)
+feb 15 sat Tones And I, Lime Cordiale
+       at the Rickshaw Stop, S.F. a/a $20/$22 8pm ** (sold out)
 feb 15 sat Led Zeppelin 2 at August Hall, S.F. a/a $18 8pm/9pm **
 feb 15 sat Pigeons Playing Ping Pong, Goose at Regency Ballroom, S.F.
        a/a $23.50 ($51 two day pass) 7:30pm/8:30pm # *** (see feb 14 at GAMH)
@@ -329,10 +332,13 @@ feb 20 thr Pine & Battery, Brad Brooks, Michael Shaw
        at the Bottom of the Hill, S.F. 21+ $20 8pm/8:30pm **
 feb 20 thr Jackets (Switzerland), Orges, Th' Losin Streaks, dj Sid Presley
        at thee Parkside, S.F. a/a $10/$12 8pm/9pm ***
-feb 20 thr Loco Tranquilo, Thank You Come Again, Milk For the Angry,
+feb 20 thr Loco Tranquilo, Thank You Come Again, Milk For The Angry,
        Juan Wayne at the Rickshaw Stop, S.F. a/a $10 8pm ***
 feb 20 thr Bong Kitty, Tight Pants And The Dynamite, The Tall Boys
        at the Eagle, S.F. 21+ $8 9pm/9:30pm **
+feb 20 thr Bran(...)pos, Ralph White (Austin, TX), Junior Mint Prince,
+       Kanoko Nishi-Smith & Gabby Fluke-Mogul
+       at the Peacock Lounge, 552 Haight Street, S.F. a/a $5-$10 8pm **
 feb 20 thr Inspctor, Fulminante, Drunken Starfighter
        at the Ritz, San Jose 21+ $35/$40 8pm **
 feb 20 thr Ani DiFranco, Jesca Hoop
@@ -530,7 +536,7 @@ feb 26 wed Dave Hause & The Mermaid, Northcote
        at Slim's, S.F. 6+ $17/$21 7pm/8pm ***
 feb 26 wed Helado Negro
        at Great American Music Hall, S.F. 6+ $20/$22 7pm/8pm ** (Noise Pop)
-feb 26 wed Joan, Ralph at Cafe du Nord, S.F. a/a $13/415 7:30pm *** (Noise Pop)
+feb 26 wed Joan, Ralph at Cafe du Nord, S.F. a/a $13/$15 7:30pm *** (Noise Pop)
 feb 26 wed Video Age, Luna Luna, The Y Axes, Adam Brookes
        at Brick & Mortar, S.F. a/a $13/$15 (under 21 +$5) 7pm ^ *** (Noise Pop)
 feb 26 wed Rosie Tucker, Pom Pom Squad, Diners, Pendant
@@ -1015,6 +1021,8 @@ mar 14 sat Dead Things, Scoundrel, One Vote For Violence, Aspen Way
 mar 14 sat Liver Cancer (Calaveras County), Bryan Day, Hertz To Noah Vail,
        Earth Jerks, Jr Mint, vegan pancakes
        at Noisebridge Hackerspace, S.F. a/a noon til 2pm *** (Noise)
+mar 14 sat Balkan Bump, Moontricks, Smoked Out Soul, Liquid Love Drops
+       at the Rickshaw Stop, S.F. a/a $12/$15 9pm **
 mar 14 sat Verite (Brooklyn, N.Y.)
        at the Independent, S.F. 21+ $17/$20 8:30pm/9pm **
 mar 14 sat GayC/DC, The Homobiles, Middle Aged Queers
@@ -1156,7 +1164,8 @@ mar 21 sat mc Hotdog, Kenzy at August Hall, S.F. a/a $35 ($99 vip) 8pm/9pm **
 mar 21 sat Y&T, John Corabi at the Fillmore, S.F. a/a $39.50 7pm/8pm # ***
 mar 21 sat Leecher, The Tortued, The Truants, Liazard Music
        at the Honey Hive, S.F. a/a 6:30pm/7pm til 10pm ***
-mar 21 sat Fleetwood Macrame at the Rickshaw Stop, S.F. a/a **
+mar 21 sat Fleetwood Macrame, Material Girl, Palace Of Trash (drag show)
+       at the Rickshaw Stop, S.F. a/a **
 mar 21 sat San Holo, Manila Killa, Slow Magic
        at the Civic Auditorium, S.F. 18+ $45/$40/$35 7pm/8pm # ***
 mar 21 sat Fuzz Collective, Emergency Council
@@ -1245,6 +1254,7 @@ mar 26 thr Squirrel Flower, Why Bonnie, Zelma Stone
        at Bottom of the Hill, S.F. a/a $12/$14 8:30pm/9pm ***
 mar 26 thr Kat Dahlia at Slim's, S.F. 6+ $20 7pm/8pm **
 mar 26 thr Della Mae at the Chapel, S.F. a/a $20/$22 7pm/8pm **
+mar 26 thr Anna Meredith at the Rickshaw Stop, S.F. a/a $15/$18 7pm **
 mar 26 thr Horse Jumper Of Love (Boston), Strange Ranger
        at the Milk Bar, S.F. 21+ **
 mar 26 thr Cris Jacobs Band, King Dream
@@ -1816,6 +1826,7 @@ may  5 tue Kurt Vile & Cate Le Bon, Kurt Vile, Cate Le Bon,
        at the Castro Theater, 429 Castro Street, S.F. a/a $39 7pm/8pm # ***
 may  5 tue Margaret Glaspy, Kate Davis
        at the Great American Music Hall, S.F. 6+ $20 7pm/8pm **
+may  5 tue True Widow at the Rickshaw Stop, S.F. a/a $15/$18 8pm **
 may  5/6   Sturgill Simpson, Tyler Childers at the Civic Auditorium, S.F.
        a/a $100-$70 6:30pm/7:30pm # *** (sold out)
 may  6 wed Kurt Vile & Cate Le Bon, Kurt Vile, Cate Le Bon,
@@ -1860,6 +1871,7 @@ may  9 sat The Glitch Mob, Ivy Lab (London)
        at the Warfield, S.F. 18+ $40-$23 7pm/8pm # ***
 may  9 sat Manic Focus + Mersiv, Russ Liquid
        at Slim's, S.F. 18+ $19/$26 8pm/9pm **
+may  9 sat TV Girl, Jordana at the Rickshaw Stop, S.F. a/a $15 8pm **
 may  9 sat Juana Molina at the Independent, S.F. 21+ $23/$25 8:30pm/9pm **
 may  9 sat Kesha, Big Freedia
        at San Jose Civic, San Jose a/a $130-$45 7pm/8pm # ***
@@ -1883,6 +1895,7 @@ may 12 tue John K. Samson, Kevin Devine (Brooklyn, N.Y.),
        Worriers (Brooklyn) at the Independent, S.F. 21+ $20/$24 7:30pm/8pm  ***
 may 12 tue Insane Clown Posse
        at the Catalyst, Santa Cruz 16+ $25/$30 8pm/9pm *** @ $
+may 13 wed Diggin' Dirt at the Rickshaw Stop, S.F. a/a $10/$15 8pm **
 may 13 wed Ivan & Alyosha at Cafe du Nord, S.F. 21+ $15/$18 7:30pm ***
 may 13 wed The Dears at the Bottom of the Hill, S.F. 21+ $18/$20 8pm/8:30pm **
 may 14 thr Adam Ant (performing 'Friend or Foe')
@@ -1901,6 +1914,8 @@ may 15 fri Vagabon (New York), Kaina (Chicago)
 may 15 fri Nophace, Ricky Swae, Ill-usion, Jordy Mullatto And Jacc Jones
        at the Honey Hive, S.F. a/a 6:30pm/7pm til 10pm ***
 may 15 fri Underworld (Essex, U.K.) at the Warfield, S.F. a/a $95-$45 8pm # ***
+may 15 fri Everyone You Know (U.K.), dj Aaron Axelsen
+       at the Rickshaw Stop, S.F. 18+ $15/$17 9pm ***
 may 15 fri Six Organs Of Admittance at Cafe du Nord, S.F. 21+ $15/$18 8pm **
 may 15 fri The Dip (Seattle) at the Independent, S.F. 21+ $20/$23 8:30pm/9pm **
 may 15 fri Brad Paisley, Jordan Davis, Gabby Barrett
@@ -2056,7 +2071,7 @@ jun  2 tue Hinds at the Catalyst, Santa Cruz ?/? ***
 jun  3 wed Symphony X, Primal Fear, Firewind
        at Slim's, S.F. 6+ $30 ($60 vip) 7pm/8pm *** @
 jun  3 wed Club Sport (Brisbane, Queensland, Australia)
-       at the Rickshaw Stop, S.F. a/a *** $
+       at the Rickshaw Stop, S.F. a/a $15/$17 8pm *** $
 jun  4 thr Tanya Tucker at the Fillmore, S.F. a/a $35 7pm/8pm # ***
 jun  4 thr Mars Red Sky, Dreadnought
        at the Chapel, S.F. a/a $15/$18 7pm/8pm **

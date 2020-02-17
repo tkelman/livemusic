@@ -385,6 +385,7 @@ all_venues.append({'listing_url': 'http://www.papamurphyspark.com/events/calenda
 all_venues[-1]['event_prefix'] = '/event/'
 all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/events/calendar/', '')
 
+
 # reno events center? tyler the creator 10/17
 # pro arts
 # eli's

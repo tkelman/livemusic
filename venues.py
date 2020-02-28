@@ -63,8 +63,7 @@ all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'] + 'event_listings
 all_venues[-1]['problematic'] = True
 
 all_venues.append({'listing_url': 'https://www.moesalley.com/calendar/'})
-all_venues[-1]['event_prefix'] = '/e/'
-all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/calendar/', '')
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/', '/e/')
 all_venues[-1]['problematic'] = True
 
 all_venues.append({'listing_url': 'https://www.thegreatnorthernsf.com/events/'})

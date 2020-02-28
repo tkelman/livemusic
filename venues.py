@@ -493,6 +493,7 @@ def archive_events(listing_url, event_prefix, top_url='', include_original=True)
     all_events = [link.get('href') for link in doc.find_all('a')
         if link.get('href', '').startswith(event_prefix)]
     if listing_url not in (
+            'https://amnesiathebar.com/calendar/list/', # closing
             'https://www.hotelutah.com/calendar/', # empty?
 #            'https://www.yoshis.com/calendar/',
 #            'https://www.monarchsf.com/',
@@ -510,7 +511,7 @@ def archive_events(listing_url, event_prefix, top_url='', include_original=True)
             'https://www.chasecenter.com/events', # some categories are empty occasionally
             'http://www.papamurphyspark.com/events/calendar/', # season over?
             ):
-        assert len(all_events) > 0
+        assert len(all_events) > 0, 'no events found for {}'.format(listing_url)
     for event in set(all_events): # remove duplicates
         if '?' in event and not event.startswith('http://www.aceofspadessac.com'):
             event = event[:event.find('?')]

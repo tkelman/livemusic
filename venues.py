@@ -39,13 +39,11 @@ all_venues.append({'listing_url': 'http://www.bottomofthehill.com/calendar.html'
 all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('calendar.html', '') + this_year
 
 all_venues.append({'listing_url': 'https://www.monarchsf.com/'})
-all_venues[-1]['event_prefix'] = '/e/'
-all_venues[-1]['top_url'] = all_venues[-1]['listing_url'][:-1]
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'] + 'e/'
 all_venues[-1]['problematic'] = True
 
 all_venues.append({'listing_url': 'https://www.monarchsf.com/calendar/the-bar-at-monarch/'})
-all_venues[-1]['event_prefix'] = '/e/'
-all_venues[-1]['top_url'] = all_venues[-2]['top_url']
+all_venues[-1]['event_prefix'] = all_venues[-2]['event_prefix']
 all_venues[-1]['problematic'] = True
 
 all_venues.append({'listing_url': 'https://starlinesocialclub.com/calendar/list'})

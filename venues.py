@@ -515,7 +515,7 @@ def archive_events(listing_url, event_prefix, top_url='', include_original=True)
         if include_original:
             archive_once(top_url + event)
         archive_once(redirect_prefix + top_url + event)
-        if top_url == 'https://www.yoshis.com':
+        if listing_url == 'https://www.yoshis.com/calendar/':
             if include_original:
                 archive_once(top_url + event + '#')
             archive_once(redirect_prefix + top_url + event + '#')

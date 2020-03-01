@@ -111,8 +111,7 @@ all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('latest.html',
 all_venues[-1]['problematic'] = True
 
 all_venues.append({'listing_url': 'https://www.thefreight.org/shows/'})
-all_venues[-1]['event_prefix'] = '/e/'
-all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/shows/', '')
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/shows/', '/e/')
 all_venues[-1]['problematic'] = True
 
 all_venues.append({'listing_url': 'https://www.brickandmortarmusic.com/'})

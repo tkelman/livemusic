@@ -175,8 +175,7 @@ all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calenda
 all_venues[-1]['problematic'] = True
 
 all_venues.append({'listing_url': 'https://www.slimspresents.com/event-listing/'})
-all_venues[-1]['event_prefix'] = '/e/'
-all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/event-listing/', '')
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/event-listing/', '/e/')
 all_venues[-1]['problematic'] = True
 
 all_venues.append({'listing_url': 'https://www.theuctheatre.org/'})

@@ -564,7 +564,7 @@ mar 20 fri Sunset Canyonners at Winter's Tavern, Pacifica 21+ **
 mar 20 fri Ghoul at the Ritz, San Jose 21+ $13/$15 8pm *** @
 mar 20 fri Tango Hustle, Dead In Argentina, States Of Nature,
        Annihilation Instead at Caravan, San Jose 21+ free 9pm ***
-mar 20 fri Today Is The Day at the Holy Diver, Sacramento a/a *** @
+mar 20 fri incorrect listing:  Today Is The Day at the Holy Diver, Sacramento
 mar 20//21/22 Bob Moses, Desert Hearts, Goldfish, Miky Lion, Lee Reynolds,
        Marbs, Porky, Kazy Lambist, Mark Farina, Taches, Fleetmac Wood,
        Kermesse, Carlita, Gavlak, Chris Cauldron, Golden, Beschloo, Housewife
@@ -949,6 +949,8 @@ apr  3 fri Andy Frasco at Humboldt Brewery, 856 10th at I, Arcata 21+ **
 apr  3 fri Of Montreal, Locate S.1 at Harlow's, Sacramento 21+ ***
 apr  3/4   Porches (New York, N.Y.), Sassy 009 (Osla, Norway)
        at the Independent, S.F. 21+ $20/$25 8:30pm/9pm ***
+apr  4 sat Protected Left, Elderly Abuse, High Pressure, Born In
+       at ABCo Artspace, 3135 Filbert St., W. Oakland a/a $7-$10 8pm/9pm *** @
 apr  4 sat Of Montreal, Locate S.1
        at the UC Theater, Berkeley a/a $27.50 7pm/8pm # ***
 apr  4 sat Aventura at the Arena, Oakland a/a $280-$50 7pm/8pm # ***
@@ -1179,6 +1181,8 @@ apr 16 thr Kyara Pamyu Pamyu
        at the Regency Ballroom, S.F. a/a $30 ($100 vip) 7pm/8pm # **
 apr 16 thr Adam Brookes, Saics, Sloome
        at the Rickshaw Stop, S.F. a/a $10 8pm **
+apr 16 thr Tyr (Faroe Islands, Denmark), Heidevolk, Trollfest, Metsatoll
+       at the DNA Lounge, S.F. a/a *** @
 apr 16 thr Louis Cole Big Band
        at the Independent, S.F. 21+ $22/$25 7:30pm/8pm **
 apr 16 thr Idles (Bristol, U.K.), Mannequin Pussy, dj David Yow
@@ -1755,6 +1759,8 @@ may 24 sun Damian Jr. Gong Marley, Ice Cube, Jimmy Cliff, Common Kings,
        Mike Love, Keznamdi, Through The Roots, Artikal Sound System,
        Vana Liya, Sublime With Rome (sunset performance)
        at California Roots, 2004 Fairgounds Road, Monterey a/a # *** (day 3)
+may 25 mon Deafkids, Old Man Gloom, Sad Vicious
+       at the Starline Social Club, Oakland ?/? ***
 may 26 tue Stormzy (U.K.) at the Fox Theater, Oakland a/a 8pm # ***
 may 26 tue Molchat Doma at the Jack London Elbo Room, Oakland 21+ **
 may 26 tue Greg Dulli, Joseph Arthur (Brooklyn, N.Y.)
@@ -1795,6 +1801,10 @@ may 30 sat Trip Wire, The Campbell Apartment, The Bobbleheads
 may 30 sat Arthur, Tomberlin, Brutus VIII at Slim's, S.F. 6+ $15 8pm/9pm **
 may 30 sat Chicano Batman, Crumb, Le Butcherettes
        at the Warfield, S.F. a/a $40-$29.50 7pm/8pm # ***
+may 30 sat Protected Left, Black Crosses, False Freedom, The Has Beens,
+       The Lucky Eejits, Cut-Rate Druggist, Last One Down,
+       Rebel Holocrons, Defyant Circle, Elegant Trash
+       at Winter's Tavern, Pacifica free 4pm *** @ (Everything Sucks Fest)
 may 30 sat Journey, The Pretenders
        at Shoreline Amphitheater, Mountain View a/a $150-$35 5pm/7pm # ***
 may 30 sat Melt-Banana (Japan), Acid Fab

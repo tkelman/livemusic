@@ -196,9 +196,8 @@ all_venues.append({'listing_url': 'http://www.ashkenaz.com/'})
 all_venues[-1]['event_prefix'] = '/eventcalendar/'
 all_venues[-1]['top_url'] = all_venues[-1]['listing_url'][:-1]
 
-all_venues.append({'listing_url': 'https://ivyroom.ticketfly.com'})
-all_venues[-1]['event_prefix'] = '/e/'
-all_venues[-1]['top_url'] = all_venues[-1]['listing_url']
+all_venues.append({'listing_url': 'http://ivyroom.ticketfly.com'})
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'] + '/e/'
 all_venues[-1]['problematic'] = True
 
 all_venues.append({'listing_url': 'https://www.theregencyballroom.com/events'})

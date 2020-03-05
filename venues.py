@@ -243,7 +243,7 @@ all_venues.append({'listing_url': 'https://www.thephoenixtheater.com/calendar/'}
 all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/calendar/', '/e/')
 all_venues[-1]['problematic'] = True
 
-all_venues.append({'listing_url': 'http://www.theoaklandarena.com/events'})
+all_venues.append({'listing_url': 'https://www.theoaklandarena.com/events'})
 all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url']
 
 all_venues.append({'listing_url': 'https://www.cornerstoneberkeley.com/music-venue/cornerstone-events/'})

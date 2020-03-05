@@ -247,8 +247,7 @@ all_venues.append({'listing_url': 'https://www.theoaklandarena.com/events'})
 all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url']
 
 all_venues.append({'listing_url': 'https://www.cornerstoneberkeley.com/music-venue/cornerstone-events/'})
-all_venues[-1]['event_prefix'] = '/e/'
-all_venues[-1]['top_url'] = all_venues[-1]['listing_url'].replace('/music-venue/cornerstone-events/', '')
+all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/music-venue/cornerstone-events/', '/e/')
 all_venues[-1]['problematic'] = True
 
 all_venues.append({'listing_url': 'https://www.theeparkside.com/'})

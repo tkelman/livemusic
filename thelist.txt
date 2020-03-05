@@ -123,7 +123,7 @@ mar  6 fri Mortiferum, Dearth, Enshrouded
        a/a $10 8:30pm/9pm *** @
 mar  6 fri Burn River Burn, The Freak Accident, Over Motion
        at Winter's Tavern, Pacifica 21+ ***
-mar  6 fri Little Jesus, Los Walters at the Ritz, San Jose 21+ **
+mar  6 fri Little Jesus, Los Walters at the Ritz, San Jose 21+ $25/$28 8pm ***
 mar  6 fri Times Of Desperation, Godstomper, Connoisseur, Sanum
        at Caravan Lounge, San Jose 21+ free 9pm *** @
 mar  6 fri Andy Frasco at Lost on Main, Chico 21+ **
@@ -141,6 +141,10 @@ mar  7 sat Andre Nickatina, J.Lately
        at the Cornerstone, Berkeley a/a $29 8pm/9pm ***
 mar  7 sat Adrian West Duo
        at Caffe Chiave, 4045 Piedmont Avenue, Oakland a/a 7m **
+mar  7 sat Alphabet Rockers, Funk Star, The Amp Oakland All-Stars,
+       Adamika Village Fashion Show, Omg Prince, vendors
+       at 13th Street Block Party, between Broadway & Franklin, Oakland
+       a/a Noon til 5pm ***
 mar  7 sat Emo Night at the New Parish, Oakland 21+ $13/$15 8:30pm/9pm **
 mar  7 sat Lioncourt, Carneficina, Almost Dead, Cursed
        at Toot's Tavern, Crockett 21+ $10 8pm/9pm *** @
@@ -152,7 +156,7 @@ mar  7 sat Jewdriver, Grainier, 2 Lazy Boys
        at Merchants Saloon, 401 2nd Street, Oakland 21+ $10 8pm *** @
        (Benefit for Taler)
 mar  7 sat The Freak Accident, The Hooks, Smokers, My Friend
-       at the Jack London Elbo Room, Oakland 21+ *** @
+       at the Jack London Elbo Room, Oakland 21+ $10 8pm *** @
 mar  7 sat Olivia Jean, Kat Van Morgan, CallBox, Doll Parts, Maayan
        at the Bottom of the Hill, S.F. a/a $25/$30 6pm/6:30pm ***
 mar  7 sat ALO, Leftover Salmon
@@ -170,30 +174,28 @@ mar  7 sat Clan Of Xymox, The Bellwether Sundicate, Curse Mackey, Twin Tribes
        at the Chapel, S.F. a/a $22/$30 ($75 vip) 8pm/9pm ***
 mar  7 sat Broken Horse (9pm), Bob Thayler (6pm - vinyl release)
        at the Rite Spot, S.F. a/a 6pm **
-mar  7 sat Alphabet Rockers, Funk Star, The Amp Oakland All-Stars,
-       Adamika Village Fashion Show, Omg Prince, vendors
-       at 13th Street Block Party, between Broadway & Franklin, Oakland
-       a/a Noon til 5pm ***
 mar  7 sat Yoshi Flower at Cafe du Nord, S.F. 18+ $12/$15 8pm **
 mar  7 sat Rumbahia, Dos Bandoleros
        at Brick and Mortar, S.F. 18+ $12/$15 9:30pm/10pm ** (spanish rumba)
 mar  7 sat Liquid Stranger (Gothenburg, Sweden), Dirt Monkey (Boulder, CO),
        Hydraulix (Sydney, Austrailia), Inzo (Dallas, TX)
        at the Regency Ballroom, S.F. 18+ $20/$28 8pm/9pm # ***
-mar  7 sat R.Lum.R at the Independent, S.F. 21+ $18/$20 ($68 vip) 8:30pm/9pm **
 mar  7 sat Outrageous Karina, Lil MC, El Elle, Jane The Message,
        Syzygy Beatbox, Cardboard People at Amado's, S.F. 21+ $12 7:30pm/8pm **
 mar  7 sat Bad Lemon, Death Valley Gypsies at Bender's, S.F. 21+ $5 9pm/10pm **
 mar  7 sat Midnight In Laredo, Tony Hannah, Tin Knockers
        at the Milk Bar, S.F. 21+ 7pm **
 mar  7 sat AC Sapphire at the Make-Out Room, S.F. 21+ **
+mar  7 sat Little Jesus (Mexico City), Los Walters
+       at the Independent, S.F. 21+ $16/$18 8:30pm/9pm ***
 mar  7 sat Hannibal Thompson, Ricky Antonio
        at the Phoenix Theater, Petaluma a/a $15-$25 8pm ***
 mar  7 sat Electric Funeral (tribute), Psynchronicity
        at Shady Oak Barrel House, Santa Rosa a/a free 8pm ** (War Pigs BBQ)
 mar  7 sat Skunk Funk, One Leg Chuck & The Hustle, Legal Disaster
        at Vallejo Vinyl & Pinball, Vallejo a/a $10 7pm *** @
-mar  7 sat Western Standard Time at the Ritz, San Jose 21+ **
+mar  7 sat Western Standard Time Ska Orchestra, Monkey
+       at the Ritz, San Jose 21+ $20/$25 8pm ***
 mar  7 sat Azuah at Streetlight Records, Santa Cruz a/a free 4pm **
 mar  7 sat The Jacks, Cemetery Sun, The Color Wild
        at Holy Diver, Sacramento a/a $10 7pm ***
@@ -228,7 +230,8 @@ mar  8 sun Blackwater Holylight
        at the Starlet Room, 2708 J Street, Sacramento 21+ **
 mar  8/9   Patti Smith And Her Band, Oliver Ray
        at the Fillmore, S.F. a/a $55 7pm/8pm # ***
-mar  9 mon Keane at the Fox Theater, Oakland a/a $125-$59.50 7pm/8pm # ***
+mar  9 mon Keane, Saint Sister
+       at the Fox Theater, Oakland a/a $125-$59.50 7pm/8pm # ***
 mar  9 mon Boy Named Banjo, Whitacre
        at the Cornerstone, Berkeley a/a $12/$14 7:30pm/8:30pm **
 mar  9 mon Cult Of Luna, Emma Ruth Rundle, Intronaut
@@ -265,7 +268,8 @@ mar 11 wed Milquetoast & Co. (Denver, CO)
        at Brick and Mortar, S.F. 21+ $10 7:30pm/8pm **
 mar 11 wed Unko Atama, The Cryptics (Dover, N.H.), Dead River Rebels, Stay Out
        at the Knockout, S.F. 21+ $8 9pm/9:30pm *** @
-mar 11 wed Rebel Souljahz at the Ritz, San Jose 21+ $20/$25 7pm **
+mar 11 wed Rebel Souljahz, Vana Liya, Kelandy
+       at the Ritz, San Jose 21+ $20/$25 7pm **
 mar 11 wed Fances Quinlan, Mary Lattimore
        at Henry Miller Library, Big Sur a/a **
 mar 12 thr Smokey The Groove at Ashkenaz, Berkeley a/a $12/$15 7pm **
@@ -293,7 +297,8 @@ mar 12 thr Saics, Adam Brookes, Analog Dream
 mar 12 thr Dope Mess (Sacramento), Temptation 87, Heavy Stench,
        Human Obliteration, DuranXDuran
        at Grace Preschool, 2650 Aborn Road, San Jose a/a $5-$10 7pm *** @
-mar 12 thr Guttermouth at the Ritz, San Jose 21+ *** @
+mar 12 thr Guttermouth, Downtown Brown, Infirmities
+       at the Ritz, San Jose 21+ $15/$18 8pm *** @
 mar 12 thr cancelled:  Hayley Kiyoko at the Masonic, S.F.
 mar 13 fri Day Labor, Stay Out, For The Record, On Holiday, Tier 9
        at 924 Gilman Street, Berkeley a/a $10 7:30pm/8pm *** @ (ska)
@@ -302,7 +307,7 @@ mar 13 fri Metalachi
 mar 13 fri Third Eye Blind, Saves The Day
        at the Fox Theater, Oakland a/a $49.50 7pm/8pm # *** $
 mar 13 fri Emo Night Brooklyn
-       at the Cornerstone, Berkeley a/a $13 7:30pm/8:30pm **
+       at the Cornerstone, Berkeley a/a $13/$15 7:30pm/8:30pm **
 mar 13 fri China Cats, Dead Again
        at Toot's Tavern, Crockett 21+ $10 8pm/9pm ** (Panini pop-up)
 mar 13 fri Night Herons, Superoctaver, Bitterwind
@@ -310,6 +315,8 @@ mar 13 fri Night Herons, Superoctaver, Bitterwind
 mar 13 fri Eyelids at the Ivy Room, Albany 21+ **
 mar 13 fri Side Pony, Dawn Riding, Sapphic Lasers
        at the Golden Bull, Oakland 21+ $8 8pm **
+mar 13 fri The Tissues (L.A.), Healers, Baus
+       at the Jack London Elbu Room, Oakalnd 21+ $5 5pm ** @
 mar 13 fri The Lone Bellow, Early James
        at the Fillmore, S.F. a/a $28.50 8pm/9pm # ***
 mar 13 fri Yacht Rock Revue at August Hall, S.F. a/a $25 8:30pm/9:30pm **
@@ -334,7 +341,8 @@ mar 13 fri Easy Life (U.K.), dj Aaron Axelsen
 mar 13 fri Peekaboo at the Regency Ballroom, S.F. 18+ $28-$18 8pm/9pm # **
 mar 13 fri Nghtmre, Atliens, Crankdat, Wavedash, Balck A.M.
        at the Civic Auditorium, S.F. 18+ $45 7pm/8pm # ***
-mar 13 fri Phutureprimitive at the Independent, S.F. 21+ $18/$25 8:30pm/9pm ***
+mar 13 fri Phutureprimitive, Soohan, Naughtly Princess
+       at the Independent, S.F. 21+ $18/$25 8:30pm/9pm ***
 mar 13 fri Vintage Culture (Brazil) at 1015 Folsom, S.F. 21+ $15/$25 10pm **
 mar 13 fri Whoosie What's Its, Hot Laundry
        at the Knockout, S.F. 21+ $5 5pm/6pm til 8pm ***
@@ -374,7 +382,8 @@ mar 14 sat Ghostdragon, Dyln, Caslow
        at the Cornerstone, Berkeley a/a $20 7pm/8pm **
 mar 14 sat The Leave Me Alones
        at Starline Social Club, Oakland ?/? **
-mar 14 sat Blackwater Holylight at Eli's Mile High Club, Oakland 21+ **
+mar 14 sat Blackwater Holylight (Portland), Mondo Drag, R.I.P.
+       at Eli's Mile High Club, Oakland 21+ $15 8:30pm **
 mar 14 sat Judas Thieves, Immortallica, Third Eye Spiral
        at Toot's Tavern, Crockett 21+ $10 8pm/8:45pm ** (tribute night)
 mar 14 sat Soraia (Philadelphia, PA), The Saucy Jacks
@@ -416,6 +425,8 @@ mar 14 sat Fellow Vessel, Adam Brookes
        at Jam Cellars, 1460 1st Street, Napa 21+ **
 mar 14 sat Under Ego, Swing Away, Will Power, Calling The Skies
        at Vallejo Vinyl & Pinball, Vallejo a/a $10 7pm **
+mar 14 sat Lady Day At Emerson Bar & Grill
+       at Empress Theater, Vallejo a/a 7pm/8pm ** (The Billie Holiday Story)
 mar 14 sat Yultron, Graves
        at the San Jose Civic, San Jose 18+ $440 7pm/8pm # ***
 mar 14 sat Carnifex, 3Teeth at the Ritz, San Jose 21+ $22.50/$25 7pm *** @
@@ -473,6 +484,9 @@ mar 17 tue Brittany Howard
        at Luther Burbank Center, 50 Mark West Springs, Santa Rosa a/a 8pm ***
 mar 18 wed The Problem, Addicts, Teenage Sex
        at the Golden Bull, Oakland 21+ $10 8pm *** @
+mar 18 wed Kawaguchi Masami's New Rock Syndicate (Japan),
+       Bill Orcutt Electric Trio, Fuckwolf
+       at the Ivy Room, Albany 21+ $13/$15 8:30pm **
 mar 18 wed Criss Angel at the Warfield, S.F. a/a $130-$40 7pm/8:30pm # ***
 mar 18 wed Ivy Queen at the Fillmore, S.F. a/a $45 7pm/8pm # **
 mar 18 wed Umi (Brooklyn, N.Y.), Dianna Lopez
@@ -496,6 +510,8 @@ mar 19 thr Together We Can Rule The Galaxy, Dead In Argentina, Middle College
        at the Golden Bull, Oakland 21+ $8 8pm *** @
 mar 19 thr The Carbons (Canada), Bunny Numpkins & The Kill Blow-Up Reaction
        at the Strok Club, Oakland 21+ $5 8pm **
+mar 19 thr Pestilent Death, Aseptic, Dismembered Carnage
+       at the Jack London Elbo Room, Oakland 21+ $10 9pm *** @
 mar 19 thr Chelsea Cutler at the Warfield, S.F. a/a $26/$36 7pm/8pm # ***
 mar 19 thr Post Malone, Swae Lee, Tyla Yaweh
        at the Warriors Stadium, S.F. a/a $184-$54 7pm/8pm # ***
@@ -591,6 +607,8 @@ mar 21 sat Morbosidad, Black Fucking Cancer, Old Coven, Malefic Levitation,
        at the Golden Bull, Oakland 21+ $15/$20 5pm *** @ (BMC Goatfest)
 mar 21 sat Suicide Commando
        at the Jack London Elbo Room, Oakland 21+ $25/$30 8:30pm **
+mar 21 sat Red Meat, Noelle And The Deserters
+       at the Ivy Room, Albany 21+ $12/$15 8:30pm **
 mar 21 sat Alice Bag, Michelle Cruz, Kamala Parks, Kate Knox,
        Alejandra del Pinal, Farida Mazlan, Kamala Parks, Kate Knox, Lisa Root
        doc screening of Women in Punk by Amanda Silberling
@@ -635,6 +653,8 @@ mar 22 sun District, Agent, Aninoko, Hawak, Wolves, Machinekit
        at 924 Gilman Street, Berkeley a/a $10 6pm *** @
 mar 22 sun Today Is The Day, The Obsessed, Child Bite, -16-
        at the Metro, Oakland a/a # *** @
+mar 22 sun Nick Rossi, vendors
+       at Trader Vic's, 9 Anchor Drive, Emeryville a/a 10am **
 mar 22 sun G Herbo (Chicago) at Slim's, S.F. 6+ $30 ($99 vip) 7pm/8pm **
 mar 22 sun Vita And The Woolf, Big X, Fighter Jets
        at Bottom of the Hill, S.F. a/a $12/$14 8pm/8:30pm **
@@ -666,6 +686,8 @@ mar 23 mon Good Morning (Melbourne, Australia)
        at Harlow's, Sacramento a/a $15/$18 7pm/8pm ***
 mar 24 tue Blaming You, Sarchasm, Cold Wrecks (N.Y.), Stay Out
        at the Golden Bull, Oakland 21+ $8 8pm *** @
+mar 24 tue eX-Girl (Japan), Lie (Vancouver), Public Interest, Prism
+       at the Jack London Elbo Room, Oakland 21+ $10 8pm **
 mar 24 tue Snoh Aalegra (Sweden), Quin
        at the Warfield, S.F. a/a $45-$32.50 7pm/8pm # ***
 mar 24 tue Allie X at Slim's, S.F. 6+ $20 7pm/8pm **
@@ -737,6 +759,7 @@ mar 26 thr Wilco (Chicago)
        at Luther Burbank Center, 50 Mark West Springs, Santa Rosa
        a/a $95-$55 7:30pm ***
 mar 26 thr Lewis Black at San Jose Civic, San Jose a/a $75-$40 7pm/8pm # ***
+mar 26 thr Sweet N Sonic at the Ritz, San Jose 21+ **
 mar 26/27  Shing02 & The Chee-Hoos (tribute)
        at the Great American Music Hall, S.F. 6+ $22/$25 7pm/8pm **
 mar 27 fri Shit Coffins, Street Eaters, The Humblers (L.A.), Toxic Culture
@@ -754,6 +777,8 @@ mar 27 fri Kahj, Small Crimes, Abracadabra, James Wavey,
        at Eli's Mile High Club, Oakland 21+ free 8pm ** (tape release show)
 mar 27 fri The Band Ice Cream, Night School, Sore Thumb, Analog Dog
        at Golden Bull, Oakland 21+ $10 8pm *** (Benefit for Punks with Lunch)
+mar 27 fri Mystic Priestess (ep release), False Figure, V.E.X., DeathsHead
+       at the Jack London Elbo Room, Oakland 21+ $10 8:30pm ***
 mar 27 fri Gorilla Biscuits (N.Y.C.), H2O, Urban Sprawl
        at Slim's, S.F. 6+ $20 7pm/8pm *** @
 mar 27 fri Adam Green, Nation Of Language
@@ -839,7 +864,7 @@ mar 28 sat Thy Art Is Murder, Fit For An Autopsy, Enterprise Earth,
        Aversions Crown, Une Misere at the Ritz, San Jose 21+ $18/$20 7pm *** @
 mar 28 sat Tiger Army, Twin Temple, Lara Hope And The Ark Tones
        at the Ace of Spades, Sacramento a/a $25 7pm ***
-mar 29 sun Beach Slang (Philadelphia, PA), The Aquadolls
+mar 29 sun Beach Slang (Philadelphia, PA), The Aquadolls, Social Animals
        at the Cornerstone, Berkeley a/a $17/$21 7:30pm/8:30pm *** @
 mar 29 sun Letitia VanSant
        at Back Room Music, 1984 Bonita Avenue, Berkeley a/a **
@@ -984,7 +1009,7 @@ apr  4 sat Carnage x Adventure Cub, Brondo, Nazaar
        at the San Jose Civic, San Jose a/a $50 7m/8pm # **
 apr  4 sat Skunk Funk, Fountainhead
        at Fountainhead Brewing, 4621 24th Street, Sacramento a/a *** @
-apr  4/5   Built To Spill, Prism Bitch
+apr  4/5   Built To Spill, Prism Bitch, American Maw
        at the Cornerstone, Berkeley a/a $35 7:30pm/8:30pm ***
 apr  4/5   Nathaniel Ratelife, The Still Tide
        at the Palace of Fine Arts, S.F. a/a $59.50 7pm/8pm ***
@@ -1031,6 +1056,8 @@ apr  8 wed Idles (Bristol, U.K.)
        at the Warfield, S.F. a/a $45-$28 7pm/8pm # *** @
 apr  8 wed Billie Eilish at the Golden 1 Center, Sacramento a/a # ***
 apr  9 thr FKA Twigs at the Fox Theater, Oakland a/a $49.50 7pm/8pm # ***
+apr  9 thr Hello Forever (Topanga)
+       at the Cornerstone, Berkeley a/a $10 7:30pm/8:30pm **
 apr  9 thr Andrea Gibson (poet - Boulder, CO)
        at the Great American Music Hall, S.F. 6+ $23/$25 7pm/8pm **
 apr  9 thr Cocorosie at the Fillmore, S.F. a/a $30 7pm/8pm # ***
@@ -1085,7 +1112,8 @@ apr 11 sat Lucid Rays, Controlled Burn
 apr 11 sat Bacilos at August Hall, S.F. a/a $35 7pm/8pm **
 apr 11 sat Mdou Moctar (Agadez, Niger), Lithics
        at the Chapel, S.F. a/a $22 8pm/9pm ***
-apr 11 sat Amyl And The Sniffers (Melbourne, Australia)
+apr 11 sat Amyl And The Sniffers (Melbourne, Australia),
+       C.O.F.F.I.N., Lecherous Gaze
        at the Rickshaw Stop, S.F. a/a $16/$18 8pm *** @ (sold out)
 apr 11 sat The Polish Ambassador, The Human Experience
        at the Fillmore, S.F. a/a $35 8pm/9pm # ***
@@ -1161,6 +1189,7 @@ apr 15 wed The Third Mind, Jessie Sykes, The Asteroid No. 4
        at the Chapel, S.F. a/a $32/$35 7pm/8pm ***
 apr 15 wed Doja Cat, Ashnikko
        at the Regency Ballroom, S.F. a/a $27.50/$35 7pm/8pm # ***
+apr 15 wed Ari Lennox, Masego at the Warfield, S.F. a/a $90-$45 7pm/8pm # **
 apr 15 wed Anna Calvi at the Independent, S.F. 21+ $25 7:30pm/8pm ***
 apr 15 wed Tennis system (L.A.), Slow Crush
        at thee Parkside, S.F. 21+ $12/$14 8pm **
@@ -1196,6 +1225,8 @@ apr 16 thr Tyr (Faroe Islands, Denmark), Heidevolk, Trollfest, Metsatoll
        at the DNA Lounge, S.F. a/a *** @
 apr 16 thr Louis Cole Big Band
        at the Independent, S.F. 21+ $22/$25 7:30pm/8pm **
+apr 16 thr Daniel Caesar, Jessie Reyez
+       at Frost Amphitheater, Stanford University a/a $55 5:30pm/7pm # ***
 apr 16 thr Idles (Bristol, U.K.), Mannequin Pussy, dj David Yow
        at Pappy & Harriet's, 53688 Pioneertown Road, Pioneertown
        ?/? $35 7pm *** @
@@ -1203,6 +1234,8 @@ apr 17 fri Oysterhead (Les Claypool, Trey Anastasio, Stewart Copeland)
        at Greek Theater, UC Berkeley Campus a/a $79.50 6:30pm/7:30pm # *** $
 apr 17 fri Little Brother, Dilated Peoples, Zion I
        at the UC Theater, Berkeley a/a $35 7pm/8pm # ***
+apr 17 fri Small Crush, Vindigo, The Hippie Bastards
+       at the Cornerstone, Berkeley a/a $10/$12 7:30pm/8pm **
 apr 17 fri Par Avion (L.A.), The Greasy Gills
        at the Fireside Lounge, Alameda 21+ $5 9pm **
 apr 17 fri The Mavericks, Brent Amaker And The Rodeo
@@ -1279,7 +1312,7 @@ apr 19 sun Letterkenny Live (comedy)
 apr 19 sun Meg Donnelly at Cafe du Nord, S.F. a/a $18/$20 7:30pm ***
 apr 19 sun Graham Parkder
        at the Great American Music Hall, S.F. 6+ $28 7pm/8pm *** (seated show)
-apr 19 sun Earth Girl Helen Brown, Sunwatchers,
+apr 19 sun Earth Girl Helen Brown, Sunwatchers (N.Y.C),
        Brigid Dawson & The Mothers Network
        at the Bottom of the Hill, S.F. 21+ $12/$14 8pm/8:30pm **
 apr 19 sun STS9, Android Jones, Sidecar Tommy, Thriftworks, Volo
@@ -1309,10 +1342,12 @@ apr 21 tue Baz Francis Mansion Harlots (U.K.)
 apr 21 tue U.S. Girls (Toronto, Canada) at the Ritz, San Jose 21+ ***
 apr 22 wed Matt Corby at August Hall, S.F. a/a $37.50 7pm/8pm **
 apr 22 wed Mk.Gee at the Rickshaw Stop, S.F. a/a $16/$18 8pm **
-apr 22 wed Disq, Girl Friday (L.A.) at Cafe du Nord, S.F. 18+ $12/$14 7:30pm ***
+apr 22 wed Disq, Girl Friday (L.A.)
+       at Cafe du Nord, S.F. 18+ $12/$14 7:30pm ***
 apr 22 wed Anna Burch, Long Beard, Half Stack
        at the Bottom of the Hill, S.F. a/a $13/$15 8pm/8:30pm **
 apr 22 wed The Coronas at the Independent, S.F. 21+ $20/$25 7:30pm/8pm **
+apr 22 wed Radio War Nerd (podcast) at the Verdi Club, S.F. 21+ $25 7:30pm
 apr 22 wed Powerglove, Immortal Guardian
        at Holy Diver, Sacramento a/a $15 7pm **
 apr 22/23  Kaytranada
@@ -1391,6 +1426,8 @@ apr 26 sun The Songbird Studios Band, Songbird Studios Singers
 apr 26 sun Planet Of Zeus, Fatso Jetson, Druids
        at the Bottom of the Hill, S.F. 21+ $15/$18 8pm/8:30pm **
 apr 26 sun The Mattson 2 at the Chapel, S.F. a/a $18/$22 7:30pm/8:30pm **
+apr 26 sun Surface To Air Missive (Athens), Mike Donovan, Telephone Numbers
+       at the Knockout, S.F. 21+ $10 9pm **
 apr 26 sun Arlo Guthrie, Folk Uke
        at Mondavi Center, 523 Mrak Hall Drive, UC Davis a/a $79-$13.50 7pm ***
 apr 26 sun ZZ Top
@@ -1416,6 +1453,8 @@ apr 29 wed Scott Yoder, Pilgrims, Michael Michael Motorcycle
 apr 29 wed Fruition, Proxima Parada
        at Sierra Nevada Brewing, 1075 E 20th Street, Chico ?/? **
 apr 30 thr 19th Street Station at the Fireside Lounge, Alameda 21+ free 8pm **
+apr 30 thr Flat Worms (L.A.), Bluess Lawyer, The Laytcomers
+       at Starline Social Club, Oakalnd 21+ $10 8:30pm ***
 apr 30 thr Hot Chelle Rae at August Hall, S.F. a/a $26.50 7:30pm/8:30pm **
 apr 30 thr Two Feet, Riz La Vie
        at the Regency Ballroom, S.F. a/a $21/$23 7pm/8pm # ***
@@ -1426,6 +1465,8 @@ apr 30 thr National Park Radio, Hayden Joseph
 apr 30 thr Fruition, Proxima Parada
        at the Independent, S.F. 21+ $16/$18 7:3pm/8pm ***
 apr 30 thr Seth Prinz at Streetlight Records, Santa Cruz a/a free 3pm **
+may  1 fri Westpark, The Butlers (New Zealand), Buttermother + Rosemary
+       at the Cornerstone, Berkeley a/a $12/$15 7:30pm/8pm ***
 may  1 fri Alan Doyle (Canada), Chris Trapper
        at the Great American Music Hall, S.F. $28/$30 8pm/9pm ***
 may  1 fri Phosphorescent at August Hall, S.F. a/a $29.50 8pm/9pm ***
@@ -1486,6 +1527,7 @@ may  5 tue Kurt Vile & Cate Le Bon, Kurt Vile, Cate Le Bon,
 may  5 tue Margaret Glaspy, Kate Davis
        at the Great American Music Hall, S.F. 6+ $20 7pm/8pm ***
 may  5 tue True Widow at the Rickshaw Stop, S.F. a/a $15/$18 8pm **
+may  5 tue Odie at the Independent, S.F. 21+ $18/$20 7:30pm/8pm **
 may  5 tue The Buttertones at the Holy Diver, Sacramento a/a ***
 may  5/6   Sturgill Simpson, Tyler Childers
        at Civic Auditorium, S.F. a/a $100-$70 6:30pm/7:30pm # *** (tue sold out)
@@ -1508,8 +1550,6 @@ may  7 thr Jens Lekman (Sweden)
 may  7 thr The Grinns, Carpool Tunnel at Slim's, S.F. 6+ $12 7pm/8pm ***
 may  7 thr French79, dj Aaron Axelsen
        at the Rickshaw Stop, S.F. a/a $15/$18 7pm/8pm ***
-may  7 thr Little Jesus (Mexico City), Los Walters
-       at the Independent, S.F. 21+ $16/$18 8:30pm/9pm ***
 may  8 fri Little Dragon (Gothenburg, Sweden)
        at the Fox Theater, Oakland a/a $39.50 7pm/8pm # ***
 may  8 fri Omarion, Bow Wow, Ying Yang Twins, Lloyd, Sammie, Pretty Ricky,
@@ -1625,6 +1665,8 @@ may 16 sat Coheed And Cambria, Chon
        at the Fox Theater, Oakland a/a 8pm # ***
 may 16 sat Coffins (Japan), Bell Witch, Petrification
        at the Metro, Oakland a/a $20 7pm # *** @
+may 16 sat Weather Warlock, Mellotron (solo)
+       at Luckyduck Bicycle Cafe, 302 12th Street, Oakland a/a $15 7:30pm **
 may 16 sat NF at the Civic Auditorium, S.F. a/a $49.50 7pm/8pm # ***
 may 16 sat Wavves (San Diego), Sadgirl (L.A.)
        at August Hall, S.F. a/a $30 8pm/9pm ***
@@ -1667,11 +1709,12 @@ may 19 tue The Flatliners, Dune Rats, Pity Party
 may 19 tue Stereolab at the Warfield, S.F. a/a $39.50/$42 7pm/8pm # ***
 may 19 tue Zoo Trippin' at the Honey Hive, S.F. a/a 6:30pm/7pm til 10pm **
 may 19 tue Tinashe at August Hall, S.F. a/a $25 7pm/8pm **
-may 19 tue The House Of Love (U.K.) at the Chapel, S.F. a/a $32/$35 7pm/8pm ***
+may 19 tue The House Of Love (U.K.), Gold Cage (L.A.)
+       at the Chapel, S.F. a/a $32/$35 7pm/8pm ***
 may 19 tue Dashboard Confessional, Piebald
        at the Fillmore, S.F. a/a $35 7pm/8pm # *** @
 may 19 tue Dave Rubin
-       at Palace of Fine Arts, 3301 Lyon Street, S.F. $35 7pm/8pm ***
+       at Palace of Fine Arts, 3301 Lyon Street, S.F. a/a $35 7pm/8pm ***
 may 19 tue Bright Eyes, Lavender Diamond
        at Civic Auditorium, 307 Church Street, Santa Cruz a/a $46 8pm **
 may 19 tue David Crosby & The Sky Trails Band
@@ -1685,6 +1728,8 @@ may 20 wed Anti-Flag (Pittsburgh, PN), Bad Cop / Bad Cop, Grumpster
        at New Parish, Oakland a/a $22.50/$25 (under 21 plus $5) 7pm/8pm ^ *** @
 may 20 wed The Menzingers (Scanton, PN)
        at the Cornerstone, Berkeley a/a $25 7pm/8pm *** @
+may 20 wed The House Of Love (U.K.), Gold Cage (L.A.)
+       at the Starline Social Club, Oakland ?/? ***
 may 20 wed M. Ward, The Lost Brothers
        at the Chapel, S.F. a/a $33/$36 7pm/8pm ***
 may 20 wed dj Shadow at August Hall, S.F. a/a $25 8pm/9pm**
@@ -1705,7 +1750,7 @@ may 21 thr Father, Meltycanon, Goon Des Garcons
 may 21 thr Daniel Norgren at the Independent, S.F. 21+ $22 7:30pm/8pm **
 may 21 thr Jimmy Eat World, White Reaper
        at Jam Cellars Ballroom, 1030 Main Street, Napa 8+ 7pm/8pm *** @
-may 21 thr Supersuckers/ Scott H. Biram at the Ritz, San Jose 21+ ***
+may 21 thr Supersuckers, Scott H. Biram at the Ritz, San Jose 21+ ***
 may 21 thr Anti-Flag (Pittsburgh, PN), Bad Cop / Bad Cop, Grumpster
        at the Catalyst Atrium, Santa Cruz 16+ $22/$25 7pm *** @
 may 21/22  Durand Jones & The Indications, Daisy
@@ -1813,6 +1858,7 @@ may 27/28  Madness (London, U.K.), The English Beat (Birmingham, U.K.)
 may 28 thr JP Saxe at the Rickshaw Stop, S.F. a/a $15/$17 ($50 vip) 8pm ***
 may 28 thr Benjamin Gibbard, Jonathan Rice
        at August Hall, S.F. a/a $40 7:30pm/8:30pm ***
+may 28 thr Long Beach Dub Allstars at the Ritz, San Jose 21+ ***
 may 28/29  Poi Dog Pondering, Night Glitter
        at the Chapel, S.F. a/a $25 7pm/8pm (thr) 8pm/9pm (fri) ***
 may 29 fri Shallou at the Fox Theater, Oakland a/a $29.50 7pm/8pm # ***
@@ -1878,6 +1924,10 @@ jun  6 sat Yung Pinch at the Cornerstone, Berkeley a/a $20 7:30pm/8:30pm ***
 jun  6 sat Day to Night Festival, Treasue Island 21+ noon
 jun  6 sat Caligula's Horse (Australia), Moon Tooth, Ebonivory
        at Slim's, S.F. 6+ $25 7pm/8pm *** @
+jun  6 sat Strfkr, The Undercover Dream Lovers
+       at the Regency Ballroom, S.F. a/a $30 7pm/8pm # ***
+jun  6 sat Goldlink, Hieroglyphics, BJ The Chicago Kid, Brother Ali,
+       Chali 2na, Dua Saleh at the Midway, S.F .21+ ***
 jun  6 sat Steely Dan, Steve Winwood
        at the Pavilion,k Concord a/a $150-$40 6pm/7:30pm # ***
 jun  6 sat Halsey, Chvrches, Omar Apollo
@@ -1887,6 +1937,7 @@ jun  6 sat Alex Lahey, Liv Slingerland
 jun  7 sun Purity Ring at the Fox Theater, Oakland a/a $36 6:30pm/7:30m # ***
 jun  7 sun Vanessa Carlton, Jenny O.
        at Slim's, S.F. 6+ $27/$32 6:30pm/7:30pm **
+jun  7 sun Pvris at Regency Ballroom, S.F. a/a $29 ($124 vip) 8pm/9pm # ***
 jun  7 sun Halsey, Chvrches, Omar Apollo
        at Golden 1 Center, Sacramento a/a $90-$30 # ***
 jun  7 sun Daryl Hall & John Oates, Squeeze, KT Tunstall
@@ -1902,8 +1953,13 @@ jun 10 wed Daryl Hall & John Oates, Squeeze, KT Tunstall
 jun 11 thr Danileigh at August Hall, S.F. a/a $22.50 7pm/8pm **
 jun 11 thr Damien Jurado, Shannon Lay
        at the Great American Music Hall, S.F. 6+ $25 7pm/8pm ***
+jun 11/12 Jhene Aiko, Queen Naija, Ann Marie
+       at the Warfield, S.F. a/a $82-$45 7pm/8pm # ***
 jun 12 fri Marty O'Reilly & The Old Soul Orchestra
        at the Independent, S.F. 21+ $20 8:30pm/9pm **
+jun 12 fri Simply Saucer (Hamilton, Ontario, Canada),
+       Violent Change, Carlton Melton
+       at the Bottom of the Hill, S.F. 21+ $16/$18 8:30pm ***
 jun 12 fri Edgar Blood (record releae), Mother Rumble, Vinyl Storm
        at Vallejo Vinyl & Pinball, Vallejo a/a free 7pm **
 jun 12 fri Chicago, Rick Springfield
@@ -1924,6 +1980,7 @@ jun 12/13/14  The String Cheese Incident (all 3 nights),
        at Black Oak Rance, Laytonville a/a $125+ # *** (Hog Farm Hangout Fest)
 jun 13 sat Southern Culture On The Skids, The Carolyn Sills Combo
        at the Bottom of the Hill, S.F. 21+ $20 8:30pm/9pm ***
+jun 13 sat Geographer at the Independent, S.F. 21+ $20 8:30pm/9pm ***
 jun 13 sat Mindi Abair
        at Montalvo Arts Center, 15400 Montalvo Road, Saratoga a/a **
 jun 13 sat Chris Stapleton, Margo Price, The Dirty Knobs
@@ -1934,6 +1991,7 @@ jun 13 sat Louis The Child, Jai Wolf, Evan Giia
        at Papa Murphy's, 1600 Exposition Blvd., Sacramento a/a 7pm ***
 jun 14 sun Chris Tomlin, Phil Wickham, Danny Gokey
        at the Pavilion, Concord a/a $65-$14 3pm/4pm # ***
+jun 14 sun Geographer at the Holy Diver, Sacramento a/a ***
 jun 14 sun New Fruition at Hog Farm Hangout, Laytonville a/a **
 jun 15 mon Kevin Krauter at the Starline Social Club, Oakland 18+ $12/$14 8pm **
 jun 16 tue Braids at Cafe du Nord, S.F. 18+ $12/$15 7:30pm ***
@@ -1949,7 +2007,7 @@ jun 18 thr Igor & The Red Elvises at the Ritz, San Jose 21+ ***
 jun 19 fri Hyukoh (Seoul, South Korea)
        at the Fox Theater, Oakland a/a $75 8pm # ***
 jun 19 fri As I Lay Dying, whitechapel, Shadow Of Intent
-       at the Regency Ballroom, S.F. a/a # *** @
+       at the Regency Ballroom, S.F. a/a $27.50/$35 6:30pm/7:30pm # *** @
 jun 19 fri The Commodores
        at Alameda County Fair Amphitheater, Pleasanton a/a 8pm ***
 jun 19/20  Above & Beyond (acoustic)
@@ -1966,7 +2024,7 @@ jun 20/21  The Jayhawks, Those Pretty Wrongs
        at the Chapel, S.F. a/a $35/$40 8pm/9pm ***
 jun 21 sun Simple Plan (Montreal, Quebec), New Found Glory (FL), Knuckle Puck
        at the UC Theater, Berkeley a/a $37 6:30pm/7:30pm # *** @ $
-jun 21 sun Vlossom at the Independent, S.F. 21+ **
+jun 21 sun Vlossom at the Independent, S.F. 21+ $15 7:30pm/8pm **
 jun 23 tue Kraftwerk 3-D at the Civic Auditorium, S.F. a/a $95-$65 7pm/8pm # ***
 jun 23 tue Tool at the Warriors Stadium, S.F. a/a 7:30pm # ***
 jun 23 tue Santana, Earth Wind & Fire
@@ -2014,6 +2072,8 @@ jul  2/3/4/5 Joe Russo's Almost Dead, Femi Kuti & The Positive Force, Lettuce,
        Lukas Nelson at High Sierra Music Festival, Quincy a/a $20+ ***
 jul  3 fri Starship (Mickey Thomas)
        at Alameda County Fair Amphitheater, Pleasanton a/a 8pm ***
+jul  5 sun Natewantstobattle, Vespera, Andrew Stein
+       at the Cornerstone, Berkeley a/a $15/$19 7:30pm/8:30pm ***
 jul  5 sun King Buzzo at the Great American Music Hall, S.F. 6+ $20 7pm/8pm ***
 jul  5 sun Kenny Neal
        at Alameda County Fair Amphitheater, Pleasanton a/a 8pm ***
@@ -2106,6 +2166,8 @@ aug  1 sat Megadeth (L.A.), Lamb Of God (Richmond, VA), Trivium,
 aug  1 sat JJ Savage at Winter's Tavern, Pacifica 21+ 8pm **
 aug  3 mon The Weeknd, Sabrina Claudio, Don Toliver
        at the Arena, Oakland a/a $176-$30 6pm/7pm # ***
+aug  4 tue Buscabulla (Puerto Rica)
+       at the Independent, S.F. 21+ $17/$20 7:30pm/8pm **
 aug  4 tue Joe Bonamssa
        at the San Jose Civic, 135 San Carlos St., San Jose a/a # ***
 aug  4 tue The Weeknd, Sabrina Claudio, Don Toliver
@@ -2200,7 +2262,12 @@ sep 18 fri Sam Hunt, Kip Moore, Travis Denning, Ernest, dj Brandi Cyrus
        at Shoreline Amphitheater, Mountain View a/a $110-$40 # ***
 sep 19 sat Matchbox Twenty, The Wallflowers
        at Shoreline Amphitheater, Mountain View a/a $126-$30 6pm/7:30pm # ***
+sep 22 tue Enrique Iglesias, Ricky Martin, Sebastian Yatra
+       at the Shark Tank, San Jose a/a # ***
 sep 23 wed Roger Waters at the Golden 1 Center, Sacramento a/a 8pm # ***
+sep 24 thr Enrique Iglesias, Ricky Martin, Sebastian Yatra
+       at the Golden 1 Center, Sacramento a/a # ***
+sep 25 fri Soulwax at the Regency Ballroom, S.F. 18+ $35 8pm/9pm # ***
 sep 25 fri Jason Aldean, Brett Young, Mitchell Tenpenny, Dee Jay Silver
        at Shoreline Amphitheater, Mountain View a/a # ***
 sep 25/26  Roger Waters at thw Warriors Stadium, S.F. a/a $250-$55 8pm # ***
@@ -2231,6 +2298,8 @@ oct 14 wed Wardruna (Norway)
        at the Paramount Theatre, Oakland a/a $160-$61 8:30pm *** (seated)
 oct 16 fri Einsturzende Neubauten (Germany)
        at the Fillmore, S.F. a/a $40 8pm/9pm # ***
+oct 16 fri Kaleo (Iceland)
+       at the Warfield, S.F. a/a $77.50-$47.50 6pm/7pm # ***
 oct 16 fri Eluveitie at the Ritz, San Jose 21+ ***
 oct 17 sat D.R.I. at the Ivy Room, Albany 21+ $25/$28 8:30pm/9pm *** @
 oct 18 sun Juanes (Colombia) at the Masonic, S.F. a/a $130-$60 7pm/8pm ***

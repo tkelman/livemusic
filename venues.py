@@ -309,7 +309,7 @@ all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'] + 'event/'
 all_venues.append({'listing_url': 'https://www.holydiversac.com/'})
 #TODO
 
-all_venues.append({'listing_url': 'http://www.aceofspadessac.com'})
+all_venues.append({'listing_url': 'https://www.aceofspadessac.com'})
 all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url']
 # TODO get this reading the whole event list, not just handful at top from thumbnails
 

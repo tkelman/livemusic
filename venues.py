@@ -334,7 +334,7 @@ all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/events/
 all_venues[-1]['problematic'] = True
 
 all_venues.append({'listing_url': 'https://bstreettheatre.org/shows/'})
-all_venues[-1]['event_prefix'] = all_venues[-1]['listing_url'].replace('/shows/', '/show/')
+# special cased below due to multiple event prefixes
 
 all_venues.append({'listing_url': 'https://theploughandstars.com/'})
 # no separate event pages
@@ -539,6 +539,11 @@ if __name__ == '__main__':
         elif venue_url == 'https://www.chasecenter.com/events':
             archive_events(venue_url, '/events/', venue_url.replace('/events', ''))
             archive_events(venue_url, '/games/', venue_url.replace('/events', ''))
+        elif venue_url == 'https://bstreettheatre.org/shows/':
+            archive_events(venue_url, venue_url.replace('/shows/', '/mainstage/'))
+            archive_events(venue_url, venue_url.replace('/shows/', '/family/'))
+            archive_events(venue_url, venue_url.replace('/shows/', '/music/'))
+            archive_events(venue_url, venue_url.replace('/shows/', '/other/'))
         else:
             if 'event_prefix' in venue.keys():
                 archive_events(venue_url, venue['event_prefix'], venue.get('top_url', ''), include_original)

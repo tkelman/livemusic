@@ -1212,7 +1212,7 @@ apr 18 sat Vio-Lence at the Metro, Oakland a/a $30 7pm # *** @ (sold out)
 apr 18 sat The James Hunter Six
        at the Cornerstone, Berkeley a/a $21 7:30pm/8:30pm **
 apr 18 sat The Beltones, Suede Razors, Ultra Sect, Claymore
-       at the Golden Bull, Oakland 21+ $13/$15 8pm/9pm *** @
+       at the Golden Bull, Oakland 21+ $13/$15 8pm/9pm *** @ (sold out)
 apr 18 sat Laura Benitez & The Heartache, Bitter Diamonds, Lucy & The Long Haul
        at the Fireside Lounge, Alameda 21+ $5 9pm **
 apr 18 sat White Denim, Chris Forscyth
@@ -2074,6 +2074,7 @@ jun 27 sat Electric Six, Speedealer
        at the Bottom of the Hill, S.F. 21+ $18/$20 8:30pm/9pm **
 jun 27 sat Andrew Bird, Calexico, Iron & Wine
        at the Oxbow River Stage, 1268 McKinstry Street, Napa a/a 5pm/6pm ***
+jun 27/28 S.F. Pride Weekend
 jun 28 sun Armor For Sleep at Slim's, S.F. 6+ $25 7pm/8pm *** @
 jun 28 sun Randy Houser
        at Alameda County Fair Amphitheater, Pleasanton a/a 8pm ***

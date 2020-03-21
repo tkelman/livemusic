@@ -376,8 +376,6 @@ apr 22 wed Matt Corby at August Hall, S.F. a/a $37.50 7pm/8pm **
 apr 22 wed Mk.Gee, Jackie Hayes at the Rickshaw Stop, S.F. a/a $16/$18 8pm **
 apr 22 wed Disq, Girl Friday (L.A.)
        at Cafe du Nord, S.F. 18+ $12/$14 7:30pm ***
-apr 22 wed Anna Burch, Long Beard, Half Stack
-       at the Bottom of the Hill, S.F. a/a $13/$15 8pm/8:30pm **
 apr 22 wed Justine Skye at Slim's, S.F. 6+ $20 7pm/8pm **
 apr 22 wed The Coronas at the Independent, S.F. 21+ $20/$25 7:30pm/8pm **
 apr 22 wed Radio War Nerd (podcast) at the Verdi Club, S.F. 21+ $25 7:30pm
@@ -621,6 +619,8 @@ may  7 thr Jens Lekman (Sweden)
 may  7 thr The Grinns, Carpool Tunnel at Slim's, S.F. 6+ $12 7pm/8pm ***
 may  7 thr French79, dj Aaron Axelsen
        at the Rickshaw Stop, S.F. a/a $15/$18 7pm/8pm ***
+may  7 thr The Wldlfe, Betcha, Love You Later
+       at the Brick and Mortar, S.F. a/a $14 7:30pm/8pm ***
 may  7 thr Joywave at the Independent, S.F. 21+ $20/$23 7:30pm/8pm ***
 may  7 thr No Captains, Sit Kitty Sit, The Go Ahead
        at the Bottom of the Hill, S.F. 21+ $10/$12 8:30pm/9pm **
@@ -712,6 +712,8 @@ may 12 tue Apocalyptica (Helsinki, Finland), Lacuna Coil
        at the Regency Ballroom, S.F. a/a $35/$40 7pm/8pm # *** $
 may 12 tue Goody Grace at the Rickshaw Stop, S.F. a/a **
 may 12 tue YFN Lucci (Summerhill, GA) at Slim's, S.F. 6+ $22.50/$25 7pm/8pm **
+may 12 tue Plastic Picnic, Small Forward
+       at the Brick and Mortar, S.F. 18+ $12 7:30pm/8:30pm ***
 may 12 tue John K. Samson, Kevin Devine (Brooklyn, N.Y.), Worriers (solo)
        at the Independent, S.F. 21+ $20/$24 7:30pm/8pm  ***
 may 12 tue Insane Clown Posse
@@ -1166,6 +1168,7 @@ jun 14 sun Chris Tomlin, Phil Wickham, Danny Gokey
 jun 14 sun Geographer at the Holy Diver, Sacramento a/a ***
 jun 14 sun New Fruition at Hog Farm Hangout, Laytonville a/a **
 jun 15 mon Kevin Krauter at the Starline Social Club, Oakland 18+ $12/$14 8pm **
+jun 15 mon Laundry at the Brick and Mortar, S.F. 18+ $12 7:30pm/8pm ***
 may 16 tue Summer Salt, Okey Dokey, Breakup Shoes
        at the New Parish, Oakland a/a $20/$24 7pm/8pm ***
 jun 16 tue Braids at Cafe du Nord, S.F. 18+ $12/$15 7:30pm ***
@@ -1241,6 +1244,8 @@ jun 26 fri Quisol, Marxoxo, Zedgar Infiniti, Torrey Mercer
        at the White Horse, 66th & Telegraph, Oakland 21+ 7pm **
 jun 26 fri Caroline Rose, Samia
        at the Great American Music Hall, S.F. 6+ $20 8pm/9pm ***
+jun 26 fri The Red Jumpsuit Apparatus, Eyes Set To Kill, The Wildfires Projekt
+       at the Brick and Mortar, S.F. 18+ $18 7pm/8pm ***
 jun 26 fri Puddle Of Mudd (Wes Scantlin)
        at Alameda County Fair Amphitheater, Pleasanton a/a 8pm ***
 jun 26 fri Sugarland at Shoreline Amphitheater, Mountain View a/a # ***
@@ -1290,7 +1295,7 @@ jul  6 mon Monsta X (South Korea)
 jul  8 wed L.A.vation (tribute)
        at Alameda County Fair Amphitheater, Pleasanton a/a 8pm **
 jul  9 thr Devin The Dude
-       at Brick and Mortar, S.F. 18+ $20 $40 vip) 8pm/9pm ***
+       at Brick and Mortar, S.F. 18+ $20 ($40 vip) 8pm/9pm ***
 jul  9 thr Fat Joe at Alameda County Fair Amphitheater, Pleasanton a/a 8pm ***
 jul  9 thr Nappy Roots, Six Of Seven
        at the Catalyst Atrium, Santa Cruz a/a $20/$23 8:30pm/9pm **
@@ -1445,6 +1450,8 @@ aug 18 tue The Lumineers, Gregory Alan Isakov, Daniel Rodaiguez
 aug 18 tue Fu Manchu at the Ritz, San Jose 21+ *** @
 aug 19 wed Maroon 5, Meghan Trainor
        at Shoreline Amphitheater, Mountain View a/a $150-$40 5:30pm/7pm # ***
+aug 20 thr Anna Burch, Long Beard, Half Stack
+       at the Bottom of the Hill, S.F. a/a $13/$15 8pm/8:30pm ** (was apr 22)
 aug 20 thr Ajr, Quinn XCII, Hobo Johnson & The Lovemakers, Ashe
        at Shoreline Amphitheater, Mountain View a/a $80-$30 4:30pm/6pm # ***
 aug 21 fri Tim McGraw, Midland, Ingrid Andress

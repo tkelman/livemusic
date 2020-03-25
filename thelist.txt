@@ -25,8 +25,6 @@ apr  7 tue postponed:  Monster Magnet, Nebula, Silvertomb
 apr  7 tue postponed:  King Buffalo, Tropa Magica
        at Bottom of the Hill, S.F. (new date july 18)
 apr  7 tue postponed:  Billie Eilish at the Warriors Stadium, S.F.
-apr  8 wed Nick Cannon (Wild 'N Out), Saweetie
-       at the Arena, Oakland ?/? $100-$30 7:30pm/8:30pm # ***
 apr  8 wed Neflex, dj Aaron Axelsen
        at the Rickshaw Stop, S.F. a/a $15/$17 7pm/8pm ***
 apr  8 wed Yaeji, 9M88
@@ -38,6 +36,7 @@ apr  8 wed postponed:  Brandy Clark, Donovan Woods
 apr  8 wed moved:  Bruno Major, Adam Melchor
        at the Fillmore, S.F. (moved to the Fox Theater on sep 25)
 apr  8 wed canceled:  Idles, Kills Birds at the Warfield, S.F.
+apr  8 wed canceled:  Nick Cannon, Saweetie at the Arena, Oakland
 apr  9 thr FKA Twigs, Magdalene
        at the Fox Theater, Oakland a/a $49.50 7pm/8pm # ***
 apr  9 thr Hello Forever (Topanga), The Moondrops
@@ -45,7 +44,6 @@ apr  9 thr Hello Forever (Topanga), The Moondrops
 apr  9 thr Cocorosie, Raquel Divar at the Fillmore, S.F. a/a $30 7pm/8pm # ***
 apr  9 thr Geogia, dj Aaron Axelsen, dj Omar
        at the Rickshaw Stop, S.F. 18+ **
-apr  9 thr The Cybertronic Spree at the Ritz, San Jose 21+ **
 apr  9 thr Hayden James (Austrailia)
        at the Catalyst, Santa Cruz a/a $25/$30 8pm/9pm ***
 apr  9 thr Pro-Pain (N.Y.), Tip Weaver
@@ -54,6 +52,7 @@ apr  9 thr postponed:  Dierks Bently, Hannah Dasher at Regency Ballroom, S.F.
 apr  9 thr postponed:  Andrea Gibson (poet - Boulder, CO)
        at the Great American Music Hall, S.F.
 apr  9 thr postponed:  Marbled Eye, Big Bite at the Bottom of the Hill, S.F.
+apr  9 thr postponed:  The Cybertronic Spree at the Ritz, San Jose
 apr 10 fri Louis The Child, K.Flay, Slenderbodies, Ilo Ilo
        at the Greek Theater, UC Berkeley Campus 18+ $45.50 5:30pm/7pm # ***
 apr 10 fri Ayla Nereo, Peia, Handmade Moments
@@ -76,16 +75,14 @@ apr 10 fri dj Koze, dj Floating Points (Manchester, U.K.)
 apr 10 fri Californicorns at Cafe du Nord, S.F. 21+ $15/$20 8pm **
 apr 10 fri Group Therapy, Over The Fence, The Urethras, Dark Horse
        at the Phoenix Theater, Petaluma a/a $10 7:30pm *** @
-apr 10 fri Emo Night at the Ritz, San Jose 21+ **
 apr 10 fri Eddy Baker, Young Cortex, Mikey Rotten
        at the Catalyst Atrium, Santa Cruz a/a $10/$12 8:30pm/9pm **
 apr 10 fri cancelled:  Gasolina Party at August Hall, S.F. a/a
+apr 10 fri canceled:  Emo Night at the Ritz, San Jose
 apr 10/11  postponed:  The Locust, Napalm Death, Nastie Band
        at the Great American Music Hall, S.F.
 apr 11 sat All Is Fair, Giveaway, Noise Brigade (Portland), Neverlyn,
        One Armed Joey at 924 Gilman Street, Berkeley a/a $10 7pm *** @
-apr 11 sat Martin Lawrence, DeRay Davis, Rickey Smiley, Bruce Bruce
-       at the Arena, Oakland ?/? 6:30pm/7:30pm # *** (comedy)
 apr 11 sat Eddy Baker, Young Cortex
        at the Cornerstone, Berkeley a/a $10 7:30pm/8:30pm **
 apr 11 sat Acid Mothers Temple & The Melting Paraiso U.F.O.,
@@ -119,17 +116,19 @@ apr 11 sat Trecelence, Scythe, Sacred Origin, Plague, Emesis
        at 3 Disciples Brewing, Santa Rosa a/a free 7pm *** @ (thrash metal)
 apr 11 sat Jupiter Noise, Astral Cult, Fallout Kings
        at Vallejo Vinyl & Pinball, Vallejo a/a $10 6:30pm ***
-apr 11 sat Strangelove at the Ritz, San Jose 21+ **
 apr 11 sat Fulminante, No Accion, Sa90
        at the Catalyst Atrium, Santa Cruz a/a $10/$12 8:30pm/9pm **
 apr 11 sat Ayla Nereo, Peia, Marya Stark
        at the Catalyst, Santa Cruz ?/? $16/$21 7pm/7:30pm **
 apr 11 sat postponed:  The Chats (Austrailia), Mean Jeans, Thick
        at the UC Theater, Berkeley
+apr 11 sat postponed:  Martin Lawrence, DeRay Davis, Rickey Smiley, Bruce Bruce
+       at the Arena, Oakland
 apr 11 sat postponed:  Bacilos at August Hall, S.F.
 apr 11 sat canceled:  Manos Lindas, Doctor Striker
        at the Bottom of the Hill, S.F.
 apr 11 sat canceled:  Crywank, Chastity at thee Parkside, S.F.
+apr 11 sat postponed:  Strangelove at the Ritz, San Jose
 apr 11/12  postponed:  The Eagles With Orchestra & Choir
        at the Wariors New Stadium, S.F.
 apr 12 sun Connoisseur, Octopoulpe, These Bastards, Doc & The Parasites,
@@ -184,7 +183,6 @@ apr 15 wed Adrian West
        at Napa Smith Brewery, 101 Yolano Drive, Vallejo ?/? 7pm **
 apr 15 wed (G)I-Dle (South Korea)
        at the San Jose Civic, San Jose a/a $79 6:30pm/8pm # ***
-apr 15 wed Camilo Septimo at the Ritz, San Jose 21+ **
 apr 15 wed The Birthday Massacre, Julien-K
        at the Holy Diver, Sacramento a/a *** @
 apr 15 wed Code Orange, Shoe Me The Body, Jesus Piece, Year Of The Knife,
@@ -194,6 +192,7 @@ apr 15 wed postponed:  Black Midi (London, England), Dos Monos
        at the Great American Music Hall, S.F. (new date oct 14)
 apr 15 wed canceled:  Tennis system, Slow Crush, Pure Hex at thee Parkside, S.F.
 apr 15 wed canceled:  Ari Lennox, Masego at the Warfield, S.F.
+apr 15 wed postponed:  Camilo Septimo at the Ritz, San Jose
 apr 16 thr Sampa The Great
        at the New Parish, Oakland a/a $15 7:30pm/8pm ***
 apr 16 thr Lynch Mob, The Butlers
@@ -244,10 +243,7 @@ apr 17 fri Seun Kuti & Egypt 80
 apr 17 fri A Night of Shakespeare Shorts
        at the Phoenix Theater, Petaluma a/a $10 7:30pm ***
        (note that this is no longer listed on the Phoenix's webpage)
-apr 17 fri Big Rock Revival, The Butlers
-       at House of Rock, Santa Rosa 21+ $25-$20 8pm ** (Evan's Birthday)
 apr 17 fri OG Jarin, Spote at Vallejo Vinyl & Pinball, Vallejo a/a $10 7pm **
-apr 17 fri Kolohe Kai at the Ritz, San Jose 21+ **
 apr 17 fri Unchained (tribute)
        at the Catalyst Atrium, Santa Cruz a/a $15/$18 8:30pm/9pm **
 apr 17 fri Lynch Mob, SJ Sindicate, Damaged Things, Anarchy Lace
@@ -258,6 +254,7 @@ apr 17 fri postponed:  Divine, Fateh, Shan Vincent De Paul
        at the Great American Music Hall, S.F.
 apr 17 fri postponed:  Weedeater, The Goddamn Gallows, High Tone Son Of A Bitch
        at the Bottom of the Hill, S.F.
+apr 17 fri postponed:  Kolohe Kai at the Ritz, San Jose (now jun 11)
 apr 17/18  Excision, Virtual Riot (fri), Dion Timmer b2b Wooli (fri),
        Trampa (sat), Phaseone b2b Wachi (sat)
        at the Civic Auditorium, S.F. 18+ $55 ($110 2 day) 7pm/7pm # **
@@ -289,8 +286,6 @@ apr 18 sat Down By Law, Civil War Rust, One Armed Joey
        at 3 Disciples Brewing, 501 Mendocino Ave., Santa Rosa a/a $17 8pm *** @
 apr 18 sat The Freak Accident, Lucky Ol' Bones
        at the Dirty Dive Bar, 616 Mendocino Avenue, Santa Rosa 21+ ***
-apr 18 sat Mr. Crowley (tribute)
-       at House of Rock, Santa Rosa 21+ $25-$20 8pm **
 apr 18 sat No Pressure Surf Ghoul, Las Pulgas
        at Vallejo Vinyl & Pinball, Vallejo a/a $10 7pm **
 apr 18 sat Oysterhead (Les Claypool, Trey Anastasio, Stewart Copeland)
@@ -308,7 +303,7 @@ apr 18 sat postponed:  Watkins Family Hour, Courtney Hartman
 apr 18 sat canceled:  Blackmoon, Blackwulf, Disastroid at thee Parkside, S.F.
 apr 18 sat canceled:  Jacob Collier at the Warfield, S.F.
 apr 18 sat postponed:  Carrie Cleveland at Streetlight Records, San Jose
-apr 18/19  canceled:  Pearl Jam, Pluralone at the Arena, Oakland a/a
+apr 18/19  postponed:  Pearl Jam, Pluralone at the Arena, Oakland a/a
 apr 18/19  postponed:  Kolohe Kai at UC Theater, Berkeley (now jun 12/13)
 apr 19 sun canceled:  Letterkenny Live at the Warfield, S.F. a/a
 apr 19 sun Meg Donnelly at Cafe du Nord, S.F. a/a $18/$20 7:30pm ***
@@ -326,19 +321,19 @@ apr 20 mon Mighty Oaks at the Swedish American Hall, S.F. a/a $15/$18 7pm ***
 apr 20 mon Tennyson, dj Aaron Axelsen at the Rickshaw Stop, S.F. a/a **
 apr 20 mon U.S. Girls (Toronto, Canada), Bonjay
        at the Independent, S.F. 21+ $22 7:30pm/8pm ***
-apr 20 mon Joyce Manor at the Ritz, San Jose 21+ **
 apr 20 mon Iya Terra, Keznamdi, Pacific Roots
        at the Catalyst, Santa Cruz ?/? $4.20/$19.50/$22 8pm/9pm **
 apr 20 mon Polica, Wilsen at Harlow's, Sacramento 21+ $16/$18 7pm/8pm ***
-apr 21 tue Rage Against The Machine, Run The Jewels (Brooklyn, N.Y.)
-       at the Arena, Oakland a/a 6:30pm # *** @
+apr 20 mon postponed:  Joyce Manor at the Ritz, San Jose
 apr 21 tue Arlo Guthrie, Folk Uke
        at the Palace of Fine Arts, S.F. a/a $35 7pm/8pm ***
 apr 21 tue Polica, Wilsen at the Fillmore, S.F. a/a $29.50 7pm/8pm # ***
 apr 21 tue canceled:  Alec Benjamin, Harry Hudson at the Warfield, S.F.
 apr 21 tue Baz Francis Mansion Harlots (U.K.)
        at Streetlight Records, Santa Cruz a/a free 3pm **
-apr 21 tue U.S. Girls (Toronto, Canada) at the Ritz, San Jose 21+ ***
+apr 21 tue canceled:  U.S. Girls (Toronto, Canada) at the Ritz, San Jose
+apr 21-23  postponed:  Rage Against The Machine, Run The Jewels
+       at the Arena, Oakland
 apr 21 tue postponed:  The Darkness, The Dead Deads at Regency Ballroom, S.F.
 apr 21 tue canceled:  Makeout, SayWeCanFly at the Bottom of the Hill, S.F.
 apr 22 wed Samusamu, Bjorn, Vizsla
@@ -456,12 +451,12 @@ apr 27 mon canceled:  Allegaeon, Fallujah, Entheos, Etheriius
 apr 27/28  postponed:  Deafheaven, Inter Arma, All Your Sisters
        at the Great American Music Hall, S.F.
 apr 28 tue Ama Lou at the New Parish, Oakland a/a $22.50/$25 7:30pm/8pm **
-apr 28 tue Mikel Erentxun at the Ritz, San Jose 21+ **
 apr 28 tue Fruition, Proxima Parada
        at Humboldt Brewery, 856 10th at I, Arcata 21+ **
 apr 28 tue canceled:  Arms Akimbo, Mike Mains & The Branches
        at the Bottom of the Hill, S.F.
 apr 28 tue canceled:  AB6 IX (South Korea) at the Warfield, S.F.
+apr 28 tue postponed:  Mikel Erentxun at the Ritz, San Jose
 apr 29 wed Soccer Mommy, Emily Reo at the Fillmore, S.F. a/a $25 7pm/8pm # ***
 apr 29 wed Dave East
        at the Catalyst Atrium, Santa Cruz a/a $22/$25 8:30pm/9pm ***
@@ -730,7 +725,7 @@ may 16 sat Mordred, Blind Illusion, Cantell
        at the Bottom of the Hill, S.F. 21+ $15/$20 8:30pm/9pm *** @
 may 16 sat Mac DeMarco, The Marias
        at Frost Amphitheater, Stanford University a/a $49.50 5pm/6:30pm **
-may 16 sat Dead Souls at the Ritz, San Jose 21+ **
+may 16 sat Dead Souls, Voodoo Dolly, Debased at the Ritz, San Jose 21+ **
 may 16 sat Father, Meltycanon, Goon Des Garcons
        at the Catalyst Atrium, Santa Cruz a/a $15/$17 8:30pm/9pm **
 may 16 sat Swallow The Sun (Jyvaskyla, Finland), Infected Rain, Wheel
@@ -814,7 +809,8 @@ may 21 thr Daniel Norgren (solo piano)
        at the Independent, S.F. 21+ $22 7:30pm/8pm **
 may 21 thr Jimmy Eat World, White Reaper
        at Jam Cellars Ballroom, 1030 Main Street, Napa 8+ 7pm/8pm *** @
-may 21 thr Supersuckers, Scott H. Biram at the Ritz, San Jose 21+ ***
+may 21 thr Supersuckers, Scott H. Biram, Royal Rebels, Fortunate Son
+       at the Ritz, San Jose 21+ ***
 may 21 thr Anti-Flag (Pittsburgh, PN), Bad Cop / Bad Cop, Grumpster
        at the Catalyst Atrium, Santa Cruz a/a $22/$25 7pm/8pm *** @
 may 21 thr The Frights, The Red Pears, Buddha Trixie
@@ -840,6 +836,7 @@ may 22 fri The Band Camino, Eliza & The Delusionals, Oliver Riot
        at Jam Cellars Ballroom, 1030 Main Street, Napa 8+ $40 9pm/10pm ***
 may 22 fri Justin Bieber, Jaden Smith, Kehlani
        at the 49'ers Stadium, Santa Clara a/a $550-$50 7pm # ***
+may 22 fri Emo Night at the Ritz, San Jose 21+ **
 may 22 fri Circa Survive (Philadelphia)
        at the Catalyst, Santa Cruz a/a $25/$28 6:30pm/7:30pm ***
 may 22 fri postponed:  at BottleRock Festival, Napa (now oct 2/3/4)
@@ -910,7 +907,8 @@ may 27/28  Madness (London, U.K.), The English Beat (Birmingham, U.K.)
 may 28 thr JP Saxe at the Rickshaw Stop, S.F. a/a $15/$17 ($50 vip) 8pm ***
 may 28 thr Benjamin Gibbard, Jonathan Rice
        at August Hall, S.F. a/a $40 7:30pm/8:30pm ***
-may 28 thr Long Beach Dub Allstars at the Ritz, San Jose 21+ ***
+may 28 thr Long Beach Dub Allstars, Drunken Starfighter
+       at the Ritz, San Jose 21+ ***
 may 28/29  Poi Dog Pondering, Night Glitter
        at the Chapel, S.F. a/a $25 7pm/8pm (thr) 8pm/9pm (fri) ***
 may 29 fri Shallou, Ford., Phil Good
@@ -975,8 +973,8 @@ jun  1 mon Nombe, Bad Child
        at the Catalyst Atrium, Santa Cruz a/a $16/$18 8:30pm/9pm ***
 jun  2 tue Nombe, Bad Child at August Hall, S.F. a/a $20 7pm/8pm ***
 jun  2 tue Uncle Acid & The Deadbeats at the Ritz, San Jose 21+ **
-jun  2 tue Hinds, Half Stack
-       at the Catalyst Atrium, Santa Cruz a/a $22.50/$26.50 8:30pm/9pm ***
+jun  2 tue postponed:  Hinds, Half Stack
+       at the Catalyst Atrium, Santa Cruz (new date nov 25)
 jun  3 wed Equipto & Mike Marshall, Z-Man, dj True Justice, Vocab Slick,
        Richie Rich, Rocky Rivera
        at the Cornerstone, Berkeley a/a $15 7:30pm/8:30pm ***
@@ -984,9 +982,9 @@ jun  3 wed Club Sport (Brisbane, Queensland, Australia), dj Aaron Axelsen
        at the Rickshaw Stop, S.F. a/a $15/$17 8pm *** $
 jun  3 wed Foreign Air at the Brick and Mortar, S.F. 1/1 $15/$17 7pm/8pm **
 jun  3 wed Jess Williamson at Cafe du Nord, S.F. 18+ $13/$15 7:30pm **
-jun  3 wed Alex Lahey at the Ritz, San Jose 21+ **
 jun  3 wed Le Butcherettes, Cocovera
        at the Catalyst Atrium, Santa Cruz a/a $15/$20 8:30pm/9pm ***
+jun  3 wed canceled:  Alex Lahey at the Ritz, San Jose
 jun  4 thr Tanya Tucker at the Fillmore, S.F. a/a $35 7pm/8pm # ***
 jun  4 thr Mars Red Sky, Dreadnought
        at the Chapel, S.F. a/a $15/$18 7pm/8pm **
@@ -1044,6 +1042,7 @@ jun 10 wed Daryl Hall & John Oates, Squeeze, KT Tunstall
 jun 11 thr Danileigh at August Hall, S.F. a/a $22.50 7pm/8pm **
 jun 11 thr Damien Jurado, Shannon Lay
        at the Great American Music Hall, S.F. 6+ $25 7pm/8pm ***
+jun 11 thr Kolohe Kai (Hawaii) at the Ritz, San Jose 21+ ***
 jun 11/12 Jhene Aiko, Queen Naija, Ann Marie
        at the Warfield, S.F. a/a $82-$45 7pm/8pm # ***
 jun 12 fri Marty O'Reilly & The Old Soul Orchestra, Willy Tea Taylor
@@ -1154,6 +1153,7 @@ jun 20 sat Peekaboo, Zeke Beats, Isoxo
        at the Regency Ballroom, S.F. 18+ $18/$28 8pm/9pm # **
 jun 20 sat Jill Scott, The Roots, Common, Musiq Soulchild
        at Shoreline Amphitheater, Mountain View a/a $200-$35 5:30pm/6:30pm # **
+jun 20 sat Ana Tijoux at the Ritz, San Jose 21+ **
 jun 20/21  The Jayhawks, Those Pretty Wrongs
        at the Chapel, S.F. a/a $35/$40 8pm/9pm ***
 jun 21 sun Simple Plan (Montreal, Quebec), New Found Glory (FL), Knuckle Puck
@@ -1407,7 +1407,7 @@ aug 17 mon Janet Jackson
 aug 18 tue Janet Jackson at the Shark Tank, San Jose a/a $225-$50 7pm/8pm # ***
 aug 18 tue The Lumineers, Gregory Alan Isakov, Daniel Rodaiguez
        at the Warriors Stadium, S.F. a/a $322-$39 7pm # ***
-aug 18 tue Fu Manchu at the Ritz, San Jose 21+ *** @
+aug 18 tue Fu Manchu at the Ritz, San Jose 21+ 7pm *** @
 aug 19 wed Maroon 5, Meghan Trainor
        at Shoreline Amphitheater, Mountain View a/a $150-$40 5:30pm/7pm # ***
 aug 20 thr Anna Burch, Half Stack
@@ -1420,6 +1420,8 @@ aug 21 fri Parkway Drive, Hatebreed, Knocked Loose, Fit For A King
        at Convention Center, 1400 J Street, Sacramento
        a/a $37.50/$42 6pm/6:40pm # *** @
 aug 22 sat NF at Civic Auditorium, S.F. a/a $49.50 7pm/8pm # *** (was may 16th)
+aug 22 sat Big Rock Revival, The Butlers
+       at House of Rock, Santa Rosa 21+ $25-$20 8pm ** (was apr 17)
 aug 22 sat  Maroon 5, Meghan Trainor
        at the Pavilion, Concord a/a $150-$40 5:30pm/7pm # ***
 aug 24/25/26  The Tallest Man On Earth, Courtney Marie Andrews
@@ -1434,6 +1436,7 @@ aug 28 fri Lauv, Charlotte, Lawrence, Alexander 23
        at the Greek Theater, UC Berkeley Campus a/a $46 6pm/7:30pm # ***
 aug 28 fri Micro Mania Midget Wrestling
        at the Cornerstone, Berkeley a/a $50-$20 ($99 ringside vip) 7:30pm/8:30pm
+aug 28 fri Atomic Punks at the House of Rock, Santa Rosa 21+ **
 aug 28 fri Kidz Bop
        at Shoreline Amphitheater, Mountain View a/a $85-$15 # **
 aug 29 sat Generation Idol (tribute) at House of Rock, Santa Rosa 21+ **
@@ -1449,8 +1452,6 @@ sep  4/5   SJJ, Xiu Xiu, Emperor X
        at the Great American Music Hall, S.F. 6+ $20 7pm/8pm ***
 sep  4/5/6 Widespread Panic at the Oxbow River Stage, Napa a/a 5pm/6pm ***
 sep  5 sat Alicia Keys (Harlem, N.Y.) at the Maconic, S.F. a/a $200-$60 8pm ***
-sep  5 sat Zed, The Watchers, Thadeus Gonzalez
-       at House of Rock, Santa Rosa 21+ $25-$20 8pm **
 sep  5 sat A Flock Of Seagulls, The Romantics, Missing Persons, Naked Eyes,
        The Vapors, Animotion, Musical Youth, Farrington & Mann,
        Burning Sensations, B Movie, Glass Tiger
@@ -1469,11 +1470,12 @@ sep 10 wed The Doobie Brothers, Michael McDonald, The Dirty Dozen Brass Band
 sep 12 sat Umphrey's McGee
        at the Fox Theater, Oakland a/a $32.50/$35 6:30pm/7:30pm # ***
 sep 12 sat Lane 8 at the Civic Auditorium, S.F. 18+ $43.50 7pm/8pm # ***
-sep 12 sat The Doobie Brothers, The Dirty Dozen Brass Band
-       at Shoreline Amphitheater, Mountain View a/a $150-$30 6pm/7:30pm # ***
+sep 12 sat Alice In The Garden at the House of Rock, Santa Rosa 21+ **
 sep 12 sat Young The Giant, Grouplove, The Struts, Best Coast, The Wrecks
        at BR Cohn Winery, Glen Ellen a/a $119 ($239 two day) ***
        (Harvest Music Fest)
+sep 12 sat The Doobie Brothers, The Dirty Dozen Brass Band
+       at Shoreline Amphitheater, Mountain View a/a $150-$30 6pm/7:30pm # ***
 sep 13 sun Empire Of The Sun, X Ambassadors, The Naked And Famous,
        Betty Who, Smallpools
        at BR Cohn Winery, Glen Ellen a/a $119 ($239 two day) ***
@@ -1588,7 +1590,9 @@ oct 20/21  The Dirty Knobs With Mike Campbell
        at the Independent, S.F. 21+ $45/$50 7:30pm/8pm ***
 oct 21 wed Diet Cig at the Great American Music Hall, S.F. 6+ $20 7pm/8pm ***
 oct 22 thr Leslie Odom Jr. at August Hall, S.F. a/a $30/$35 7pm/8pm **
+oct 22 thr Dizzy Reed at House of Rock, Santa Rosa 21+ **
 oct 24 sat Iliza Shlesinger (comedy) at the Paramount Theater, Oakland 7pm # **
+oct 24 sat Skitzo at House of Rock, Santa Rosa 21+ ***
 oct 25 sun Hoodoo Gurus
        at the Great American Music Hall, S.F. 6+ $25 7pm/8pm ***
 oct 25 sun Zac Brown Band, Riley Green
@@ -1608,6 +1612,7 @@ nov 13 fri Megadeth (L.A.), Lamb Of God (Richmond, VA), Trivium,
        at Reno Events Center, 400 N Center St., Reno, NV a/a $100-$30 # ***
 nov 14 sat Jvna, Slumberjack
        at the Regency Ballroom, S.F. 18+ $25/$30 ($100 vip) 8pm/9pm # **
+nov 14 sat Beer Drinkers And Hell Raisers at House of Rock, Santa Rosa 21+ **
 nov 15 sun Passenger at the Fillmore, S.F. a/a $35 7pm/8pm # ***
 nov 15 sun Neck Deep (Wrexham, Wales)
        at the Warfield, S.F. a/a $29.50 6pm/7pm # ***
@@ -1617,11 +1622,15 @@ nov 20 fri Los Angeles Azules
        at the Shark Tank, San Jose a/a $129-$49 7pm/8pm # ***
 nov 21 sat San Holo, Manila Killa, Slow Magic, Rome In Silver
        at Civic Auditorium, S.F. 18+ $35/$40/$45 7pm/8pm # ***
+nov 25 wed Hinds
+       at the Catalyst Atrium, Santa Cruz a/a $22.50/$26.50 8:30pm/9pm ***
 nov 27 fri Minimalists at August Hall, S.F. a/a $30 ($90 vip) 7:30pm/8:30pm ***
 nov 28 sat John Waters, dj Omar
        at the Great American Music Hall, S.F. 6+ $65 ($125 vip) 7pm/8pm *** $
 dec  3 thr Metalachi, Clownvis Presley
        at the New Parish, Oakland a/a $17/$20 7:30pm/8pm *** (was mar 13th)
+dec  5 sat Zed, the Watchers, Thadeus Gonzales
+       at House of Rock, Santa Rosa 21+ $25-$20 8pm ***
 dec 13 sun Paul Thorn
        at the Cornerstone, Berkeley a/a $20/$24 7:30pm/8:30pm ***
 jan 15/16  Little Big Town

@@ -9,7 +9,7 @@
 
 funk-punk-thrash-ska      Upcoming shows of interest       March  26, 2020
 
-mar 26 wed NOTE:  Clubs, bars and a host of other venues have been
+mar 26 thr NOTE:  Clubs, bars and a host of other venues have been
        requested to close by the Governor, CDC, Your Mother, etc.
        As a result I am no longer listing anything until April 7th
        This will probably last to at least to the end of April or longer...
@@ -20,7 +20,7 @@ apr  7 tue postponed:  Monster Magnet, Nebula, Silvertomb
        at the Great American Music Hall, S.F. (now feb 9, 2021)
 apr  7 tue postponed:  King Buffalo, Tropa Magica
        at Bottom of the Hill, S.F. (new date july 18)
-apr  7 tue canceled:  Efterklang (Denmark) at the Swedish American Hall, S.F.
+apr  7 tue postponed:  Efterklang at Swedish American Hall, S.F. (now oct 30)
 apr  7 tue postponed:  The Dirty Knobs With Mike Campbell
        at the Independent, S.F. (now oct 20/21)
 apr  7 tue postponed:  Billie Eilish at the Warriors Stadium, S.F.
@@ -597,7 +597,6 @@ may  9 sat Beauz at the Cornerstone, Berkeley a/a $15 7:30pm/8:30pm **
 may  9 sat Archgoat (Finland), Valkyrja (Sweden)
        at Eli's Mile High Club, Oakland 21+ $25 8pm *** @
 may  9 sat Citizen Cope at the Fillmore, S.F. a/a $42.50 8pm/9pm # ***
-may  9 sat Waxahatchee at the Castro Theater, 429 Castro Street, S.F. a/a **
 may  9 sat Jai Wolf, Kasbo, Hotel Garuda
        at the Civic Auditorium, S.F. 18+ $45 7pm/8pm # ***
 may  9 sat TV Girl, Jordana at the Rickshaw Stop, S.F. a/a $15 8pm **
@@ -627,7 +626,6 @@ may 10 sun Altopalo at Cafe du Nord, S.F. 18+ $12/$15 7:30pm ***
 may 10 sun Heaven 17 at the Independent, S.F. 21+ $30 7:30pm/8pm **
 may 10 sun Spanish Love Songs, Future Teens, Dollar Signs (Burlington, N.C.)
        at thee Parkside, S.F. 21+ $12/$14 7pm *** @
-may 10 sun Waxahatchee, Mirah at Gundlach Bundschu Winery, Sonoma a/a 4pm **
 may 10 sun Citizen Cope at the Catalyst, Santa Cruz ?/? $36 8pm/9pm **
 may 10 sun Judy Collins
        at Henry Miller Library, Big Sur a/a 3pm/4:30pm til 8pm ***
@@ -1443,6 +1441,10 @@ aug 25 tue The Killers, Johnny Marr
        at the Warriors New Stadium, S.F. a/a $125-$39.50 6pm/7pm ***
 aug 25 tue Harry Styles, Jenny Lewis
        at the Shark Tank, San Jose a/a $140-$40 7pm/8pm # ***
+aug 25 tue Waxahatchee, Mirah
+       at the Castro Theater, 429 Castro Street, S.F. a/a ** (was may 9)
+aug 26 wed Waxahatchee, Mirah
+       at Gundlach Bundschu Winery, Sonoma a/a 4pm ** (was may 10)
 aug 27 thr Harry Styles at the Golden 1 Center, Sacramento a/a 7pm/8pm # ***
 aug 28 fri Lauv, Charlotte, Lawrence, Alexander 23
        at the Greek Theater, UC Berkeley Campus a/a $46 6pm/7:30pm # ***
@@ -1464,6 +1466,7 @@ sep  4/5   SJJ, Xiu Xiu, Emperor X
        at the Great American Music Hall, S.F. 6+ $20 7pm/8pm ***
 sep  4/5/6 Widespread Panic at the Oxbow River Stage, Napa a/a 5pm/6pm ***
 sep  5 sat Alicia Keys (Harlem, N.Y.) at the Maconic, S.F. a/a $200-$60 8pm ***
+sep  5 sat Hunny at the Bottom of the HIll, S.F. a/a $15/$18 7:30pm ***
 sep  5 sat A Flock Of Seagulls, The Romantics, Missing Persons, Naked Eyes,
        The Vapors, Animotion, Musical Youth, Farrington & Mann,
        Burning Sensations, B Movie, Glass Tiger
@@ -1554,7 +1557,7 @@ sep 30 wed Pet Shop Boys, New Order
 oct  1 thr Adam Ant
        at the Fox Theater, Oakland a/a $55-$45 7pm/8pm # *** (was may 14)
 oct  1 thr Hrvy at the Great American Music Hall, S.F. 6+ $20 7pm/8pm ***
-oct  1 thr Torres, Ariana And the Rose
+oct  1 thr Torres (Brooklyn, N.Y.), Ariana And the Rose (New York, N.Y.)
        at Cafe du Nord, S.F. 21+ $15/$18 8pm **
 oct  1 thr Rascal Flatts, Chris Lane, King Calaway
        at Shoreline Amphitheater, Mountain View a/a $105-$40 6pm/7:30pm # ***
@@ -1630,10 +1633,12 @@ oct 28 wed Cody Ko & Noel Miller
        at the Fox Theater, Oakland a/a $55-$25 7pm/8pm # *** (was march 15)
 oct 30 fri Slander, Midnight Tyrannosaurus, Shadient
        at Civic Auditorium, S.F. 18+ $42.50 7pm/8pm # *** (sold out)
-oct 30 fri Efterklang (Denmark), Wizard Apprentice
+oct 30 fri Efterklang (Denmark)
        at the Swedish American Hall, S.F. a/a $18/$20 7:30pm **
 nov  5/6   Built To Spill, Prism Bitch, Steeplechaser (thr), American Maw (fri)
        at the Cornerstone, Berkeley a/a $35 7:30pm/8:30pm ***
+nov  8 sun Jordan Mackampa (London, England), Babeheaven (London, England)
+       Jensen Mcrae at Cafe du Nord, S.F. 18+ $15/$17 7:30pm **
 nov  9 mon La Roux at the Regency Ballroom, S.F. a/a $35/$40 7pm/8pm # **
 nov  9 mon Fraze Ford
        at the Independent, S.F. 21+ $22/$25 7:30pm/8pm *** (was mar 21)

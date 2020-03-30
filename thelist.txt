@@ -157,7 +157,7 @@ apr 13 tue Orville Peck, Ruen Brothers
        at the Independent, S.F. 21+ $27.50/$30 7:30pm/8pm *** (sold out)
 apr 13 tue canceled:  Cuco, August Eve at the Warfield, S.F.
 apr 14 tue Orville Peck, Ruen Brothers
-       at the New Parish, Oakland a/a $27.50 7:30pm/8pm *** (sold out)
+       at the New Parish, Oakland a/a $28 ($125 vip) 7:30pm/8pm *** (sold out)
 apr 14 tue Snotty Nose Rez Kids
        at the Starline Social Club, Oakland 21+ $10/$12 8pm ***
 apr 14 tue Randy Rogers Band, Parker McCollum
@@ -194,8 +194,6 @@ apr 15 wed canceled:  Tennis system, Slow Crush, Pure Hex at thee Parkside, S.F.
 apr 15 wed canceled:  Ari Lennox, Masego at the Warfield, S.F.
 apr 15 wed postponed:  Isaac Dunbar at Cafe du Nord, S.F.
 apr 15 wed postponed:  Camilo Septimo at the Ritz, San Jose
-apr 16 thr Sampa The Great
-       at the New Parish, Oakland a/a $15 7:30pm/8pm ***
 apr 16 thr Lynch Mob, The Butlers
        at the Cornerstone, Berkeley a/a $25/$29 7:30pm/8:30pm *** @
 apr 16 thr Leftover Crack, The Casualties, Grade 2
@@ -218,6 +216,7 @@ apr 16 thr Allblack, Azchike, Offset Jim
 apr 16 thr Idles (Bristol, U.K.), Mannequin Pussy, dj David Yow
        at Pappy & Harriet's, 53688 Pioneertown Rd, Pioneertown ?/? $35 7pm *** @
 apr 16 thr postponed:  L'Imperatrice at Fox Theater, Oakland (now mar 17, 2021)
+apr 16 thr postponed:  Sampa The Great at New Parish, Oakland (new day oct 9)
 apr 16 thr postponed:  Kyara Pamyu Pamyu at the Regency Ballroom, S.F.
 apr 16 thr canceled:  Love Ghost, Blvc Svnd, Fuzz Attack at thee Parkside, S.F.
 apr 16 thr canceled:  Adam Brookes, Saics, Sloome at the Rickshaw Stop, S.F.
@@ -254,7 +253,7 @@ apr 17 fri postponed:  Divine, Fateh, Shan Vincent De Paul
 apr 17 fri postponed:  Weedeater, The Goddamn Gallows, High Tone Son Of A Bitch
        at the Bottom of the Hill, S.F.
 apr 17 fri postponed:  Nicole Atkins at Cafe du Nord, S.F.
-apr 17 fri moved:  Seun Kuti & Egypt 80 at the Independent, S.F.
+apr 17 fri postponed and moved:  Seun Kuti & Egypt 80 at the Independent, S.F.
        (now oct 15 at the New Parish)
 apr 17 fri postponed:  Kolohe Kai at the Ritz, San Jose (now jun 11)
 apr 17/18  Excision, Virtual Riot (fri), Dion Timmer b2b Wooli (fri),
@@ -556,6 +555,8 @@ may  6 wed canceled:  Loving, Michael Seyer at the Rickshaw Stop, S.F.
 may  6 wed postponed:  Cher at the Golden 1 Center, Sacramento (now oct 14)
 may  7 thr Real Estate, Meg Baird at the Fox Theater, Oakland a/a $35 8pm # ***
 may  7 thr Kiefer at the New Parish, Oakland a/a $15/$20 7:30pm/8pm **
+may  7 thr Inward Creature, Owen Adair Kelley, R.E. Seraphin
+       at the Ivy Room, Albany 21+ $10 8:30pm **
 may  7 thr Mudhoney, Meat Puppets at the Fillmore, S.F. a/a $35 7pm/8pm # *** @
 may  7 thr Dead Can Dance, Agnes Obel
        at the Masonic, S.F. a/a $129.50-$49.50 7pm/8pm # ***
@@ -576,6 +577,7 @@ may  8 fri Omarion, Bow Wow, Ying Yang Twins, Lloyd, Sammie, Pretty Ricky,
        Soulja Boy at the Arena, Oakland a/a # *** (Millennium)
 may  8 fri Clipping, Cartel Madras
        at the Cornerstone, Berkeley a/a $24 8pm/9pm **
+may  8 fri dj Little Dragon at the New Parish, Oakland a/a $17/$20 10:30pm **
 may  8 fri Deeper at the Starline Social Club, Oakland 18+ $12/$14 8pm ***
 may  8 fri Sunfellow (album release), Rossmorr, Sabertooth Unicorn
        at the Fireside Lounge, Alameda 21+ $5 9pm **
@@ -710,8 +712,6 @@ may 16 sat Coffins (Japan), Bell Witch, Petrification
        at the Metro, Oakland a/a $20 7pm # *** @
 may 16 sat Weather Warlock, Mellotron (solo)
        at Luckyduck Bicycle Cafe, 302 12th Street, Oakland a/a $15 7:30pm **
-may 16 sat Summer Salt, Okey Dokey, Breakup Shoes
-       at the New Parish, Oakland a/a $20/$24 7pm/8pm ***
 may 16 sat Fame On Fire at the Cornerstone, Berkeley a/a $12 7:30pm/8:30pm *** @
 may 16 sat The Saxophones, Foxtails Brigade
        at the Starline Social Club, Oakland 21+ $10/$15 7:30pm **
@@ -729,6 +729,8 @@ may 16 sat Father, Meltycanon, Goon Des Garcons
        at the Catalyst Atrium, Santa Cruz a/a $15/$17 8:30pm/9pm **
 may 16 sat Swallow The Sun (Jyvaskyla, Finland), Infected Rain, Wheel
        at the Holy Diver, Sacramento a/a $16 7pm *** @
+may 16 sat postponed:  Summer Salt, Okey Dokey, Breakup Shoes
+       at the New Parish, Oakland (now jun 16)
 may 16 sat postponed:  Mxmtoon, Temporex, Verzache at the Regency Ballroom, S.F.
 may 16 sat canceled:  Emancipator Ensemble at the Warfield, S.F.
 may 16 at Postponed:  NF at the Civic Auditorium, S.F. (now aug 22)
@@ -759,6 +761,8 @@ may 18 mon canceled:  Shinedown at the Warfield, S.F.
 may 19 tue 100 Gecs at the New Parish, Oakland a/a $22 7:30pm/8pm ** (sold out)
 may 19 tue Mike Love, Dub Inc
        at the Cornerstone, Berkeley a/a $20 7:30pm/8:30pm **
+may 19 tue King Dream, Bodies On The Beach (Portland), Adam Spry
+       at the Ivy Room, Albany 21+ $10 8pm **
 may 19 tue Zoo Trippin' at the Honey Hive, S.F. a/a 6:30pm/7pm til 10pm **
 may 19 tue Tinashe at August Hall, S.F. a/a $25 7pm/8pm ** (sold out)
 may 19 tue The House Of Love (U.K.), Gold Cage (L.A.)
@@ -871,6 +875,8 @@ may 23 sat Stick Figure, Sean Paul, Tribal Seeds, Trevor Hall, The Green,
 may 23 sat postponed:  at BottleRock Festival, Napa (now oct 2/3/4)
 may 24 sun Dustin Nickerson (comedy)
        at the Starline Social Club, Oakland 21+ $15 7pm/8:30pm **
+may 24 sun The Meteors, Hellbillys, Them Creatures
+       at the Ivy Room, Albany 21+ $15/$18 8:30pm ***
 may 24 sun Max at August Hall, S.F. a/a $25.50 8pm/8:30pm **
 may 24 sun Jbj95 (South Korea)
        at the Great American Music Hall, S.F. 6+ $59 6pm/7pm ***
@@ -1108,12 +1114,15 @@ jun 13 sat Slightly Stoopid, Pepper, Common Kings, Don Carlos
 jun 13/14  Bob Dylan And His Band, Nathaniel Rateliff & The Night Sweats,
        Hot Club Of Cowtown at the Greek Theater, UC Berkeely Camups
        a/a $149.50-$59.50 5:30pm/7pm (sat) 5pm/6:30pm (sun) # *** (seated show)
+jun 14 sun Nasty Cherry at the New Parish, Oakland a/a $13/$15 7:30pm/8pm **
 jun 14 sun Chris Tomlin, Phil Wickham, Danny Gokey
        at the Pavilion, Concord a/a $65-$14 3pm/4pm # ***
 jun 14 sun Geographer at the Holy Diver, Sacramento a/a ***
 jun 14 sun New Fruition at Hog Farm Hangout, Laytonville a/a **
 jun 15 mon Kevin Krauter at the Starline Social Club, Oakland 18+ $12/$14 8pm **
 jun 15 mon Laundry at the Brick and Mortar, S.F. 18+ $12 7:30pm/8pm ***
+jun 16 tue Summer Salt, Okey Dokey, Breakup Shoes
+       at the New Parish, Oakland a/a $20/$24 7pm/8pm *** (was may 16)
 jun 16 tue Billy Raffoul at Great American Music Hall, S.F. 6+ $15 7pm/8pm **
 jun 16 tue Braids at Cafe du Nord, S.F. 18+ $12/$15 7:30pm ***
 jun 16 tue Barenaked Ladies, Gin Blossoms, Toad The Wet Sprocket
@@ -1368,6 +1377,8 @@ aug  1 sat David Gray (performing White Ladder)
        at the Greek Theater, UC Berkeley Campus a/a $45+ 7pm/8pm # ***
 aug  1 sat The Purple Ones (tribute), dj Delon
        at the Cornerstone, Berkeley a/a $20 8:30pm/9:30pm **
+aug  1 sat Total Chaos, Naked Aggression, Resilience
+       at the Ivy Room, Albany 21+ $10/$12 9pm *** @
 aug  1 sat Ministry, KMFDM, Front Line Assembly
        at the Regency Ballroom, S.F. a/a $48.50/$50 6pm/7pm # *** @ $
        (note that this is no longer listed on the Regency Ballrooms webpage)
@@ -1489,6 +1500,8 @@ sep  8 tue Larkin Poe
        at the Independent, S.F. 21+ $25/$30 7:30pm/8pm ** (was march 27)
 sep  8 tue The Black Crowes
        at the Pavilion, Concord a/a $135-$29.50 6:30pm/8pm # ***
+sep  9 wed Christian Death, Esses, The Acharis
+       at the Ivy Room, Albany 21+ $15 8:30pm *** @ $ (was apr 29)
 sep  9 wed The Black Crowes
        at Shoreline Amphitheater, Mountain View $135-$29.50 6:30pm/8pm # ***
 sep 10/11  Jan Blomqvist & Band, Pedro Arbulu
@@ -1532,7 +1545,8 @@ sep 18 fri Sam Hunt, Kip Moore, Travis Denning, Ernest, dj Brandi Cyrus
        at Shoreline Amphitheater, Mountain View a/a $110-$40 # ***
 sep 18 fi Ratt, Tom Keifer, Skid Row, Slaughter
        at Grand Sierra Resort, 2500 East 2nd Street, Reno NV a/a 7pm # ***
-sep 19 sat The Detroit Cobras at the Ivy Room, Albany 21+ ***
+sep 19 sat The Detroit Cobras, The Richmond Sluts, Hot Laundry
+       at the Ivy Room, Albany 21+ 8pm/9pm ***
 sep 19 sat Memba, Alexander Lewis, Gilligan Moss
        at the Independent, S.F. 21+ $15 8:30pm/9pm *** (was may 2)
 sep 19 sat Edward Sharpe And The Magnetic Zeors, Fitz And The Tantrums,
@@ -1548,6 +1562,8 @@ sep 21 mon Joywave
        at the Independent, S.F. 21+ $20/$23 7:30pm/8pm *** (was may 7)
 sep 22 tue Enrique Iglesias, Ricky Martin, Sebastian Yatra
        at the Shark Tank, San Jose a/a $500-$60 6:30pm/7:30pm # ***
+sep 23 wed Peter Bjorn & John, Meteyl Ethel (solo)
+       at the New Parish, Oakland a/a 7:30pm/8pm ***
 sep 23 wed Roger Waters at the Golden 1 Center, Sacramento a/a 8pm # ***
 sep 24 thr Enrique Iglesias, Ricky Martin, Sebastian Yatra
        at the Golden 1 Center, Sacramento a/a # ***
@@ -1559,8 +1575,11 @@ sep 25 fri Jason Aldean, Brett Young, Mitchell Tenpenny, Dee Jay Silver
 sep 25/26  Roger Waters at thw Warriors Stadium, S.F. a/a $250-$55 8pm # ***
 sep 26 sat 5 Seconds Of Summer, The Band Camino
        at the Pavilion, Concord a/a $73-$33 5:30pm/7pm # ***
+sep 29 tue Lightning Bolt at the New Parish, Oakland a/a $20/$22 7:30pm/8pm ***
 sep 29 tue Marshmello, Svdden Death
        at the Civic Auditorium, S.F. 18+ $59+ 7pm # ***
+sep 30 wed Kash Doll, Rubi Rose, Jucee Froot
+       at the New Parish, Oakland a/a $20 8:30pm/9pm **
 sep 30 wed Pet Shop Boys, New Order
        at the Warriors Stadium, S.F. a/a $150-$40 6pm/6:30pm # ***
 oct  1 thr Adam Ant
@@ -1592,6 +1611,8 @@ oct  8 thr Ry X With Orchestra Ensemble (Austrailia)
        at the Fox Theater, Oakland a/a $49.50-$39.50 7pm/8pm # ***
 oct  9 fri They Might Be Giants
        at the Fox Theater, Oakland 16+ $49.50-$35 6:30pm/8pm # *** (sold out)
+oct  9 fri Sampa The Great
+       at the New Parish, Oakland a/a $15 8:30pm/9pm *** (was apr 16)
 oct 9/10/11 Metallica (fri and sun), My Chemical Romance (sat)
        at Discovery Park, Sacramento a/a $329.50 11am # *** (Aftershock Fest)
 oct 11 sun Robert Earl Keen, Willy Tea Taylor
@@ -1606,6 +1627,7 @@ oct 13 tue Wire at the Independent, S.F. 21+ $30 7:30pm/8pm ***
 oct 13 tue Lauren Daigle at Golden 1 Center, Sacramento a/a 6:30pm/7:30pm # **
 oct 14 wed Wardruna (Norway)
        at the Paramount Theatre, Oakland a/a $160-$61 8:30pm *** (seated)
+oct 14 wed The Warning at the New Parish, Oakland a/a $15/$18 7:30pm/8pm **
 oct 14 wed James Arthur at the Fillmore, S.F. a/a $35 7pm/8pm # ***
 oct 14 thr Black Midi (London, England), Dos Monos
        at the Great American Music Hall, S.F. 6+ $20 7pm/8pm **
@@ -1679,13 +1701,15 @@ nov 27 fri Minimalists at August Hall, S.F. a/a $30 ($90 vip) 7:30pm/8:30pm ***
 nov 28 sat John Waters, dj Omar
        at the Great American Music Hall, S.F. 6+ $65 ($125 vip) 7pm/8pm *** $
 dec  3 thr Metalachi, Clownvis Presley
-       at the New Parish, Oakland a/a $17/$20 7:30pm/8pm *** (was mar 13th)
+       at the New Parish, Oakland a/a $17/$20 8:30pm/9pm *** (was mar 13th)
 dec  4 fri Louis Cole Big Band
        at the Independent, S.F. 21+ $22/$25 8:30pm/9pm *** (was apr 16)
 dec  5 sat Zed, the Watchers, Thadeus Gonzales
        at House of Rock, Santa Rosa 21+ $25-$20 8pm ***
 dec 13 sun Paul Thorn
        at the Cornerstone, Berkeley a/a $20/$24 7:30pm/8:30pm ***
+jan  8 fri Pimps Of Joytime, Dirty Revival
+       at the New Parish, Oakland a/a $22.50/$25 8:30pm/9pm ***
 jan  9 sat Pimps Of Joytime
        at the Independent, S.F. 21+ $22.50/$25 8:30pm/9pm *** (was mar 28)
 jan 15/16  Little Big Town

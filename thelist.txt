@@ -257,6 +257,8 @@ sep 20 sun Modest Mouse, Dashboard Confessional, Saint Motel, Joywave, Yoke Lore
        at BR Cohn Winery, Glen Ellen a/a $119 ($239 two day) ***
        (Harvest Music Fest)
 sep 20 sun Kolohe Kai (Hawaii) at the Ritz, San Jose 21+ $35/$40 7pm ***
+sep 21 mon Tame Impala (Perth, Australia), Clairo (Boston)
+       at the Warriors Stadium, S.F. a/a $99.50-$39.50 6:30pm # ***
 sep 21 mon Joywave at the Independent, S.F. 21+ $20/$23 7:30pm/8pm ***
 sep 22 tue Michigan Rattlers, Ferris & Sylvester, Spud Buddy
        at the Brick and Mortar, S.F. 18+ $20 7:30pm/8:30pm **
@@ -286,8 +288,6 @@ sep 26 sat The Meteors, The Vulturas
        at the Phoenix Theater, Petaluma a/a $20/$25 8pm *** @
 sep 26 sat Redline (tribute), Bay Co (tribute), One Wild Night (tribure)
        at House of Rock, Santa Rosa 21+ 8pm **
-sep 26 sat 5 Seconds Of Summer, The Band Camino
-       at the Pavilion, Concord a/a $73-$33 5:30pm/7pm # ***
 sep 27 sun Djavan at UC Theater, Berkeley a/a $90-$60 7pm/8pm # **
 sep 27 sun Goodie Mob (Cee-Lo Green, Big Gripp, Khujo, T-Mo)
        at the New Parish, Oakland 18+ $55-$35 8pm/9pm **
@@ -302,7 +302,7 @@ sep 28/29 Dead Meadow, Spindrift, Everyone Is Dirty, The Spyrals,
        White Light Prism (projections), New Oscillations (projections)
        at the Uptown, Oakland 21+ $25 ($45 2 day pass) 3pm *** $
 sep 29 tue Lightning Bolt at the New Parish, Oakland a/a $20/$22 7:30pm/8pm ***
-sep 29 tue The Menzingers at the Cornerstone, Berkeley a/a $25 7pm/8pm *** @
+sep 29 tue The Menzingers at the Cornerstone, Berkeley a/a $25/$29 7pm/8pm *** @
 sep 29 tue Marshmello, Svdden Death
        at the Civic Auditorium, S.F. 18+ $59+ 7pm # ***
 sep 29 thr Okey Dokey at the Bottom of the Hill, S.F. a/a $10 8:30pm/9pm **
@@ -486,6 +486,8 @@ nov 17 tue Azizi Gibson
 nov 19 thr Los Angeles Azules at Golden 1 Center, Sacramento a/a $129-$39 # ***
 nov 20 fri Los Angeles Azules
        at the Shark Tank, San Jose a/a $129-$49 7pm/8pm # ***
+nov 21 sat Gabriel "Fluffy" Iglesias (comedy)
+       at the Warriors Stadium, S.F. a/a $80-$45 8pm # ***
 nov 21 sat San Holo, Manila Killa, Slow Magic, Rome In Silver
        at Civic Auditorium, S.F. 18+ $35/$40/$45 7pm/8pm # ***
 nov 21 sat Mordred, Blind Illusion, Cantell
@@ -618,10 +620,11 @@ apr 15 2021 Kaleo (Iceland), Matt Maeson, Belle Mt.
 apr 17 2021 Oysterhead
        at the Greek Theater, UC Berkeely Campus a/a $79.95 6:30pm/7:30pm # ***
 apr 17 2021 Vio-Lence at the Metro, Oakland a/a $30 7pm # *** @ $
-apr 20 2021 tue Cypress Hill
+apr 20 2021 Cypress Hill
        at the Fox Theater, Oakland a/a $42 6:30pm/7:30pm # ***
 apr 28 2021 Billy Raffoul
        at the Great American Music Hall, S.F. 6+ $15 7pm/8pm ***
+apr 30 2021 Die Antwood at the Civic Auditorium, S.F. a/a $49.50 6:30pm # ***
 may  1 2021 Ministry, KMFDM, Front Lin Assembly
        at the Warfield, S.F. a/a $48.50/$50 7pm/8pm # *** @
 may  5 2021 Dead Can Dance, Agnes Obel at the Masonic, S.F. a/a 7pm ***
@@ -629,7 +632,7 @@ may 13 2021 Adam Ant at the Fox Theater, Oakland a/a 7pm/8pm # ***
 may 18 2021 Purity Ring at the Fox Theater, Oakland a/a $36 6:30pm/7:30pm # ***
 may 21 2021 Slim Cessna's Auto Cub, The Bellrays
        at the Chapel, S.F. a/a $16/$20 8pm/9pm ***
-may 21/22  Watsky at the Fillmore, S.F. a/a 8pm # ***
+may 21/22  Watsky at the Fillmore, S.F. a/a $26.50 8pm # ***
 may 25 2021 Brian Culbertson at the Rio Theater, Santa Cruz a/a ***
 may 27/28/29 The Residents
        at the Chapel, S.F. a/a $35/$40 7pm/8pm (thr) 8pm/9pm (fri/sat) *** $
@@ -650,25 +653,35 @@ jun  5 2021 Steely Dan, Steve Winwood
 jun  5 2021 Halsey at Shoreline Amphitheater, Mountain View a/a 7pm # ***
 jun  9 2021 Built To Spill at Rio Theater, Santa Cruz a/a $33.60 7pm/8pm # ***
 jun 11/12  Rage Against The Machine, Run the Jewels
-       at the Arena, Oakland a/a 6:30pm/8pm # *** @
+       at the Arena, Oakland a/a $681-$131.25 6:30pm/8pm # *** @
 jun 12 2021 Pokey LaFarge, Esther Rose
        at the Chapel, S.F. a/a $20/$25 8pm/9pm **
-jun 19 2021 Chris Stapleton
-       at Shoreline Amphitheater, Mountain View a/a 7pm # ***
+jun 19 2021 Chris Stapleton, Margo Price, The Dirty Knobs
+       at Shoreline Amphitheater, Mountain View a/a $259.75-$39.75 7pm # ***
 jun 22 2021 Brit Floyd (tribute)
        at the Warfield, S.F. a/a $85-$42.50 7pm/8pm # ***
 jun 23 2021 Southern Culture On The Skids, The Carolyn Sills Combo
        at the Bottom of the Hill, S.F. 21+ $20 8:30pm/9pm ***
+jun 23 2021 Santana, Earth Wind & Fire
+       at the Pavilion, Concord a/a $189.50-$47 7pm # ***
 jun 24/25   Kaytranda, Stwo at the Warfield, S.F. a/a $50-$25 8pm # ***
 jun 25 2021 Shallou at the Fox Theater, Oakland a/a $29.50 7pm/8pm # ***
+jun 26 2021 5 Seconds Of Summer, The Band Camino
+       at the Pavilion, Concord a/a $83-$33 5:30pm/7pm # ***
 jun 27 2021 Electric Six, Speedealer
        at the Bottom of the Hill, S.F. 21+ $18/$20 8:30pm/9pm ***
 jul  2/3/4/5 High Sierra Music Festival, Quincy a/a ***
+jul  9 2021 Slightly Stoopid, Pepper, Common Kings, Don Carlos
+       at the Greek Theater, UC Berkeley Campus a/a $47.50-$25 4:30pm # ***
+jul 17 2021 Lindsey Stirling Kiesza, Mako
+       at the Pavilion, Concord a/a $199.50-$25 7pm # ***
+jul 20 2021 GREEN DAY,  Fall Out Boy, Weezer, The Interrupters
+       at the SF Giants Ballpark, S.F. a/a 5:30pm # *** (@ ga pit)
 jul 24 2021 Lez Zeppelin (tribute), Gigenra
        at the Great American Music Hall, S.F. 6+ $30 7pm/8pm **
 jul 23/24  Jason Isbell And The 400 Unit (Muscle Shoals, AL),
        Lucinda Williams at the Warfield, S.F. a/a $125-$59 8pm # ***
-jul 24/25  Phish at the Warriors Stadium, S.F. a/a # ***
+jul 24/25  Phish at the Warriors Stadium, S.F. a/a $87-$47 7:30pm # ***
 jul 20/30/31 Billy Bragg at the Chapel, S.F. a/a $50/$55 7:30pm/8:30pm ***
 jul 30 2021 Thomas Rhett, Cole Swindell
        at Shoreline Amphitheater, Mountain View a/a 7:30pm # ***
@@ -690,16 +703,29 @@ aug 10 2021 Fu Manchu at the Great American Music Hall, S.F. 6+ $18 7pm/8pm ***
 aug 10 2021 Backstreet Boys at Shoreline Amphitheater, Mountain View a/a # ***
 aug 13 2021 Rebelution, Steel Pulse, The Green, Keznamdi, dj Mackle
        at Greek Theater, UC Berkeley Campus, Berkeley a/a $113 4:30pm/6pm # ***
+aug 13 2021 Rebelution
+       at the Greek Theater, UC Berkeley Campus a/a $47.50 4:30pm # ***
 aug 17 2021 Fu Manchu at the Ritz, San Jose 21+ $18/$20 7pm *** @
 aug 20 2021 PRIMUS (performing Rush's "A Farewell to Kings"), Battles
        at the Greek Theater, UC Berkeley a/a $55 # *** $ (vip sold out)
+aug 24 2021 Disturbed, Staind, Bad Wolves
+       at Shoreline Amphitheater, Mountain View a/a $249.50-$29.50 7pm # ***
+sep  2 2021 Megadeth, Lamb Of God, Trivium, In Flames
+       at the Pavilion, Concord a/a $99.50-$22.25 6pm # *** @ (ga pit sold out)
 sep 10 2021 Def Leppard, Motley Crue, Poison, Joan Jett And The Blackhearts
        at the S.F. Giants Ballpark, S.F. a/a $179.50-$49.50 4:30pm # ***
 sep 11 2021 LP at the Fox Theater, Oakland a/a $49.50-$35 7pm/8pm # ***
+sep 11 2021 Lane 8 at the Civic Auditorium, S.F. 18+ $43.50 # ***
+sep 15 2021 John Legend, The War And Treaty
+       at the Greek Theater, UC Berkeley a/a $249.50-$59.50 6pm # ***
 sep 15 2021 Hoodoo Gurus
        at the Great American Music Hall, S.F. 6+ $25 6:30pm/7:30pm ***
 sep 15 2021 Alec Benjamin, Harry Hudson
        at the Warfield, S.F. a/a $50-$29.50 7pm/8pm # ***
+sep 17 2021 Louis The Child, K.Flay, Slenderbodies, Ilo Ilo
+       at the Greek Theater, UC Berkeley 18+ $45.50 5:30pm # ***
+sep 25 2021 Matchbox Twenty, The Wallflowers
+       at Shoreline Amphitheater, Mountain View a/a $126-$29.50 7:30pm # ***
 oct 13 2021 The Doobie Brothers, The Dirty Dozen Brass Band
        at Shoreline Amphitheater, Mountain View a/a $150-$30 6pm/7:30pm # ***
 oct 14 2021 The Doobie Brothers, The Dirty Dozen Brass Band

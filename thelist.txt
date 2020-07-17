@@ -189,8 +189,6 @@ sep 16 wed John Legend, The War And Treaty
 sep 16 wed Tech N9ne, Rittz, Krizz Kaliko, King Iso, Maez301, J.Lately
        at Cornerstone, Berkeley a/a $49 ($69 balcony reserved) 7:30pm/8:30pm ***
 sep 16 wed Ata Kak at the Chapel, S.F. a/a $20/$22 7pm/8pm **
-sep 17 thr Ty Segall And The Freedom Band, White Fence, Neil Hamburger
-       at the Fox Theater, Oakland a/a $29.50 7pm/8pm # ***
 sep 17 thr She Past Away, Aurat (L.A.), dj Davey Bones
        at the Metro, Oakland a/a $25/$30 8pm/9pm # ***
 sep 17 thr Winnetka Bowling League
@@ -627,6 +625,8 @@ apr 20 2021 Cypress Hill
 apr 28 2021 Billy Raffoul
        at the Great American Music Hall, S.F. 6+ $15 7pm/8pm ***
 apr 30 2021 Die Antwood at the Civic Auditorium, S.F. a/a $49.50 6:30pm # ***
+may  1 2021 Louis Tomlinson
+       at the Fox Theater, Oakland a/a $79.50-$39.50 7pm/8pm # ***
 may  1 2021 Ministry, KMFDM, Front Lin Assembly
        at the Warfield, S.F. a/a $48.50/$50 7pm/8pm # *** @
 may  5 2021 Dead Can Dance, Agnes Obel at the Masonic, S.F. a/a 7pm ***

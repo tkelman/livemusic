@@ -18,18 +18,17 @@ aug 21/22  Sublime With Rome
        at Alameda County Fair, Pleasanton a/a $120 ($150 vip) 6pm/7pm **
        (drive in concert - price is per car - vip is 1st row parking)
 aug 29 sat Record Store Day 1
+aug 29 sat QuaranPalooza Livestreaming Music Festival:
+       Chubby Carrier (6:40pm), Miche Fambro (6:20pm), Josh Needleman,
+       John Rybak (5:40pm), D.B. Walker, Syzygy, the Slow Sippers (4:40pm),
+       Sara Rodenburg, Cello Joe
+       someplace on zoom $10 4pm til 7pm (info on eventbrite)
+
 aug 29 sat Balkan Bump, Liquid Love Drops
        at the Rickshaw Stop, S.F. a/a $12/$15 9pm ***
-sep  1/2   Oh Sees, Mr. Elevator at August Hall, S.F. a/a $32 7pm/8pm *** $
-sep  3 thr Clannad at the Palace of Fine Arts, S.F. a/a $75-$40 7pm/8pm **
-sep  3/4   The Milk Carton Kids (Eagle Rock), Haley Heynderickx (Portland, OR)
-       at the Chapel, S.F. a/a $25/$30 7pm ***
-sep  4 fri J. Holiday (2 shows) at Yoshi's, Oakland 21+ 7:30pm and 10pm **
-sep  4 fri Rick Estrin & The Nightcats
-       at the B Street Theater, Sacramento a/a $30 6pm/7pm **
-sep  4/5/6 Widespread Panic at the Oxbow River Stage, Napa a/a 5pm/6pm ***
+sep  4 fri Rick Estrin & The Nightcats on Zoom a/a free 7pm
+       (see at the B Street Theater on web for link)
 sep  5 sat Corduroy (tribute) at the Cornerstone, Berkeley a/a $15 8pm/9pm **
-sep  5 sat Alicia Keys (Harlem, N.Y.) at the Maconic, S.F. a/a $200-$60 8pm ***
 sep  5 sat Hunny at the Bottom of the Hill, S.F. a/a $15/$18 7:30pm ***
 sep  5 sat Emo Night Tour at the Independent, S.F. 21+ 9pm **
 sep  5 sat Antsy McClain & The Trailer Park Troubadours
@@ -208,8 +207,6 @@ oct  5 mon Tommy Cash
        at the Independent, S.F. 21+ $15/$18 7:30pm/8pm ***
 oct  6 tue Amorphis (performing "Tales from the Thousands Lakes"), Entombed AD,
        Nervosa at the Metro, Oakalnd a/a $25 ($65 vip) 6:30pm # *** @
-oct  6 tue Snow Patrol (acoustic)
-       at Palace of Fine Arts, S.F. a/a $65 8pm # ***
 oct  8 thr Ry X With Orchestra Ensemble (Austrailia)
        at the Fox Theater, Oakland a/a $49.50-$39.50 7pm/8pm # ***
 oct  8 thr dj Koze, Floating Points at 1015 Folsom, S.F. 21+ 10pm **
@@ -351,9 +348,9 @@ nov 15 sun Passenger at the Fillmore, S.F. a/a $35 7pm/8pm # ***
 nov 15 sun Neck Deep (Wrexham, Wales)
        at the Warfield, S.F. a/a $29.50 6pm/7pm # ***
 nov 17 tue Delicate Steve, Al Lover at the Chapel, S.F. a/a $17/$20 7pm/8pm ***
-nov 17 tue Wavves at August Hall, S.F. a/a $30 8pm/9pm ***
 nov 17 tue Azizi Gibson
        at the Brick and Mortar, S.F. a/a $15 ($45 vip) 9pm/10pm **
+nov 17 tue Wavves at August Hall, S.F. a/a $30 8pm/9pm ***
 nov 19 thr Los Angeles Azules at Golden 1 Center, Sacramento a/a $129-$39 # ***
 nov 20 fri Los Angeles Azules
        at the Shark Tank, San Jose a/a $129-$49 7pm/8pm # ***
@@ -398,7 +395,6 @@ dec 18 fri Red Not Chili Peppers
        at the Catalyst, Santa Cruz 16+ $15/$18 9pm **
 dec 19 sat Marty O'Reilly & The Old Soul Orchestra
        at the Independent, S.F. 21+ $20 8:30pm/9pm **
-dec 20 sun Judy Collins at Yoshi's, Oakland 21+ 6:30pm ***
 dec 22 tue Reptilelegit, Deadman, T-Lost, Wonder, Lil 610, Details808
        at the Brick and Mortar, S.F. a/a $15 ($25 vip) 7pm/8pm ***
 dec 23 wed The Blackfish All-Star Band, Destroyer (tirbute),
@@ -456,8 +452,12 @@ feb 13 2021 Geoffroy at Amado's, S.F. 21+ $10/$12 8:30pm/9pm ***
 feb 13 2021 Phutureprimitive at the Independent, S.F. 21+ 9pm ***
 feb 14 2021 Tops at the Independent, S.F. 21+ $20 7:30pm/8pm ***
 feb 15 2021 Silverstein at the Regency Ballroom, S.F. a/a 7:15pm # ***
+feb 16 2021 Welcome To Night Vale
+       at the Palace of Fine Arts, S.F. a/a $35 7pm/8pm ***
 feb 17 2021 Polaris, Disheveled Cuss
        at the Chapel, S.F. a/a $20/$22 7pm/8pm ***
+feb 19 2021 David Spade
+       at the Palace of Fine Arts, S.F. a/a $75-$25 7pm/8pm ***
 feb 19 2021 Supersuckers, Scott H. Biram, He Who Cannot Be Named
        at the Bottom of the Hill, S.F. 21+ $18 8:30pm/9pm ***
 feb 23 2021 Nombe, Bad Child
@@ -478,6 +478,8 @@ mar  3 2021 We Came As Romans, The Devil Wears Prada, Gideon, Dayssker
 mar  5 2021 Monophonics at the Independent, S.F. 21+ 9pm ***
 mar  5/6    Jackie Greene (acoustic)
        at the B Street Theater, Sacramento a/a $40 6pm/7pm ***
+mar  6 2021 The Fab Four (tribute)
+       at the Palace of Fine Arts, S.F. a/a $65-$45 7pm/8pm **
 mar  6 2021 Sepultura, Sacred Reich, Crowbar, Art Of Shock
        at the Ace of Spades, Sacramento a/a 5pm/6pm *** @
 mar  9 2021 Greer, The Honeysticks
@@ -490,6 +492,8 @@ mar 17 2021 L'Imperatrice at the Fox Theater, Oakland a/a $27.50 7pm/8pm # **
 mar 17 2021 Josh Kelley at the Independent, S.F. 21+ 8pm ***
 mar 18 2021 The James Hunter Six
        at the Cornerstone, Berkeley a/a $21/$25 7:30pm/8:30pm ***
+mar 18 2021 Zucchero
+       at the Palace of Fine Arts, S.F. a/a $59.50-$34.50 7pm/8pm ***
 mar 18 2021 Joan Osborne Trio
        at the B Street Theater, Sacramento a/a $50-$45 6pm/7pm ***
 mar 19 2021 As I Lay Dying, Whitechapel, Shadow Of Intent
@@ -501,6 +505,8 @@ mar 20 2021 Natewantstobattle, Vespera
 mar 20 2021 Y&T, John Corabi at the Fillmore, s.F. a/a $39.50 7pm/8pm # ***
 mar 23 2021 Strfkr, The Undercover Dream Lovers
        at the Regency Ballroom, S.F. a/a $30 8pm # ***
+mar 23 2021 Sibling Rivalrey (Bob the Drag Queen and Monet X)
+       at the Palace of Fine Arts, S.F. a/a $151-$31 7pm/8pm **
 mar 23 2021 The Airborne Toxic Event
        at the Ace of Spades, Sacramento a/a $29.50 6pm/7pm ***
 mar 25/26   The Tallest Man On Earth at the Great American Music Hall, S.F.
@@ -594,6 +600,8 @@ jul 10 2021 The Mother Hips (acoustic)
 jul 11 2021 Circle Jerks, Shannon Shaw, Bleached, Flipper, Fevers,
        Midnite Snaxxx, Rubinoos, Hammered Satin, host John Waters
        at Total Trash's Festival, Mosswood Park, Oakland a/a $59 noon # *** @
+jul 16 2021 Three Dog Night
+       at the Palace of Fine Arts, S.F. a/a $99.50-$39.50 7pm/8pm ***
 jul 16/17/18 Claude VonStroke, TroyBoi, CloZee, David Starfire, Elderbrook,
        J. Worra, Khushi, Snbrn, dj Dials
        at Cooks Valley Campground, 83950 Road 442 E, Piercy a/a ($225 3 day) ***
@@ -643,6 +651,8 @@ aug 24 2021 Disturbed, Staind, Bad Wolves
        at Shoreline Amphitheater, Mountain View a/a $249.50-$29.50 7pm # ***
 sep  2 2021 Megadeth, Lamb Of God, Trivium, In Flames
        at the Pavilion, Concord a/a $99.50-$22.25 6pm # *** @ (ga pit sold out)
+sep  3/4/5 Widespread Panic at the Oxbow River Stage, Napa a/a 5pm/6pm ***
+sep  8 2021 Clannad at the Palace of Fine Arts, S.F. a/a $55-$35 7pm/8pm **
 sep 10 2021 Def Leppard, Motley Crue, Poison, Joan Jett And The Blackhearts
        at the S.F. Giants Ballpark, S.F. a/a $179.50-$49.50 4:30pm # ***
 sep 11 2021 LP at the Fox Theater, Oakland a/a $49.50-$35 7pm/8pm # ***
@@ -664,6 +674,8 @@ oct 13 2021 The Doobie Brothers, The Dirty Dozen Brass Band
        at Shoreline Amphitheater, Mountain View a/a $150-$30 6pm/7:30pm # ***
 oct 14 2021 The Doobie Brothers, The Dirty Dozen Brass Band
        at the Amphitheatre, 2677 Forty Mile Road, Wheatland a/a # ***
+oct  6/7    Snow Patrol (acoustic)
+       at Palace of Fine Arts, S.F. a/a $65 7pm/8pm # ***
 oct 22/23  Eagles at the Warriors Stadium, S.F. a/a 8pm # ***
 
 	*    recommendable Shows		a/a  all ages

@@ -14,14 +14,10 @@ sep  1 tue A few shows have been canceled or postponed until 2021 but
 
 sep  4 fri STREAM:  Darden Smith on Zoom a/a free 7pm
        (see at the B Street Theater on web for link)
-sep  5 sat Antsy McClain & The Trailer Park Troubadours
-       at the B Street Theater, Sacramento a/a $35 6pm/7pm **
-sep  6 sun Louis Prima Jr. And The Witnesses
-       at the B Street Theater, Sacramento a/a $30 6pm/7pm **
 sep 10/11  Jan Blomqvist & Band, Pedro Arbulu (thr), Benjamin K (fri)
        at the Independent, S.F. 21+ $25/$30 8:30pm/9pm ***
 sep 11 fri Beauz at the Cornerstone, Berkeley a/a $15 7:30pm/8:30pm **
-sep 15 tue Daughtry (acoustic live stream)
+sep 15 tue STREAM:  Daughtry (acoustic live stream)
        on the Great American Music Hall, S.F. on web sites $10 6pm
 sep 16 wed Ata Kak at the Chapel, S.F. a/a $20/$22 7pm/8pm **
 sep 17 thr She Past Away, Aurat (L.A.), dj Davey Bones
@@ -582,10 +578,12 @@ aug 20 2021 PRIMUS (performing Rush's "A Farewell to Kings"), Battles
        at the Greek Theater, UC Berkeley a/a $55 # *** $ (vip sold out)
 aug 24 2021 Disturbed, Staind, Bad Wolves
        at Shoreline Amphitheater, Mountain View a/a $249.50-$29.50 7pm # ***
+sep  2 2021 Umphrey's Mcgee at Terrapin Crossroads, San Rafael 16+ 7pm/8pm **
 sep  2 2021 Megadeth, Lamb Of God, Trivium, In Flames
        at the Pavilion, Concord a/a $99.50-$22.25 6pm # *** @ (ga pit sold out)
 sep  3 2021 Umphrey's McGee at the Fox Theater, Oakland a/a 6:30pm/7:30pm # ***
 sep  3/4/5 Widespread Panic at the Oxbow River Stage, Napa a/a 5pm/6pm ***
+sep  5 2021 Allman Betts Band at Terrapin Crossroads, San Rafael 16+ 7pm/8pm **
 sep  8 2021 Clannad at the Palace of Fine Arts, S.F. a/a $55-$35 7pm/8pm **
 sep 10 2021 Def Leppard, Motley Crue, Poison, Joan Jett And The Blackhearts
        at the S.F. Giants Ballpark, S.F. a/a $179.50-$49.50 4:30pm # ***
